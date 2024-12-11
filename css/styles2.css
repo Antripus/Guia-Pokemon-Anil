@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  aside {
+    flex: 1;
+    border-right: 2px solid #ccc;
+    padding: 10px;
+  }
+  
+  main {
+    flex: 2;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  ul li:hover {
+    background-color: #ffcc00;
+    color: #fff;
+  }
+  
+
+/* Imagen del Pokémon */
+.pokemon-image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Tipos con colores */
+.type {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Bloque de estadísticas */
+.statBlock {
+  margin: 10px 0;
+}
+
+/* Contenedor de cada stat */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr; /* 3 columnas: Label, Valor, Barra */
+  align-items: center;
+  margin: 5px 0;
+}
+
+.grid .label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.grid .statVal {
+  text-align: center;
+}
+
+.bar {
+  height: 12px;
+  border-radius: 5px;
+}
