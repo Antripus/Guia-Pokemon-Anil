@@ -23,6 +23,17 @@ const typeColors = {
   Steel: "#B8B8D0"
 };
 
+// Colores para cada tipo de Pokémon
+const BarColors = {
+  HP: "#78C850",
+  ATTACK: "#F08030",
+  DEFENSE: "#F08030",
+  SPEED: "#A8B820",
+  Normal: "#A8A878",
+  SP_ATTACK: "#F8D030",
+  SP_DEFENSE: "#F8D030",
+};
+
 // Elementos del DOM
 const listElement = document.getElementById("list");
 const detailsElement = document.getElementById("details");
@@ -64,18 +75,18 @@ function showDetails(pokemon) {
   const statsWithoutTotal = Object.entries(pokemon.base_stats).filter(
     ([stat]) => stat !== "total"
   );
-  const maxStatValue = Math.max(...statsWithoutTotal.map(([stat, value]) => value));
+  const maxStatValue = 200 //Math.max(...statsWithoutTotal.map(([stat, value]) => value));
 
   // Manejo de las barras de estadísticas base
   const statsHTML = statsWithoutTotal
     .map(
       ([stat, value]) =>
-        `<div class="grid">
+        `<div class="grid" >
           <p class="label">${stat.toUpperCase()}</p>
           <p class="statVal">${value}</p>
           <div class="bar" style="width: ${
             (value / maxStatValue) * 100
-          }%; background-color: ${typeColors[stat] || "#ccc"};"></div>
+          }%; background-color: ${BarColors[stat.toUpperCase()] || "#cc2c"};"></div>
         </div>`
     )
     .join("");

@@ -54,3 +54,78 @@ body {
     color: white;
   }
   
+
+  /*/--/*/
+  
+/* Imagen del Pokémon */
+.pokemon-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  /* Tipos con colores */
+  .type {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Bloque de estadísticas */
+  .statBlock {
+    margin: 10px 0;
+  }
+  
+  /* Contenedor de cada stat */
+  .grid {
+    display: grid;
+    grid-template-columns: 0.30fr 0.25fr 3fr; /* 3 columnas: Label, Valor, Barra */
+    grid-template-rows: 25px;
+    align-items: center;
+    margin: 5px 0;
+    background-color: burlywood;
+  }
+  
+  .grid .label {
+    font-weight: bold;
+    margin-right: 10px;
+    
+  }
+  
+  .grid .statVal {
+    text-align: left;
+  }
+  
+  .bar {
+    height: 12px;
+    border-radius: 5px;
+  }
+  
+
+    #pkmGrid {
+        margin: 1% 15%;
+        padding: 15px;
+        background-color: #555;
+        border-radius: 10px;
+    }
+
+    #pkmGrid #topPanel {
+        grid-column: 1/4;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #pkmGrid #topPanel a {
+        padding: 5px;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color .1s ease-in-out;
+        background-color: aquamarine;
+    }
