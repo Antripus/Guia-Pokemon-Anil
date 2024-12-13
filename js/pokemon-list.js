@@ -79,7 +79,7 @@ function populateList(pokemonData) {
   if (storedPokemon) {
     const pokemon = JSON.parse(storedPokemon);
     showDetails(pokemon); // Muestra los detalles del Pokémon seleccionado
-    //sessionStorage.removeItem("selectedPokemon"); // Limpia el almacenamiento
+    sessionStorage.removeItem("selectedPokemon"); // Limpia el almacenamiento luego de cargar el detalle
   } else {
     // Si no hay Pokémon seleccionado, muestra el primer Pokémon
     if (pokemonData.length > 0) {
@@ -87,7 +87,7 @@ function populateList(pokemonData) {
     }
   }
 }
-
+/* 
 window.onload = () => {
   const storedPokemon = sessionStorage.getItem("selectedPokemon");
   if (storedPokemon) {
@@ -96,7 +96,7 @@ window.onload = () => {
     sessionStorage.removeItem("selectedPokemon"); // Limpia el almacenamiento
   }
 };
-
+*/
 // Función para mostrar los detalles de un Pokémon
 function showDetails(pokemon) {
   // Manejo de tipos con colores
