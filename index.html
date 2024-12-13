@@ -1,39 +1,55 @@
+<!-- Pendiente:
+ 1- Establecer barra navegadora con: Pokedex, Ecuentros, Habilidades, Objetos, Poke Radar, Search Bar
+ 2- Definir Estilos, Letras y Colores (Imagenes limpias y sensillas)
+ 3-
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pokémon Anil</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Pokémon Anil - Inicio</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/pokemon-list.css">
+
 </head>
+
+
 <body>
+  <!-- Barra de navegación -->
   <header>
-    <h1>Pokémon Anil - Guía</h1>
     <nav>
-      <a href="#trainers">Entrenadores</a>
-      <a href="#pokedex">Pokédex</a>
+      <ul id="navbar">
+        <li>
+          <a href="index.html">
+            <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+          </a>
+        </li>
+        <li><a href="pokemons-list.html">Pokedex</a></li>
+        <li><a href="#">Encuentros</a></li>
+        <li><a href="#">Habilidades</a></li>
+        <li><a href="#">Objetos</a></li>
+        <li><a href="#">Poke Radar</a></li>
+        <li id="GralSearchBar">
+          <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+        </li>
+      </ul>
     </nav>
   </header>
+
+
+
   <main>
-    <section id="trainers">
-      <aside class="sidebar">
-        <ul id="trainer-list">
-          <!-- Lista de entrenadores cargada dinámicamente -->
-        </ul>
-      </aside>
-      <div class="trainer-details">
-        <!-- Información detallada del entrenador -->
-      </div>
-    </section>
-    <section id="pokedex">
-      <!-- Información de la Pokédex -->
-    </section>
+    <h1>Bienvenido la Guia de Pokémon Anil</h1>
+    <p>Explora la Pokédex, encuentra habilidades y descubre todos los secretos del mundo Pokémon.</p>
   </main>
-  <footer>
-    <p>&copy; 2024 Pokémon Anil</p>
-  </footer>
-  <script src="js/app.js"></script>
-  <script src="js/trainers.js"></script>
-  <script src="js/pokedex.js"></script>
+
+  <script src="js/index.js"></script>
+  <script src="js/navbar.js"></script>
+  
 </body>
 </html>
+

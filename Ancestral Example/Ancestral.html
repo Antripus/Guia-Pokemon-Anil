@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Charizard - AX</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="Ancestral X, Pokemon, XY, X/Y">
+    <meta name="description" content="The global resource for Ancestral X">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+
+    <link href="/css/baseline.css" rel="stylesheet" type="text/css">
+		<link href="/css/header.css" rel="stylesheet" type="text/css">
+		<link href="/css/navbar.css" rel="stylesheet" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js" integrity="sha256-WCzAhd2P6gRJF9Hv3oOOd+hFJi/QJbv+Azn4CGB8gfY=" crossorigin="anonymous"></script>
+		<script type="module" src="/js/helper.js"></script>
+		<script type="module" src="/js/searchbar.js"></script>
+
+					<script type="module" src="/js/pokemon.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/leader-line/1.0.7/leader-line.min.js" integrity="sha512-0dNdzMjpT6pJdFGF1DwybFCfm3K/lzHhxaMXC/92J9/DZujHlqYFqmhTOAoD0o+LkeEsVK2ar/ESs7/Q2B6wJg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+			<link href="/css/pokemon.css" rel="stylesheet" type="text/css">
+		</head>
+<body>
+	<nav id="navbar">
+	<div id="navLeft">
+		<a href="/"><img class="icon" src="/images/AXIcon500x500.jpg" alt="Ancestral X Icon"></a>
+		<div id="patchWrapper">
+			<h4 id="currentPatch">Patch: ???</h4>
+		</div>
+		<a href="/dex">
+			<div>
+				<h4>Pokemon</h4>
+			</div>
+		</a>
+		<a href="/trainers">
+			<div>
+				<h4>Trainers</h4>
+			</div>
+		</a>
+		<a href="#">
+			<div>
+				<h4>Encounters</h4>
+			</div>
+		</a>
+		<a href="#">
+			<div>
+				<h4>Items</h4>
+			</div>
+		</a>
+		<a href="#">
+			<div>
+				<h4>Others</h4>
+			</div>
+		</a>
+	</div>
+	<div id="navRight">
+		<a href="https://discord.gg/rRh4cTbEaz" target="_blank" rel="noopener noreferrer"><img class="icon" src="/images/DiscordIcon500x500.png" title="Ancestral X Community Discord" alt="Discord Icon"></a>
+		<div id="pokemonDropdown">
+			<label>
+				<input id="searchPokemon" class="searchInput" type="search" placeholder="Search">
+			</label>
+			<div id="dropdownContent"></div>
+		</div>
+	</div>
+</nav>
+	<div id="pkmGrid">
+		<div id="topPanel">
+			<a id="goLeft"></a>
+			<h1 id="pkmName"></h1>
+			<a id="goRight"></a>
+		</div>
+		<img id="pkmImg">
+		<div id="tabs"></div>
+		<div id="evoContent"></div>
+	</div>
+</body>
+
+</html>

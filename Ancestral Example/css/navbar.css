@@ -1,0 +1,19 @@
+@font-face{font-family:"OpenSans";
+    src:url("../fonts/OpenSans-VariableFont_wdth_wght.ttf") format("truetype") tech("variations"),url("../fonts/OpenSans-VariableFont_wdth_wght.ttf") format("truetype-variations"),url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight:300 800;font-stretch:75% 100%}@font-face{font-family:"TangoSans";
+        src:url("../fonts/TangoSans.ttf") format("truetype");font-weight:normal;font-style:normal}#navbar #navRight #pokemonDropdown #searchPokemon{font-family:"OpenSans";
+            font-weight:400}#navbar{display:flex;justify-content:space-between;margin:0% 5%;border-bottom-left-radius:10px;border-bottom-right-radius:10px}#navbar a{display:flex}#navbar .icon{max-height:48px}#navbar #navLeft{display:flex;
+                align-items:center}#navbar #navLeft a{text-decoration:none}
+                #navbar #navLeft a .icon{margin-right:3px;border-radius:4px;transition:box-shadow .1s ease-in-out}
+                #navbar #navLeft a .icon:hover{box-shadow:0px 0px 8px 1px #fff}
+                #navbar #navLeft a div{padding:12px 10px;transition:background-color .1s ease-in-out}
+                #navbar #navLeft a div:hover{background-color:#888}
+                #navbar #navLeft #patchWrapper{padding:5px 8px;border-right:2px solid #aaa}
+                #navbar #navRight{display:flex;flex-direction:row-reverse;align-items:center}
+                #navbar #navRight a .icon{margin:0px 10px;border-radius:4px;transition:box-shadow .1s ease-in-out}
+                #navbar #navRight a .icon:hover{box-shadow:0px 0px 8px 1px #fff}
+                #navbar #navRight #pokemonDropdown{width:250px}
+                #navbar #navRight #pokemonDropdown label{width:inherit}
+                #navbar #navRight #pokemonDropdown #searchPokemon{width:inherit;color:#000;margin:3px 0px;padding:7px;border:2px solid #777;border-radius:4px;transition:box-shadow .25s ease-in-out}#navbar #navRight #pokemonDropdown #searchPokemon::-webkit-search-decoration,#navbar #navRight #pokemonDropdown #searchPokemon::-webkit-search-cancel-button,#navbar #navRight #pokemonDropdown #searchPokemon::-webkit-search-results-button,#navbar #navRight #pokemonDropdown #searchPokemon::-webkit-search-results-decoration{display:none}#navbar #navRight #pokemonDropdown #searchPokemon:focus{outline:none;box-shadow:0px 0px 4px 2px #42bf2f}#navbar #navRight #pokemonDropdown #dropdownContent{display:block;position:absolute;width:250px;background-color:#333;box-shadow:0px 0px 8px rgba(255,255,255,.5);border-bottom-left-radius:10px;border-bottom-right-radius:10px}#navbar #navRight #pokemonDropdown #dropdownContent a{text-decoration:none;border-bottom:1px solid #555;transition:background-color .1s ease-in-out}#navbar #navRight #pokemonDropdown #dropdownContent a.lastResult{border-bottom:0px;border-bottom-left-radius:10px;border-bottom-right-radius:10px}#navbar #navRight #pokemonDropdown #dropdownContent a:hover,#navbar #navRight #pokemonDropdown #dropdownContent a.activeFocus{background-color:#aaa}
+                #navbar #navRight #pokemonDropdown #dropdownContent a:hover p,#navbar #navRight #pokemonDropdown #dropdownContent a.activeFocus p{color:#000;transition:color .1s ease-in-out}
+                #navbar #navRight #pokemonDropdown #dropdownContent p{font-size:1.7rem;padding:10px}

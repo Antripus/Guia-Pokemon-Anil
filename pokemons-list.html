@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon List</title>
+
+
+  <link rel="stylesheet" href="css/pokemon-list.css">
+  <link rel="stylesheet" href="css/navbar.css">
+
+
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <header>
+      <nav>
+        <ul id="navbar">
+          <li>
+            <a href="index.html">
+              <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+            </a>
+          </li>
+          <li><a href="pokemons-list.html">Pokedex</a></li>
+          <li><a href="#">Encuentros</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Objetos</a></li>
+          <li><a href="#">Poke Radar</a></li>
+          <li id="GralSearchBar">
+            <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+
+  <h1>Pokemon List</h1>
+
+
+
+    <div class="container">
+      <aside id="pokemon-list">
+        <h2>Pokémon List</h2>
+        <input type="text" id="search-bar" placeholder="Buscar Pokémon...">
+        <ul id="list"></ul>
+      </aside>
+      <main id="pokemon-details">
+        <h2>Details</h2>
+        <div id="details"></div>
+      </main>
+    </div>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/pokemon-list.js"></script>
+
+
+
+</body>
+
+
+</html>
+
+
