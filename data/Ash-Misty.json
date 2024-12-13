@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Ash",
+      "team": [
+        {
+          "pokemon": "Pikachu",
+          "level": 50,
+          "abilities": ["Static"],
+          "moves": ["Thunderbolt", "Quick Attack", "Iron Tail", "Electro Ball"]
+        },
+        {
+          "pokemon": "Charizard",
+          "level": 48,
+          "abilities": ["Blaze"],
+          "moves": ["Flamethrower", "Dragon Claw", "Fly", "Heat Wave"]
+        }
+      ]
+    },
+    {
+      "name": "Misty",
+      "team": [
+        {
+          "pokemon": "Starmie",
+          "level": 45,
+          "abilities": ["Natural Cure"],
+          "moves": ["Hydro Pump", "Ice Beam", "Recover", "Thunderbolt"]
+        }
+      ]
+    }
+  ]
+  

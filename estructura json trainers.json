@@ -1,0 +1,68 @@
+[
+    {
+        "sprite": "ROCKETA",
+        "name": "Marineta",
+        "variant": null,
+        "num_pokemon": 2,
+        "healing_item": null,
+        "pokemons": [
+            {
+                "name": "RATTATA",
+                "level": 9,
+                "item": null,
+                "moves": ["", "", "", ""],
+                "ability": "X",
+                "nature": "QUIRKY"
+            },
+            {
+                "name": "EKANS",
+                "level": 10,
+                "item": null,
+                "moves": ["", "", "", ""],
+                "ability": "X",
+                "nature": "QUIRKY"
+            }
+        ]
+    },
+    {
+        "sprite": "LIDER1",
+        "name": "Brock",
+        "variant": 2,
+        "num_pokemon": 4,
+        "healing_item": "SUPERPOTION",
+        "pokemons": [
+            {
+                "name": "DWEBBLE",
+                "level": 12,
+                "item": null,
+                "moves": ["BUGBITE", "ROCKTOMB", "SANDATTACK", "STEALTHROCK"],
+                "ability": 1,
+                "nature": "QUIRKY"
+            },
+            {
+                "name": "TYRUNT",
+                "level": 12,
+                "item": "DRAGONFANG",
+                "moves": ["ROCKTOMB", "DRAGONBREATH", "BITE", "STEALTHROCK"],
+                "ability": "X",
+                "nature": "QUIRKY"
+            },
+            {
+                "name": "BONSLY",
+                "level": 13,
+                "item": "MIRACLESEED",
+                "moves": ["ROCKTOMB", "ABRECAMINOS", "FLAIL", "BULLDOZE"],
+                "ability": 0,
+                "nature": "QUIRKY"
+            },
+            {
+                "name": "ONIX",
+                "level": 14,
+                "item": "MUSCLEBAND",
+                "moves": ["ROCKTOMB", "BULLDOZE", "SANDSTORM", "ROAR"],
+                "ability": 1,
+                "nature": "ADAMANT"
+            }
+        ]
+    }
+]

@@ -40,7 +40,7 @@ function displayPokemon(pokemonData) {
     const pokemonItem = document.createElement("div");
     pokemonItem.classList.add("pokemon-item");
     pokemonItem.innerHTML = `
-      <img src="./images/${pokemon.number}.png" alt="${pokemon.name}">
+      <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}">
       <span>${pokemon.number}</span>
       <span>${pokemon.name}</span>
       <div class="types">
@@ -61,7 +61,7 @@ function searchPokemon() {
   const pokemonItems = document.querySelectorAll(".pokemon-item");
 
   pokemonItems.forEach((item) => {
-    const name = item.querySelector("span:nth-child(2)").textContent.toLowerCase();
+    const name = item.querySelector(".pokemon-item span:nth-child(3)").textContent.toLowerCase();
     if (name.includes(searchQuery)) {
       item.style.display = "block";
     } else {

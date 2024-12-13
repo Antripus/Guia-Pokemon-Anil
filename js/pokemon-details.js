@@ -114,7 +114,7 @@ function displayPokemonDetails(pokemon) {
         <a id="goRight" href=pokemon-details.html?number=${pokemon.number+1}> Go Right </a>
         </div>
 
-        <img src="./images/${pokemon.number}.png" alt="${pokemon.name}" class="pokemon-image">
+        <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}" class="pokemon-image">
         
         <p><strong>Abilities:</strong> ${pokemon.abilities}</p>
         <p><strong>Hidden Ability:</strong> ${pokemon.hidden_ability}</p>
