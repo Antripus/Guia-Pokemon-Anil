@@ -108,7 +108,7 @@ function showDetails(pokemon) {
         }">${type}</span>`
     )
     .join(" ");
-
+  
   // Obtener el valor máximo de los stats (excluyendo 'total' para no tener barra)
   const statsWithoutTotal = Object.entries(pokemon.base_stats).filter(
     ([stat]) => stat !== "total"
