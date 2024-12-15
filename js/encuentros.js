@@ -1,7 +1,7 @@
 
 // Ruta de los archivos JSON
 const jsonPathPokemon = "./data/pokemon.json";
-const jsonPathTrainers = "./data/trainers.json";
+const jsonPathTrainers = "./data/trainers_TipoDeEncuentro.json";
 
 // Elementos del DOM
 const listElement = document.getElementById("encounter-list");
@@ -37,6 +37,10 @@ async function loadTrainers() {
 // Función para rellenar la lista de Trainers
 function populateTrainersList(trainerData) {
     
+    listElement.innerHTML = ""; // Limpiar la lista para evitar duplicados
+    let trainerElements = []; // Array para guardar referencias a los elementos <li>
+    
+
     // Recorre todos los datos de los Trainers
     trainerData.forEach((trainer) => {
       
@@ -45,27 +49,35 @@ function populateTrainersList(trainerData) {
       
       // Inserta la imagen y el texto (número y nombre del Pokémon) dentro del <li>
       listItem.innerHTML = `
-        <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-icon">
-        ${trainer.name} - ${trainer.variant}
+        <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}">
+        <h3 class="nombreEntrenador"> ${trainer.name} </h3> 
+        <img src="./images/pokeball3.png" alt="#Pokemons" class="pokeballIMG"> 
+        <h3 class="numeroDePokemon"> #${trainer.num_pokemon} </h3>
       `;
       
       // Agrega un evento "click" al elemento <li> que muestra los detalles del Pokémon seleccionado
-      listItem.addEventListener("click", () => showTrainerCard(trainer));
+      listItem.addEventListener("click", () => {
+        showTrainerCard(trainer, listItem, trainerElements); // Pasar referencia al elemento y lista
+        sessionStorage.setItem("selectedTrainer", JSON.stringify(trainer)); // Guarda el Pokémon seleccionado
+      });
       
       // Añade el elemento <li> al contenedor de la lista
       listElement.appendChild(listItem);
+      trainerElements.push(listItem); // Guardar la referencia del <li>
     });
 
     // Verificar si hay un Trainer seleccionado en sessionStorage
     const storedTrainer = sessionStorage.getItem("selectedTrainer");
     if (storedTrainer) {
         const trainer = JSON.parse(storedTrainer);
-        showTrainerCard(storedTrainer); // Muestra los detalles del Trainer seleccionado
+
+        const index = trainerData.findIndex(t => t.name === trainer.name); // Buscar índice del entrenador guardado
+        showTrainerCard(trainer, trainerElements[index], trainerElements); // Resaltar entrenador guardado
         sessionStorage.removeItem("selectedTrainer"); // Limpia el almacenamiento luego de cargar el detalle
     } else {
         // Si no hay Pokémon seleccionado, muestra el primer Pokémon
         if (trainerData.length > 0) {
-            showTrainerCard(trainerData[0]);
+            showTrainerCard(trainerData[0], trainerElements[0], trainerElements); // Mostrar el primero si no hay guardado
         }
     }
 
@@ -129,11 +141,19 @@ const natureTypes = {
     }
 
   // Función para mostrar la tarjeta de entrenadores
-    function showTrainerCard (trainer) {
-        // Mostrar la información del entrenador en el DOM
+    function showTrainerCard(trainer, selectedElement, trainerElements) {
+        
+      // Resaltar el elemento seleccionado
+      trainerElements.forEach(item => item.classList.remove("selected-trainer")); // Quitar la clase de todos
+      selectedElement.classList.add("selected-trainer"); // Agregar la clase al seleccionado
+      
+      // Mostrar la información del entrenador en el DOM
         trainerSection.innerHTML = `
             <div class="trainerName"> <h2>${trainer.name} </h2> 
-            <h2>Variante:  ${trainer.variant}</h2></div>
+            <h2>Variante:  ${trainer.variant}</h2>
+            <h2>Sprite:  ${trainer.sprite}</h2>
+            <h2>Tipo de Encuentro:  ${trainer.tipo_de_encuentro}</h2>
+            </div>
             <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-img">
             <div>Single Battle</div>
             <div> <p> Cant de Pokemon: ${trainer.num_pokemon} </p> <p> Objetos curativos: ${trainer.healing_item || "Ninguno"} </p>  </div>
@@ -146,16 +166,13 @@ const natureTypes = {
             // Buscar el Pokémon en los datos de pokemonData
             const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
             const pokemonDetails = findPokemonByName(pokemon.name, pokemonData); // Buscar el Pokémon por nombre en pokemonData
-            console.log(pokemonDetails.name);
-
+            
             if (pokemonDetails) {
                 // Si el Pokémon se encuentra en pokemonData, mostrar los detalles
         
                 // Manejo de tipos con colores
                 const typeHTML = pokemonDetails.type.map((type) =>
                     `<span class="type" style="background-color: ${typeColors[type] || "#000"}">${type}</span>`).join(" ");
-
-    
 
                 const card = document.createElement("div");
                 card.className = "pokemon-card";
@@ -190,7 +207,7 @@ const natureTypes = {
         listItems.forEach((item, index) => {
           const trainerName = item.textContent.toLowerCase();
           if (trainerName.includes(query)) {
-            item.style.display = "flex"; // Muestra los Pokémon coincidentes
+            item.style.display = "flex"; // Muestra los entrenadores coincidentes
             if (!firstVisibleTrainer) {
                 firstVisibleTrainer = trainerData[index]; // Asocia al Pokémon correcto
             }
@@ -199,7 +216,7 @@ const natureTypes = {
           }
         });
       
-        // Mostrar detalles del primer Pokémon visible
+        // Mostrar detalles del primer entrenador visible
         if (firstVisibleTrainer) {
             showTrainerCard(firstVisibleTrainer);
         }
@@ -256,17 +273,134 @@ const natureTypes = {
 },
 */
 
+
+// Referencia a los botones de radio
+const starterRadios = document.querySelectorAll('input[name="starter"]');
+const dificultadRadios = document.querySelectorAll('input[name="dificultad"]');
+
+// Función para filtrar entrenadores según el Pokémon inicial
+function filterTrainersByStarter(trainerData, starter) {
+  const filteredData = trainerData.filter((trainer) => {
+    if (trainer.name === "Azul") {
+      if (starter === "Bulbasaur" && (trainer.sprite === "AZULALIADO1" || trainer.sprite === "AZULALIADO2" || trainer.variant === 2 || trainer.variant === 3 || trainer.variant === 5 || trainer.variant === 6)) {
+        return false; // Azul tiene Charmander - Excluir variantes 2 y 3 y 5 6
+      }
+      if (starter === "Charmander" && (trainer.sprite === "AZULALIADO2" || trainer.sprite === "AZULALIADO0" || trainer.variant === 1 || trainer.variant === 3|| trainer.variant === 4 || trainer.variant === 6)) {
+        return false; // Azul tiene Squirtle - Excluir variantes 1 y 3 y 4 y 6
+      }
+      if (starter === "Squirtle" && (trainer.sprite === "AZULALIADO1" || trainer.sprite === "AZULALIADO0" || trainer.variant === 2 || trainer.variant === 1|| trainer.variant === 4 || trainer.variant === 5)) {
+        return false; // Azul tiene Bulbasaur - Excluir variantes 2 y 1 y 4 y 5
+      }
+    }
+    if (trainer.name === "Rojo") {
+      if (starter === "Bulbasaur" && (trainer.variant === 1 || trainer.variant === 3 || trainer.variant === 4 || trainer.variant === 6)) {
+        return false; // Rojo tiene squirtle Excluir variantes 1 y 3 y 4 y 6
+      }
+      if (starter === "Charmander" && (trainer.variant === 2 || trainer.variant === 1|| trainer.variant === 4 || trainer.variant === 5)) {
+        return false; // Rojo tiene Bulbasaur - Excluir variantes 2 y 1 y 4 y 5
+      }
+      if (starter === "Squirtle" && (trainer.variant === 2 || trainer.variant === 3 || trainer.variant === 5 || trainer.variant === 6)) {
+        return false; // Rojo tiene Charmander - Excluir variantes 2 y 3 y 5 6
+      }
+    }
+    return true; // Incluir el resto
+  });
+
+  return filteredData;
+}
+
+// Función para filtrar entrenadores según la dificultad
+function filterTrainersByDificultad(trainerData, dificultad) {
+  const filteredData = trainerData.filter((trainer) => {
+
+    if (dificultad === "Clasico") dificultad = null
+    if (dificultad === "Completo") dificultad = 1
+    if (dificultad === "Radical") dificultad = 2
+    console.log("yo acaaaa"+dificultad);
+
+    if (trainer.name === "Rojo" || trainer.name === "Azul") {
+      if (trainer.sprite === "AZUL1"){
+        const nothing = "No hago nada"
+      }else{
+        if (trainer.variant !== null){
+          if (dificultad === 2){
+            if (trainer.variant <= 3){
+              return false;
+            }          
+          }else{
+            if(trainer.variant > 3){
+              return false;
+            }
+          }
+        }
+      }
+    }else{
+      if (trainer.tipo_de_encuentro === "normal"){
+        return false; //Excluyo todos los encuentros normales y dejo los importantes
+      }
+      if (trainer.variant !== dificultad){
+        return false; //Excluye los que no sean la dificultad seleccionada
+      }
+    }
   
-  // Función principal para inicializar la página
+
+    return true; // Incluir el resto
+  });
+
+  return filteredData;
+}
+
+// Función para manejar cambios en los botones de radio
+function handleStarterChange() {
+  const selectedStarter = document.querySelector('input[name="starter"]:checked')?.value;
+  const selectedDificultad = document.querySelector('input[name="dificultad"]:checked')?.value;
+  
+  if (selectedStarter && selectedDificultad) {
+    const trainerData = JSON.parse(sessionStorage.getItem("trainerData"));
+    
+    //Filtramos por poquemon inicial
+    const filteredData = filterTrainersByStarter(trainerData, selectedStarter);
+    
+    //Filtramos por tipo de dificultad
+    const filteredData2 = filterTrainersByDificultad(filteredData, selectedDificultad);
+    
+    listElement.innerHTML = ""; // Limpiar la lista
+    populateTrainersList(filteredData2); // Rellenar la lista con datos filtrados
+  }
+}
+
+// Asignar el evento a los botones de radio
+starterRadios.forEach((radio) => {
+  radio.addEventListener("change", handleStarterChange);
+});
+
+dificultadRadios.forEach((radio) => {
+  radio.addEventListener("change", handleStarterChange);
+});
+
+// Modificar init para inicializar con todos los entrenadores
+function init() {
+  loadPokemon();
+  loadTrainers();
+  // Seleccionar el primer botón de radio por defecto (opcional)
+  document.getElementById("bulbasaur").checked = true;
+  document.getElementById("Radical").checked = true;
+  handleStarterChange(); // Aplicar el filtro inicial
+}
+
+  
+  /* Función principal para inicializar la página
   function init() {
     //displayTrainerInfo(trainerData);
     //displayPokemonDetails(trainerData.team);
     loadPokemon()
     loadTrainers()
-  }
+  }*/
 
 
   
   // Inicializa la página cuando carga
   document.addEventListener("DOMContentLoaded", init);
 
+
+  

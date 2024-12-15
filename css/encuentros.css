@@ -1,28 +1,8 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #f8d030;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-  }
-  
-  .container {
+.container {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 10px;
     padding: 10px;
-  }
-  
-  aside {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-right: 2px solid #ddd;
   }
   
   main {
@@ -31,20 +11,6 @@ body {
     gap: 20px;
     padding: 10px;
   }
-  
-  #encounter-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #encounter-list li {
-    margin: 5px 0;
-    padding: 10px;
-    background-color: #e8f0ff;
-    border: 1px solid #ccc;
-    cursor: pointer;
-  }
-  
   
   #trainer-info {
     background-color: #fff;
@@ -90,18 +56,31 @@ body {
 /* lista de pokemon a la izquierda de la pantalla*/
 .container {
   display: flex;
-  width: 80%;
-  height: 75vh; /* Altura completa de la ventana */
-  overflow: hidden; /* Evita scroll en todo el contenedor */
-  margin-top: 20px;
+  width: 85%;
+  height: 85vh; /* Altura completa de la ventana */
+  margin-top: 10px;
 }
 
 aside {
-  flex: 0.5; /* ancho de la lista de la izquierda */
-  border-right: 2px solid #ccc;
+  background-color: #59646e;
   padding: 10px;
+  border-right: 2px solid #6c6565;
+  border-radius: 15px; /* Marco redondeado */
+}
+
+.entrenadoresSearchBar{
+  background-color: #59646e;
+  padding: 10px;
+  align-items: center;
+  
+}
+
+.listaEntrenadores{
+  flex: 0.5; /* ancho de la lista de la izquierda */
+  /*border-right: 2px solid #ccc;*/
+  padding: 5px;
   overflow-y: auto; /* Scroll sólo en la lista */
-  height: 100%; /* Asegura el scroll completo */
+  height: 85%; /* Asegura el scroll completo */
 }
 
 main {
@@ -113,7 +92,33 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
 }
 
-/* Estilo para las imágenes en la lista de Pokémon */
+/* Estilo para la lista de Entrenadores */
+#encounter-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#encounter-list li.selected-trainer {
+  background-color: #8a8055; /* Cambia según el color deseado */
+  border-radius: 8px;
+  color: #fff; /* Cambia el color del texto al pasar el ratón */
+}
+
+#encounter-list li{
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #e8f0ff;
+  border: 3px solid #000000;
+  cursor: pointer;
+  height: 30px;
+}
+/* Efecto al pasar el ratón sobre la lista */
+#encounter-list li:hover {
+  background-color: #8a8055; /* Cambia el color de fondo al pasar el ratón */
+  color: #fff; /* Cambia el color del texto al pasar el ratón */
+}
+
+
 ul li img {
   width: 50px; /* Define el ancho de la imagen */
   height: 50px; /* Define la altura de la imagen */
@@ -126,16 +131,34 @@ ul li img {
 ul li {
   display: flex; /* Alinea la imagen y el texto horizontalmente */
   align-items: center; /* Centra verticalmente la imagen y el texto */
-  padding: 5px 10px; /* Espacio interno para cada elemento */
+  padding: 5px 5px; /* Espacio interno para cada elemento */
   cursor: pointer; /* Cambia el cursor al pasar sobre la lista */
-  border-bottom: 1px solid #ddd; /* Línea separadora entre elementos */
+  border-bottom: 1px solid #141313; /* Línea separadora entre elementos */
+  border-radius: 15px;
 }
 
-/* Efecto al pasar el ratón sobre la lista */
-ul li:hover {
-  background-color: #44390b; /* Cambia el color de fondo al pasar el ratón */
-  color: #fff; /* Cambia el color del texto al pasar el ratón */
+ul li .numeroDePokemon{
+  display: flex; /* Alinea la imagen y el texto horizontalmente */
+  margin-right: 10px;
 }
+
+ul li .nombreEntrenador{
+  display: flex; /* Alinea la imagen y el texto horizontalmente */
+  width: 80px;
+  margin-right: 0px;
+}
+
+
+
+ul li .pokeballIMG {
+  width: 30px; /* Define el ancho de la imagen */
+  height: 30px; /* Define la altura de la imagen */
+  padding: 10px;
+  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
+  margin-right: 0px;
+}
+
+
 
 
 /* lista de pokemon a la izquierda de la pantalla*/

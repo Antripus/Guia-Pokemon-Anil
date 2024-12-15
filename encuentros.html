@@ -4,22 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Encuentros</title>
+
   <link rel="stylesheet" href="css/encuentros.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/gral.css">
+
+
 </head>
 <body>
   <header>
-    <h1>Encuentros Pokémon</h1>
+
+    <nav>
+      <ul id="navbar">
+        <li>
+          <a href="index.html">
+            <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+          </a>
+        </li>
+        <li><a href="pokemons-list.html">Pokedex</a></li>
+        <li><a href="#">Encuentros</a></li>
+        <li><a href="#">Habilidades</a></li>
+        <li><a href="#">Objetos</a></li>
+        <li><a href="#">Poke Radar</a></li>
+        <li id="GralSearchBar">
+          <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+        </li>
+      </ul>
+    </nav>
+
   </header>
+
+  <h1>Encuentros Pokémon</h1>
+    <!--seleccion de pokemon Inicial y Dificultad-->
+    <div class="Pokemon-Inicial">
+      <label>Pokémon Inicial:</label>
+      <input type="radio" id="bulbasaur" name="starter" value="Bulbasaur">
+      <label for="bulbasaur">Bulbasaur</label>
+      <input type="radio" id="charmander" name="starter" value="Charmander">
+      <label for="charmander">Charmander</label>
+      <input type="radio" id="squirtle" name="starter" value="Squirtle">
+      <label for="squirtle">Squirtle</label>
+    </div>
+    <div class="Dificultad-Card">
+      <label>Dificultad:</label>
+      <input type="radio" id="Clasico" name="dificultad" value="Clasico">
+      <label for="Clasico">Clasico</label>
+      <input type="radio" id="Completo" name="dificultad" value="Completo">
+      <label for="Completo">Completo</label>
+      <input type="radio" id="Radical" name="dificultad" value="Radical">
+      <label for="Radical">Radical</label>
+    </div>
+  
+  
+  
   <div class="container">
 
-    
+          
 
     <aside>
-      <input type="text" id="search-bar" placeholder="Buscar Entrenador...">
+      <div class="entrenadoresSearchBar">
+        <input type="text" id="search-bar" placeholder="Buscar Entrenador...">
+      </div>
+      <div class="listaEntrenadores">
+        <ul id="encounter-list">
+          <!-- La lista de encuentros se genera dinámicamente -->
+        </ul>
+      </div>
+
+
       
-      <ul id="encounter-list">
-        <!-- La lista de encuentros se genera dinámicamente -->
-      </ul>
     </aside>
     <main>
       <section id="trainer-info">
@@ -31,5 +84,6 @@
     </main>
   </div>
   <script src="js/encuentros.js"></script>
+  <script src="js/navbar.js"></script>
 </body>
 </html>
