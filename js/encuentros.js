@@ -1,7 +1,7 @@
 
 // Ruta de los archivos JSON
 const jsonPathPokemon = "./data/pokemon.json";
-const jsonPathTrainers = "./data/trainers_TipoDeEncuentro.json";
+const jsonPathTrainers = "./data/trainers_actualizados.json";
 
 // Elementos del DOM
 const listElement = document.getElementById("encounter-list");
@@ -36,52 +36,53 @@ async function loadTrainers() {
 
 // Función para rellenar la lista de Trainers
 function populateTrainersList(trainerData) {
-    
-    listElement.innerHTML = ""; // Limpiar la lista para evitar duplicados
-    let trainerElements = []; // Array para guardar referencias a los elementos <li>
-    
+  listElement.innerHTML = ""; // Limpiar la lista para evitar duplicados
+  let trainerElements = []; // Array para guardar referencias a los elementos <li>
 
-    // Recorre todos los datos de los Trainers
-    trainerData.forEach((trainer) => {
-      
-        // Crea un elemento <li> para cada Trainer
+  // Ordenar los entrenadores por el campo "Orden"
+  trainerData.sort((a, b) => a.Orden - b.Orden);
+
+  // Recorre todos los datos de los Trainers
+  trainerData.forEach((trainer) => {
+      // Crea un elemento <li> para cada Trainer
       const listItem = document.createElement("li");
-      
+
       // Inserta la imagen y el texto (número y nombre del Pokémon) dentro del <li>
       listItem.innerHTML = `
-        <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}">
-        <h3 class="nombreEntrenador"> ${trainer.name} </h3> 
-        <img src="./images/pokeball3.png" alt="#Pokemons" class="pokeballIMG"> 
-        <h3 class="numeroDePokemon"> #${trainer.num_pokemon} </h3>
+          <h3 class="numeroDePokemon"> ${trainer.Orden} </h3>
+          <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}">
+          <h3 class="nombreEntrenador"> ${trainer.name} </h3> 
+          <img src="./images/pokeball3.png" alt="#Pokemons" class="pokeballIMG"> 
+          <h3 class="numeroDePokemon"> #${trainer.num_pokemon} </h3>
       `;
-      
+
       // Agrega un evento "click" al elemento <li> que muestra los detalles del Pokémon seleccionado
       listItem.addEventListener("click", () => {
-        showTrainerCard(trainer, listItem, trainerElements); // Pasar referencia al elemento y lista
-        sessionStorage.setItem("selectedTrainer", JSON.stringify(trainer)); // Guarda el Pokémon seleccionado
+          showTrainerCard(trainer, listItem, trainerElements); // Pasar referencia al elemento y lista
+          sessionStorage.setItem("selectedTrainer", JSON.stringify(trainer)); // Guarda el Pokémon seleccionado
       });
-      
+
       // Añade el elemento <li> al contenedor de la lista
       listElement.appendChild(listItem);
       trainerElements.push(listItem); // Guardar la referencia del <li>
-    });
+  });
 
-    // Verificar si hay un Trainer seleccionado en sessionStorage
-    const storedTrainer = sessionStorage.getItem("selectedTrainer");
-    if (storedTrainer) {
-        const trainer = JSON.parse(storedTrainer);
+  // Verificar si hay un Trainer seleccionado en sessionStorage
+  const storedTrainer = sessionStorage.getItem("selectedTrainer");
+  if (storedTrainer) {
+      const trainer = JSON.parse(storedTrainer);
 
-        const index = trainerData.findIndex(t => t.name === trainer.name); // Buscar índice del entrenador guardado
-        showTrainerCard(trainer, trainerElements[index], trainerElements); // Resaltar entrenador guardado
-        sessionStorage.removeItem("selectedTrainer"); // Limpia el almacenamiento luego de cargar el detalle
-    } else {
-        // Si no hay Pokémon seleccionado, muestra el primer Pokémon
-        if (trainerData.length > 0) {
-            showTrainerCard(trainerData[0], trainerElements[0], trainerElements); // Mostrar el primero si no hay guardado
-        }
-    }
-
+      const index = trainerData.findIndex(t => t.name === trainer.name); // Buscar índice del entrenador guardado
+      showTrainerCard(trainer, trainerElements[index], trainerElements); // Resaltar entrenador guardado
+      sessionStorage.removeItem("selectedTrainer"); // Limpia el almacenamiento luego de cargar el detalle
+  } else {
+      // Si no hay Pokémon seleccionado, muestra el primer Pokémon
+      if (trainerData.length > 0) {
+          showTrainerCard(trainerData[0], trainerElements[0], trainerElements); // Mostrar el primero si no hay guardado
+      }
   }
+}
+
 
 // Colores para cada tipo de Pokémon
 const typeColors = {
@@ -149,14 +150,30 @@ const natureTypes = {
       
       // Mostrar la información del entrenador en el DOM
         trainerSection.innerHTML = `
-            <div class="trainerName"> <h2>${trainer.name} </h2> 
-            <h2>Variante:  ${trainer.variant}</h2>
-            <h2>Sprite:  ${trainer.sprite}</h2>
-            <h2>Tipo de Encuentro:  ${trainer.tipo_de_encuentro}</h2>
+            <div class="trainer1"> 
+              <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-img">  
+              <h2>${trainer.name} </h2>
+              <div class="tipo">${trainer.tipo}</div> <!-- Obligatorio u opcional --> 
+              <div class="Tipo-Combate">${trainer.tipo_de_combate}</div>
+              
             </div>
-            <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-img">
-            <div>Single Battle</div>
-            <div> <p> Cant de Pokemon: ${trainer.num_pokemon} </p> <p> Objetos curativos: ${trainer.healing_item || "Ninguno"} </p>  </div>
+            <div class="trainer2"> 
+            
+            <h2>${trainer.Orden}-  ${trainer.descripcion_de_entrenador} </h2>
+
+            <h2> ${trainer.ubicacion}</h2>
+            
+              
+              <div class="objCurativo">
+              <img src="./images/pocion.png" alt="#Pokemons" class="pokeballIMG">
+              <h3>${trainer.healing_item || "Ninguna"} </h3>
+              </div>
+            <div class="cantPokemon">
+                <img src="./images/pokeball2.png" alt="#Pokemons" class="pokeballIMG"> 
+                <h3> #${trainer.num_pokemon} </h3> 
+                </div>
+            </div>
+            
         `;
         
         // Mostrar los detalles de los Pokémon del entrenador
@@ -318,7 +335,13 @@ function filterTrainersByDificultad(trainerData, dificultad) {
     if (dificultad === "Radical") dificultad = 2
     console.log("yo acaaaa"+dificultad);
 
+    if (trainer.Orden === 0){
+      return false; //Excluyo todos los encuentros normales y dejo los importantes
+    }
     if (trainer.name === "Rojo" || trainer.name === "Azul") {
+      if (trainer.Orden === 0){
+        return false; //Excluyo todos los encuentros normales y dejo los importantes
+      }
       if (trainer.sprite === "AZUL1"){
         const nothing = "No hago nada"
       }else{
@@ -335,14 +358,21 @@ function filterTrainersByDificultad(trainerData, dificultad) {
         }
       }
     }else{
-      if (trainer.tipo_de_encuentro === "normal"){
-        return false; //Excluyo todos los encuentros normales y dejo los importantes
-      }
-      if (trainer.variant !== dificultad){
-        return false; //Excluye los que no sean la dificultad seleccionada
-      }
+      
+      if (trainer.sprite.includes("HOENN") || (trainer.Orden >= 45 && trainer.Orden <= 59) ){
+        //no hace nada
+      }else{
+        if (dificultad === 2 && (trainer.sprite === "AGATHA1" || trainer.sprite === "MOTORISTA" || trainer.sprite ===  "VETERANO")){
+          if (trainer.variant === null){
+            return false;
+          }
+        }else{
+          if (trainer.variant !== dificultad){
+            return false; //Excluye los que no sean la dificultad seleccionada
+          }
+        }
+      }  
     }
-  
 
     return true; // Incluir el resto
   });

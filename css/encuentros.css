@@ -1,3 +1,4 @@
+
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -13,13 +14,122 @@
   }
   
   #trainer-info {
-    background-color: #fff;
-    padding: 10px;
-    border: 1px solid #ccc;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+   
   }
   
+
+.trainer1 {
+  background-color: #4f39be;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  grid-column: 1; /* 1 columna */
+  border-right: 2px solid #aaa;
+}
+
+.trainer1 h2{
+  margin: 5px;
+}
+.trainer-img {
+  width: 80px;
+  height: 80px;
+}
+
+.trainer1 .tipo{
+  background-color: #79aaff;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.trainer1 .Tipo-Combate{
+  background-color: #37de82;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 5px;
+}
+Tipo-Combate
+.trainer1 .pokeballIMG {
+  width: 30px; /* Define el ancho de la imagen */
+  height: 30px; /* Define la altura de la imagen */
+  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
+  margin-right: 0px;
+  border-radius: 50%;
+}
+
+
+
+.trainer2 {
+  background-color: #ff7979;
+  text-align: left;
+  padding: 10px;
+  color: #fff;
+  grid-column: 2; /* 2 columna */
+}
+
+.trainer2 h2{
+  margin: 5px;
+}
+
+.trainer2 .tipo{ /*cambiar*/
+  background-color: #79aaff;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  border-radius: 10px;
+}
+.trainer2 .pokeballIMG {
+  width: 30px; /* Define el ancho de la imagen */
+  height: 30px; /* Define la altura de la imagen */
+  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
+  margin-right: 0px;
+  border-radius: 50%;
+}
+
+.objCurativo {
+  display: flex; /* Activa Flexbox */
+  align-items:center; /* Alinea verticalmente al centro */
+  padding: 5px;
+  gap: 5px; /* Espacio entre la imagen y el texto */
+  
+}
+
+.objCurativo h3 {
+  margin: 0; /* Elimina el margen por defecto del h3 */
+  font-size: 18px; /* Ajusta el tamaño del texto */
+}
+
+.cantPokemon {
+  display: flex; /* Activa Flexbox */
+  align-items:center; /* Alinea verticalmente al centro */
+  padding: 5px;
+  gap: 5px; /* Espacio entre la imagen y el texto */
+  /*justify-content: flex-end;  Mueve el contenido a la derecha */
+}
+
+.cantPokemon h3 {
+  margin: 0; /* Elimina el margen por defecto del h3 */
+  font-size: 18px; /* Ajusta el tamaño del texto */
+}
+
+
+.battle-type {
+  background-color: #6c5ce7;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
   #pokemon-details {
     background-color: #f9f9f9;
     padding: 10px;
@@ -141,6 +251,8 @@ ul li .numeroDePokemon{
   display: flex; /* Alinea la imagen y el texto horizontalmente */
   margin-right: 10px;
 }
+
+
 
 ul li .nombreEntrenador{
   display: flex; /* Alinea la imagen y el texto horizontalmente */
