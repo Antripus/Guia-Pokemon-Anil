@@ -1,22 +1,39 @@
-
- 
-  #trainer-info {
+  
+  /*----------------------------------------------------*/
+  
+  #trainer-details {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    align-content: center;
+    border: 1px solid black;
+    
   }
   
+  .trainer-card {
+    background-color: #153f7a; /*fff*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Define el ancho: 1/4, 2/4, 1/4 */
+    
+  }
 
 .trainer1 {
+  padding: 5px;
+  grid-column: 1; /* Primera columna */
+
+  color: #000000;  
+  border-radius: 10px;
+  border: 1px solid black;
   background-color: #fff;
   text-align: center;
-  padding: 5px;
-  color: #000000;
-  grid-column: 1; /* 1 columna */
-  border-right: 2px solid #aaa;
-  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .trainer1 h2{
@@ -54,30 +71,43 @@ Tipo-Combate
 }
 
 .trainer2 {
-  background-color: #fff;
-  text-align: left;
   padding: 10px;
-  color: #000000;
-  grid-column: 2; /* 2 columna */
-}
-
-.trainer2 h2{
-  margin: 5px;
-}
-
-.trainer2 .tipo{ /*cambiar*/
-  background-color: #79aaff;
-  text-align: center;
-  padding: 5px;
-  color: #fff;
+  margin: 10px;
+  color: #000000;  
   border-radius: 10px;
+  border: 1px solid black;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  
 }
+
+
+
 .trainer2 .pokeballIMG {
   width: 30px; /* Define el ancho de la imagen */
   height: 30px; /* Define la altura de la imagen */
   object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
   margin-right: 0px;
   border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los elementos */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  align-items: center; /* Centra verticalmente */
+}
+
+.orden {
+  text-align: left; /* Alinea a la izquierda */
+  margin: 0; /* Elimina margen */
+}
+
+.nombre-entrenador {
+  text-align: center; /* Centra el nombre del entrenador */
+
 }
 
 .objCurativo {
@@ -95,15 +125,30 @@ Tipo-Combate
 
 .cantPokemon {
   display: flex; /* Activa Flexbox */
-  align-items:center; /* Alinea verticalmente al centro */
+  align-items: center; /* Alinea verticalmente al centro */
+  justify-content: flex-end; /* Alinea a la derecha */
   padding: 5px;
   gap: 5px; /* Espacio entre la imagen y el texto */
-  /*justify-content: flex-end;  Mueve el contenido a la derecha */
 }
 
 .cantPokemon h3 {
   margin: 0; /* Elimina el margen por defecto del h3 */
   font-size: 18px; /* Ajusta el tamaño del texto */
+}
+
+.ubicacion {
+  text-align: center; /* Centra la ubicación */
+  font-weight: bold; /* Resalta el texto */
+  margin: 15px; /* Espacio superior e inferior */
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr; /* 3 columnas de 80px */
+
+  justify-content: center; /* Centra todo el grid */
+  align-content: center; /* Alinea verticalmente */
+  
 }
 
 
@@ -127,11 +172,47 @@ Tipo-Combate
   border: 1px solid black;
 }
 
+.trainer3 {
+  grid-column: 3; 
+  
+  gap: 10px; /* Espacio entre las imágenes */
+  justify-content: center; /* Centra todo el grid */
+  align-content: center; /* Alinea verticalmente */
+
+  margin: 0 auto; /* Centrado horizontal */
+ 
+ 
+}
+
+.resumenPokemon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de 80px */
+  gap: 10px; /* Espacio entre las imágenes */
+  justify-content: center; /* Centra todo el grid */
+  align-content: center; /* Alinea verticalmente */
+  margin: 0 auto; /* Centrado horizontal */
+}
+
+.resumenPokemon img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20%; /* Hace la imagen redonda */
+  object-fit: cover;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
 /* lista de pokemon a la izquierda de la pantalla*/
 .container {
   display: flex;
-  width: 75%;
-  height: 150vh; /* Altura completa de la ventana */
+  width: 72%;
+  height: 124vh; /* Altura completa de la ventana */
   margin-top: 10px;
   
   gap: 10px;
@@ -141,8 +222,8 @@ Tipo-Combate
 aside {
   background-color: #59646e;
   padding: 10px;
-  border-right: 2px solid #6c6565;
   border-radius: 15px; /* Marco redondeado */
+  border: 1px solid black;
 }
 
 
@@ -152,8 +233,10 @@ aside {
   /*border-right: 2px solid #ccc;*/
   padding: 5px;
   overflow-y: auto; /* Scroll sólo en la lista */
-  height: 73%; /* Asegura el scroll completo */
+  height: 84%; /* Asegura el scroll completo */
+  
 }
+
 
 main {
   flex: 2;
@@ -166,13 +249,14 @@ main {
   padding: 10px;
   /* display: grid;*/
   grid-template-rows: auto auto;
-  
+  border: 1px solid black;
 }
 
 /* Estilo para la lista de Entrenadores */
 #encounter-list {
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 #encounter-list li.selected-trainer {
@@ -219,7 +303,12 @@ ul li .numeroDePokemon{
   margin-right: 10px;
 }
 
+ul li .numeroDeOrden{
+  display: flex; /* Alinea la imagen y el texto horizontalmente */
+  margin-right: 10px;
+  width: 23px;
 
+}
 
 ul li .nombreEntrenador{
   display: flex; /* Alinea la imagen y el texto horizontalmente */
@@ -238,85 +327,14 @@ ul li .pokeballIMG {
 }
 /* lista de pokemon a la izquierda de la pantalla*/
 
-/*
-.pokemon-team {
-  display: flex;
-  justify-content: space-around;
-  flex-grow: 1;
-  background-color: #ecf0f1;
-  padding: 10px;
- 
-}
-
-
-
-.nature {
-  background-color: #c353c9;
-  text-align: center;
-  padding: 5px;
-  color: #fff;
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-  width: -webkit-fill-available;
-  width: -moz-available;
-  margin: 2px 5px;
-  border-radius: 10px;
-  
-}
-
-.moves {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.move {
-  background-color: #f9ca24;
-  border-radius: 3px;
-  padding: 2px 4px;
-  margin: 2px;
-  font-size: 12px;
-  color: #333;
-}
-/* Pokémon Team 
-  #pokemon-details {
-    background-color: #f9f9f9;
-    padding: 10px;
-    border: 1px solid #ccc;
-    
-  }
-  
-  .pokemon-card {
-    text-align: center;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    width: 150px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    grid-template-rows: 50px 1fr repeat(2, 50px) auto;
-    grid-template-columns: auto repeat(6, 1fr);
-  }
-  
-  .pokemon-card h3 {
-    margin: 5px 0;
-  }
-
-  
-  .pokemon-card img {
-    width: 150px;
-    height: 150px;
-  }
-*/
-
 /* Contenedor de Pokémon cards */
 #pokemon-details {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Tres tarjetas por fila */
+  grid-template-columns: repeat(3, 1fr); /* Tres tarjetas por fila */
   gap: 10px; /* Espaciado entre las tarjetas */
   margin-top: 5px;
   width: 60%;
+ 
 }
 
 /* Estilo de las Pokémon cards */
@@ -327,6 +345,7 @@ ul li .pokeballIMG {
   padding: 15px;
   text-align: center;
   min-width: 250px;
+  border: 1px solid black;
 }
 
 .pokemon-card h3{
@@ -363,6 +382,8 @@ ul li .pokeballIMG {
 
 .abilities p{
   width: -webkit-fill-available;
+
+  text-decoration: underline;
 }
 
 /* Texto dentro de cada bloque */
@@ -372,7 +393,7 @@ ul li .pokeballIMG {
 
 .nature {
   background-color: #ebb884;
-  color: #fff;
+  color: #000000;
   padding: 5px;
   border-radius: 10px;
   margin-top: 5px;
@@ -560,13 +581,39 @@ label[for="squirtle"] {
   border-color: #4caf50;
   background-color: #e8f5e9;
 }
-
 /* Estilo seleccionado */
 input[type="radio"]:checked + .toggle-option {
   border-color: #4caf50;
   background-color: #a5d6a7;
   color: #fff;
 }
+
+/* Efecto hover específico para el botón de radio "Radical" */
+input[type="radio"]#Completo:hover + .toggle-option {
+  border-color: #eef733; /* Cambia el color del borde al pasar el mouse */
+  background-color: #eefccb; /* Cambia el color de fondo al pasar el mouse */
+  color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+/* Estilo seleccionado para el botón de radio "Radical" */
+input[type="radio"]#Completo:checked + .toggle-option {
+  border-color: #eef733; /* Cambia el color del borde */
+  background-color: #eefccb; /* Cambia el color de fondo */
+  color: #fff; /* Cambia el color del texto */
+}
+
+/* Efecto hover específico para el botón de radio "Radical" */
+input[type="radio"]#Radical:hover + .toggle-option {
+  border-color: #ff5733; /* Cambia el color del borde al pasar el mouse */
+  background-color: #ffcccb; /* Cambia el color de fondo al pasar el mouse */
+  color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+/* Estilo seleccionado para el botón de radio "Radical" */
+input[type="radio"]#Radical:checked + .toggle-option {
+  border-color: #ff5733; /* Cambia el color del borde */
+  background-color: #ffcccb; /* Cambia el color de fondo */
+  color: #fff; /* Cambia el color del texto */
+}
+
 
 /* Contenedor general */
 .entrenadoresSearchBar {
@@ -606,3 +653,4 @@ input[type="radio"]:checked + .toggle-option {
 
 
 
+/* ----------------------------------------------------------- */

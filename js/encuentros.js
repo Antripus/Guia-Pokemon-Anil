@@ -7,7 +7,7 @@ const jsonPathAbilities = "./data/abilities.json";
 
 // Elementos del DOM
 const listElement = document.getElementById("encounter-list");
-const trainerSection = document.getElementById("trainer-info");
+const trainerSection = document.getElementById("trainer-details");
 const pokemonSection = document.getElementById("pokemon-details");
 
 
@@ -73,10 +73,10 @@ function populateTrainersList(trainerData) {
 
       // Inserta la imagen y el texto (número y nombre del Pokémon) dentro del <li>
       listItem.innerHTML = `
-          <h3 class="numeroDePokemon"> ${trainer.Orden} </h3>
+          <h3 class="numeroDeOrden"> ${trainer.Orden} </h3>
           <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}">
           <h3 class="nombreEntrenador"> ${trainer.name} </h3> 
-          <img src="./images/pokeball3.png" alt="#Pokemons" class="pokeballIMG"> 
+          <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG"> 
           <h3 class="numeroDePokemon"> #${trainer.num_pokemon} </h3>
       `;
 
@@ -173,24 +173,44 @@ const natureTypes = {
       
       // Mostrar la información del entrenador en el DOM
         trainerSection.innerHTML = `
+          <div class="trainer-card"> 
             <div class="trainer1"> 
+              <h2 class="orden">${trainer.Orden}</h2>
               <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-img">  
               <h2>${trainer.name} </h2>
               <div class="tipo">${trainer.tipo}</div> <!-- Obligatorio u opcional --> 
               <div class="Tipo-Combate">${trainer.tipo_de_combate}</div>
             </div>
 
-            <div class="trainer2"> 
-            <h2>${trainer.Orden}-  ${trainer.descripcion_de_entrenador} </h2>
-            <h2> ${trainer.ubicacion}</h2>
-              <div class="objCurativo">
-              <img src="./images/pocion.png" alt="#Pokemons" class="pokeballIMG">
-              <h3>${trainer.healing_item || "Ninguna"} </h3>
-              </div>
+      <div class="trainer2">
+          <div class="header">
+    
+              <h3 class="nombre-entrenador">${trainer.descripcion_de_entrenador}</h3>
               <div class="cantPokemon">
-                <img src="./images/pokeball2.png" alt="#Pokemons" class="pokeballIMG"> 
-                <h3> #${trainer.num_pokemon} </h3> 
+                  <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG">
+                  <h3>#${trainer.num_pokemon}</h3>
               </div>
+          </div>
+          <div class="objCurativo">
+              <img src="./images/pocion.png" alt="#Pokemons" class="pokeballIMG">
+              <h3>${trainer.healing_item || "Ninguna"}</h3>
+          </div>
+          <h2 class="ubicacion">${trainer.ubicacion}</h2>
+      </div>
+
+
+            <div class="trainer3">
+              <div class="resumenPokemon">
+                ${trainer.pokemons
+                  .concat(Array(6 - trainer.pokemons.length).fill({ name: "noPokemon" }))
+                  .slice(0, 6)
+                  .map(pokemon => `
+                    <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}">
+                  `).join("")}
+              </div>
+            </div>
+
+
             </div>
         `;
         
