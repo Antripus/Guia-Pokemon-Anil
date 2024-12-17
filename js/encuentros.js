@@ -2,6 +2,8 @@
 // Ruta de los archivos JSON
 const jsonPathPokemon = "./data/pokemon.json";
 const jsonPathTrainers = "./data/trainers_actualizados.json";
+const jsonPathMoves = "./data/moves.json";
+const jsonPathAbilities = "./data/abilities.json";
 
 // Elementos del DOM
 const listElement = document.getElementById("encounter-list");
@@ -32,6 +34,28 @@ async function loadTrainers() {
       console.error("Error loading Trainer data:", error);
     }
   }
+
+  // Función para cargar el moves.JSON
+  async function loadMoves() {
+    try {
+      const response = await fetch(jsonPathMoves);
+      const movesData = await response.json();
+      sessionStorage.setItem("movesData", JSON.stringify(movesData)); // Almacena los datos en sessionStorage
+    } catch (error) {
+      console.error("Error loading Moves data:", error);
+    }
+  }
+
+    // Función para cargar el abilities.JSON
+    async function loadAbilities() {
+      try {
+        const response = await fetch(jsonPathAbilities);
+        const abilitiesData = await response.json();
+        sessionStorage.setItem("abilitiesData", JSON.stringify(abilitiesData)); // Almacena los datos en sessionStorage
+      } catch (error) {
+        console.error("Error loading Abilities data:", error);
+      }
+    }
 
 
 // Función para rellenar la lista de Trainers
@@ -99,41 +123,40 @@ const typeColors = {
     Ice: "#98D8D8",
     Dragon: "#7038F8",
     Dark: "#705848",
-    Fairy: "#EE99AC",
+    Fairy: "#ee99ee",
     Fighting: "#C03028",
     Flying: "#A890F0",
     Ghost: "#705898",
     Steel: "#B8B8D0"
   };
-
 // Colores para cada tipo de Pokémon
 const natureTypes = {
-    Hasty: "(+Spe / -Def)",
-    Adamant: "(+Atk / -Sp. Atk)",
-    Bashful: "(+Sp. Atk / -Sp. Atk)",
-    Bold: "(+Def / -Atk)",
-    Brave: "(+Atk / -Spe)",
-    Calm: "(+Sp. Def / -Atk)",
-    Careful: "(+Sp. Def / -Sp. Atk)",
-    Docile: "(+Def / -Def)",
-    Gentle: "(+Sp. Def / -Def)",
-    Hardy: "(+Atk / -Atk)",
-    Hasty: "(+Spe / -Def)",
-    Impish: "(+Def / -Sp. Atk)",
-    Jolly: "(+Spe / -Sp. Atk)",
-    Lax: "(+Def / -Sp. Def)",
-    Lonely: "(+Atk / -Def)",
-    Mild: "(+Sp. Atk / -Def)",
-    Modest: "(+Sp. Atk / -Atk)",
-    Naive: "(+Spe / -Sp. Def)",
-    Naughty: "(+Atk / -Sp. Def)",
-    Quiet: "(+Sp. Atk / -Spe)",
-    Quirky: "(+Sp. Def / -Sp. Def)",
-    Rash: "(+Sp. Atk / -Sp. Def)",
-    Relaxed: "(+Def / -Spe)",
-    Sassy: "(+Sp. Def / -Spe)",
-    Serious: "(+Spe / -Spe)",
-    Timid: "(+Spe / -Atk)",
+    hasty: "Hasty (+Spe / -Def)",
+    adamant: "Adamant (+Atk / -Sp. Atk)",
+    bashful: "Bashful (+Sp. Atk / -Sp. Atk)",
+    bold: "Bold (+Def / -Atk)",
+    brave: "Brave (+Atk / -Spe)",
+    calm: "Calm (+Sp. Def / -Atk)",
+    careful: "Careful (+Sp. Def / -Sp. Atk)",
+    docile: "Docile (+Def / -Def)",
+    gentle: "Gentle (+Sp. Def / -Def)",
+    hardy: "Hardy (+Atk / -Atk)",
+    hasty: "Hasty (+Spe / -Def)",
+    impish: "Impish (+Def / -Sp. Atk)",
+    jolly: "Jolly (+Spe / -Sp. Atk)",
+    lax: "Lax (+Def / -Sp. Def)",
+    lonely: "Lonely (+Atk / -Def)",
+    mild: "Mild (+Sp. Atk / -Def)",
+    modest: "Modest (+Sp. Atk / -Atk)",
+    naive: "Naive (+Spe / -Sp. Def)",
+    naughty: "Naughty (+Atk / -Sp. Def)",
+    quiet: "Quiet (+Sp. Atk / -Spe)",
+    quirky: "Quirky (+Sp. Def / -Sp. Def)",
+    rash: "Rash (+Sp. Atk / -Sp. Def)",
+    relaxed: "Relaxed (+Def / -Spe)",
+    sassy: "Sassy (+Sp. Def / -Spe)",
+    serious: "Serious (+Spe / -Spe)",
+    timid: "Timid (+Spe / -Atk)",
   };
 
     // Función para buscar un Pokémon por nombre en pokemonData
@@ -155,62 +178,142 @@ const natureTypes = {
               <h2>${trainer.name} </h2>
               <div class="tipo">${trainer.tipo}</div> <!-- Obligatorio u opcional --> 
               <div class="Tipo-Combate">${trainer.tipo_de_combate}</div>
-              
             </div>
-            <div class="trainer2"> 
-            
-            <h2>${trainer.Orden}-  ${trainer.descripcion_de_entrenador} </h2>
 
+            <div class="trainer2"> 
+            <h2>${trainer.Orden}-  ${trainer.descripcion_de_entrenador} </h2>
             <h2> ${trainer.ubicacion}</h2>
-            
-              
               <div class="objCurativo">
               <img src="./images/pocion.png" alt="#Pokemons" class="pokeballIMG">
               <h3>${trainer.healing_item || "Ninguna"} </h3>
               </div>
-            <div class="cantPokemon">
+              <div class="cantPokemon">
                 <img src="./images/pokeball2.png" alt="#Pokemons" class="pokeballIMG"> 
                 <h3> #${trainer.num_pokemon} </h3> 
-                </div>
+              </div>
             </div>
-            
         `;
         
         // Mostrar los detalles de los Pokémon del entrenador
         pokemonSection.innerHTML = ""; // Limpiar el área de los detalles del Pokémon
+        const movesData = JSON.parse(sessionStorage.getItem("movesData"));
+        const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData"));
+        const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
 
-        trainer.pokemons.forEach((pokemon) => {
-            // Buscar el Pokémon en los datos de pokemonData
-            const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
-            const pokemonDetails = findPokemonByName(pokemon.name, pokemonData); // Buscar el Pokémon por nombre en pokemonData
-            
-            if (pokemonDetails) {
-                // Si el Pokémon se encuentra en pokemonData, mostrar los detalles
-        
-                // Manejo de tipos con colores
-                const typeHTML = pokemonDetails.type.map((type) =>
-                    `<span class="type" style="background-color: ${typeColors[type] || "#000"}">${type}</span>`).join(" ");
 
-                const card = document.createElement("div");
-                card.className = "pokemon-card";
-                card.innerHTML = `
-                    <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}" class="pokemonIMG">
-                    <div>
-                        <h3>${pokemon.name}</h3>
-                        <p>Level: ${pokemon.level}</p>
-                         <p><strong>Type:</strong> ${typeHTML}</p>
-                        <p>Ability: ${pokemon.ability}</p>
-                        <p>Item: ${pokemon.item}</p>
-                        <p>Nature: ${pokemon.nature}</p>
-                        <p>IVs: ${pokemon.ivs || "Unknown"}</p> <!-- Mostrar IVs, si están disponibles -->
-                        <p>Moves: ${pokemon.moves.join(", ")}</p> <!-- Mostrar los movimientos -->
-                    </div>
-                `;
-                pokemonSection.appendChild(card);
-            } else {
-                console.log("Pokémon no encontrado: " + pokemon.name);
-            }
-        });
+        trainer.pokemons.forEach((pokemon, index) => {
+          // Buscar el Pokémon en los datos de pokemonData
+          const pokemonDetails = findPokemonByName(pokemon.name, pokemonData);
+      
+          if (pokemonDetails) {
+              // Manejo de tipos con colores
+              const typeHTML = pokemonDetails.type.map((type) =>
+                  `<span class="type" style="background-color: ${typeColors[type] || "#000"}">${type}</span>`).join(" ");
+      
+              // Manejo de movimientos del Pokémon
+              const movesHTML = pokemon.moves.map((move) => {
+                const moveDetails = movesData.find(m => m.name_en.toLowerCase() === move.toLowerCase());
+                if (moveDetails) {
+                    return `
+                        <div class="moveTypeWrapper">
+                            <img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type} Type">
+                            <p class="moveName">${moveDetails.name_es}</p>
+                            <img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category} Move">
+                            <div class="PowerBox"><p>Power</p><p>${moveDetails.power}</p></div>
+                            <div class="AccBox"><p>Acc</p><p>${moveDetails.accuracy}</p></div>
+                        </div>
+                    `;
+                } else {
+                    return `
+                        <div class="moveTypeWrapper">
+                            <p>${move}</p>
+                        </div>
+                    `;
+                }
+            }).join("");
+
+            // Obtener habilidades
+            const abilitiesHTML = getAbilitiesHTML(
+              pokemonDetails,
+              pokemon.ability,
+              abilitiesData
+          );
+
+              //creo la Card
+              const card = document.createElement("div");
+              
+              // Asignar múltiples clases dinámicas desde pkm1 hasta pkmX
+              card.className = `pokemon-card pkm${index + 1}`;
+              
+              // Card HTML
+              card.innerHTML = `
+                  <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}" class="pokemonIMG">
+                  <div>
+                      <h3>${pokemon.name}</h3>
+                      <div class="flex">
+                          <p>${typeHTML}</p>
+                      </div>
+                      <h3>Level ${pokemon.level}</h3>
+                      <hr>
+
+                      <div class="abilities">${abilitiesHTML}</div>
+
+                      <hr>
+                      <div class="itemImgWrapper">
+                          <p class="noItem">${pokemon.item ? capitalizeFirstWord(pokemon.item) : "Sin Objeto"}</p>
+                      </div>
+                      <div class="nature">
+                          <p>${natureTypes[pokemon.nature.toLowerCase()]}</p>
+                      </div>
+                      ${movesHTML} <!-- Inserta aquí todas las divs de movimientos -->
+                  </div>
+              `;
+
+              pokemonSection.appendChild(card);
+          } else {
+              console.log("Pokémon no encontrado: " + pokemon.name);
+          }
+      });
+      
+    }
+
+    // Obtener HTML de habilidades
+    function getAbilitiesHTML(pokemonDetails, abilityIndex, abilitiesData) {
+      const allAbilities = [...pokemonDetails.abilities];
+      //if (pokemonDetails.hidden_ability) {
+      //  allAbilities.push(pokemonDetails.hidden_ability);
+      //}
+    
+      return allAbilities
+        .map((abilityName) => {
+          const ability = abilitiesData.find(
+            (a) => a.name_en.toLowerCase() === abilityName.toLowerCase()
+          );
+          return ability
+            ? `<p class="ability-tooltip" data-description="${ability.description}">
+                ${ability.name_es}
+              </p>`
+            : `<p>${abilityName}</p>`;
+        })
+        .join("");
+    }
+
+    document.addEventListener("mousemove", (event) => {
+      if (event.target.classList.contains("ability-tooltip")) {
+        const tooltip = document.getElementById("floating-description");
+        const description = event.target.dataset.description;
+    
+        tooltip.textContent = description;
+        tooltip.style.left = event.pageX + 10 + "px";
+        tooltip.style.top = event.pageY + 10 + "px";
+        tooltip.style.display = "block";
+      } else {
+        document.getElementById("floating-description").style.display = "none";
+      }
+    });
+    
+    function capitalizeFirstWord(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
     }
 
     const searchBar = document.getElementById("search-bar");
@@ -409,14 +512,23 @@ dificultadRadios.forEach((radio) => {
 });
 
 // Modificar init para inicializar con todos los entrenadores
-function init() {
-  loadPokemon();
-  loadTrainers();
-  // Seleccionar el primer botón de radio por defecto (opcional)
+async function init() {
+  await loadPokemon();
+  await loadTrainers();
+  await loadMoves();
+  await loadAbilities();
+
+  // Seleccionar valores iniciales
   document.getElementById("bulbasaur").checked = true;
   document.getElementById("Radical").checked = true;
-  handleStarterChange(); // Aplicar el filtro inicial
+
+  // Ejecutar el filtro inicial
+  handleStarterChange();
 }
+
+// Inicializa la página cuando carga
+document.addEventListener("DOMContentLoaded", init);
+
 
   
   /* Función principal para inicializar la página
@@ -430,7 +542,7 @@ function init() {
 
   
   // Inicializa la página cuando carga
-  document.addEventListener("DOMContentLoaded", init);
+  //document.addEventListener("DOMContentLoaded", init);
 
 
   

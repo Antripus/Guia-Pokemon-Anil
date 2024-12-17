@@ -34,50 +34,89 @@
 
   </header>
 
-  <h1>Encuentros Pokémon</h1>
-    <!--seleccion de pokemon Inicial y Dificultad-->
-    <div class="Pokemon-Inicial">
-      <label>Pokémon Inicial:</label>
-      <input type="radio" id="bulbasaur" name="starter" value="Bulbasaur">
-      <label for="bulbasaur">Bulbasaur</label>
-      <input type="radio" id="charmander" name="starter" value="Charmander">
-      <label for="charmander">Charmander</label>
-      <input type="radio" id="squirtle" name="starter" value="Squirtle">
-      <label for="squirtle">Squirtle</label>
-    </div>
-    <div class="Dificultad-Card">
-      <label>Dificultad:</label>
-      <input type="radio" id="Clasico" name="dificultad" value="Clasico">
-      <label for="Clasico">Clasico</label>
-      <input type="radio" id="Completo" name="dificultad" value="Completo">
-      <label for="Completo">Completo</label>
-      <input type="radio" id="Radical" name="dificultad" value="Radical">
-      <label for="Radical">Radical</label>
-    </div>
+
+  <div id="floating-description" class="hidden"></div>
   
-  
-  
+
   <div class="container">
 
           
 
     <aside>
-      <div class="entrenadoresSearchBar">
-        <input type="text" id="search-bar" placeholder="Buscar Entrenador...">
+        <div class="toggle-buttons">
+        <input type="radio" name="starter" value="Bulbasaur" id="bulbasaur" hidden>
+        <label for="bulbasaur" class="toggle-option">  
+          <img src="./images/pokemon/bulbasaur.png" class="inicialIMG">
+        </label>
+        
+        <input type="radio" name="starter" value="Charmander" id="charmander" hidden>
+        <label for="charmander" class="toggle-option">  
+          <img src="./images/pokemon/charmander.png" class="inicialIMG">
+        </label>
+      
+        <input type="radio" name="starter" value="Squirtle" id="squirtle" hidden>
+        <label for="squirtle" class="toggle-option">
+          <img src="./images/pokemon/squirtle.png" class="inicialIMG">
+        </label>
+        
       </div>
+
+      <div class="toggle-buttons">
+        <input type="radio" id="Clasico" name="dificultad" value="Clasico" hidden>
+        <label for="Clasico" class="toggle-option">
+          <span>Clasico</span>
+        </label>
+      
+        <input type="radio" id="Completo" name="dificultad" value="Completo" hidden>
+        <label for="Completo" class="toggle-option">
+          <span>Completo</span>
+        </label>
+      
+        <input type="radio" id="Radical" name="dificultad" value="Radical" hidden>
+        <label for="Radical" class="toggle-option">
+          <span>Radical</span>
+        </label>
+      </div>
+
+      <div class="entrenadoresSearchBar">
+        <input type="text" id="search-bar" placeholder="Buscar Entrenador..." autocomplete="off">
+      </div>
+
+      <!--seleccion de pokemon Inicial y Dificultad
+      <div class="Pokemon-Inicial">
+        <label>Pokémon Inicial:</label>
+        <input type="radio" id="bulbasaur" name="starter" value="Bulbasaur">
+        <label for="bulbasaur">Bulbasaur</label>
+        <input type="radio" id="charmander" name="starter" value="Charmander">
+        <label for="charmander">Charmander</label>
+        <input type="radio" id="squirtle" name="starter" value="Squirtle">
+        <label for="squirtle">Squirtle</label>
+      </div>
+      <div class="Dificultad-Card">
+        <label>Dificultad:</label>
+        <input type="radio" id="Clasico" name="dificultad" value="Clasico">
+        <label for="Clasico">Clasico</label>
+        <input type="radio" id="Completo" name="dificultad" value="Completo">
+        <label for="Completo">Completo</label>
+        <input type="radio" id="Radical" name="dificultad" value="Radical">
+        <label for="Radical">Radical</label>
+      </div>
+      -->
+
       <div class="listaEntrenadores">
         <ul id="encounter-list">
           <!-- La lista de encuentros se genera dinámicamente -->
         </ul>
       </div>
 
-
-      
     </aside>
+
     <main>
+
       <section id="trainer-info">
         <!-- Información del entrenador -->
       </section>
+      
       <section id="pokemon-details">
         <!-- Detalles de los Pokémon -->
       </section>
