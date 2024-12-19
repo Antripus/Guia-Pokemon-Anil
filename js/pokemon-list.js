@@ -16,7 +16,7 @@ const typeColors = {
   Ice: "#98D8D8",
   Dragon: "#7038F8",
   Dark: "#705848",
-  Fairy: "#EE99AC",
+  Fairy: "#ee99ee",
   Fighting: "#C03028",
   Flying: "#A890F0",
   Ghost: "#705898",

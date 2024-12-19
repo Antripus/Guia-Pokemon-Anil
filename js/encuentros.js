@@ -267,9 +267,10 @@ const natureTypes = {
               
               // Card HTML
               card.innerHTML = `
-                  <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}" class="pokemonIMG">
+               <h3>${pokemon.name}</h3>  
+              <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}" class="pokemonIMG">
                   <div>
-                      <h3>${pokemon.name}</h3>
+                      
                       <div class="flex">
                           <p>${typeHTML}</p>
                       </div>

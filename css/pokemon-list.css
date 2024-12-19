@@ -79,12 +79,15 @@ body {
   margin-top: 20px;
 }
 
-aside {
+aside { /*pokemon-list*/
   flex: 0.5; /* ancho de la lista de la izquierda */
   border-right: 2px solid #ccc;
   padding: 10px;
   overflow-y: auto; /* Scroll sólo en la lista */
   height: 100%; /* Asegura el scroll completo */
+  background-color: aqua;
+  border-radius: 15px;
+  gap: 20px;
 }
 
 main {

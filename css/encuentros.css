@@ -224,6 +224,9 @@ aside {
   padding: 10px;
   border-radius: 15px; /* Marco redondeado */
   border: 1px solid black;
+  
+  flex-basis: max-content;
+
 }
 
 
