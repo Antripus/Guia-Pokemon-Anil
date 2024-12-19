@@ -211,13 +211,13 @@ Tipo-Combate
 /* lista de pokemon a la izquierda de la pantalla*/
 .container {
   display: flex;
-  width: 72%;
-  height: 124vh; /* Altura completa de la ventana */
+  width: 95%; /* Asegura que ocupe todo el ancho */
+  height: 100vh; /* Altura completa de la ventana */
   margin-top: 10px;
-  
   gap: 10px;
-  padding: 10px;
 }
+
+
 
 aside {
   background-color: #59646e;
@@ -233,7 +233,7 @@ aside {
   /*border-right: 2px solid #ccc;*/
   padding: 5px;
   overflow-y: auto; /* Scroll sólo en la lista */
-  height: 84%; /* Asegura el scroll completo */
+  height:75vh; /* Asegura el scroll completo */
   
 }
 
@@ -250,6 +250,7 @@ main {
   /* display: grid;*/
   grid-template-rows: auto auto;
   border: 1px solid black;
+
 }
 
 /* Estilo para la lista de Entrenadores */
@@ -654,3 +655,23 @@ input[type="radio"]#Radical:checked + .toggle-option {
 
 
 /* ----------------------------------------------------------- */
+@media (max-width: 768px) {
+  .trainer-card {
+      grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+  }
+
+  .resumenPokemon {
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+  }
+
+  .container {
+      flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+  }
+}
+
+@media (max-height: 768px) {
+
+  .listaEntrenadores{
+    height:55vh; /* Asegura el scroll completo */
+  }
+}

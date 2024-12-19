@@ -283,7 +283,7 @@ const natureTypes = {
                           <p class="noItem">${pokemon.item ? capitalizeFirstWord(pokemon.item) : "Sin Objeto"}</p>
                       </div>
                       <div class="nature">
-                          <p>${natureTypes[pokemon.nature.toLowerCase()]}</p>
+                          <p>${natureTypes[pokemon.nature.toLowerCase()] || "Naturaleza Desconocida"}</p>
                       </div>
                       ${movesHTML} <!-- Inserta aquí todas las divs de movimientos -->
                   </div>
