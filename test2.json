@@ -1,0 +1,164 @@
+{
+    "number": 122,
+    "name": "Mr. Mime",
+    "internal_name": "MRMIME",
+    "type": [
+        "Psychic",
+        "Fairy"
+    ],
+    "base_stats": {
+        "hp": 50,
+        "attack": 45,
+        "defense": 65,
+        "speed": 90,
+        "sp_attack": 100,
+        "sp_defense": 120,
+        "total": 470
+    },
+    "gender_rate": "Female50Percent",
+    "growth_rate": "Medium",
+    "base_exp": 161,
+    "effort_points": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "speed": 0,
+        "sp_attack": 0,
+        "sp_defense": 2
+    },
+    "rareness": 45,
+    "happiness": 70,
+    "abilities": [
+        "TECHNICIAN",
+        "FILTER"
+    ],
+    "hidden_ability": "PSYCHICSURGE",
+    "moves": [
+        {
+            "level": 1,
+            "move": "Magicalleaf"
+        },
+        {
+            "level": 1,
+            "move": "Quickguard"
+        },
+        {
+            "level": 1,
+            "move": "Wideguard"
+        },
+        {
+            "level": 1,
+            "move": "Powerswap"
+        },
+        {
+            "level": 1,
+            "move": "Guardswap"
+        },
+        {
+            "level": 1,
+            "move": "Barrier"
+        },
+        {
+            "level": 1,
+            "move": "Confusion"
+        },
+        {
+            "level": 4,
+            "move": "Disable"
+        },
+        {
+            "level": 8,
+            "move": "Meditate"
+        },
+        {
+            "level": 11,
+            "move": "Doubleslap"
+        },
+        {
+            "level": 15,
+            "move": "Mimic"
+        },
+        {
+            "level": 15,
+            "move": "Psywave"
+        },
+        {
+            "level": 18,
+            "move": "Encore"
+        },
+        {
+            "level": 20,
+            "move": "Reflect"
+        },
+        {
+            "level": 20,
+            "move": "Lightscreen"
+        },
+        {
+            "level": 22,
+            "move": "Psychicterrain"
+        },
+        {
+            "level": 25,
+            "move": "Psybeam"
+        },
+        {
+            "level": 29,
+            "move": "Substitute"
+        },
+        {
+            "level": 32,
+            "move": "Mistyterrain"
+        },
+        {
+            "level": 36,
+            "move": "Trick"
+        },
+        {
+            "level": 39,
+            "move": "Psychic"
+        },
+        {
+            "level": 43,
+            "move": "Roleplay"
+        },
+        {
+            "level": 46,
+            "move": "Batonpass"
+        },
+        {
+            "level": 50,
+            "move": "Psyshock"
+        }
+    ],
+    "egg_moves": [
+        "CONFUSERAY",
+        "FAKEOUT",
+        "FUTURESIGHT",
+        "HYPNOSIS",
+        "ICYWIND",
+        "MAGICROOM",
+        "MIMIC",
+        "NASTYPLOT",
+        "POWERSPLIT",
+        "TEETERDANCE",
+        "TRICK",
+        "WAKEUPSLAP"
+    ],
+    "compatibility": [
+        "Humanlike"
+    ],
+    "steps_to_hatch": 6630,
+    "height": 1.3,
+    "weight": 54.5,
+    "color": "Pink",
+    "habitat": "Urban",
+    "kind": "Barrier",
+    "pokedex_description": "A Mr. Mime is a master of pantomime. It can convince others that something unseeable actually exists. Once believed, the imaginary object does become real.",
+    "evolutions": [
+        {
+            "name": "Mrrime",
+            "method": "Item"
+        }
+    ]
+}
