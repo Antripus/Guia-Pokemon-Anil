@@ -51,6 +51,7 @@
   color: #fff;
   border-radius: 10px;
   margin: 5px;
+  border: black solid 1px;
 }
 
 .trainer1 .Tipo-Combate{
@@ -60,6 +61,7 @@
   color: #fff;
   border-radius: 10px;
   margin: 5px;
+  border: black solid 1px;
 }
 Tipo-Combate
 .trainer1 .pokeballIMG {
@@ -200,6 +202,7 @@ Tipo-Combate
   object-fit: cover;
   background-color: #f2f2f2;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: black solid 1px;
 }
 
 
@@ -258,7 +261,7 @@ main {
 
 /* Estilo para la lista de Entrenadores */
 #encounter-list {
-  list-style-type: none;
+  
   padding: 0px;
   margin: 0px;
 }

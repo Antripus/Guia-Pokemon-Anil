@@ -19,15 +19,18 @@ body {
     max-width: 400px;
     padding: 10px;
     font-size: 16px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin: 20px  ;
+    
   }
   
   #pokemon-list {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     gap: 20px;
-    padding: 20px;
+    
+    padding: 30px;
+    border-radius: 15px;
+    border: black solid 2px;
   }
   
   .pokemon-item {
@@ -37,6 +40,7 @@ body {
     padding: 15px;
     text-align: center;
     cursor: pointer;
+    
   }
   
   .pokemon-item img {
@@ -105,6 +109,7 @@ body {
   .bar {
     height: 12px;
     border-radius: 5px;
+    
   }
   
 
@@ -113,6 +118,7 @@ body {
         padding: 15px;
         background-color: #555;
         border-radius: 10px;
+        
     }
 
     #pkmGrid #topPanel {

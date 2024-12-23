@@ -95,6 +95,9 @@ header {
   #navbar li {
     border-bottom: none; /* Línea separadora entre elementos */
   }
+  #navbar li {
+    list-style-type: none;
+  }
   
   /* Diseño para el dropdown de búsqueda */
   #pokemonDropdown {

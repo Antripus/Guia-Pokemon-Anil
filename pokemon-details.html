@@ -7,13 +7,33 @@
 
 
   <link rel="stylesheet" href="css/pokemon-details.css">
+  <link rel="stylesheet" href="css/navbar.css">
 
-  <link href="/css/baseline.css" rel="stylesheet" type="text/css">
-  <link href="/css/header.css" rel="stylesheet" type="text/css">
-  <link href="/css/navbar.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
+  <header>
+
+    <nav>
+      <ul id="navbar">
+        <li>
+          <a href="index.html">
+            <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+          </a>
+        </li>
+        <li><a href="pokedex.html">Pokedex</a></li>
+        <li><a href="encuentros.html">Encuentros</a></li>
+        
+        <li id="GralSearchBar">
+          <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+        </li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+
 
   <div id="floating-description" class="hidden"></div>
 
@@ -22,5 +42,9 @@
   </div>
 
   <script src="js/pokemon-details.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leader-line/1.0.7/leader-line.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leader-line/1.0.7/leader-line.min.css" />
+
 </body>
 </html>

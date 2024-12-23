@@ -7,11 +7,33 @@
   
   
   <link rel="stylesheet" href="css/pokedex.css">
+  <link rel="stylesheet" href="css/navbar.css">
 
 
 </head>
 <body>
-  <h1>Pokédex</h1>
+
+<header>
+
+  <nav>
+    <ul id="navbar">
+      <li>
+        <a href="index.html">
+          <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+        </a>
+      </li>
+
+      <li><a href="pokedex.html">Pokedex</a></li>
+      <li><a href="encuentros.html">Encuentros</a></li>
+
+      <li id="GralSearchBar">
+        <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+      </li>
+    </ul>
+  </nav>
+
+</header>
+
   <!-- Pendiente:
  1- Mantener la barra navegadora
  2- Definir Estilos, Letras y Colores (Imagenes limpias y sensillas)
@@ -30,5 +52,7 @@
   </div>
 
   <script src="js/pokedex.js"></script>
+  <script src="js/navbar.js"></script>
+
 </body>
 </html>

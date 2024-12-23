@@ -92,7 +92,7 @@ if (!window.navbarInitialized) {
     */
         link.addEventListener("click", () => {
             sessionStorage.setItem("selectedPokemon", JSON.stringify(pokemon)); // Guarda el Pokémon seleccionado
-            window.location.href = "pokemon-details.html?number="+ pokemon.number; // Redirige a la página sin parámetros
+            window.location.href = "pokemons-list.html"; // Redirige a la página sin parámetros
 
         });
 

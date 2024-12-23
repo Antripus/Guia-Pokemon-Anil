@@ -53,12 +53,16 @@ pokemon_list = []
 current_pokemon = {}
 evolution_map = {}
 
-# Procesar líneas para construir pre-evolución y evolución base
+# Procesar líneas
 for line in lines:
     line = line.strip()
 
     if line.startswith("[") and line.endswith("]"):
         if current_pokemon:
+            # Determinar evolution_stage y pre_evolution
+            internal_name = current_pokemon["internal_name"]
+            current_pokemon["evolution_stage"] = evolution_map.get(internal_name, 1)
+            current_pokemon["pre_evolution"] = evolution_map.get(f"{internal_name}_pre", "Ninguna")
             pokemon_list.append(current_pokemon)
 
         current_pokemon = {"number": int(line.strip("[]"))}
@@ -113,8 +117,8 @@ for line in lines:
         elif key == "evolutions" and value:
             current_pokemon["evolutions"] = parse_evolutions(value)
             for evolution in current_pokemon["evolutions"]:
-                evolution_name = evolution["name"].upper()
-                evolution_map[evolution_name] = {"pre": current_pokemon["name"]}
+                evolution_map[evolution["name"].upper()] = evolution_map.get(current_pokemon["internal_name"], 1) + 1
+                evolution_map[f"{evolution['name'].upper()}_pre"] = current_pokemon["name"]
         elif key == "type1":
             if "type" not in current_pokemon:
                 current_pokemon["type"] = []
@@ -122,36 +126,15 @@ for line in lines:
         elif key == "type2" and value:
             current_pokemon["type"].append(value.capitalize())
 
-# Agregar última entrada a la lista
+# Agregar último Pokémon
 if current_pokemon:
+    internal_name = current_pokemon["internal_name"]
+    current_pokemon["evolution_stage"] = evolution_map.get(internal_name, 1)
+    current_pokemon["pre_evolution"] = evolution_map.get(f"{internal_name}_pre", "Ninguna")
     pokemon_list.append(current_pokemon)
-
-# Determinar stages recorriendo el mapa de pre-evoluciones
-for pokemon in pokemon_list:
-    internal_name = pokemon["internal_name"].upper()
-    pre_evolution = evolution_map.get(internal_name, {}).get("pre", "Ninguna")
-    pokemon["pre_evolution"] = pre_evolution
-
-    # Calcular stage evolutivo
-    stage = 1
-    while pre_evolution != "Ninguna":
-        pre_internal = next(
-            (p["internal_name"].upper() for p in pokemon_list if p["name"] == pre_evolution), None
-        )
-        if pre_internal:
-            pre_evolution = evolution_map.get(pre_internal, {}).get("pre", "Ninguna")
-            stage += 1
-        else:
-            break
-
-    pokemon["evolution_stage"] = stage
 
 # Guardar en JSON
 with open("pokemon.json", "w", encoding="utf-8") as json_file:
     json.dump(pokemon_list, json_file, indent=4, ensure_ascii=False)
-
-
-with open("pokemon_evolution_map.json", "w", encoding="utf-8") as json_file:
-    json.dump(evolution_map, json_file, indent=4, ensure_ascii=False)
 
 print("Archivo JSON creado con éxito.")

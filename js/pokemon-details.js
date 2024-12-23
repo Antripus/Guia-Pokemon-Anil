@@ -9,7 +9,9 @@ const pkmGrid = document.getElementById("pkmGrid");
 
 //seteo inicial
 const params = new URLSearchParams(window.location.search);
-const pokemonNumber = parseInt(params.get('number'), 10); // Convertir a entero
+const pokemonNumber = params.get('number') ? parseInt(params.get('number'), 10) : null;
+const pokemonName = params.get('name') ? params.get('name').toLowerCase().replace('.html', '') : null;
+
 
 
 
@@ -57,31 +59,34 @@ async function loadPokemonDetails() {
   try {
     const response = await fetch(jsonPathPokemon);
     const pokemonData = await response.json();
-    const pokemon = pokemonData.find(p => p.number === pokemonNumber);
-    sessionStorage.setItem("pokemonData", JSON.stringify(pokemonData)); // guardo en la memoria
-    //Busco los nros anteriores y posteriores al pokemon que estoy viendo
-    let preNumber = pokemonNumber - 1;
-    let postNumber = pokemonNumber + 1;
+
+    // Buscar Pokémon según número o nombre
+    const pokemon = pokemonNumber
+      ? pokemonData.find(p => p.number === pokemonNumber)
+      : pokemonData.find(p => p.name.toLowerCase() === pokemonName);
+    console.log(pokemonName);
     console.log(pokemonNumber);
-    console.log(preNumber);
-    console.log(postNumber);
+    if (!pokemon) {
+      pkmGrid.innerHTML = `<p>Pokémon no encontrado</p>`;
+      return;
+    }
 
-    //Verifico que este en mi rango de Numeros sino seteo al primero o al ultimo
-    preNumber = chequearLeftAndRight(preNumber)
-    postNumber = chequearLeftAndRight(postNumber)
-    console.log(preNumber);
-    console.log(postNumber);
+    sessionStorage.setItem("pokemonData", JSON.stringify(pokemonData)); // Guardar en memoria para acceso rápido
 
-    // busco en el JSON la info completa del pokemon anterior y posterior
+    // Buscar Pokémon anterior y posterior
+    let preNumber = pokemon.number - 1;
+    let postNumber = pokemon.number + 1;
+
+    // Asegurarse de que los números están en rango
+    preNumber = checkNumberBounds(preNumber, pokemonData.length);
+    postNumber = checkNumberBounds(postNumber, pokemonData.length);
+
     const prePokemon = pokemonData.find(p => p.number === preNumber);
     const postPokemon = pokemonData.find(p => p.number === postNumber);
 
-    //si existe el pokemon que busco lo muestro
-    if (pokemon) {
-      displayPokemonDetails(pokemon, prePokemon, postPokemon);
-    }
+    displayPokemonDetails(pokemon, prePokemon, postPokemon);
   } catch (error) {
-    console.error("Error loading Pokémon details:", error);
+    console.error("Error al cargar detalles del Pokémon:", error);
   }
 }
 
@@ -94,6 +99,12 @@ async function loadPokemonDetails() {
     } catch (error) {
       console.error("Error loading Abilities data:", error);
     }
+  }
+
+  function checkNumberBounds(number, maxNumber) {
+    if (number < 1) return 1;
+    if (number > maxNumber) return maxNumber;
+    return number;
   }
 
 function chequearLeftAndRight(pokemonNumber) {
@@ -110,16 +121,19 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   const typeHTML = pokemon.type
     .map(
       (type) =>
-        `<span class="type" style="background-color: ${typeColors[type] || "#000"
-        }">${type} </span>`
+        `
+      <p class="type" style="background-color: ${typeColors[type] || "#000"};">${type}</p>
+      `
     )
     .join(" ");
+
+
 
   // Obtener el valor máximo de los stats (excluyendo 'total' para no tener barra)
   const statsWithoutTotal = Object.entries(pokemon.base_stats).filter(
     ([stat]) => stat !== "total"
   );
-  const maxStatValue = 200 //Math.max(...statsWithoutTotal.map(([stat, value]) => value));
+  const maxStatValue = 170 //Math.max(...statsWithoutTotal.map(([stat, value]) => value));
 
 
   // Manejo de las barras de estadísticas base
@@ -140,7 +154,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   const totalHTML = pokemon.base_stats.total
     ? `<div class="grid">
         <p class="label">TOTAL</p>
-        <p class="statVal">${pokemon.base_stats.total}</p>
+        <p class="label">${pokemon.base_stats.total}</p>
         </div>`
     : "";
     //agarro los json de memoria
@@ -167,7 +181,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
           </div>
         </a>
       
-          <h1 id="pkmName">${pokemon.name} (#${pokemon.number})</h1>
+          <h1 id="pkmName">${pokemon.name}</h1>
 
         <a id="goRight" href=pokemon-details.html?number=${postPokemon.number}> 
           <div class="flex">
@@ -177,67 +191,69 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
           </div> </a>
         </div>
 
-
-          <img id="pkmImg" src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}">
-
+          <div class="pkmImagen">  
+            <img id="pkmImg" src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}">
+          </div>
+          <!-- tab para las megas
+          <div class="statBlock">  
+          ${statsHTML}${totalHTML}
+          </div>
+           -->
         <div id="tabs">
+            <!-- tab para las megas
             <div class="tab ax active">
                 <h3>AX</h3>
             </div>
+              -->
         </div>
 
         <div class="tabContent ax active">
         <div class="firstBlock">
             <div class="flex">
-                <p class="label">Species</p>
-                <p> ${pokemon.number}</p>
+                <p class="label">Species: #${pokemon.number}</p>
+            
             </div>
-            <div class="flex">
-                <p class="label">Type: ${typeHTML}</p>
+            <div class="flex last">
+              
+            <div class="typeLabel">
+            ${typeHTML}
+ 
+            </div>
+
             </div>
             
+            
+        </div>
+
+        <div class="secondBlock">
+            <div class="flex">
+                <p class="label">Base XP: ${pokemon.base_exp}</p>
+ 
+            </div>
+
             <div class="flex last">
+                <div class="flex last">
                 <p class="label">Abilities</p>
                 <ol>
                 <div class="abilities">${abilitiesHTML}</div>
                 <ol>
             </div>
-        </div>
-
-        <div class="secondBlock">
-            <div class="flex">
-                <p class="label">Base XP</p>
-                <p>${pokemon.base_exp}</p>
-            </div>
-            <div class="flex last">
-                <p class="label">Growth Rate</p>
-                <p>${pokemon.growth_rate}</p>
-            </div>
-            <div class="flex">
-                <p class="label">Description</p>
-                <p>${pokemon.pokedex_description}</p>
             </div>
         </div>
 
-        <div class="statBlock">${statsHTML}${totalHTML}</div>
+        <div class="thirdBlock">
+
+            <div class="statBlock">  
+          ${statsHTML}${totalHTML}
+          </div>
+        </div>
             
         </div>
     </div>
     
     <div id="evoContent">
       ${EvolucionesHTML}
-    </div>
-  
-    <hr>
-        <hr>
-        <hr>
-        <p><strong>Abilities:</strong> ${pokemon.abilities}</p>
-        <p><strong>Hidden Ability:</strong> ${pokemon.hidden_ability}</p>
-        <p><strong>Type:</strong> ${typeHTML}</p>
-        <p><strong>Base Stats:</strong></p>
-        <div class="statBlock">${statsHTML}${totalHTML}</div>
-        <p><strong>Pokedex Description:</strong> ${pokemon.pokedex_description}</p>
-    </div>
+
     `;
 
 }
@@ -279,6 +295,7 @@ function getAbilitiesHTML(pokemonDetails, abilitiesData) {
 }
 
 //Obtener Cadena de Evoluciones
+// Obtener Cadena de Evoluciones
 function getEvolutionChain(pokemonName, pokemonData) {
   // Buscar el Pokémon inicial en la base de datos
   const pokemon = pokemonData.find(p => p.name.toLowerCase() === pokemonName.toLowerCase());
@@ -289,6 +306,7 @@ function getEvolutionChain(pokemonName, pokemonData) {
 
   // Colocar el Pokémon actual en la etapa correspondiente
   evolutionChain[pokemon.evolution_stage - 1] = pokemon.name;
+  console.log(evolutionChain);
 
   // Encontrar pre-evoluciones hacia atrás
   let currentPokemon = pokemon;
@@ -303,53 +321,129 @@ function getEvolutionChain(pokemonName, pokemonData) {
   }
 
   // Encontrar todas las evoluciones posibles hacia adelante
-  const evolutions = pokemonData.filter(p =>
-      p.pre_evolution && p.pre_evolution.toLowerCase() === pokemon.name.toLowerCase()
-  );
+  const findEvolutions = (pokemon) => {
+      if (pokemon.evolutions && pokemon.evolutions.length > 0) {
+          pokemon.evolutions.forEach(evo => {
+              const postEvo = pokemonData.find(p => p.name.toLowerCase() === evo.name.toLowerCase());
+              console.log("postEvo: " + postEvo);
+              if (postEvo) {
+                  evolutionChain[postEvo.evolution_stage - 1] = evolutionChain[postEvo.evolution_stage - 1]
+                      ? evolutionChain[postEvo.evolution_stage - 1] + ", " + postEvo.name
+                      : postEvo.name;
+                  findEvolutions(postEvo); // Recursivamente encontrar evoluciones de la evolución actual
+              }
+          });
+      }
+  };
 
-  // Insertar todas las evoluciones en la etapa correspondiente
-  if (evolutions.length > 0) {
-      evolutionChain[evolutions[0].evolution_stage - 1] = evolutions.map(evo => evo.name).join(", ");
-  }
+  findEvolutions(pokemon);
 
-  return evolutionChain;
+  console.log("FINAL: " + evolutionChain[2]);
+  return evolutionChain; //Devuelve un arreglo donde en la posicion [0] esta el pokemon etapa 1, [1] estan los pokemon etapa 2 y em [2]estan los pokemon estapa 3
 }
 
-//Generar codigo HTML para cuadro de evoluciones
+
+// Generar código HTML para cuadro de evoluciones
+// Generar código HTML para cuadro de evoluciones
 function generateEvolutionHTML(evolutionChain, pokemonData) {
   // Crear el contenedor principal como cadena HTML
   let evoChainHTML = '<div class="evoChain">';
+  const lines = [];
+
+  // Crear contenedores para cada etapa evolutiva
+  let etapaEvolutiva1 = '<div class="etapaEvolutiva1">';
+  let etapaEvolutiva2 = '<div class="etapaEvolutiva2">';
+  let etapaEvolutiva3 = '<div class="etapaEvolutiva3">';
 
   // Iterar sobre las etapas evolutivas
   ["preMon", "currMon", "postMon"].forEach((className, index) => {
-      const stageName = evolutionChain[index];
+      const stageNames = evolutionChain[index];
 
-      if (stageName) {
-          const stagePokemon = pokemonData.find(p => p.name === stageName);
-          if (stagePokemon) {
-              const typeHTML = stagePokemon.type.map(type => `
-                  <p class="type" style="background-color: ${typeColors[type] || "#000"};">${type}</p>
-              `).join("");
+      if (stageNames) {
+          const stagePokemonNames = stageNames.split(", ");
+          stagePokemonNames.forEach(stageName => {
+              const stagePokemon = pokemonData.find(p => p.name === stageName);
+              if (stagePokemon) {
+                  const typeHTML = stagePokemon.type.map(type => `
+                      <p class="type" style="background-color: ${typeColors[type] || "#000"};">${type}</p>
+                  `).join("");
 
-              evoChainHTML += `
-                  <div class="${className}">
-                      <a href="/dex/${stagePokemon.name}" class="pkm ${index === 0 ? "second" : index === 2 ? "first" : ""}">
-                          <img src="/images/pokemon/${stagePokemon.name}.png" alt="${stagePokemon.name}">
-                          <p>${stagePokemon.name}</p>
-                          <div class="flex">${typeHTML}</div>
-                      </a>
-                  </div>
-              `;
-          }
-      } else {
-          evoChainHTML += `<div class="${className}"></div>`; // Div vacío si no hay Pokémon en la etapa
+                  let pokemonHTML = `
+                      <div class="${className}">
+                          <a href="/pokemon-details.html?number=${stagePokemon.number}" class="pkm ${index === 0 ? "second" : index === 2 ? "first" : ""}" id="${className}-${stagePokemon.name}">
+                              <img src="/images/pokemon/${stagePokemon.name}.png" alt="${stagePokemon.name}">
+                              <p>${stagePokemon.name}</p>
+                              <div class="flex">${typeHTML}</div>
+                          </a>
+                      </div>
+                  `;
+
+                  // Agregar el HTML del Pokémon al contenedor correspondiente
+                  if (index === 0) {
+                      etapaEvolutiva1 += pokemonHTML;
+                  } else if (index === 1) {
+                      etapaEvolutiva2 += pokemonHTML;
+                  } else if (index === 2) {
+                      etapaEvolutiva3 += pokemonHTML;
+                  }
+
+                  // Agregar líneas de conexión para evoluciones
+                  if (index < 2 && stagePokemon.evolutions) {
+                      stagePokemon.evolutions.forEach(evo => {
+                          const nextStagePokemon = pokemonData.find(p => p.name === evo.name);
+                          if (nextStagePokemon) {
+                              lines.push({
+                                  start: `${className}-${stagePokemon.name}`,
+                                  end: `${index === 0 ? 'currMon' : 'postMon'}-${nextStagePokemon.name}`,
+                                  method: evo.method,
+                                  condition: evo.item_or_condition
+                              });
+                          }
+                      });
+                  }
+              }
+          });
       }
   });
 
+  // Cerrar los contenedores de cada etapa evolutiva
+  evoChainHTML += etapaEvolutiva1 + '</div>';
+  evoChainHTML += etapaEvolutiva2 + '</div>';
+  evoChainHTML += etapaEvolutiva3 + '</div>';
   evoChainHTML += "</div>"; // Cierra el contenedor principal
+
+  // Esperar a que el DOM esté completamente cargado para dibujar las líneas
+  setTimeout(() => {
+      lines.forEach(line => {
+          const startElement = document.getElementById(line.start);
+          const endElement = document.getElementById(line.end);
+          if (startElement && endElement) {
+              new LeaderLine(
+                  startElement,
+                  endElement,
+                  {
+                    endLabel: LeaderLine.captionLabel(`${line.method} ${line.condition}`, {
+                        color: 'white',
+                        outlineColor: 'black',
+                        fontFamily: 'Arial',
+                        //offset: [-20, 0]
+                    }),
+                    color: '#ccc',
+                    endPlug: 'arrow3',
+                    endSocket: 'left',
+                    startSocket: 'auto',
+                    path: 'grid',
+                  }
+              );
+          }
+      });
+  }, 1000); // Ajusta el tiempo de espera si es necesario
 
   return evoChainHTML; // Devuelve el HTML como cadena
 }
+
+
+
 
 
 
