@@ -117,6 +117,10 @@ header {
     box-shadow: 0px 0px 4px 2px #42bf2f;
   }
   
+  #GralSearchBar {
+
+    padding: 15px;
+  }
 
   /*Todos estos dropdown no se donde van????*/
 /* Dropdown de búsqueda */

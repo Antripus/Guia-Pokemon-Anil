@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Imagen del Pokémon */
+.pokemon-image {
+width: 150px;
+height: 150px;
+object-fit: contain;
+display: block;
+margin: 10px auto;
+}
+
+/* Tipos con colores para las clases*/
+.type {
+display: inline-block;
+padding: 5px 10px;
+margin: 0 5px;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+/* Bloque de estadísticas */
+.statBlock {
+margin: 10px 0;
+}
+
+/* Contenedor de cada stat */
+.grid {
+display: grid;
+grid-template-columns: 1fr 0.25fr 3fr; /* 3 columnas: Label, Valor, Barra */
+grid-template-rows: 25px;
+align-items: center;
+margin: 5px 0;
+background-color: burlywood;
+}
+
+.grid .label {
+font-weight: bold;
+margin-right: 10px;
+
+}
+
+.grid .statVal {
+text-align: left;
+}
+
+.bar {
+height: 12px;
+border-radius: 5px;
+}
+
+/* lista de pokemon a la izquierda de la pantalla*/
+.container {
+display: flex;
+width: 80%;
+height: 75vh; /* Altura completa de la ventana */
+overflow: hidden; /* Evita scroll en todo el contenedor */
+margin-top: 20px;
+}
+
+aside { /*pokemon-list*/
+flex: 0.5; /* ancho de la lista de la izquierda */
+border-right: 2px solid #ccc;
+padding: 10px;
+overflow-y: auto; /* Scroll sólo en la lista */
+height: 100%; /* Asegura el scroll completo */
+background-color: aqua;
+border-radius: 15px;
+gap: 20px;
+}
+
+main {
+flex: 2;
+padding: 10px;
+overflow-y: auto; /* Permite scroll en los detalles si es necesario */
+background-color: #59646e; /* Color de fondo suave */
+border-radius: 15px; /* Marco redondeado */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+margin: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Imagen del Pokémon */
+.pokemon-image {
+width: 150px;
+height: 150px;
+object-fit: contain;
+display: block;
+margin: 10px auto;
+}
+
+/* Tipos con colores para las clases*/
+.type {
+display: inline-block;
+padding: 5px 10px;
+margin: 0 5px;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+/* Bloque de estadísticas */
+.statBlock {
+margin: 10px 0;
+}
+
+/* Contenedor de cada stat */
+.grid {
+display: grid;
+grid-template-columns: 1fr 0.25fr 3fr; /* 3 columnas: Label, Valor, Barra */
+grid-template-rows: 25px;
+align-items: center;
+margin: 5px 0;
+background-color: burlywood;
+}
+
+.grid .label {
+font-weight: bold;
+margin-right: 10px;
+
+}
+
+.grid .statVal {
+text-align: left;
+}
+
+.bar {
+height: 12px;
+border-radius: 5px;
+}
+
+/* lista de pokemon a la izquierda de la pantalla*/
+.container {
+display: flex;
+width: 80%;
+height: 75vh; /* Altura completa de la ventana */
+overflow: hidden; /* Evita scroll en todo el contenedor */
+margin-top: 20px;
+}
+
+aside { /*pokemon-list*/
+flex: 0.5; /* ancho de la lista de la izquierda */
+border-right: 2px solid #ccc;
+padding: 10px;
+overflow-y: auto; /* Scroll sólo en la lista */
+height: 100%; /* Asegura el scroll completo */
+background-color: aqua;
+border-radius: 15px;
+gap: 20px;
+}
+
+main {
+flex: 2;
+padding: 10px;
+overflow-y: auto; /* Permite scroll en los detalles si es necesario */
+background-color: #59646e; /* Color de fondo suave */
+border-radius: 15px; /* Marco redondeado */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+}
+
+/* Estilo para las imágenes en la lista de Pokémon */
+ul li img {
+width: 50px; /* Define el ancho de la imagen */
+height: 50px; /* Define la altura de la imagen */
+margin-right: 10px; /* Espacio entre la imagen y el texto */
+border-radius: 50%; /* Hace la imagen circular */
+object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
+}
+
+/* Ajusta la alineación del contenido dentro de los elementos de la lista */
+ul li {
+display: flex; /* Alinea la imagen y el texto horizontalmente */
+align-items: center; /* Centra verticalmente la imagen y el texto */
+padding: 5px 10px; /* Espacio interno para cada elemento */
+cursor: pointer; /* Cambia el cursor al pasar sobre la lista */
+border-bottom: 1px solid #ddd; /* Línea separadora entre elementos */
+}
+
+
+
+/* lista de pokemon a la izquierda de la pantalla*/
+
