@@ -3,6 +3,7 @@
 const jsonPathPokemon = "./data/pokemon.json";
 const jsonPathMoves = "./data/moves.json";
 const jsonPathAbilities = "./data/abilities.json";
+const jsonPathEncounters = "./data/encounters.json";
 
 // Elementos del DOM
 const pkmGrid = document.getElementById("pkmGrid");
@@ -90,6 +91,17 @@ async function loadPokemonDetails() {
   }
 }
 
+  // Función para cargar el encounters.JSON
+  async function loadEncounters() {
+    try {
+      const response = await fetch(jsonPathEncounters);
+      const encountersData = await response.json();
+      sessionStorage.setItem("encountersData", JSON.stringify(encountersData)); // Almacena los datos en sessionStorage
+    } catch (error) {
+      console.error("Error loading Encounters data:", error);
+    }
+  }
+
   // Función para cargar el abilities.JSON
   async function loadAbilities() {
     try {
@@ -160,15 +172,20 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
     //agarro los json de memoria
   const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData"));
   const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
+  const encountersData = JSON.parse(sessionStorage.getItem("encountersData"));
+    
+    //Obtener ubicaciones
+    const ubicacionesHTML = generateUbicacionHTML(pokemon.name, encountersData);
 
-       // Obtener habilidades
-       const abilitiesHTML = getAbilitiesHTML(pokemon,abilitiesData);
+    // Obtener habilidades
+    const abilitiesHTML = getAbilitiesHTML(pokemon,abilitiesData);
 
 
     //Obtener cadena de Evoluciones
     const evolutionChain = getEvolutionChain(pokemon.name, pokemonData);
     const EvolucionesHTML = generateEvolutionHTML(evolutionChain, pokemonData);
 
+  
 
   pkmGrid.innerHTML = `
     
@@ -253,6 +270,12 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
     
     <div id="evoContent">
       ${EvolucionesHTML}
+    </div> 
+
+    <div id="ubicacion">
+      ${ubicacionesHTML}  
+    </div> 
+
 
     `;
 
@@ -343,7 +366,6 @@ function getEvolutionChain(pokemonName, pokemonData) {
 }
 
 
-// Generar código HTML para cuadro de evoluciones
 // Generar código HTML para cuadro de evoluciones
 function generateEvolutionHTML(evolutionChain, pokemonData) {
   // Crear el contenedor principal como cadena HTML
@@ -443,6 +465,67 @@ function generateEvolutionHTML(evolutionChain, pokemonData) {
 }
 
 
+function generateUbicacionHTML(pokemon_name, encountersData) {
+  // Crear el contenedor principal como cadena HTML
+  let encountersHTML = `<div class="encounters"><h2>Ubicación</h2>`;
+
+  // Definir rutas de íconos
+  const typeIcons = {
+    Land: './images/land3.png',
+    LandClassic: './images/land3.png',
+    Water: './images/water.png',
+    WaterClassic: './images/water.png',
+    OldRod: './images/rod2.png',
+    OldRodClassic: './images/rod2.png',
+};
+const typeDefinition = {
+  Land: 'Land',
+  LandClassic: 'Land Classic',
+  Water: 'Water',
+  WaterClassic: 'Water Classic',
+  OldRod: 'Old Rod',
+  OldRodClassic: 'Old Rod Classic',
+};
+
+  // Iterar sobre todas las zonas en encountersData
+  encountersData.forEach(zone => {
+    const { nro_zona, nombre_zona, encounters } = zone;
+
+    // Filtrar métodos donde el Pokémon esté presente
+    const methods = Object.entries(encounters).filter(([method, pokemonList]) =>
+      pokemonList.some(p => p.pokemon.toLowerCase() === pokemon_name.toLowerCase())
+    );
+
+    // Si el Pokémon está en esta zona, agregar la información
+    if (methods.length > 0) {
+      encountersHTML += `<div class="zone">
+        <h3>${nombre_zona}</h3>
+        <ul>`;
+      
+        
+      methods.forEach(([method, pokemonList]) => {
+        const pokemonDetails = pokemonList.find(p => p.pokemon.toLowerCase() === pokemon_name.toLowerCase());
+        if (pokemonDetails) {
+          const icon = typeIcons[method] || '';
+          const defintion = typeDefinition [method] || '';
+          encountersHTML += `
+            <li style="list-style-type: none;">
+               <img src="${icon}" alt="${method}" class="icon">
+               <strong>${defintion}</strong>: Niveles ${pokemonDetails.min_level} - ${pokemonDetails.max_level}
+            </li>
+          `;
+        }
+      });
+
+      encountersHTML += `</ul></div>`;
+    }
+  });
+
+  encountersHTML += `</div>`;
+  return encountersHTML; // Devuelve el HTML como cadena
+}
+
+
 
 
 
@@ -451,11 +534,7 @@ function generateEvolutionHTML(evolutionChain, pokemonData) {
 function init() {
   loadPokemonDetails();
   loadAbilities();
-
-  // Seleccionar tab inicial
-
-
-  // Ejecutar el filtro inicial
+  loadEncounters();
  
 }
 
