@@ -248,7 +248,7 @@ const natureTypes = {
                 } else {
                     return `
                         <div class="moveTypeWrapper">
-                            <p>${move}</p>
+                            <p>${move}555</p>
                         </div>
                     `;
                 }

@@ -91,6 +91,19 @@ async function loadPokemonDetails() {
   }
 }
 
+
+
+    // Función para cargar el moves.JSON
+  async function loadMoves() {
+    try {
+      const response = await fetch(jsonPathMoves);
+      const movesData = await response.json();
+      sessionStorage.setItem("movesData", JSON.stringify(movesData)); // Almacena los datos en sessionStorage
+    } catch (error) {
+      console.error("Error loading Moves data:", error);
+    }
+  }
+
   // Función para cargar el encounters.JSON
   async function loadEncounters() {
     try {
@@ -173,7 +186,12 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData"));
   const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
   const encountersData = JSON.parse(sessionStorage.getItem("encountersData"));
-    
+  const movesData = JSON.parse(sessionStorage.getItem("movesData"));
+
+  
+    //Obtener ubicaciones
+    const movesHTML = generateMovesHTML(pokemon, movesData);
+
     //Obtener ubicaciones
     const ubicacionesHTML = generateUbicacionHTML(pokemon.name, encountersData);
 
@@ -275,6 +293,10 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
     <div id="ubicacion">
       ${ubicacionesHTML}  
     </div> 
+    <div id="moves">
+      ${movesHTML}  
+    </div> 
+    
 
 
     `;
@@ -477,15 +499,17 @@ function generateUbicacionHTML(pokemon_name, encountersData) {
     WaterClassic: './images/water.png',
     OldRod: './images/rod2.png',
     OldRodClassic: './images/rod2.png',
-};
-const typeDefinition = {
-  Land: 'Land',
-  LandClassic: 'Land Classic',
-  Water: 'Water',
-  WaterClassic: 'Water Classic',
-  OldRod: 'Old Rod',
-  OldRodClassic: 'Old Rod Classic',
-};
+  };
+  const typeDefinition = {
+    Land: 'Land',
+    LandClassic: 'Land Classic',
+    Water: 'Water',
+    WaterClassic: 'Water Classic',
+    OldRod: 'Old Rod',
+    OldRodClassic: 'Old Rod Classic',
+  };
+
+  let no_se_puede_capturar_pokemon = 0;
 
   // Iterar sobre todas las zonas en encountersData
   encountersData.forEach(zone => {
@@ -498,32 +522,155 @@ const typeDefinition = {
 
     // Si el Pokémon está en esta zona, agregar la información
     if (methods.length > 0) {
-      encountersHTML += `<div class="zone">
-        <h3>${nombre_zona}</h3>
+      encountersHTML += `<details>
+        <summary><strong>${nombre_zona}</strong></summary>
         <ul>`;
       
-        
       methods.forEach(([method, pokemonList]) => {
         const pokemonDetails = pokemonList.find(p => p.pokemon.toLowerCase() === pokemon_name.toLowerCase());
         if (pokemonDetails) {
           const icon = typeIcons[method] || '';
-          const defintion = typeDefinition [method] || '';
+          const definition = typeDefinition[method] || '';
           encountersHTML += `
             <li style="list-style-type: none;">
-               <img src="${icon}" alt="${method}" class="icon">
-               <strong>${defintion}</strong>: Niveles ${pokemonDetails.min_level} - ${pokemonDetails.max_level}
+              <img src="${icon}" alt="${method}" class="icon">
+              <strong>${definition}</strong>: Niveles ${pokemonDetails.min_level} - ${pokemonDetails.max_level}
             </li>
           `;
         }
       });
 
-      encountersHTML += `</ul></div>`;
+      no_se_puede_capturar_pokemon++;
+      encountersHTML += `</ul></details>`;
     }
   });
+
+  // Mostrar mensaje si el Pokémon no se encuentra en ninguna zona
+  if (no_se_puede_capturar_pokemon === 0) {
+    encountersHTML += `<p>No es posible capturarlo por encuentros</p>`;
+  }
 
   encountersHTML += `</div>`;
   return encountersHTML; // Devuelve el HTML como cadena
 }
+
+function generateMovesHTML(pokemonDetails, movesData) {
+  // Crear el contenedor principal de la lista con un encabezado
+  let listMovesHTML = `
+    <div class="listMoves">
+      <h2>Lista de Movimientos</h2>
+      <div id="moves-container">
+        <table class="moves-table">
+          <thead>
+            <tr>
+              <th data-sort="level">Nivel</th>
+              <th data-sort="type">Tipo</th>
+              <th data-sort="name">Nombre</th>
+              <th data-sort="category">Categoría</th>
+              <th data-sort="power">Poder</th>
+              <th data-sort="accuracy">Precisión</th>
+            </tr>
+          </thead>
+          <tbody id="moves-tbody">
+  `;
+
+  // Verificar si hay movimientos en el Pokémon
+  if (pokemonDetails && pokemonDetails.moves) {
+    // Ordenar los movimientos por nivel
+    const sortedMoves = pokemonDetails.moves.sort((a, b) => a.level - b.level);
+
+    // Generar filas para cada movimiento
+    sortedMoves.forEach(({ level, move }) => {
+      if (move) {
+        const moveDetails = movesData.find(
+          m => m.name_en && m.name_en.toLowerCase() === move.toLowerCase()
+        );
+
+        if (moveDetails) {
+          listMovesHTML += `
+            <tr>
+              <td>${level}</td>
+              <td><img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type} Type" class="type-icon"></td>
+              <td>${moveDetails.name_es}</td>
+              <td><img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category} Move" class="category-icon"></td>
+              <td>${moveDetails.power || 'N/A'}</td>
+              <td>${moveDetails.accuracy || 'N/A'}</td>
+            </tr>
+          `;
+        } else {
+          listMovesHTML += `
+            <tr>
+              <td colspan="6">Detalles no disponibles para el movimiento ${move}</td>
+            </tr>
+          `;
+        }
+      }
+    });
+  } else {
+    listMovesHTML += `<tr><td colspan="6">No hay movimientos disponibles para este Pokémon.</td></tr>`;
+  }
+
+  // Cerrar la tabla y contenedor
+  listMovesHTML += `
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+
+  return listMovesHTML;
+}
+
+// Función para ordenar la tabla
+function sortTable(column, order) {
+  const tbody = document.getElementById('moves-tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+
+  const getCellValue = (row, column) => {
+    const cell = row.children[column];
+    if (cell) {
+      if (column === 1 || column === 3) {
+        return cell.querySelector('img').alt;
+      } else if (column === 4 || column === 5) {
+        return cell.textContent === 'N/A' ? 0 : parseInt(cell.textContent, 10);
+      } else if (column === 0) { // Nivel column
+        return parseInt(cell.textContent, 10);
+      } else {
+        return cell.textContent;
+      }
+    }
+    return '';
+  };
+
+  const sortedRows = rows.sort((a, b) => {
+    const aValue = getCellValue(a, column);
+    const bValue = getCellValue(b, column);
+
+    if (aValue < bValue) {
+      return order === 'asc' ? -1 : 1;
+    }
+    if (aValue > bValue) {
+      return order === 'asc' ? 1 : -1;
+    }
+    return 0;
+  });
+
+  tbody.innerHTML = '';
+  sortedRows.forEach(row => tbody.appendChild(row));
+}
+
+// Agregar manejadores de eventos para ordenar las columnas
+document.addEventListener('click', (event) => {
+  if (event.target.tagName === 'TH' && event.target.dataset.sort) {
+    const column = Array.from(event.target.parentNode.children).indexOf(event.target);
+    const order = event.target.dataset.order === 'asc' ? 'desc' : 'asc';
+    event.target.dataset.order = order;
+    sortTable(column, order);
+  }
+});
+
+
+
 
 
 
@@ -535,7 +682,7 @@ function init() {
   loadPokemonDetails();
   loadAbilities();
   loadEncounters();
- 
+  loadMoves();
 }
 
 // Inicializa la página cuando carga

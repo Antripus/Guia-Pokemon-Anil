@@ -492,7 +492,7 @@ align-items: center;
 
 #pkmGrid #evoContent .evoChain .pkm p {
     font-size: 1.5rem;
-    color: #eee;
+    color: #ffffff;
     text-align: center
 }
 
@@ -529,15 +529,14 @@ align-items: center;
 
     #pkmGrid #ubicacion {
       grid-row: 4/5;
-      grid-column: 1/4;
+      grid-column: 2/4;
       display: flex;
-      align-items: center;
-      padding: 30px;
+      align-items: top;
+      padding: 10px 30px;
       border-bottom: 2px solid #aaa;
-      color: #eee;
+      color: #ffffff;
+      margin: 15px;
   }
-
-
 
     .icon {
       width: 50px;
@@ -546,3 +545,92 @@ align-items: center;
       vertical-align: middle;
   }
   
+  
+  .encounters details {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .encounters summary {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+    /*--------------------------------------------------------------------------*/
+
+  #moves{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 2px solid #aaa;
+    
+  }
+
+
+.listMoves {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 5px 0;
+
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.moves-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.moves-table th, .moves-table td {
+  text-align: center;
+  padding: 8px;
+  border-top: 3px solid #000000;
+}
+
+.moves-table th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  
+}
+
+.moves-table th[data-sort="level"] {
+  width: 10%;
+}
+
+.moves-table th[data-sort="type"] {
+  width: 15%;
+}
+
+.moves-table th[data-sort="name"] {
+  width: 30%;
+}
+
+.moves-table th[data-sort="category"] {
+  width: 15%;
+}
+
+.moves-table th[data-sort="power"] {
+  width: 15%;
+}
+
+.moves-table th[data-sort="accuracy"] {
+  width: 15%;
+}
+
+.moves-table img {
+  width: 30px;
+  height: inherit;
+}
