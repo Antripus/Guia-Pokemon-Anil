@@ -1360,5 +1360,65 @@
         "name_en": "REALEZA",
         "name_es": "Realeza",
         "description": "Recibe bonus de daño del 50% atacando con todos los tipos."
+    },
+    {
+        "id": 228,
+        "name_en": "ZEROTOHERO",
+        "name_es": "Cambio Heroico",
+        "description": "Adopta la Forma Heroica cuando se retira del combate."
+    },
+    {
+        "id": 229,
+        "name_en": "GOODASGOLD",
+        "name_es": "Cuerpo Áureo",
+        "description": "No es afectado por ataques de estado."
+    },
+    {
+        "id": 230,
+        "name_en": "PURIFYINGSALT",
+        "name_es": "Sal Purificadora",
+        "description": "Evita ser envenenado"
+    },
+    {
+        "id": 231,
+        "name_en": "GORILLATACTICS",
+        "name_es": "Monotema",
+        "description": "Aumenta el Ataque un 50%"
+    },
+    {
+        "id": 232,
+        "name_en": "NEUTRALIZINGGAS",
+        "name_es": "Gas Reactivo",
+        "description": "Anula las habilidades de todos los Pokémon."
+    },
+    {
+        "id": 233,
+        "name_en": "SURGESURFER",
+        "name_es": "Cola Surf",
+        "description": "Duplica la Velocidad en terreno eléctrico."
+    },
+    {
+        "id": 234,
+        "name_en": "INNARDSOUT",
+        "name_es": "Revés",
+        "description": "Al caer debilitado"
+    },
+    {
+        "id": 235,
+        "name_en": "WINDRIDER",
+        "name_es": "Surcavientos",
+        "description": "Si recibe un ataque de viento/tormenta su ataque sube 1 nivel."
+    },
+    {
+        "id": 236,
+        "name_en": "WINDPOWER",
+        "name_es": "Energía Eólica",
+        "description": "Si recibe un ataque de viento/tormenta produce el efecto de carga."
+    },
+    {
+        "id": 237,
+        "name_en": "POISONPUPPETEER",
+        "name_es": "Títere Tóxico",
+        "description": "Si envenena al rival también lo confunde."
     }
 ]

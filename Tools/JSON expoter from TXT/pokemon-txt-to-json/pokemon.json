@@ -1,6 +1,5 @@
 [
     {
-        "number": 1,
         "name": "Bulbasaur",
         "internal_name": "BULBASAUR",
         "type": [
@@ -49908,7 +49907,7 @@
             },
             {
                 "level": 7,
-                "move": "Watersport"
+                "move": "Bubble"
             },
             {
                 "level": 11,
@@ -54037,6 +54036,10 @@
                 "move": "Taunt"
             },
             {
+                "level": 12,
+                "move": "Karatechop"
+            },
+            {
                 "level": 15,
                 "move": "Pursuit"
             },
@@ -57190,6 +57193,10 @@
             {
                 "level": 59,
                 "move": "Destinybond"
+            },
+            {
+                "level": 62,
+                "move": "Auroraveil"
             }
         ],
         "compatibility": [
@@ -59925,6 +59932,10 @@
                 "move": "Closecombat"
             },
             {
+                "level": 52,
+                "move": "Ceaselessedge"
+            },
+            {
                 "level": 55,
                 "move": "Tripleinmersion"
             },
@@ -61425,7 +61436,7 @@
             },
             {
                 "level": 5,
-                "move": "Luckychant"
+                "move": "Pound"
             },
             {
                 "level": 7,
@@ -73542,6 +73553,10 @@
             {
                 "level": 61,
                 "move": "Sheercold"
+            },
+            {
+                "level": 65,
+                "move": "Auroraveil"
             }
         ],
         "compatibility": [
@@ -79361,6 +79376,10 @@
                 "move": "Stringshot"
             },
             {
+                "level": 5,
+                "move": "Bugbite"
+            },
+            {
                 "level": 6,
                 "move": "Stunspore"
             },
@@ -83583,6 +83602,10 @@
             {
                 "level": 38,
                 "move": "Hail"
+            },
+            {
+                "level": 39,
+                "move": "Auroraveil"
             },
             {
                 "level": 43,
@@ -92082,7 +92105,7 @@
         "rareness": 60,
         "happiness": 70,
         "abilities": [
-            "IRONBARBS"
+            "INNARDSOUT"
         ],
         "hidden_ability": "UNAWARE",
         "moves": [
@@ -98112,6 +98135,14 @@
             {
                 "level": 1,
                 "move": "Strugglebug"
+            },
+            {
+                "level": 5,
+                "move": "Stringshot"
+            },
+            {
+                "level": 8,
+                "move": "Confusion"
             }
         ],
         "egg_moves": [
@@ -107447,6 +107478,10 @@
             {
                 "level": 47,
                 "move": "Swordsdance"
+            },
+            {
+                "level": 52,
+                "move": "Direclaw"
             }
         ],
         "compatibility": [
@@ -110441,12 +110476,12 @@
         ],
         "base_stats": {
             "hp": 100,
-            "attack": 160,
-            "defense": 97,
+            "attack": 70,
+            "defense": 72,
             "speed": 100,
-            "sp_attack": 106,
-            "sp_defense": 87,
-            "total": 650
+            "sp_attack": 53,
+            "sp_defense": 62,
+            "total": 457
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Slow",
@@ -110462,7 +110497,7 @@
         "rareness": 45,
         "happiness": 50,
         "abilities": [
-            "DEFEATIST"
+            "ZEROTOHERO"
         ],
         "moves": [
             {
@@ -113967,7 +114002,7 @@
         "rareness": 45,
         "happiness": 50,
         "abilities": [
-            "STURDY"
+            "PURIFYINGSALT"
         ],
         "hidden_ability": "CLEARBODY",
         "moves": [
@@ -114265,7 +114300,7 @@
             },
             {
                 "level": 35,
-                "move": "Spikyshield"
+                "move": "Mortalspin"
             },
             {
                 "level": 39,
@@ -115293,7 +115328,7 @@
         "rareness": 45,
         "happiness": 50,
         "abilities": [
-            "MAGICGUARD"
+            "GOODASGOLD"
         ],
         "moves": [
             {
@@ -115331,6 +115366,10 @@
             {
                 "level": 49,
                 "move": "Powergem"
+            },
+            {
+                "level": 50,
+                "move": "Makeitrain"
             },
             {
                 "level": 56,
@@ -116125,6 +116164,10 @@
             {
                 "level": 40,
                 "move": "Nightslash"
+            },
+            {
+                "level": 42,
+                "move": "Kowtowcleave"
             },
             {
                 "level": 45,
@@ -118053,6 +118096,10 @@
                 "move": "Flashcannon"
             },
             {
+                "level": 57,
+                "move": "Electroshot"
+            },
+            {
                 "level": 60,
                 "move": "Metalburst"
             },
@@ -118190,6 +118237,10 @@
             {
                 "level": 50,
                 "move": "Recover"
+            },
+            {
+                "level": 55,
+                "move": "Ficklebeam"
             },
             {
                 "level": 56,

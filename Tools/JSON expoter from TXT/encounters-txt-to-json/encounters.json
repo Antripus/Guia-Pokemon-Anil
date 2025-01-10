@@ -126,18 +126,6 @@
                     "max_level": 5
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "PSYDUCK",
@@ -148,18 +136,6 @@
                     "pokemon": "BARBOACH",
                     "min_level": 4,
                     "max_level": 6
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -229,18 +205,6 @@
                     "max_level": 6
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "DEWPIDER",
@@ -248,21 +212,9 @@
                     "max_level": 6
                 },
                 {
-                    "pokemon": "BARBOACH",
+                    "pokemon": "STARYU",
                     "min_level": 4,
                     "max_level": 6
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -272,7 +224,7 @@
                     "max_level": 6
                 },
                 {
-                    "pokemon": "POLIWAG",
+                    "pokemon": "SLOWPOKE",
                     "min_level": 4,
                     "max_level": 6
                 }
@@ -337,18 +289,6 @@
                     "max_level": 6
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "CHEWTLE",
@@ -356,26 +296,14 @@
                     "max_level": 6
                 },
                 {
-                    "pokemon": "BARBOACH",
+                    "pokemon": "SLOWPOKE",
                     "min_level": 4,
                     "max_level": 6
                 }
             ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRodClassic": [
                 {
-                    "pokemon": "PSYDUCK",
+                    "pokemon": "STARYU",
                     "min_level": 4,
                     "max_level": 6
                 },
@@ -440,18 +368,6 @@
                     "max_level": 6
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "CHEWTLE",
@@ -462,18 +378,6 @@
                     "pokemon": "BARBOACH",
                     "min_level": 4,
                     "max_level": 6
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -543,18 +447,6 @@
                     "max_level": 9
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "CHEWTLE",
@@ -565,18 +457,6 @@
                     "pokemon": "BARBOACH",
                     "min_level": 7,
                     "max_level": 8
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -720,54 +600,6 @@
                     "min_level": 9,
                     "max_level": 11
                 }
-            ],
-            "Water": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
-            "OldRod": [
-                {
-                    "pokemon": "CHEWTLE",
-                    "min_level": 8,
-                    "max_level": 10
-                },
-                {
-                    "pokemon": "BARBOACH",
-                    "min_level": 8,
-                    "max_level": 10
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
-            "OldRodClassic": [
-                {
-                    "pokemon": "PSYDUCK",
-                    "min_level": 8,
-                    "max_level": 10
-                },
-                {
-                    "pokemon": "POLIWAG",
-                    "min_level": 8,
-                    "max_level": 10
-                }
             ]
         }
     },
@@ -839,18 +671,6 @@
                     "max_level": 13
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "PSYDUCK",
@@ -861,18 +681,6 @@
                     "pokemon": "TYMPOLE",
                     "min_level": 10,
                     "max_level": 13
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -967,18 +775,6 @@
                     "max_level": 14
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "SLOWPOKE",
@@ -989,18 +785,6 @@
                     "pokemon": "BARBOACH",
                     "min_level": 12,
                     "max_level": 14
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -1070,18 +854,6 @@
                     "max_level": 16
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "TYMPOLE",
@@ -1092,18 +864,6 @@
                     "pokemon": "BARBOACH",
                     "min_level": 13,
                     "max_level": 15
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -1198,18 +958,6 @@
                     "max_level": 17
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "SLOWPOKE",
@@ -1220,18 +968,6 @@
                     "pokemon": "BARBOACH",
                     "min_level": 14,
                     "max_level": 16
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -1306,18 +1042,6 @@
                     "max_level": 18
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "PSYDUCK",
@@ -1328,18 +1052,6 @@
                     "pokemon": "BARBOACH",
                     "min_level": 16,
                     "max_level": 18
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -1419,18 +1131,6 @@
                     "max_level": 18
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "STARYU",
@@ -1441,18 +1141,6 @@
                     "pokemon": "DUCKLETT",
                     "min_level": 17,
                     "max_level": 18
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -1626,18 +1314,6 @@
                     "max_level": 21
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "MARILL",
@@ -1648,18 +1324,6 @@
                     "pokemon": "FINNEON",
                     "min_level": 20,
                     "max_level": 21
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -2016,18 +1680,6 @@
                     "max_level": 25
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "LOTAD",
@@ -2038,18 +1690,6 @@
                     "pokemon": "SURSKIT",
                     "min_level": 22,
                     "max_level": 25
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -2109,18 +1749,6 @@
                     "max_level": 22
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "MARILL",
@@ -2131,18 +1759,6 @@
                     "pokemon": "DUCKLETT",
                     "min_level": 19,
                     "max_level": 22
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -2552,18 +2168,6 @@
         "nro_zona": "027",
         "nombre_zona": "Pueblo Lavanda",
         "encounters": {
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "FRILLISH",
@@ -2574,18 +2178,6 @@
                     "pokemon": "BUIZEL",
                     "min_level": 30,
                     "max_level": 32
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -2855,18 +2447,6 @@
                     "max_level": 35
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "GRIMER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "MUK",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "GRIMER",
@@ -2877,18 +2457,6 @@
                     "pokemon": "MUK",
                     "min_level": 33,
                     "max_level": 35
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "GRIMER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "MUK",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -3132,23 +2700,6 @@
                     "max_level": 42
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SKRELP",
-                    "min_level": 40,
-                    "max_level": 42
-                },
-                {
-                    "pokemon": "CLAUNCHER",
-                    "min_level": 40,
-                    "max_level": 42
-                },
-                {
-                    "pokemon": "CLAWITZER",
-                    "min_level": 40,
-                    "max_level": 42
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "OCTILLERY",
@@ -3157,18 +2708,6 @@
                 },
                 {
                     "pokemon": "TENTACOOL",
-                    "min_level": 40,
-                    "max_level": 42
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 40,
-                    "max_level": 42
-                },
-                {
-                    "pokemon": "STARYU",
                     "min_level": 40,
                     "max_level": 42
                 }
@@ -3369,18 +2908,6 @@
                     "max_level": 43
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "GOLDEEN",
-                    "min_level": 41,
-                    "max_level": 43
-                },
-                {
-                    "pokemon": "BRUXISH",
-                    "min_level": 41,
-                    "max_level": 43
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "GOLDEEN",
@@ -3389,18 +2916,6 @@
                 },
                 {
                     "pokemon": "BRUXISH",
-                    "min_level": 41,
-                    "max_level": 43
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 41,
-                    "max_level": 43
-                },
-                {
-                    "pokemon": "GOLDEEN",
                     "min_level": 41,
                     "max_level": 43
                 }
@@ -3492,18 +3007,6 @@
                     "max_level": 44
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "GOLDEEN",
-                    "min_level": 42,
-                    "max_level": 44
-                },
-                {
-                    "pokemon": "BRUXISH",
-                    "min_level": 42,
-                    "max_level": 44
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "GOLDEEN",
@@ -3512,18 +3015,6 @@
                 },
                 {
                     "pokemon": "BRUXISH",
-                    "min_level": 42,
-                    "max_level": 44
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 42,
-                    "max_level": 44
-                },
-                {
-                    "pokemon": "GOLDEEN",
                     "min_level": 42,
                     "max_level": 44
                 }
@@ -3792,42 +3283,6 @@
                     "min_level": 46,
                     "max_level": 48
                 }
-            ],
-            "Water": [
-                {
-                    "pokemon": "CHINCHOU",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "MAREANIE",
-                    "min_level": 42,
-                    "max_level": 45
-                }
-            ],
-            "OldRodClassic": [
-                {
-                    "pokemon": "CHINCHOU",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "TENTACOOL",
-                    "min_level": 42,
-                    "max_level": 45
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "CHINCHOU",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "TENTACOOL",
-                    "min_level": 42,
-                    "max_level": 45
-                }
             ]
         }
     },
@@ -4087,18 +3542,6 @@
                     "max_level": 13
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "TYMPOLE",
@@ -4109,18 +3552,6 @@
                     "pokemon": "BARBOACH",
                     "min_level": 10,
                     "max_level": 13
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -4279,18 +3710,6 @@
                     "max_level": 21
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "BUIZEL",
@@ -4301,18 +3720,6 @@
                     "pokemon": "DUCKLETT",
                     "min_level": 19,
                     "max_level": 21
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
                 }
             ],
             "OldRodClassic": [
@@ -4489,18 +3896,6 @@
                     "max_level": 45
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "QWILFISH",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "GOLISOPOD",
-                    "min_level": 42,
-                    "max_level": 45
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "QWILFISH",
@@ -4509,18 +3904,6 @@
                 },
                 {
                     "pokemon": "GOLISOPOD",
-                    "min_level": 42,
-                    "max_level": 45
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "QWILFISH",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "KRABBY",
                     "min_level": 42,
                     "max_level": 45
                 }
@@ -4707,23 +4090,6 @@
                     "max_level": 45
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "BARBOACH",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "WHISCASH",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "GOLISOPOD",
-                    "min_level": 42,
-                    "max_level": 45
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "WHISCASH",
@@ -4732,23 +4098,6 @@
                 },
                 {
                     "pokemon": "GOLISOPOD",
-                    "min_level": 42,
-                    "max_level": 45
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "PSYDUCK",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "GOLDUCK",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "KRABBY",
                     "min_level": 42,
                     "max_level": 45
                 }
@@ -4855,23 +4204,6 @@
                     "max_level": 45
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "BARBOACH",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "WHISCASH",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "GOLISOPOD",
-                    "min_level": 42,
-                    "max_level": 45
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "WHISCASH",
@@ -4880,23 +4212,6 @@
                 },
                 {
                     "pokemon": "DRATINI",
-                    "min_level": 42,
-                    "max_level": 45
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "PSYDUCK",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "GOLDUCK",
-                    "min_level": 42,
-                    "max_level": 45
-                },
-                {
-                    "pokemon": "KRABBY",
                     "min_level": 42,
                     "max_level": 45
                 }
@@ -4919,65 +4234,6 @@
         "nro_zona": "116",
         "nombre_zona": "Isla Canela",
         "encounters": {
-            "Land": [
-                {
-                    "pokemon": "GURDURR",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "MIGHTYENA",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "SKUNTANK",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "FALINKS",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "LINOONE",
-                    "min_level": 43,
-                    "max_level": 46
-                }
-            ],
-            "LandClassic": [
-                {
-                    "pokemon": "WEEZING",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "PRIMEAPE",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "GRANBULL",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "SLUGMA",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "MAGCARGO",
-                    "min_level": 43,
-                    "max_level": 46
-                },
-                {
-                    "pokemon": "URSARING",
-                    "min_level": 43,
-                    "max_level": 46
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "SEADRA",
@@ -5427,18 +4683,6 @@
                     "max_level": 53
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SEALEO",
-                    "min_level": 54,
-                    "max_level": 56
-                },
-                {
-                    "pokemon": "BARBARACLE",
-                    "min_level": 54,
-                    "max_level": 56
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "SEALEO",
@@ -5447,18 +4691,6 @@
                 },
                 {
                     "pokemon": "SHELLDER",
-                    "min_level": 54,
-                    "max_level": 56
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "GOLDUCK",
-                    "min_level": 54,
-                    "max_level": 56
-                },
-                {
-                    "pokemon": "KINGLER",
                     "min_level": 54,
                     "max_level": 56
                 }
@@ -5555,18 +4787,6 @@
                     "max_level": 53
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SEALEO",
-                    "min_level": 54,
-                    "max_level": 56
-                },
-                {
-                    "pokemon": "BARBARACLE",
-                    "min_level": 54,
-                    "max_level": 56
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "SEALEO",
@@ -5575,18 +4795,6 @@
                 },
                 {
                     "pokemon": "SHELLDER",
-                    "min_level": 54,
-                    "max_level": 56
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "GOLDUCK",
-                    "min_level": 54,
-                    "max_level": 56
-                },
-                {
-                    "pokemon": "KINGLER",
                     "min_level": 54,
                     "max_level": 56
                 }
@@ -5683,18 +4891,6 @@
                     "max_level": 58
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SEALEO",
-                    "min_level": 54,
-                    "max_level": 56
-                },
-                {
-                    "pokemon": "BARBARACLE",
-                    "min_level": 54,
-                    "max_level": 56
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "SEALEO",
@@ -5703,18 +4899,6 @@
                 },
                 {
                     "pokemon": "SHELLDER",
-                    "min_level": 54,
-                    "max_level": 56
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "GOLDUCK",
-                    "min_level": 54,
-                    "max_level": 56
-                },
-                {
-                    "pokemon": "KINGLER",
                     "min_level": 54,
                     "max_level": 56
                 }
@@ -5903,54 +5087,6 @@
                     "pokemon": "MUK",
                     "min_level": 60,
                     "max_level": 62
-                }
-            ],
-            "Water": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
-            "OldRod": [
-                {
-                    "pokemon": "DEWPIDER",
-                    "min_level": 4,
-                    "max_level": 6
-                },
-                {
-                    "pokemon": "BARBOACH",
-                    "min_level": 4,
-                    "max_level": 6
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 30,
-                    "max_level": 40
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 30,
-                    "max_level": 40
-                }
-            ],
-            "OldRodClassic": [
-                {
-                    "pokemon": "MARILL",
-                    "min_level": 4,
-                    "max_level": 6
-                },
-                {
-                    "pokemon": "POLIWAG",
-                    "min_level": 4,
-                    "max_level": 6
                 }
             ]
         }
@@ -6333,18 +5469,6 @@
                     "max_level": 64
                 }
             ],
-            "Water": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 62,
-                    "max_level": 64
-                },
-                {
-                    "pokemon": "STARYU",
-                    "min_level": 62,
-                    "max_level": 64
-                }
-            ],
             "OldRod": [
                 {
                     "pokemon": "FINIZEN",
@@ -6353,18 +5477,6 @@
                 },
                 {
                     "pokemon": "BARBOACH",
-                    "min_level": 62,
-                    "max_level": 64
-                }
-            ],
-            "WaterClassic": [
-                {
-                    "pokemon": "SLOWPOKE",
-                    "min_level": 62,
-                    "max_level": 64
-                },
-                {
-                    "pokemon": "STARYU",
                     "min_level": 62,
                     "max_level": 64
                 }
