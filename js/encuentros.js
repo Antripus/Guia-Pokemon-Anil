@@ -239,7 +239,12 @@ const natureTypes = {
                     return `
                         <div class="moveTypeWrapper">
                             <img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type} Type">
-                            <p class="moveName">${moveDetails.name_es}</p>
+                           
+                            
+                            <p class="move-tooltip" data-description="${moveDetails.description}">
+                            ${moveDetails.name_es}
+                            </p>
+
                             <img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category} Move">
                             <div class="PowerBox"><p>Power</p><p>${moveDetails.power}</p></div>
                             <div class="AccBox"><p>Acc</p><p>${moveDetails.accuracy}</p></div>
@@ -335,6 +340,21 @@ const natureTypes = {
       }
     });
     
+    document.addEventListener("mousemove", (event) => {
+      if (event.target.classList.contains("move-tooltip")) {
+        const tooltip = document.getElementById("floating-description-moves");
+        const description = event.target.dataset.description;
+    
+        tooltip.textContent = description;
+        tooltip.style.left = event.pageX + 10 + "px";
+        tooltip.style.top = event.pageY + 10 + "px";
+        tooltip.style.display = "block";
+      } else {
+        document.getElementById("floating-description-moves").style.display = "none";
+      }
+    });
+
+
     function capitalizeFirstWord(str) {
       return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
     }

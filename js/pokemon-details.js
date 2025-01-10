@@ -317,6 +317,20 @@ document.addEventListener("mousemove", (event) => {
   }
 });
 
+document.addEventListener("mousemove", (event) => {
+  if (event.target.classList.contains("move-tooltip")) {
+    const tooltip = document.getElementById("floating-description-moves");
+    const description = event.target.dataset.description;
+
+    tooltip.textContent = description;
+    tooltip.style.left = event.pageX + 10 + "px";
+    tooltip.style.top = event.pageY + 10 + "px";
+    tooltip.style.display = "block";
+  } else {
+    document.getElementById("floating-description-moves").style.display = "none";
+  }
+});
+
 
 // Obtener HTML de habilidades
 function getAbilitiesHTML(pokemonDetails, abilitiesData) {
@@ -591,7 +605,11 @@ function generateMovesHTML(pokemonDetails, movesData) {
             <tr>
               <td>${level}</td>
               <td><img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type} Type" class="type-icon"></td>
-              <td>${moveDetails.name_es}</td>
+              <td>
+                    <p class="move-tooltip" data-description="${moveDetails.description}">
+                    ${moveDetails.name_es}
+                     </p>
+              </td>
               <td><img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category} Move" class="category-icon"></td>
               <td>${moveDetails.power || 'N/A'}</td>
               <td>${moveDetails.accuracy || 'N/A'}</td>
