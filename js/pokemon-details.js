@@ -291,7 +291,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
     </div> 
 
     <div id="ubicacion">
-      ${ubicacionesHTML}  
+      ${ubicacionesHTML}        
     </div> 
     <div id="moves">
       ${movesHTML}  
@@ -515,14 +515,20 @@ function generateUbicacionHTML(pokemon_name, encountersData) {
     OldRodClassic: './images/rod2.png',
   };
   const typeDefinition = {
-    Land: 'Land',
-    LandClassic: 'Land Classic',
-    Water: 'Water',
-    WaterClassic: 'Water Classic',
-    OldRod: 'Old Rod',
-    OldRodClassic: 'Old Rod Classic',
+    Land: 'Hierva Modo Completo y Radical',
+    LandClassic: 'Hierva Modo Classic',
+    Water: 'Agua Modo Completo y Radical',
+    WaterClassic: 'Agua Modo Classic',
+    OldRod: 'Old Rod Modo Completo y Radical',
+    OldRodClassic: 'Old Rod Modo Classic',
   };
 
+
+  //LandClassic: Pokémon salvajes en la hierba de esa ruta en Modo Clásico (sin randomizar)
+  //Land: Pokémon salvajes en la hierba alta de esa ruta en el resto de modos (sin randomizar)
+  //OldRod y OldRodClassic: Lo mismo, pero para los Pokémon salvajes que se obtienen pescando
+
+  
   let no_se_puede_capturar_pokemon = 0;
 
   // Iterar sobre todas las zonas en encountersData
@@ -562,7 +568,7 @@ function generateUbicacionHTML(pokemon_name, encountersData) {
   // Mostrar mensaje si el Pokémon no se encuentra en ninguna zona
   if (no_se_puede_capturar_pokemon === 0) {
     encountersHTML += `<p>No es posible capturarlo por encuentros</p>`;
-  }
+  } 
 
   encountersHTML += `</div>`;
   return encountersHTML; // Devuelve el HTML como cadena
