@@ -176,7 +176,6 @@ const natureTypes = {
           <div class="trainer-card"> 
             <div class="trainer1"> 
               <h2 class="orden">${trainer.Orden}</h2>
-                <h3 class="numeroDeOrden"> ${trainer.variant} </h3>
               <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-img">  
               <h2>${trainer.name} </h2>
               <div class="tipo">${trainer.tipo}</div> <!-- Obligatorio u opcional --> 
