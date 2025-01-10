@@ -13564,7 +13564,11 @@
                 "nature": "ADAMANT"
             }
         ],
-        "Orden": 0
+        "Orden": 25,
+        "descripcion_de_entrenador": "Maestro Karateka del Gimnasio no oficial",
+        "ubicacion": "Ciudad Azafrán",
+        "tipo": "Opcional",
+        "tipo_de_combate": "Combate Simple"
     },
     {
         "sprite": "KARATEKA",
@@ -13613,7 +13617,11 @@
                 "nature": "ADAMANT"
             }
         ],
-        "Orden": 0
+        "Orden": 25,
+        "descripcion_de_entrenador": "Maestro Karateka del Gimnasio no oficial",
+        "ubicacion": "Ciudad Azafrán",
+        "tipo": "Opcional",
+        "tipo_de_combate": "Combate Simple"
     },
     {
         "sprite": "MEDIUM",
@@ -20570,11 +20578,7 @@
                 "nature": "Unknown"
             }
         ],
-        "Orden": 25,
-        "descripcion_de_entrenador": "Maestro Karateka del Gimnasio no oficial",
-        "ubicacion": "Ciudad Azafrán",
-        "tipo": "Opcional",
-        "tipo_de_combate": "Combate Simple"
+        "Orden": 0
     },
     {
         "sprite": "VETERANO",
@@ -20610,11 +20614,7 @@
                 "nature": "Unknown"
             }
         ],
-        "Orden": 25,
-        "descripcion_de_entrenador": "Maestro Karateka del Gimnasio no oficial",
-        "ubicacion": "Ciudad Azafrán",
-        "tipo": "Opcional",
-        "tipo_de_combate": "Combate Simple"
+        "Orden": 0
     },
     {
         "sprite": "VETERANO",

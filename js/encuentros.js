@@ -176,6 +176,7 @@ const natureTypes = {
           <div class="trainer-card"> 
             <div class="trainer1"> 
               <h2 class="orden">${trainer.Orden}</h2>
+                <h3 class="numeroDeOrden"> ${trainer.variant} </h3>
               <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-img">  
               <h2>${trainer.name} </h2>
               <div class="tipo">${trainer.tipo}</div> <!-- Obligatorio u opcional --> 
@@ -265,7 +266,7 @@ const natureTypes = {
               pokemon.ability,
               abilitiesData
           );
-
+          console.log(pokemon.ability);
               //creo la Card
               const card = document.createElement("div");
               
@@ -307,19 +308,37 @@ const natureTypes = {
 
     // Obtener HTML de habilidades
     function getAbilitiesHTML(pokemonDetails, abilityIndex, abilitiesData) {
-      const allAbilities = [...pokemonDetails.abilities];
-      //if (pokemonDetails.hidden_ability) {
-      //  allAbilities.push(pokemonDetails.hidden_ability);
-      //}
-    
-      return allAbilities
+      // Clonar las habilidades comunes del Pokémon
+      let abilitiesToShow = [...pokemonDetails.abilities];
+
+      if (pokemonDetails.hidden_ability) {
+        abilitiesToShow.push(pokemonDetails.hidden_ability);
+      }      
+      //console.log(abilitiesToShow);
+      // Ajustar la lógica según el índice
+      if (abilityIndex === '0') {
+        abilitiesToShow = abilitiesToShow.slice(0, 1); // Solo la primera habilidad
+      } else if (abilityIndex === '1') {
+        abilitiesToShow = abilitiesToShow.slice(1, 2); // Solo la segunda habilidad
+      }
+      else if (abilityIndex === '2') {
+        abilitiesToShow = abilitiesToShow.slice(abilitiesToShow.length-1, abilitiesToShow.length); // con el 2 pone el pokemon tiene la habilidad oculta, que en este punto es la ultima de mi lista
+      } else if (abilityIndex === 'X' && pokemonDetails.hidden_ability) {
+        abilitiesToShow = abilitiesToShow.slice(0, abilitiesToShow.length-1); // remuevo la habilidad oculta de las opciones
+      }
+      
+      //console.log(pokemonDetails.name+ " abilityIndex: " +abilityIndex);
+      //console.log(abilitiesToShow);
+
+      // Generar el HTML para las habilidades seleccionadas
+      return abilitiesToShow
         .map((abilityName) => {
           const ability = abilitiesData.find(
             (a) => a.name_en.toLowerCase() === abilityName.toLowerCase()
           );
           return ability
             ? `<p class="ability-tooltip" data-description="${ability.description}">
-                ${ability.name_es}
+                  ${ability.name_es}
               </p>`
             : `<p>${abilityName}</p>`;
         })
@@ -508,7 +527,7 @@ function filterTrainersByDificultad(trainerData, dificultad) {
       if (trainer.sprite.includes("HOENN") || (trainer.Orden >= 45 && trainer.Orden <= 59) ){
         //no hace nada
       }else{
-        if (dificultad === 2 && (trainer.sprite === "AGATHA1" || trainer.sprite === "MOTORISTA" || trainer.sprite ===  "VETERANO")){
+        if (dificultad === 2 && (trainer.sprite === "AGATHA1" || trainer.sprite === "MOTORISTA" || trainer.sprite ===  "KARATEKA")){
           if (trainer.variant === null){
             return false;
           }
