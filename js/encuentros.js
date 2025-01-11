@@ -133,14 +133,14 @@ const typeColors = {
 const natureTypes = {
     hasty: "Hasty (+Spe / -Def)",
     adamant: "Adamant (+Atk / -Sp. Atk)",
-    bashful: "Bashful (+Sp. Atk / -Sp. Atk)",
+    bashful: "Neutra",//"Bashful (+Sp. Atk / -Sp. Atk)",
     bold: "Bold (+Def / -Atk)",
     brave: "Brave (+Atk / -Spe)",
     calm: "Calm (+Sp. Def / -Atk)",
     careful: "Careful (+Sp. Def / -Sp. Atk)",
-    docile: "Docile (+Def / -Def)",
+    docile: "Neutra",//"Docile (+Def / -Def)",//
     gentle: "Gentle (+Sp. Def / -Def)",
-    hardy: "Hardy (+Atk / -Atk)",
+    hardy: "Neutra",//"Hardy (+Atk / -Atk)",//
     hasty: "Hasty (+Spe / -Def)",
     impish: "Impish (+Def / -Sp. Atk)",
     jolly: "Jolly (+Spe / -Sp. Atk)",
@@ -151,11 +151,11 @@ const natureTypes = {
     naive: "Naive (+Spe / -Sp. Def)",
     naughty: "Naughty (+Atk / -Sp. Def)",
     quiet: "Quiet (+Sp. Atk / -Spe)",
-    quirky: "Quirky (+Sp. Def / -Sp. Def)",
+    quirky: "Neutra",//"Quirky (+Sp. Def / -Sp. Def)",//
     rash: "Rash (+Sp. Atk / -Sp. Def)",
     relaxed: "Relaxed (+Def / -Spe)",
     sassy: "Sassy (+Sp. Def / -Spe)",
-    serious: "Serious (+Spe / -Spe)",
+    serious: "Neutra",//"Serious (+Spe / -Spe)",//
     timid: "Timid (+Spe / -Atk)",
   };
 
@@ -313,21 +313,27 @@ const natureTypes = {
       if (pokemonDetails.hidden_ability) {
         abilitiesToShow.push(pokemonDetails.hidden_ability);
       }      
-      //console.log(abilitiesToShow);
-      // Ajustar la lógica según el índice
-      if (abilityIndex === '0') {
-        abilitiesToShow = abilitiesToShow.slice(0, 1); // Solo la primera habilidad
-      } else if (abilityIndex === '1') {
-        abilitiesToShow = abilitiesToShow.slice(1, 2); // Solo la segunda habilidad
-      }
-      else if (abilityIndex === '2') {
-        abilitiesToShow = abilitiesToShow.slice(abilitiesToShow.length-1, abilitiesToShow.length); // con el 2 pone el pokemon tiene la habilidad oculta, que en este punto es la ultima de mi lista
-      } else if (abilityIndex === 'X' && pokemonDetails.hidden_ability) {
-        abilitiesToShow = abilitiesToShow.slice(0, abilitiesToShow.length-1); // remuevo la habilidad oculta de las opciones
-      }
+      console.log(abilitiesToShow);
       
-      //console.log(pokemonDetails.name+ " abilityIndex: " +abilityIndex);
-      //console.log(abilitiesToShow);
+      if(abilitiesToShow.length===1){
+        //no hago nada porque solo tiene 1 habilidad
+      }else{
+        // Ajusto abilityToShow a la lógica según el índice
+        if (abilityIndex === '0') {
+          abilitiesToShow = abilitiesToShow.slice(0, 1); // Solo la primera habilidad
+        } else if (abilityIndex === '1') {
+          abilitiesToShow = abilitiesToShow.slice(1, 2); // Solo la segunda habilidad
+        }
+        else if (abilityIndex === '2') {
+          abilitiesToShow = abilitiesToShow.slice(abilitiesToShow.length-1, abilitiesToShow.length); // con el 2 pone el pokemon tiene la habilidad oculta, que en este punto es la ultima de mi lista
+        } else if (abilityIndex === 'X' && pokemonDetails.hidden_ability) {
+          abilitiesToShow = abilitiesToShow.slice(0, abilitiesToShow.length-1); // remuevo la habilidad oculta de las opciones
+        }
+      }
+
+      
+      console.log(pokemonDetails.name+ " abilityIndex: " +abilityIndex);
+      console.log(abilitiesToShow);
 
       // Generar el HTML para las habilidades seleccionadas
       return abilitiesToShow
