@@ -1,0 +1,1148 @@
+[
+    {
+        "id": 1,
+        "name_en": "STENCH",
+        "name_es": "Hedor",
+        "description": "Repele PKMN salvajes"
+    },
+    {
+        "id": 2,
+        "name_en": "DRIZZLE",
+        "name_es": "Llovizna",
+        "description": "Provoca lluvia en las batallas."
+    },
+    {
+        "id": 3,
+        "name_en": "SPEEDBOOST",
+        "name_es": "Impulso",
+        "description": "Sube la velocidad gradualmente."
+    },
+    {
+        "id": 4,
+        "name_en": "BATTLEARMOR",
+        "name_es": "Armadura Batalla",
+        "description": "Evita que le hagan golpes críticos."
+    },
+    {
+        "id": 5,
+        "name_en": "STURDY",
+        "name_es": "Robustez",
+        "description": "Evita golpes KO."
+    },
+    {
+        "id": 6,
+        "name_en": "DAMP",
+        "name_es": "Humedad",
+        "description": "Evita ataques autodestructivos."
+    },
+    {
+        "id": 7,
+        "name_en": "LIMBER",
+        "name_es": "Flexibilidad",
+        "description": "Evita quedar paralizado."
+    },
+    {
+        "id": 8,
+        "name_en": "SANDVEIL",
+        "name_es": "Velo arena",
+        "description": "Sube la Evasión durante la tormenta arena."
+    },
+    {
+        "id": 9,
+        "name_en": "STATIC",
+        "name_es": "Elec. Estática",
+        "description": "Paraliza con el contacto."
+    },
+    {
+        "id": 10,
+        "name_en": "VOLTABSORB",
+        "name_es": "Absorbe Elec.",
+        "description": "Restaura PS cuando recibe ataques electricos"
+    },
+    {
+        "id": 11,
+        "name_en": "WATERABSORB",
+        "name_es": "Absorbe Agua",
+        "description": "Restaura PS cuando recibe ataques agua."
+    },
+    {
+        "id": 12,
+        "name_en": "OBLIVIOUS",
+        "name_es": "Despiste",
+        "description": "Evita el enamoramiento."
+    },
+    {
+        "id": 13,
+        "name_en": "CLOUDNINE",
+        "name_es": "Aclimatación",
+        "description": "Anula los efectos del clima"
+    },
+    {
+        "id": 14,
+        "name_en": "COMPOUNDEYES",
+        "name_es": "Ojocompuesto",
+        "description": "Sube la precisión."
+    },
+    {
+        "id": 15,
+        "name_en": "INSOMNIA",
+        "name_es": "Insomnio",
+        "description": "Evita quedarse dormido."
+    },
+    {
+        "id": 16,
+        "name_en": "COLORCHANGE",
+        "name_es": "Cambio Color",
+        "description": "Cambia su tipo por el del último ataque recibido."
+    },
+    {
+        "id": 17,
+        "name_en": "IMMUNITY",
+        "name_es": "Inmunidad",
+        "description": "Evita ser envenenado."
+    },
+    {
+        "id": 18,
+        "name_en": "FLASHFIRE",
+        "name_es": "Absorbe Fuego",
+        "description": "Sube el poder si es atacado con fuego."
+    },
+    {
+        "id": 19,
+        "name_en": "SHIELDDUST",
+        "name_es": "Polvo Escudo",
+        "description": "Evita efectos añadidos."
+    },
+    {
+        "id": 20,
+        "name_en": "OWNTEMPO",
+        "name_es": "Ritmo Propio",
+        "description": "Evita la confusión."
+    },
+    {
+        "id": 21,
+        "name_en": "SUCTIONCUPS",
+        "name_es": "Ventosas",
+        "description": "Evita que le obliguen huir."
+    },
+    {
+        "id": 22,
+        "name_en": "INTIMIDATE",
+        "name_es": "Intimidación",
+        "description": "Baja el ataque al rival."
+    },
+    {
+        "id": 23,
+        "name_en": "SHADOWTAG",
+        "name_es": "Sombratrampa",
+        "description": "Impide que el rival escape o pida el cambio."
+    },
+    {
+        "id": 24,
+        "name_en": "ROUGHSKIN",
+        "name_es": "Piel Tosca",
+        "description": "Inflige daño al enemigo en el contacto."
+    },
+    {
+        "id": 25,
+        "name_en": "WONDERGUARD",
+        "name_es": "Superguarda",
+        "description": "Cuesta mucho hacerle daño."
+    },
+    {
+        "id": 26,
+        "name_en": "LEVITATE",
+        "name_es": "Levitación",
+        "description": "Inmunidad a los ataques de tipo tierra."
+    },
+    {
+        "id": 27,
+        "name_en": "EFFECTSPORE",
+        "name_es": "Efecto Espora",
+        "description": "Deja esporas al contacto"
+    },
+    {
+        "id": 28,
+        "name_en": "SYNCHRONIZE",
+        "name_es": "Sincronía",
+        "description": "Comparte cambios de estado."
+    },
+    {
+        "id": 29,
+        "name_en": "CLEARBODY",
+        "name_es": "Cuerpo Puro",
+        "description": "Evita reducción de stats."
+    },
+    {
+        "id": 30,
+        "name_en": "NATURALCURE",
+        "name_es": "Cura Natural",
+        "description": "Al salir del combate cura los problemas de estado."
+    },
+    {
+        "id": 31,
+        "name_en": "LIGHTNINGROD",
+        "name_es": "Pararrayos",
+        "description": "En batallas dobles recibe los ataques eléctricos."
+    },
+    {
+        "id": 32,
+        "name_en": "SERENEGRACE",
+        "name_es": "Dicha",
+        "description": "Aumenta la probabilidad de efectos añadidos."
+    },
+    {
+        "id": 33,
+        "name_en": "SWIFTSWIM",
+        "name_es": "Nado Rápido",
+        "description": "Si hay lluvia subirá la velocidad."
+    },
+    {
+        "id": 34,
+        "name_en": "CHLOROPHYLL",
+        "name_es": "Clorofila",
+        "description": "Sube la velocidad mientras haya sol."
+    },
+    {
+        "id": 35,
+        "name_en": "ILLUMINATE",
+        "name_es": "Iluminación",
+        "description": "Sube la frecuencia de PKMN salvajes."
+    },
+    {
+        "id": 36,
+        "name_en": "TRACE",
+        "name_es": "Rastro",
+        "description": "Copia la habilidad del rival."
+    },
+    {
+        "id": 37,
+        "name_en": "HUGEPOWER",
+        "name_es": "Potencia",
+        "description": "Sube el ataque mientras en combate."
+    },
+    {
+        "id": 38,
+        "name_en": "POISONPOINT",
+        "name_es": "Punto Tóxico",
+        "description": "Envenena al contacto."
+    },
+    {
+        "id": 39,
+        "name_en": "INNERFOCUS",
+        "name_es": "Foco Interno",
+        "description": "Evita el retroceso."
+    },
+    {
+        "id": 40,
+        "name_en": "MAGMAARMOR",
+        "name_es": "Escudo Magma",
+        "description": "Evita ser congelado."
+    },
+    {
+        "id": 41,
+        "name_en": "WATERVEIL",
+        "name_es": "Velo Agua",
+        "description": "No puede ser quemado."
+    },
+    {
+        "id": 42,
+        "name_en": "MAGNETPULL",
+        "name_es": "Imán",
+        "description": "Evita la huida de PKMN tipo Acero."
+    },
+    {
+        "id": 43,
+        "name_en": "SOUNDPROOF",
+        "name_es": "Insonorizar",
+        "description": "No le afecta los ataques de sonido."
+    },
+    {
+        "id": 44,
+        "name_en": "RAINDISH",
+        "name_es": "Cura Lluvia",
+        "description": "Recupera PS en cada turno mientras haya lluvia."
+    },
+    {
+        "id": 45,
+        "name_en": "SANDSTREAM",
+        "name_es": "Chorro Arena",
+        "description": "Produce Torm Arena al salir en combate."
+    },
+    {
+        "id": 46,
+        "name_en": "PRESSURE",
+        "name_es": "Presión",
+        "description": "Se dobla el uso de PP en el enemigo."
+    },
+    {
+        "id": 47,
+        "name_en": "THICKFAT",
+        "name_es": "Sebo",
+        "description": "Reduce el poder de los ataques de tipo fuego y hielo."
+    },
+    {
+        "id": 48,
+        "name_en": "EARLYBIRD",
+        "name_es": "Madrugar",
+        "description": "Duerme la mitad de turnos."
+    },
+    {
+        "id": 49,
+        "name_en": "FLAMEBODY",
+        "name_es": "Cuerpo Llama",
+        "description": "Quema al enemigo al contacto."
+    },
+    {
+        "id": 50,
+        "name_en": "RUNAWAY",
+        "name_es": "Fuga",
+        "description": "Permite escapar en un combate contra un PKMN salvaje."
+    },
+    {
+        "id": 51,
+        "name_en": "KEENEYE",
+        "name_es": "Vista Lince",
+        "description": "Impide que le bajen la precisión."
+    },
+    {
+        "id": 52,
+        "name_en": "HYPERCUTTER",
+        "name_es": "Corte Fuerte",
+        "description": "Impide que le bajen en el ataque."
+    },
+    {
+        "id": 53,
+        "name_en": "PICKUP",
+        "name_es": "Recogida",
+        "description": "Puede que recoga objetos."
+    },
+    {
+        "id": 54,
+        "name_en": "TRUANT",
+        "name_es": "Ausente",
+        "description": "No puede atacar un turno seguido del otro."
+    },
+    {
+        "id": 55,
+        "name_en": "HUSTLE",
+        "name_es": "Entusiasmo",
+        "description": "Sube el ataque a cambio de bajar la precisión."
+    },
+    {
+        "id": 56,
+        "name_en": "CUTECHARM",
+        "name_es": "Gran Encanto",
+        "description": "Puede enamorar al rival."
+    },
+    {
+        "id": 57,
+        "name_en": "PLUS",
+        "name_es": "Más",
+        "description": "Sube el ataque con menos."
+    },
+    {
+        "id": 58,
+        "name_en": "MINUS",
+        "name_es": "Menos",
+        "description": "Sube el ataque con mas"
+    },
+    {
+        "id": 59,
+        "name_en": "FORECAST",
+        "name_es": "Predicción",
+        "description": "Cambia su tipo según el clima."
+    },
+    {
+        "id": 60,
+        "name_en": "STICKYHOLD",
+        "name_es": "Viscosidad",
+        "description": "No le pueden quitar el objeto equipado."
+    },
+    {
+        "id": 61,
+        "name_en": "SHEDSKIN",
+        "name_es": "Mudar",
+        "description": "Puede curar estados."
+    },
+    {
+        "id": 62,
+        "name_en": "GUTS",
+        "name_es": "Agallas",
+        "description": "Sube el ataque si sufre de cambio de estado."
+    },
+    {
+        "id": 63,
+        "name_en": "MARVELSCALE",
+        "name_es": "Escama Especial",
+        "description": "Sube la def. si sufre de cambio de estado."
+    },
+    {
+        "id": 64,
+        "name_en": "LIQUIDOOZE",
+        "name_es": "Lodo Líquido",
+        "description": "Absorción causa daños."
+    },
+    {
+        "id": 65,
+        "name_en": "OVERGROW",
+        "name_es": "Espesura",
+        "description": "Sube los ataques tipo Planta si tiene pocos PS."
+    },
+    {
+        "id": 66,
+        "name_en": "BLAZE",
+        "name_es": "Mar Llamas",
+        "description": "Sube los ataques tipo Fuego si tiene pocos PS."
+    },
+    {
+        "id": 67,
+        "name_en": "TORRENT",
+        "name_es": "Torrente",
+        "description": "Sube los ataques tipo Agua si tiene pocos PS."
+    },
+    {
+        "id": 68,
+        "name_en": "SWARM",
+        "name_es": "Enjambre",
+        "description": "Sube los ataques tipo Bicho si tiene pocos PS."
+    },
+    {
+        "id": 69,
+        "name_en": "ROCKHEAD",
+        "name_es": "Cabeza Roca",
+        "description": "Evita el daño al atacar."
+    },
+    {
+        "id": 70,
+        "name_en": "DROUGHT",
+        "name_es": "Sequía",
+        "description": "Hace que aumente la luz solar."
+    },
+    {
+        "id": 71,
+        "name_en": "ARENATRAP",
+        "name_es": "Trampa Arena",
+        "description": "Evita la huida."
+    },
+    {
+        "id": 72,
+        "name_en": "VITALSPIRIT",
+        "name_es": "Espíritu Vital",
+        "description": "Evita quedarse dormido."
+    },
+    {
+        "id": 73,
+        "name_en": "WHITESMOKE",
+        "name_es": "Humo Blanco",
+        "description": "Evita que le bajen los stats."
+    },
+    {
+        "id": 74,
+        "name_en": "PUREPOWER",
+        "name_es": "Energía Pura",
+        "description": "Sube el ataque"
+    },
+    {
+        "id": 75,
+        "name_en": "SHELLARMOR",
+        "name_es": "Caparazón",
+        "description": "Evita que le hagan golpes críticos."
+    },
+    {
+        "id": 76,
+        "name_en": "AIRLOCK",
+        "name_es": "Bucle Aire",
+        "description": "Anula los efectos del clima."
+    },
+    {
+        "id": 77,
+        "name_en": "TANGLEDFEET",
+        "name_es": "Tumbos",
+        "description": "Incrementa la evasión cuando el PKMN está confuso."
+    },
+    {
+        "id": 78,
+        "name_en": "MOTORDRIVE",
+        "name_es": "Electromotor",
+        "description": "Sube la velocidad si recibe un ataque eléctrico."
+    },
+    {
+        "id": 79,
+        "name_en": "RIVALRY",
+        "name_es": "Rivalidad",
+        "description": "Sube el ataque"
+    },
+    {
+        "id": 80,
+        "name_en": "STEADFAST",
+        "name_es": "Impasible",
+        "description": "Sube la velocidad cuando el PKMN poseedor retrocede."
+    },
+    {
+        "id": 81,
+        "name_en": "SNOWCLOAK",
+        "name_es": "Manto Níveo",
+        "description": "Aumenta la evasión en una tormenta de granizo."
+    },
+    {
+        "id": 82,
+        "name_en": "GLUTTONY",
+        "name_es": "Gula",
+        "description": "El PKMN poseedor utiliza la baya equipada rápido."
+    },
+    {
+        "id": 83,
+        "name_en": "ANGERPOINT",
+        "name_es": "Irascible",
+        "description": "Sube el ataque cuando recibe un golpe crítico."
+    },
+    {
+        "id": 84,
+        "name_en": "UNBURDEN",
+        "name_es": "Liviano",
+        "description": "Sube la velocidad cuando pierde un objeto equipado."
+    },
+    {
+        "id": 85,
+        "name_en": "HEATPROOF",
+        "name_es": "Ignífugo",
+        "description": "Reduce el daño de los ataques de tipo fuego."
+    },
+    {
+        "id": 86,
+        "name_en": "SIMPLE",
+        "name_es": "Simple",
+        "description": "Potencia los cambios de estadísticas."
+    },
+    {
+        "id": 87,
+        "name_en": "DRYSKIN",
+        "name_es": "Piel Seca",
+        "description": "Reduce el PS si hace calor. La lluvia restaura PS."
+    },
+    {
+        "id": 88,
+        "name_en": "DOWNLOAD",
+        "name_es": "Descarga",
+        "description": "Sube el ataq. si el rival tiene menos def."
+    },
+    {
+        "id": 89,
+        "name_en": "IRONFIST",
+        "name_es": "Puño Férreo",
+        "description": "Sube el poder de los ataques con puño"
+    },
+    {
+        "id": 90,
+        "name_en": "POISONHEAL",
+        "name_es": "Antídoto",
+        "description": "Restaura PS si esta envenenado."
+    },
+    {
+        "id": 91,
+        "name_en": "ADAPTABILITY",
+        "name_es": "Adaptable",
+        "description": "Sube el ataque cuando es el mismo al poseedor."
+    },
+    {
+        "id": 92,
+        "name_en": "SKILLLINK",
+        "name_es": "Encadenado",
+        "description": "Los ataques de multi-golpeo siempren golpeen 5 veces."
+    },
+    {
+        "id": 93,
+        "name_en": "HYDRATION",
+        "name_es": "Hidratación",
+        "description": "Cura problemas de estado cuando llueve."
+    },
+    {
+        "id": 94,
+        "name_en": "SOLARPOWER",
+        "name_es": "Poder Solar",
+        "description": "Durante el clima soleado"
+    },
+    {
+        "id": 95,
+        "name_en": "QUICKFEET",
+        "name_es": "Pies Rápidos",
+        "description": "Sube la velocidad durante un cambio de estado."
+    },
+    {
+        "id": 96,
+        "name_en": "NORMALIZE",
+        "name_es": "Normalidad",
+        "description": "Combierte los ataques del PKMN en tipo normal."
+    },
+    {
+        "id": 97,
+        "name_en": "SNIPER",
+        "name_es": "Francotirador",
+        "description": "Aumenta el daño de los golpes críticos."
+    },
+    {
+        "id": 98,
+        "name_en": "MAGICGUARD",
+        "name_es": "Muro Mágico",
+        "description": "Previene daños indirectos."
+    },
+    {
+        "id": 99,
+        "name_en": "NOGUARD",
+        "name_es": "Indefenso",
+        "description": "Aumenta la precisión al 100%."
+    },
+    {
+        "id": 100,
+        "name_en": "STALL",
+        "name_es": "Rezagado",
+        "description": "Baja la velocidad para atacar en segundo lugar."
+    },
+    {
+        "id": 101,
+        "name_en": "TECHNICIAN",
+        "name_es": "Experto",
+        "description": "Aumenta el poder de ataques debiles."
+    },
+    {
+        "id": 102,
+        "name_en": "LEAFGUARD",
+        "name_es": "Defensa Hoja",
+        "description": "Previene problemas de estado."
+    },
+    {
+        "id": 103,
+        "name_en": "KLUTZ",
+        "name_es": "Zoquete",
+        "description": "Impide el uso de objetos equipados."
+    },
+    {
+        "id": 104,
+        "name_en": "MOLDBREAKER",
+        "name_es": "Rompemoldes",
+        "description": "Anula la habilidad del rival si es defensiva."
+    },
+    {
+        "id": 105,
+        "name_en": "SUPERLUCK",
+        "name_es": "Afortunado",
+        "description": "Sube la posibilidad de producir un golpe crítico."
+    },
+    {
+        "id": 106,
+        "name_en": "AFTERMATH",
+        "name_es": "Resquicio",
+        "description": "Daña al rival si se es debilitado con un atq. físico."
+    },
+    {
+        "id": 107,
+        "name_en": "ANTICIPATION",
+        "name_es": "Anticipación",
+        "description": "Detecta ataques fulminantes."
+    },
+    {
+        "id": 108,
+        "name_en": "FOREWARN",
+        "name_es": "Alerta",
+        "description": "Permite conocer el ataque más potente del rival."
+    },
+    {
+        "id": 109,
+        "name_en": "UNAWARE",
+        "name_es": "Ignorante",
+        "description": "Ignora los cambios de estadísticas."
+    },
+    {
+        "id": 110,
+        "name_en": "TINTEDLENS",
+        "name_es": "Cromolente",
+        "description": "Potencia los movimientos poco eficaces."
+    },
+    {
+        "id": 111,
+        "name_en": "FILTER",
+        "name_es": "Filtro",
+        "description": "Reduce el daño de los ataques súper efectivos."
+    },
+    {
+        "id": 112,
+        "name_en": "SLOWSTART",
+        "name_es": "Inicio Lento",
+        "description": "Reduce el atq. y veloc. durante los primeros 5 turnos."
+    },
+    {
+        "id": 113,
+        "name_en": "SCRAPPY",
+        "name_es": "Intrépido",
+        "description": "Permite atacar PKMN fantasma con ataques normales."
+    },
+    {
+        "id": 114,
+        "name_en": "STORMDRAIN",
+        "name_es": "Colector",
+        "description": "El PKMN atrae los ataques de tipo Agua"
+    },
+    {
+        "id": 115,
+        "name_en": "ICEBODY",
+        "name_es": "Gélido",
+        "description": "Restaura PS con el granizo."
+    },
+    {
+        "id": 116,
+        "name_en": "SOLIDROCK",
+        "name_es": "Roca Solida",
+        "description": "Disminuye el daño de los ataques super efectivos."
+    },
+    {
+        "id": 117,
+        "name_en": "SNOWWARNING",
+        "name_es": "Nevada",
+        "description": "Hace que granize."
+    },
+    {
+        "id": 118,
+        "name_en": "HONEYGATHER",
+        "name_es": "Recogemiel",
+        "description": "Recoge miel después del combate."
+    },
+    {
+        "id": 119,
+        "name_en": "FRISK",
+        "name_es": "Cacheo",
+        "description": "Permite ver el objeto equipado del contrincante."
+    },
+    {
+        "id": 120,
+        "name_en": "RECKLESS",
+        "name_es": "Audaz",
+        "description": "Sube el poder de los atq. que también dañan al usuario."
+    },
+    {
+        "id": 121,
+        "name_en": "MULTITYPE",
+        "name_es": "Multitipo",
+        "description": "Cambia el tipo según la tabla."
+    },
+    {
+        "id": 122,
+        "name_en": "FLOWERGIFT",
+        "name_es": "Don Floral",
+        "description": "Sube el atq. y def. esp. durante clima soleado"
+    },
+    {
+        "id": 123,
+        "name_en": "BADDREAMS",
+        "name_es": "Mal Sueño",
+        "description": "Reduce los PS de cualquier rival que esté dormido."
+    },
+    {
+        "id": 124,
+        "name_en": "PICKPOCKET",
+        "name_es": "Hurto",
+        "description": "Al minimo contacto con el rival"
+    },
+    {
+        "id": 125,
+        "name_en": "SHEERFORCE",
+        "name_es": "Potencia Bruta",
+        "description": "Elimina los cambios de estado y sube el atq. ."
+    },
+    {
+        "id": 126,
+        "name_en": "STEELWORKER",
+        "name_es": "Acero Templado",
+        "description": "Potencia los ataques de tipo Acero."
+    },
+    {
+        "id": 127,
+        "name_en": "UNNERVE",
+        "name_es": "Nerviosismo",
+        "description": "Evita al enemigo comer bayas."
+    },
+    {
+        "id": 128,
+        "name_en": "DEFIANT",
+        "name_es": "Competitivo",
+        "description": "Si le reducen una característica"
+    },
+    {
+        "id": 129,
+        "name_en": "DEFEATIST",
+        "name_es": "Flaqueza",
+        "description": "Reduce el Atq. y Atq. Esp. cuando le queda pocos PS."
+    },
+    {
+        "id": 130,
+        "name_en": "CURSEDBODY",
+        "name_es": "Cuerpo Maldito",
+        "description": "Puede anular el ataque del enemigo"
+    },
+    {
+        "id": 131,
+        "name_en": "HEALER",
+        "name_es": "Alma Cura",
+        "description": "Permite eliminar todos los problemas de estado."
+    },
+    {
+        "id": 132,
+        "name_en": "FRIENDGUARD",
+        "name_es": "Compiescolta",
+        "description": "Reduce el daño que reciben los PKMN aliados."
+    },
+    {
+        "id": 133,
+        "name_en": "WEAKARMOR",
+        "name_es": "Armadura Frágil",
+        "description": "Baja la defensa y aumenta la velocidad"
+    },
+    {
+        "id": 134,
+        "name_en": "HEAVYMETAL",
+        "name_es": "Metal Pesado",
+        "description": "Duplica el peso."
+    },
+    {
+        "id": 135,
+        "name_en": "LIGHTMETAL",
+        "name_es": "Metal Liviano",
+        "description": "Disminuye el peso."
+    },
+    {
+        "id": 136,
+        "name_en": "MULTISCALE",
+        "name_es": "Compensación",
+        "description": "Reduce el daño cuando el PS está lleno."
+    },
+    {
+        "id": 137,
+        "name_en": "TOXICBOOST",
+        "name_es": "Ímpetu Tóxico",
+        "description": "Sube el poder si esta envenenado."
+    },
+    {
+        "id": 138,
+        "name_en": "FLAREBOOST",
+        "name_es": "Ímpetu Ardiente",
+        "description": "Sube el atauqe si esta quemado."
+    },
+    {
+        "id": 139,
+        "name_en": "HARVEST",
+        "name_es": "Cosecha",
+        "description": "Puede usar nuevamente las bayas."
+    },
+    {
+        "id": 140,
+        "name_en": "TELEPATHY",
+        "name_es": "Telepatía",
+        "description": "No recibe daño por ataques del aliado."
+    },
+    {
+        "id": 141,
+        "name_en": "MOODY",
+        "name_es": "Veleta",
+        "description": "Incrementa y reduce una estadistica."
+    },
+    {
+        "id": 142,
+        "name_en": "OVERCOAT",
+        "name_es": "Funda",
+        "description": "No se daña por Tormenta arena ni Granizo."
+    },
+    {
+        "id": 143,
+        "name_en": "POISONTOUCH",
+        "name_es": "Toque Tóxico",
+        "description": "Puede envenenar al objetivo con solo tocarlo."
+    },
+    {
+        "id": 144,
+        "name_en": "REGENERATOR",
+        "name_es": "Regeneración",
+        "description": "Recupera un PS cuando lo regresa a su PokéBall."
+    },
+    {
+        "id": 145,
+        "name_en": "BIGPECKS",
+        "name_es": "Sacapecho",
+        "description": "Impide la reducción de defensa."
+    },
+    {
+        "id": 146,
+        "name_en": "SANDRUSH",
+        "name_es": "Ímpetu Arena",
+        "description": "Aumenta la velocidad durante un tormenta arena."
+    },
+    {
+        "id": 147,
+        "name_en": "WONDERSKIN",
+        "name_es": "Piel Milagro",
+        "description": "Reduce la probabilidad de cambio de estado."
+    },
+    {
+        "id": 148,
+        "name_en": "ANALYTIC",
+        "name_es": "Cálculo Final",
+        "description": "Si el enemigo se mueve primero"
+    },
+    {
+        "id": 149,
+        "name_en": "ILLUSION",
+        "name_es": "Ilusión",
+        "description": "Permite transformarse en otros PKMN."
+    },
+    {
+        "id": 150,
+        "name_en": "IMPOSTER",
+        "name_es": "Impostor",
+        "description": "Se transforma automáticamente en el PKMN rival."
+    },
+    {
+        "id": 151,
+        "name_en": "INFILTRATOR",
+        "name_es": "Allanamiento",
+        "description": "No sirven las defensas como protección."
+    },
+    {
+        "id": 152,
+        "name_en": "MUMMY",
+        "name_es": "Momia",
+        "description": "Elimina la habilidad del enemigo."
+    },
+    {
+        "id": 153,
+        "name_en": "MOXIE",
+        "name_es": "Autoestima",
+        "description": "Sube el ataque cuando debilitas al rival."
+    },
+    {
+        "id": 154,
+        "name_en": "JUSTIFIED",
+        "name_es": "Justiciero",
+        "description": "Inmune a ataques sinistros."
+    },
+    {
+        "id": 155,
+        "name_en": "RATTLED",
+        "name_es": "Cobardía",
+        "description": "Incrementa la Velocidad."
+    },
+    {
+        "id": 156,
+        "name_en": "MAGICBOUNCE",
+        "name_es": "Espejomágico",
+        "description": "Refleja el efecto de los movimientos modificadores."
+    },
+    {
+        "id": 157,
+        "name_en": "SAPSIPPER",
+        "name_es": "Herbívoro",
+        "description": "Inmune a ataques tipo planta"
+    },
+    {
+        "id": 158,
+        "name_en": "PRANKSTER",
+        "name_es": "Bromista",
+        "description": "Hace que los ataques de efectos tengan prioridad."
+    },
+    {
+        "id": 159,
+        "name_en": "SANDFORCE",
+        "name_es": "Poder Arena",
+        "description": "Sube el poder de ciertos movimientos en una tormenta de arena."
+    },
+    {
+        "id": 160,
+        "name_en": "IRONBARBS",
+        "name_es": "Punta Acero",
+        "description": "Provoca daño al rival que haga contacto con este PKMN."
+    },
+    {
+        "id": 161,
+        "name_en": "ZENMODE",
+        "name_es": "Modo Daruma",
+        "description": "Cambia la forma del Pokémon cuando quedan pocos HP."
+    },
+    {
+        "id": 162,
+        "name_en": "VICTORYSTAR",
+        "name_es": "Tinovictoria",
+        "description": "Aumenta la presición del PKMN."
+    },
+    {
+        "id": 163,
+        "name_en": "TURBOBLAZE",
+        "name_es": "Turbollama",
+        "description": "Anula el efecto de otras habilidades."
+    },
+    {
+        "id": 164,
+        "name_en": "TERAVOLT",
+        "name_es": "Terravoltaje",
+        "description": "Anula el efecto de otras habilidades."
+    },
+    {
+        "id": 165,
+        "name_en": "SLUSHRUSH",
+        "name_es": "Quitanieves",
+        "description": "Sube la velocidad mientras haya granizo."
+    },
+    {
+        "id": 166,
+        "name_en": "PIXILATE",
+        "name_es": "Piel Feérica",
+        "description": "Convierte los movimientos de tipo Normal en Hada y los potencia."
+    },
+    {
+        "id": 167,
+        "name_en": "COLEOPTERO",
+        "name_es": "Coleóptero",
+        "description": "Convierte los movimientos de tipo Normal en Bicho."
+    },
+    {
+        "id": 168,
+        "name_en": "PIELHELADA",
+        "name_es": "Piel Helada",
+        "description": "Convierte los movimientos de tipo Normal en Hielo y los potencia."
+    },
+    {
+        "id": 169,
+        "name_en": "TOUGHCLAWS",
+        "name_es": "Garra Dura",
+        "description": "Aumenta la potencia de los mov. de contacto."
+    },
+    {
+        "id": 170,
+        "name_en": "PODERSABIO",
+        "name_es": "Poder Sabio",
+        "description": "Aumenta la potencia de los mov. especiales."
+    },
+    {
+        "id": 171,
+        "name_en": "PARENTALBOND",
+        "name_es": "Amor Filial",
+        "description": "Pega tanto la madre como la cría."
+    },
+    {
+        "id": 172,
+        "name_en": "PIELMALDITA",
+        "name_es": "Piel Tétrica",
+        "description": "Convierte los movimientos de tipo Normal en Fantasma y los potencia."
+    },
+    {
+        "id": 173,
+        "name_en": "PIELELECTRICA",
+        "name_es": "Piel Eléctrica",
+        "description": "Convierte los movimientos de tipo Normal en Eléctrico y los potencia."
+    },
+    {
+        "id": 174,
+        "name_en": "ESPANTO",
+        "name_es": "Espanto",
+        "description": "Espanta al rival y reduce su Atq.Especial."
+    },
+    {
+        "id": 175,
+        "name_en": "CABEZAHIELO",
+        "name_es": "Iceberg",
+        "description": "No recibe daño de retroceso."
+    },
+    {
+        "id": 176,
+        "name_en": "WATERBUBBLE",
+        "name_es": "Pompa",
+        "description": "Hace unas cuantas cosas."
+    },
+    {
+        "id": 177,
+        "name_en": "STAMINA",
+        "name_es": "Firmeza",
+        "description": "Aumenta la Defensa al recibir daño."
+    },
+    {
+        "id": 178,
+        "name_en": "INFLAMABLE",
+        "name_es": "Inflamable",
+        "description": "Aumenta el daño de los ataques de tipo Fuego."
+    },
+    {
+        "id": 179,
+        "name_en": "STRONGJAW",
+        "name_es": "Mandíbula Fuerte",
+        "description": "Potencia los ataques de mordedura."
+    },
+    {
+        "id": 180,
+        "name_en": "FURCOAT",
+        "name_es": "Pelaje Recio",
+        "description": "Aumenta la defensa ante ataques físicos."
+    },
+    {
+        "id": 181,
+        "name_en": "AERILATE",
+        "name_es": "Piel Celeste",
+        "description": "Convierte los movimientos de tipo Normal en Volador y los potencia."
+    },
+    {
+        "id": 182,
+        "name_en": "COMPETITIVE",
+        "name_es": "Tenacidad",
+        "description": "Aumenta el Ataque Especial cuando le bajan una característica."
+    },
+    {
+        "id": 183,
+        "name_en": "MEGALAUNCHER",
+        "name_es": "Megadisparador",
+        "description": "Aumenta el daño de los ataques de pulso."
+    },
+    {
+        "id": 184,
+        "name_en": "ALBINISMO",
+        "name_es": "Albino",
+        "description": "Aumenta el daño de los ataques de tipo Hielo."
+    },
+    {
+        "id": 185,
+        "name_en": "CONTRARY",
+        "name_es": "Respondón",
+        "description": "Invierte los cambios en las características."
+    },
+    {
+        "id": 186,
+        "name_en": "LIQUIDVOICE",
+        "name_es": "Voz Fluida",
+        "description": "Convierte los movimientos de tipo Normal en Agua y los potencia."
+    },
+    {
+        "id": 187,
+        "name_en": "PROTEAN",
+        "name_es": "Mutatipo",
+        "description": "Se convierte en el tipo del movimiento que utiliza."
+    },
+    {
+        "id": 188,
+        "name_en": "DISGUISE",
+        "name_es": "Disfraz",
+        "description": "Evita el primer ataque recibido usando su disfraz."
+    },
+    {
+        "id": 189,
+        "name_en": "STANCECHANGE",
+        "name_es": "Cambio Táctico",
+        "description": "Alterna entre forma ofensiva y forma defensiva."
+    },
+    {
+        "id": 190,
+        "name_en": "FLUFFY",
+        "name_es": "Peluche",
+        "description": "Reduce el daño recibido de contacto pero aumenta el daño recibido de Fuego."
+    },
+    {
+        "id": 191,
+        "name_en": "VERANIMA",
+        "name_es": "Veránima",
+        "description": "Absorbe movs. especiales y aumenta su Atq. Especial."
+    }
+]
