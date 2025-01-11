@@ -1,9 +1,9 @@
 
 // Ruta de los archivos JSON
-const jsonPathPokemon = "./data/pokemon.json";
-const jsonPathMoves = "./data/moves.json";
-const jsonPathAbilities = "./data/abilities.json";
-const jsonPathEncounters = "./data/encounters.json";
+const jsonPathPokemon = "./data/Anil/pokemon.json";
+const jsonPathMoves = "./data/Anil/moves.json";
+const jsonPathAbilities = "./data/Anil/abilities.json";
+const jsonPathEncounters = "./data/Anil/encounters.json";
 
 // Elementos del DOM
 const pkmGrid = document.getElementById("pkmGrid");

@@ -1,5 +1,5 @@
 // Ruta al archivo JSON
-const jsonPath = "./data/pokemon.json";
+const jsonPath = "./data/Anil/pokemon.json";
 
 // Colores para cada tipo de Pokémon
 const typeColors = {

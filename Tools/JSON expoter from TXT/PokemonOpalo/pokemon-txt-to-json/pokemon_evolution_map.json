@@ -1,0 +1,1361 @@
+{
+    "IVYSAUR": {
+        "pre": "Bulbasaur"
+    },
+    "VENUSAUR": {
+        "pre": "Ivysaur"
+    },
+    "CHARMELEON": {
+        "pre": "Charmander"
+    },
+    "CHARIZARD": {
+        "pre": "Charmeleon"
+    },
+    "WARTORTLE": {
+        "pre": "Squirtle"
+    },
+    "BLASTOISE": {
+        "pre": "Wartortle"
+    },
+    "METAPOD": {
+        "pre": "Caterpie"
+    },
+    "BUTTERFREE": {
+        "pre": "Metapod"
+    },
+    "KAKUNA": {
+        "pre": "Weedle"
+    },
+    "BEEDRILL": {
+        "pre": "Kakuna"
+    },
+    "PIDGEOTTO": {
+        "pre": "Pidgey"
+    },
+    "PIDGEOT": {
+        "pre": "Pidgeotto"
+    },
+    "RATICATE": {
+        "pre": "Rattata"
+    },
+    "FEAROW": {
+        "pre": "Spearow"
+    },
+    "ARBOK": {
+        "pre": "Ekans"
+    },
+    "RAICHU": {
+        "pre": "Pikachu"
+    },
+    "SANDSLASH": {
+        "pre": "Sandshrew"
+    },
+    "NIDORINA": {
+        "pre": "Nidoran"
+    },
+    "NIDOQUEEN": {
+        "pre": "Nidorina"
+    },
+    "NIDORINO": {
+        "pre": "Nidoran"
+    },
+    "NIDOKING": {
+        "pre": "Nidorino"
+    },
+    "CLEFABLE": {
+        "pre": "Clefairy"
+    },
+    "NINETALES": {
+        "pre": "Vulpix"
+    },
+    "WIGGLYTUFF": {
+        "pre": "Jigglypuff"
+    },
+    "GOLBAT": {
+        "pre": "Zubat"
+    },
+    "CROBAT": {
+        "pre": "Golbat"
+    },
+    "GLOOM": {
+        "pre": "Oddish"
+    },
+    "VILEPLUME": {
+        "pre": "Gloom"
+    },
+    "BELLOSSOM": {
+        "pre": "Gloom"
+    },
+    "PARASECT": {
+        "pre": "Paras"
+    },
+    "VENOMOTH": {
+        "pre": "Venonat"
+    },
+    "DUGTRIO": {
+        "pre": "Diglett"
+    },
+    "PERSIAN": {
+        "pre": "Meowth"
+    },
+    "PERRSERKER": {
+        "pre": "Meowth"
+    },
+    "GOLDUCK": {
+        "pre": "Psyduck"
+    },
+    "PRIMEAPE": {
+        "pre": "Mankey"
+    },
+    "ARCANINE": {
+        "pre": "Growlithe"
+    },
+    "POLIWHIRL": {
+        "pre": "Poliwag"
+    },
+    "POLIWRATH": {
+        "pre": "Poliwhirl"
+    },
+    "POLITOED": {
+        "pre": "Poliwhirl"
+    },
+    "KADABRA": {
+        "pre": "Abra"
+    },
+    "ALAKAZAM": {
+        "pre": "Kadabra"
+    },
+    "MACHOKE": {
+        "pre": "Machop"
+    },
+    "MACHAMP": {
+        "pre": "Machoke"
+    },
+    "WEEPINBELL": {
+        "pre": "Bellsprout"
+    },
+    "VICTREEBEL": {
+        "pre": "Weepinbell"
+    },
+    "TENTACRUEL": {
+        "pre": "Tentacool"
+    },
+    "GRAVELER": {
+        "pre": "Geodude"
+    },
+    "GOLEM": {
+        "pre": "Graveler"
+    },
+    "RAPIDASH": {
+        "pre": "Ponyta"
+    },
+    "SLOWBRO": {
+        "pre": "Slowpoke"
+    },
+    "SLOWKING": {
+        "pre": "Slowpoke"
+    },
+    "MAGNETON": {
+        "pre": "Magnemite"
+    },
+    "MAGNEZONE": {
+        "pre": "Magneton"
+    },
+    "SIRFETCHD": {
+        "pre": "Farfetch'd"
+    },
+    "DODRIO": {
+        "pre": "Doduo"
+    },
+    "DEWGONG": {
+        "pre": "Seel"
+    },
+    "MUK": {
+        "pre": "Grimer"
+    },
+    "CLOYSTER": {
+        "pre": "Shellder"
+    },
+    "HAUNTER": {
+        "pre": "Gastly"
+    },
+    "GENGAR": {
+        "pre": "Haunter"
+    },
+    "STEELIX": {
+        "pre": "Onix"
+    },
+    "HYPNO": {
+        "pre": "Drowzee"
+    },
+    "KINGLER": {
+        "pre": "Krabby"
+    },
+    "ELECTRODE": {
+        "pre": "Voltorb"
+    },
+    "EXEGGUTOR": {
+        "pre": "Exeggcute"
+    },
+    "MAROWAK": {
+        "pre": "Cubone"
+    },
+    "LICKILICKY": {
+        "pre": "Lickitung"
+    },
+    "WEEZING": {
+        "pre": "Koffing"
+    },
+    "RHYDON": {
+        "pre": "Rhyhorn"
+    },
+    "RHYPERIOR": {
+        "pre": "Rhydon"
+    },
+    "BLISSEY": {
+        "pre": "Chansey"
+    },
+    "TANGROWTH": {
+        "pre": "Tangela"
+    },
+    "SEADRA": {
+        "pre": "Horsea"
+    },
+    "KINGDRA": {
+        "pre": "Seadra"
+    },
+    "SEAKING": {
+        "pre": "Goldeen"
+    },
+    "STARMIE": {
+        "pre": "Staryu"
+    },
+    "MRRIME": {
+        "pre": "Mr. Mime"
+    },
+    "KLEAVOR": {
+        "pre": "Scyther"
+    },
+    "SCIZOR": {
+        "pre": "Scyther"
+    },
+    "ELECTIVIRE": {
+        "pre": "Electabuzz"
+    },
+    "MAGMORTAR": {
+        "pre": "Magmar"
+    },
+    "GYARADOS": {
+        "pre": "Magikarp"
+    },
+    "CEFIREON": {
+        "pre": "Eevee"
+    },
+    "VAPOREON": {
+        "pre": "Eevee"
+    },
+    "JOLTEON": {
+        "pre": "Eevee"
+    },
+    "FLAREON": {
+        "pre": "Eevee"
+    },
+    "LEAFEON": {
+        "pre": "Eevee"
+    },
+    "GLACEON": {
+        "pre": "Eevee"
+    },
+    "ESPEON": {
+        "pre": "Eevee"
+    },
+    "UMBREON": {
+        "pre": "Eevee"
+    },
+    "SYLVEON": {
+        "pre": "Eevee"
+    },
+    "PORYGON2": {
+        "pre": "Porygon"
+    },
+    "OMASTAR": {
+        "pre": "Omanyte"
+    },
+    "KABUTOPS": {
+        "pre": "Kabuto"
+    },
+    "DRAGONAIR": {
+        "pre": "Dratini"
+    },
+    "DRAGONITE": {
+        "pre": "Dragonair"
+    },
+    "BAYLEEF": {
+        "pre": "Chikorita"
+    },
+    "MEGANIUM": {
+        "pre": "Bayleef"
+    },
+    "QUILAVA": {
+        "pre": "Cyndaquil"
+    },
+    "TYPHLOSION": {
+        "pre": "Quilava"
+    },
+    "CROCONAW": {
+        "pre": "Totodile"
+    },
+    "FERALIGATR": {
+        "pre": "Croconaw"
+    },
+    "FURRET": {
+        "pre": "Sentret"
+    },
+    "NOCTOWL": {
+        "pre": "Hoothoot"
+    },
+    "LEDIAN": {
+        "pre": "Ledyba"
+    },
+    "ARIADOS": {
+        "pre": "Spinarak"
+    },
+    "LANTURN": {
+        "pre": "Chinchou"
+    },
+    "PIKACHU": {
+        "pre": "Pichu"
+    },
+    "CLEFAIRY": {
+        "pre": "Cleffa"
+    },
+    "JIGGLYPUFF": {
+        "pre": "Igglybuff"
+    },
+    "TOGETIC": {
+        "pre": "Togepi"
+    },
+    "TOGEKISS": {
+        "pre": "Togetic"
+    },
+    "XATU": {
+        "pre": "Natu"
+    },
+    "FLAAFFY": {
+        "pre": "Mareep"
+    },
+    "AMPHAROS": {
+        "pre": "Flaaffy"
+    },
+    "AZUMARILL": {
+        "pre": "Marill"
+    },
+    "SKIPLOOM": {
+        "pre": "Hoppip"
+    },
+    "JUMPLUFF": {
+        "pre": "Skiploom"
+    },
+    "AMBIPOM": {
+        "pre": "Aipom"
+    },
+    "SUNFLORA": {
+        "pre": "Sunkern"
+    },
+    "YANMEGA": {
+        "pre": "Yanma"
+    },
+    "QUAGSIRE": {
+        "pre": "Wooper"
+    },
+    "HONCHKROW": {
+        "pre": "Murkrow"
+    },
+    "MISMAGIUS": {
+        "pre": "Misdreavus"
+    },
+    "FORRETRESS": {
+        "pre": "Pineco"
+    },
+    "GLISCOR": {
+        "pre": "Gligar"
+    },
+    "GRANBULL": {
+        "pre": "Snubbull"
+    },
+    "OVERQWIL": {
+        "pre": "Qwilfish"
+    },
+    "SNEASLER": {
+        "pre": "Sneasel"
+    },
+    "WEAVILE": {
+        "pre": "Sneasel"
+    },
+    "URSARING": {
+        "pre": "Teddiursa"
+    },
+    "MAGCARGO": {
+        "pre": "Slugma"
+    },
+    "PILOSWINE": {
+        "pre": "Swinub"
+    },
+    "MAMOSWINE": {
+        "pre": "Piloswine"
+    },
+    "CURSOLA": {
+        "pre": "Corsola"
+    },
+    "OCTILLERY": {
+        "pre": "Remoraid"
+    },
+    "HOUNDOOM": {
+        "pre": "Houndour"
+    },
+    "DONPHAN": {
+        "pre": "Phanpy"
+    },
+    "PORYGONZ": {
+        "pre": "Porygon2"
+    },
+    "WYRDEER": {
+        "pre": "Stantler"
+    },
+    "HITMONLEE": {
+        "pre": "Tyrogue"
+    },
+    "HITMONCHAN": {
+        "pre": "Tyrogue"
+    },
+    "HITMONTOP": {
+        "pre": "Tyrogue"
+    },
+    "JYNX": {
+        "pre": "Smoochum"
+    },
+    "ELECTABUZZ": {
+        "pre": "Elekid"
+    },
+    "MAGMAR": {
+        "pre": "Magby"
+    },
+    "PUPITAR": {
+        "pre": "Larvitar"
+    },
+    "TYRANITAR": {
+        "pre": "Pupitar"
+    },
+    "GROVYLE": {
+        "pre": "Treecko"
+    },
+    "SCEPTILE": {
+        "pre": "Grovyle"
+    },
+    "COMBUSKEN": {
+        "pre": "Torchic"
+    },
+    "BLAZIKEN": {
+        "pre": "Combusken"
+    },
+    "MARSHTOMP": {
+        "pre": "Mudkip"
+    },
+    "SWAMPERT": {
+        "pre": "Marshtomp"
+    },
+    "MIGHTYENA": {
+        "pre": "Poochyena"
+    },
+    "LINOONE": {
+        "pre": "Zigzagoon"
+    },
+    "OBSTAGOON": {
+        "pre": "Linoone"
+    },
+    "SILCOON": {
+        "pre": "Wurmple"
+    },
+    "CASCOON": {
+        "pre": "Wurmple"
+    },
+    "BEAUTIFLY": {
+        "pre": "Silcoon"
+    },
+    "DUSTOX": {
+        "pre": "Cascoon"
+    },
+    "LOMBRE": {
+        "pre": "Lotad"
+    },
+    "LUDICOLO": {
+        "pre": "Lombre"
+    },
+    "NUZLEAF": {
+        "pre": "Seedot"
+    },
+    "SHIFTRY": {
+        "pre": "Nuzleaf"
+    },
+    "SWELLOW": {
+        "pre": "Taillow"
+    },
+    "PELIPPER": {
+        "pre": "Wingull"
+    },
+    "KIRLIA": {
+        "pre": "Ralts"
+    },
+    "GARDEVOIR": {
+        "pre": "Kirlia"
+    },
+    "GALLADE": {
+        "pre": "Kirlia"
+    },
+    "MASQUERAIN": {
+        "pre": "Surskit"
+    },
+    "BRELOOM": {
+        "pre": "Shroomish"
+    },
+    "VIGOROTH": {
+        "pre": "Slakoth"
+    },
+    "SLAKING": {
+        "pre": "Vigoroth"
+    },
+    "NINJASK": {
+        "pre": "Nincada"
+    },
+    "SHEDINJA": {
+        "pre": "Nincada"
+    },
+    "LOUDRED": {
+        "pre": "Whismur"
+    },
+    "EXPLOUD": {
+        "pre": "Loudred"
+    },
+    "HARIYAMA": {
+        "pre": "Makuhita"
+    },
+    "MARILL": {
+        "pre": "Azurill"
+    },
+    "PROBOPASS": {
+        "pre": "Nosepass"
+    },
+    "DELCATTY": {
+        "pre": "Skitty"
+    },
+    "MAIDIBLE": {
+        "pre": "Mawile"
+    },
+    "LAIRON": {
+        "pre": "Aron"
+    },
+    "AGGRON": {
+        "pre": "Lairon"
+    },
+    "MEDICHAM": {
+        "pre": "Meditite"
+    },
+    "MANECTRIC": {
+        "pre": "Electrike"
+    },
+    "ROSERADE": {
+        "pre": "Roselia"
+    },
+    "SWALOT": {
+        "pre": "Gulpin"
+    },
+    "SHARPEDO": {
+        "pre": "Carvanha"
+    },
+    "WAILORD": {
+        "pre": "Wailmer"
+    },
+    "CAMERUPT": {
+        "pre": "Numel"
+    },
+    "GRUMPIG": {
+        "pre": "Spoink"
+    },
+    "VIBRAVA": {
+        "pre": "Trapinch"
+    },
+    "FLYGON": {
+        "pre": "Vibrava"
+    },
+    "CACTURNE": {
+        "pre": "Cacnea"
+    },
+    "ALTARIA": {
+        "pre": "Swablu"
+    },
+    "WHISCASH": {
+        "pre": "Barboach"
+    },
+    "CRAWDAUNT": {
+        "pre": "Corphish"
+    },
+    "CLAYDOL": {
+        "pre": "Baltoy"
+    },
+    "CRADILY": {
+        "pre": "Lileep"
+    },
+    "ARMALDO": {
+        "pre": "Anorith"
+    },
+    "MILOTIC": {
+        "pre": "Feebas"
+    },
+    "BANETTE": {
+        "pre": "Shuppet"
+    },
+    "ZIPPECTRE": {
+        "pre": "Banette"
+    },
+    "DUSCLOPS": {
+        "pre": "Duskull"
+    },
+    "DUSKNOIR": {
+        "pre": "Dusclops"
+    },
+    "WOBBUFFET": {
+        "pre": "Wynaut"
+    },
+    "GLALIE": {
+        "pre": "Snorunt"
+    },
+    "FROSLASS": {
+        "pre": "Snorunt"
+    },
+    "SEALEO": {
+        "pre": "Spheal"
+    },
+    "WALREIN": {
+        "pre": "Sealeo"
+    },
+    "HUNTAIL": {
+        "pre": "Clamperl"
+    },
+    "GOREBYSS": {
+        "pre": "Clamperl"
+    },
+    "SHELGON": {
+        "pre": "Bagon"
+    },
+    "SALAMENCE": {
+        "pre": "Shelgon"
+    },
+    "METANG": {
+        "pre": "Beldum"
+    },
+    "METAGROSS": {
+        "pre": "Metang"
+    },
+    "GROTLE": {
+        "pre": "Turtwig"
+    },
+    "TORTERRA": {
+        "pre": "Grotle"
+    },
+    "MONFERNO": {
+        "pre": "Chimchar"
+    },
+    "INFERNAPE": {
+        "pre": "Monferno"
+    },
+    "PRINPLUP": {
+        "pre": "Piplup"
+    },
+    "EMPOLEON": {
+        "pre": "Prinplup"
+    },
+    "STARAVIA": {
+        "pre": "Starly"
+    },
+    "STARAPTOR": {
+        "pre": "Staravia"
+    },
+    "BIBAREL": {
+        "pre": "Bidoof"
+    },
+    "KRICKETUNE": {
+        "pre": "Kricketot"
+    },
+    "LUXIO": {
+        "pre": "Shinx"
+    },
+    "LUXRAY": {
+        "pre": "Luxio"
+    },
+    "ROSELIA": {
+        "pre": "Budew"
+    },
+    "RAMPARDOS": {
+        "pre": "Cranidos"
+    },
+    "BASTIODON": {
+        "pre": "Shieldon"
+    },
+    "WORMADAM": {
+        "pre": "Burmy"
+    },
+    "MOTHIM": {
+        "pre": "Burmy"
+    },
+    "VESPIQUEN": {
+        "pre": "Combee"
+    },
+    "FLOATZEL": {
+        "pre": "Buizel"
+    },
+    "CHERRIM": {
+        "pre": "Cherubi"
+    },
+    "GASTRODON": {
+        "pre": "Shellos"
+    },
+    "DRIFBLIM": {
+        "pre": "Drifloon"
+    },
+    "LOPUNNY": {
+        "pre": "Buneary"
+    },
+    "LUPICE": {
+        "pre": "Lopunny"
+    },
+    "PURUGLY": {
+        "pre": "Glameow"
+    },
+    "CHIMECHO": {
+        "pre": "Chingling"
+    },
+    "SKUNTANK": {
+        "pre": "Stunky"
+    },
+    "BRONZONG": {
+        "pre": "Bronzor"
+    },
+    "SUDOWOODO": {
+        "pre": "Bonsly"
+    },
+    "MRMIME": {
+        "pre": "Mime Jr."
+    },
+    "CHANSEY": {
+        "pre": "Happiny"
+    },
+    "GABITE": {
+        "pre": "Gible"
+    },
+    "GARCHOMP": {
+        "pre": "Gabite"
+    },
+    "SNORLAX": {
+        "pre": "Munchlax"
+    },
+    "LUCARIO": {
+        "pre": "Riolu"
+    },
+    "HIPPOWDON": {
+        "pre": "Hippopotas"
+    },
+    "DRAPION": {
+        "pre": "Skorupi"
+    },
+    "TOXICROAK": {
+        "pre": "Croagunk"
+    },
+    "LUMINEON": {
+        "pre": "Finneon"
+    },
+    "MANTINE": {
+        "pre": "Mantyke"
+    },
+    "ABOMASNOW": {
+        "pre": "Snover"
+    },
+    "MOSSFOOT": {
+        "pre": "Abomasnow"
+    },
+    "SERVINE": {
+        "pre": "Snivy"
+    },
+    "SERPERIOR": {
+        "pre": "Servine"
+    },
+    "PIGNITE": {
+        "pre": "Tepig"
+    },
+    "EMBOAR": {
+        "pre": "Pignite"
+    },
+    "DEWOTT": {
+        "pre": "Oshawott"
+    },
+    "SAMUROTT": {
+        "pre": "Dewott"
+    },
+    "WATCHOG": {
+        "pre": "Patrat"
+    },
+    "HERDIER": {
+        "pre": "Lillipup"
+    },
+    "STOUTLAND": {
+        "pre": "Herdier"
+    },
+    "LIEPARD": {
+        "pre": "Purrloin"
+    },
+    "SIMISAGE": {
+        "pre": "Pansage"
+    },
+    "SIMISEAR": {
+        "pre": "Pansear"
+    },
+    "SIMIPOUR": {
+        "pre": "Panpour"
+    },
+    "MUSHARNA": {
+        "pre": "Munna"
+    },
+    "TRANQUILL": {
+        "pre": "Pidove"
+    },
+    "UNFEZANT": {
+        "pre": "Tranquill"
+    },
+    "ZEBSTRIKA": {
+        "pre": "Blitzle"
+    },
+    "BOLDORE": {
+        "pre": "Roggenrola"
+    },
+    "GIGALITH": {
+        "pre": "Boldore"
+    },
+    "SWOOBAT": {
+        "pre": "Woobat"
+    },
+    "EXCADRILL": {
+        "pre": "Drilbur"
+    },
+    "SOUNDOW": {
+        "pre": "Audino"
+    },
+    "GURDURR": {
+        "pre": "Timburr"
+    },
+    "CONKELDURR": {
+        "pre": "Gurdurr"
+    },
+    "PALPITOAD": {
+        "pre": "Tympole"
+    },
+    "SEISMITOAD": {
+        "pre": "Palpitoad"
+    },
+    "SWADLOON": {
+        "pre": "Sewaddle"
+    },
+    "LEAVANNY": {
+        "pre": "Swadloon"
+    },
+    "WHIRLIPEDE": {
+        "pre": "Venipede"
+    },
+    "SCOLIPEDE": {
+        "pre": "Whirlipede"
+    },
+    "WHIMSICOTT": {
+        "pre": "Cottonee"
+    },
+    "LILLIGANT": {
+        "pre": "Petilil"
+    },
+    "BASCULEGION": {
+        "pre": "Basculin"
+    },
+    "KROKOROK": {
+        "pre": "Sandile"
+    },
+    "KROOKODILE": {
+        "pre": "Krokorok"
+    },
+    "DARMANITAN": {
+        "pre": "Darumaka"
+    },
+    "CRUSTLE": {
+        "pre": "Dwebble"
+    },
+    "SCRAFTY": {
+        "pre": "Scraggy"
+    },
+    "COFAGRIGUS": {
+        "pre": "Yamask"
+    },
+    "RUNERIGUS": {
+        "pre": "Yamask"
+    },
+    "CARRACOSTA": {
+        "pre": "Tirtouga"
+    },
+    "ARCHEOPS": {
+        "pre": "Archen"
+    },
+    "GARBODOR": {
+        "pre": "Trubbish"
+    },
+    "ZOROARK": {
+        "pre": "Zorua"
+    },
+    "CINCCINO": {
+        "pre": "Minccino"
+    },
+    "GOTHORITA": {
+        "pre": "Gothita"
+    },
+    "GOTHITELLE": {
+        "pre": "Gothorita"
+    },
+    "DUOSION": {
+        "pre": "Solosis"
+    },
+    "REUNICLUS": {
+        "pre": "Duosion"
+    },
+    "SWANNA": {
+        "pre": "Ducklett"
+    },
+    "VANILLISH": {
+        "pre": "Vanillite"
+    },
+    "VANILLUXE": {
+        "pre": "Vanillish"
+    },
+    "SAWSBUCK": {
+        "pre": "Deerling"
+    },
+    "ESCAVALIER": {
+        "pre": "Karrablast"
+    },
+    "AMOONGUSS": {
+        "pre": "Foongus"
+    },
+    "JELLICENT": {
+        "pre": "Frillish"
+    },
+    "GALVANTULA": {
+        "pre": "Joltik"
+    },
+    "FERROTHORN": {
+        "pre": "Ferroseed"
+    },
+    "KLANG": {
+        "pre": "Klink"
+    },
+    "KLINKLANG": {
+        "pre": "Klang"
+    },
+    "EELEKTRIK": {
+        "pre": "Tynamo"
+    },
+    "EELEKTROSS": {
+        "pre": "Eelektrik"
+    },
+    "BEHEEYEM": {
+        "pre": "Elgyem"
+    },
+    "LAMPENT": {
+        "pre": "Litwick"
+    },
+    "CHANDELURE": {
+        "pre": "Lampent"
+    },
+    "FRAXURE": {
+        "pre": "Axew"
+    },
+    "HAXORUS": {
+        "pre": "Fraxure"
+    },
+    "BEARTIC": {
+        "pre": "Cubchoo"
+    },
+    "ACCELGOR": {
+        "pre": "Shelmet"
+    },
+    "MIENSHAO": {
+        "pre": "Mienfoo"
+    },
+    "GOLURK": {
+        "pre": "Golett"
+    },
+    "BISHARP": {
+        "pre": "Pawniard"
+    },
+    "BRAVIARY": {
+        "pre": "Rufflet"
+    },
+    "MANDIBUZZ": {
+        "pre": "Vullaby"
+    },
+    "ZWEILOUS": {
+        "pre": "Deino"
+    },
+    "HYDREIGON": {
+        "pre": "Zweilous"
+    },
+    "VOLCARONA": {
+        "pre": "Larvesta"
+    },
+    "QUILLADIN": {
+        "pre": "Chespin"
+    },
+    "CHESNAUGHT": {
+        "pre": "Quilladin"
+    },
+    "BRAIXEN": {
+        "pre": "Fennekin"
+    },
+    "DELPHOX": {
+        "pre": "Braixen"
+    },
+    "FROGADIER": {
+        "pre": "Froakie"
+    },
+    "GRENINJA": {
+        "pre": "Frogadier"
+    },
+    "DIGGERSBY": {
+        "pre": "Bunnelby"
+    },
+    "FLETCHINDER": {
+        "pre": "Fletchling"
+    },
+    "TALONFLAME": {
+        "pre": "Fletchinder"
+    },
+    "SPEWPA": {
+        "pre": "Scatterbug"
+    },
+    "VIVILLON": {
+        "pre": "Spewpa"
+    },
+    "PYROAR": {
+        "pre": "Litleo"
+    },
+    "FLOETTE": {
+        "pre": "Flabebe"
+    },
+    "FLORGES": {
+        "pre": "Floette"
+    },
+    "GOGOAT": {
+        "pre": "Skiddo"
+    },
+    "PANGORO": {
+        "pre": "Pancham"
+    },
+    "MEOWSTIC": {
+        "pre": "Espurr"
+    },
+    "DOUBLADE": {
+        "pre": "Honedge"
+    },
+    "AEGISLASH": {
+        "pre": "Doublade"
+    },
+    "AROMATISSE": {
+        "pre": "Spritzee"
+    },
+    "SLURPUFF": {
+        "pre": "Swirlix"
+    },
+    "MALAMAR": {
+        "pre": "Inkay"
+    },
+    "BARBARACLE": {
+        "pre": "Binacle"
+    },
+    "DRAGALGE": {
+        "pre": "Skrelp"
+    },
+    "CLAWITZER": {
+        "pre": "Clauncher"
+    },
+    "HELIOLISK": {
+        "pre": "Helioptile"
+    },
+    "TYRANTRUM": {
+        "pre": "Tyrunt"
+    },
+    "AURORUS": {
+        "pre": "Amaura"
+    },
+    "SLIGGOO": {
+        "pre": "Goomy"
+    },
+    "GOODRA": {
+        "pre": "Sliggoo"
+    },
+    "TREVENANT": {
+        "pre": "Phantump"
+    },
+    "GOURGEIST": {
+        "pre": "Pumpkaboo"
+    },
+    "AVALUGG": {
+        "pre": "Bergmite"
+    },
+    "NOIVERN": {
+        "pre": "Noibat"
+    },
+    "DARTRIX": {
+        "pre": "Rowlet"
+    },
+    "DECIDUEYE": {
+        "pre": "Dartrix"
+    },
+    "TORRACAT": {
+        "pre": "Litten"
+    },
+    "INCINEROAR": {
+        "pre": "Torracat"
+    },
+    "BRIONNE": {
+        "pre": "Popplio"
+    },
+    "PRIMARINA": {
+        "pre": "Brionne"
+    },
+    "TRUMBEAK": {
+        "pre": "Pikipek"
+    },
+    "TOUCANNON": {
+        "pre": "Trumbeak"
+    },
+    "GUMSHOOS": {
+        "pre": "Yungoos"
+    },
+    "CHARJABUG": {
+        "pre": "Grubbin"
+    },
+    "VIKAVOLT": {
+        "pre": "Charjabug"
+    },
+    "CRABOMINABLE": {
+        "pre": "Crabrawler"
+    },
+    "RIBOMBEE": {
+        "pre": "Cutiefly"
+    },
+    "LYCANROC": {
+        "pre": "Rockruff"
+    },
+    "TOXAPEX": {
+        "pre": "Mareanie"
+    },
+    "MUDSDALE": {
+        "pre": "Mudbray"
+    },
+    "ARAQUANID": {
+        "pre": "Dewpider"
+    },
+    "LURANTIS": {
+        "pre": "Fomantis"
+    },
+    "SHIINOTIC": {
+        "pre": "Morelull"
+    },
+    "SALAZZLE": {
+        "pre": "Salandit"
+    },
+    "BEWEAR": {
+        "pre": "Stufful"
+    },
+    "STEENEE": {
+        "pre": "Bounsweet"
+    },
+    "TSAREENA": {
+        "pre": "Steenee"
+    },
+    "GOLISOPOD": {
+        "pre": "Wimpod"
+    },
+    "PALOSSAND": {
+        "pre": "Sandygast"
+    },
+    "SILVALLY": {
+        "pre": "Código Cero"
+    },
+    "HAKAMOO": {
+        "pre": "Jangmo-o"
+    },
+    "KOMMOO": {
+        "pre": "Hakamo-o"
+    },
+    "COSMOEM": {
+        "pre": "Cosmog"
+    },
+    "SOLGALEO": {
+        "pre": "Cosmoem"
+    },
+    "LUNALA": {
+        "pre": "Cosmoem"
+    },
+    "DESCARGOT": {
+        "pre": "Snampery"
+    },
+    "GASTESLA": {
+        "pre": "Descargot"
+    },
+    "SHABOON": {
+        "pre": "Flasinge"
+    },
+    "LUNAYE": {
+        "pre": "Shaboon"
+    },
+    "NORSPEAR": {
+        "pre": "Swolphin"
+    },
+    "NARVALOR": {
+        "pre": "Norspear"
+    },
+    "MELMETAL": {
+        "pre": "Meltan"
+    },
+    "THWACKEY": {
+        "pre": "Grookey"
+    },
+    "RILLABOOM": {
+        "pre": "Thwackey"
+    },
+    "RABOOT": {
+        "pre": "Scorbunny"
+    },
+    "CINDERACE": {
+        "pre": "Raboot"
+    },
+    "DRIZZILE": {
+        "pre": "Sobble"
+    },
+    "INTELEON": {
+        "pre": "Drizzile"
+    },
+    "GREEDENT": {
+        "pre": "Skwovet"
+    },
+    "CORVISQUIRE": {
+        "pre": "Rookidee"
+    },
+    "CORVIKNIGHT": {
+        "pre": "Corvisquire"
+    },
+    "DOTTLER": {
+        "pre": "Blipbug"
+    },
+    "ORBEETLE": {
+        "pre": "Dottler"
+    },
+    "THIEVUL": {
+        "pre": "Nickit"
+    },
+    "ELDEGOSS": {
+        "pre": "Gossifleur"
+    },
+    "DUBWOOL": {
+        "pre": "Wooloo"
+    },
+    "DREDNAW": {
+        "pre": "Chewtle"
+    },
+    "BOLTUND": {
+        "pre": "Yamper"
+    },
+    "CARKOL": {
+        "pre": "Rolycoly"
+    },
+    "COALOSSAL": {
+        "pre": "Carkol"
+    },
+    "FLAPPLE": {
+        "pre": "Applin"
+    },
+    "APPLETUN": {
+        "pre": "Applin"
+    },
+    "SANDACONDA": {
+        "pre": "Silicobra"
+    },
+    "BARRASKEWDA": {
+        "pre": "Arrokuda"
+    },
+    "TOXTRICITY": {
+        "pre": "Toxel"
+    },
+    "CENTISKORCH": {
+        "pre": "Sizzlipede"
+    },
+    "GRAPPLOCT": {
+        "pre": "Clobbopus"
+    },
+    "POLTEAGEIST": {
+        "pre": "Sinistea"
+    },
+    "HATTREM": {
+        "pre": "Hatenna"
+    },
+    "HATTERENE": {
+        "pre": "Hattrem"
+    },
+    "MORGREM": {
+        "pre": "Impidimp"
+    },
+    "GRIMMSNARL": {
+        "pre": "Morgrem"
+    },
+    "ALCREMIE": {
+        "pre": "Milcery"
+    },
+    "FROSMOTH": {
+        "pre": "Snom"
+    },
+    "COPPERAJAH": {
+        "pre": "Cufant"
+    },
+    "DRAKLOAK": {
+        "pre": "Dreepy"
+    },
+    "DRAGAPULT": {
+        "pre": "Drakloak"
+    },
+    "NAGANADEL": {
+        "pre": "Poipole"
+    },
+    "FUNGORSE": {
+        "pre": "Polekin"
+    },
+    "CERVANTRIER": {
+        "pre": "Fungorse"
+    },
+    "LURAVIT": {
+        "pre": "Lugnis"
+    },
+    "LUXPIRAVIT": {
+        "pre": "Luravit"
+    },
+    "GAMBARREL": {
+        "pre": "Quisquite"
+    },
+    "BOGALEON": {
+        "pre": "Gambarrel"
+    },
+    "URSHIFU": {
+        "pre": "Kubfu"
+    }
+}

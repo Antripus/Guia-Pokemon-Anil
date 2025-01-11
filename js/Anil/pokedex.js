@@ -1,4 +1,4 @@
-const jsonPath = "./data/pokemon.json";
+const jsonPath = "./data/Anil/pokemon.json";
 const pokemonListElement = document.getElementById("pokemon-list");
 
 const typeColors = {

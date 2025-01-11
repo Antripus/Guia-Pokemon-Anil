@@ -10,7 +10,7 @@ if (!window.navbarInitialized) {
     async function ensurePokemonDataLoaded() {
       if (!sessionStorage.getItem("pokemonData")) {
         try {
-          const response = await fetch("./data/pokemon.json");
+          const response = await fetch("./data/Anil/pokemon.json");
           const pokemonData = await response.json();
           sessionStorage.setItem("pokemonData", JSON.stringify(pokemonData));
         } catch (error) {

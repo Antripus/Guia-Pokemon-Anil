@@ -1,9 +1,9 @@
 
 // Ruta de los archivos JSON
-const jsonPathPokemon = "./data/pokemon.json";
-const jsonPathTrainers = "./data/trainers_actualizados.json";
-const jsonPathMoves = "./data/moves.json";
-const jsonPathAbilities = "./data/abilities.json";
+const jsonPathPokemon = "./data/Anil/pokemon.json";
+const jsonPathTrainers = "./data/Anil/trainers_actualizados.json";
+const jsonPathMoves = "./data/Anil/moves.json";
+const jsonPathAbilities = "./data/Anil/abilities.json";
 
 // Elementos del DOM
 const listElement = document.getElementById("encounter-list");
