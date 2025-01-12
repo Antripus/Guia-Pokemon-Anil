@@ -1,4 +1,5 @@
-﻿[1]
+﻿
+[1]
 Name=Bulbasaur
 InternalName=BULBASAUR
 Type1=GRASS

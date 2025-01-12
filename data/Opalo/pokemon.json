@@ -1,6 +1,7 @@
 [
     {
         "number": 1,
+        "number000": "001",
         "name": "Bulbasaur",
         "internal_name": "BULBASAUR",
         "type": [
@@ -130,6 +131,7 @@
     },
     {
         "number": 2,
+        "number000": "002",
         "name": "Ivysaur",
         "internal_name": "IVYSAUR",
         "type": [
@@ -251,6 +253,7 @@
     },
     {
         "number": 3,
+        "number000": "003",
         "name": "Venusaur",
         "internal_name": "VENUSAUR",
         "type": [
@@ -373,6 +376,7 @@
     },
     {
         "number": 4,
+        "number000": "004",
         "name": "Charmander",
         "internal_name": "CHARMANDER",
         "type": [
@@ -492,6 +496,7 @@
     },
     {
         "number": 5,
+        "number000": "005",
         "name": "Charmeleon",
         "internal_name": "CHARMELEON",
         "type": [
@@ -600,6 +605,7 @@
     },
     {
         "number": 6,
+        "number000": "006",
         "name": "Charizard",
         "internal_name": "CHARIZARD",
         "type": [
@@ -730,6 +736,7 @@
     },
     {
         "number": 7,
+        "number000": "007",
         "name": "Squirtle",
         "internal_name": "SQUIRTLE",
         "type": [
@@ -858,6 +865,7 @@
     },
     {
         "number": 8,
+        "number000": "008",
         "name": "Wartortle",
         "internal_name": "WARTORTLE",
         "type": [
@@ -978,6 +986,7 @@
     },
     {
         "number": 9,
+        "number000": "009",
         "name": "Blastoise",
         "internal_name": "BLASTOISE",
         "type": [
@@ -1099,6 +1108,7 @@
     },
     {
         "number": 10,
+        "number000": "010",
         "name": "Caterpie",
         "internal_name": "CATERPIE",
         "type": [
@@ -1170,6 +1180,7 @@
     },
     {
         "number": 11,
+        "number000": "011",
         "name": "Metapod",
         "internal_name": "METAPOD",
         "type": [
@@ -1236,6 +1247,7 @@
     },
     {
         "number": 12,
+        "number000": "012",
         "name": "Butterfree",
         "internal_name": "BUTTERFREE",
         "type": [
@@ -1333,6 +1345,7 @@
     },
     {
         "number": 13,
+        "number000": "013",
         "name": "Weedle",
         "internal_name": "WEEDLE",
         "type": [
@@ -1405,6 +1418,7 @@
     },
     {
         "number": 14,
+        "number000": "014",
         "name": "Kakuna",
         "internal_name": "KAKUNA",
         "type": [
@@ -1472,6 +1486,7 @@
     },
     {
         "number": 15,
+        "number000": "015",
         "name": "Beedrill",
         "internal_name": "BEEDRILL",
         "type": [
@@ -1569,6 +1584,7 @@
     },
     {
         "number": 16,
+        "number000": "016",
         "name": "Pidgey",
         "internal_name": "PIDGEY",
         "type": [
@@ -1693,6 +1709,7 @@
     },
     {
         "number": 17,
+        "number000": "017",
         "name": "Pidgeotto",
         "internal_name": "PIDGEOTTO",
         "type": [
@@ -1814,6 +1831,7 @@
     },
     {
         "number": 18,
+        "number000": "018",
         "name": "Pidgeot",
         "internal_name": "PIDGEOT",
         "type": [
@@ -1936,6 +1954,7 @@
     },
     {
         "number": 19,
+        "number000": "019",
         "name": "Rattata",
         "internal_name": "RATTATA",
         "type": [
@@ -2058,6 +2077,7 @@
     },
     {
         "number": 20,
+        "number000": "020",
         "name": "Raticate",
         "internal_name": "RATICATE",
         "type": [
@@ -2188,6 +2208,7 @@
     },
     {
         "number": 21,
+        "number000": "021",
         "name": "Spearow",
         "internal_name": "SPEAROW",
         "type": [
@@ -2301,6 +2322,7 @@
     },
     {
         "number": 22,
+        "number000": "022",
         "name": "Fearow",
         "internal_name": "FEAROW",
         "type": [
@@ -2411,6 +2433,7 @@
     },
     {
         "number": 23,
+        "number000": "023",
         "name": "Ekans",
         "internal_name": "EKANS",
         "type": [
@@ -2546,6 +2569,7 @@
     },
     {
         "number": 24,
+        "number000": "024",
         "name": "Arbok",
         "internal_name": "ARBOK",
         "type": [
@@ -2684,6 +2708,7 @@
     },
     {
         "number": 25,
+        "number000": "025",
         "name": "Pikachu",
         "internal_name": "PIKACHU",
         "type": [
@@ -2796,6 +2821,7 @@
     },
     {
         "number": 26,
+        "number000": "026",
         "name": "Raichu",
         "internal_name": "RAICHU",
         "type": [
@@ -2865,6 +2891,7 @@
     },
     {
         "number": 27,
+        "number000": "027",
         "name": "Sandshrew",
         "internal_name": "SANDSHREW",
         "type": [
@@ -3000,6 +3027,7 @@
     },
     {
         "number": 28,
+        "number000": "028",
         "name": "Sandslash",
         "internal_name": "SANDSLASH",
         "type": [
@@ -3136,6 +3164,7 @@
     },
     {
         "number": 29,
+        "number000": "029",
         "name": "Nidoran",
         "internal_name": "NIDORANfE",
         "type": [
@@ -3260,6 +3289,7 @@
     },
     {
         "number": 30,
+        "number000": "030",
         "name": "Nidorina",
         "internal_name": "NIDORINA",
         "type": [
@@ -3373,6 +3403,7 @@
     },
     {
         "number": 31,
+        "number000": "031",
         "name": "Nidoqueen",
         "internal_name": "NIDOQUEEN",
         "type": [
@@ -3456,6 +3487,7 @@
     },
     {
         "number": 32,
+        "number000": "032",
         "name": "Nidoran",
         "internal_name": "NIDORANmA",
         "type": [
@@ -3580,6 +3612,7 @@
     },
     {
         "number": 33,
+        "number000": "033",
         "name": "Nidorino",
         "internal_name": "NIDORINO",
         "type": [
@@ -3693,6 +3726,7 @@
     },
     {
         "number": 34,
+        "number000": "034",
         "name": "Nidoking",
         "internal_name": "NIDOKING",
         "type": [
@@ -3776,6 +3810,7 @@
     },
     {
         "number": 35,
+        "number000": "035",
         "name": "Clefairy",
         "internal_name": "CLEFAIRY",
         "type": [
@@ -3915,6 +3950,7 @@
     },
     {
         "number": 36,
+        "number000": "036",
         "name": "Clefable",
         "internal_name": "CLEFABLE",
         "type": [
@@ -3983,6 +4019,7 @@
     },
     {
         "number": 37,
+        "number000": "037",
         "name": "Vulpix",
         "internal_name": "VULPIX",
         "type": [
@@ -4129,6 +4166,7 @@
     },
     {
         "number": 38,
+        "number000": "038",
         "name": "Ninetales",
         "internal_name": "NINETALES",
         "type": [
@@ -4201,6 +4239,7 @@
     },
     {
         "number": 39,
+        "number000": "039",
         "name": "Jigglypuff",
         "internal_name": "JIGGLYPUFF",
         "type": [
@@ -4317,6 +4356,7 @@
     },
     {
         "number": 40,
+        "number000": "040",
         "name": "Wigglytuff",
         "internal_name": "WIGGLYTUFF",
         "type": [
@@ -4383,6 +4423,7 @@
     },
     {
         "number": 41,
+        "number000": "041",
         "name": "Zubat",
         "internal_name": "ZUBAT",
         "type": [
@@ -4506,6 +4547,7 @@
     },
     {
         "number": 42,
+        "number000": "042",
         "name": "Golbat",
         "internal_name": "GOLBAT",
         "type": [
@@ -4625,6 +4667,7 @@
     },
     {
         "number": 43,
+        "number000": "043",
         "name": "Oddish",
         "internal_name": "ODDISH",
         "type": [
@@ -4741,6 +4784,7 @@
     },
     {
         "number": 44,
+        "number000": "044",
         "name": "Gloom",
         "internal_name": "GLOOM",
         "type": [
@@ -4858,6 +4902,7 @@
     },
     {
         "number": 45,
+        "number000": "045",
         "name": "Vileplume",
         "internal_name": "VILEPLUME",
         "type": [
@@ -4935,6 +4980,7 @@
     },
     {
         "number": 46,
+        "number000": "046",
         "name": "Paras",
         "internal_name": "PARAS",
         "type": [
@@ -5056,6 +5102,7 @@
     },
     {
         "number": 47,
+        "number000": "047",
         "name": "Parasect",
         "internal_name": "PARASECT",
         "type": [
@@ -5175,6 +5222,7 @@
     },
     {
         "number": 48,
+        "number000": "048",
         "name": "Venonat",
         "internal_name": "VENONAT",
         "type": [
@@ -5301,6 +5349,7 @@
     },
     {
         "number": 49,
+        "number000": "049",
         "name": "Venomoth",
         "internal_name": "VENOMOTH",
         "type": [
@@ -5426,6 +5475,7 @@
     },
     {
         "number": 50,
+        "number000": "050",
         "name": "Diglett",
         "internal_name": "DIGLETT",
         "type": [
@@ -5549,6 +5599,7 @@
     },
     {
         "number": 51,
+        "number000": "051",
         "name": "Dugtrio",
         "internal_name": "DUGTRIO",
         "type": [
@@ -5670,6 +5721,7 @@
     },
     {
         "number": 52,
+        "number000": "052",
         "name": "Meowth",
         "internal_name": "MEOWTH",
         "type": [
@@ -5814,6 +5866,7 @@
     },
     {
         "number": 53,
+        "number000": "053",
         "name": "Persian",
         "internal_name": "PERSIAN",
         "type": [
@@ -5947,6 +6000,7 @@
     },
     {
         "number": 54,
+        "number000": "054",
         "name": "Psyduck",
         "internal_name": "PSYDUCK",
         "type": [
@@ -6083,6 +6137,7 @@
     },
     {
         "number": 55,
+        "number000": "055",
         "name": "Golduck",
         "internal_name": "GOLDUCK",
         "type": [
@@ -6214,6 +6269,7 @@
     },
     {
         "number": 56,
+        "number000": "056",
         "name": "Mankey",
         "internal_name": "MANKEY",
         "type": [
@@ -6347,6 +6403,7 @@
     },
     {
         "number": 57,
+        "number000": "057",
         "name": "Primeape",
         "internal_name": "PRIMEAPE",
         "type": [
@@ -6464,6 +6521,7 @@
     },
     {
         "number": 58,
+        "number000": "058",
         "name": "Growlithe",
         "internal_name": "GROWLITHE",
         "type": [
@@ -6607,6 +6665,7 @@
     },
     {
         "number": 59,
+        "number000": "059",
         "name": "Arcanine",
         "internal_name": "ARCANINE",
         "type": [
@@ -6680,6 +6739,7 @@
     },
     {
         "number": 60,
+        "number000": "060",
         "name": "Poliwag",
         "internal_name": "POLIWAG",
         "type": [
@@ -6806,6 +6866,7 @@
     },
     {
         "number": 61,
+        "number000": "061",
         "name": "Poliwhirl",
         "internal_name": "POLIWHIRL",
         "type": [
@@ -6926,6 +6987,7 @@
     },
     {
         "number": 62,
+        "number000": "062",
         "name": "Poliwrath",
         "internal_name": "POLIWRATH",
         "type": [
@@ -7011,6 +7073,7 @@
     },
     {
         "number": 63,
+        "number000": "063",
         "name": "Abra",
         "internal_name": "ABRA",
         "type": [
@@ -7094,6 +7157,7 @@
     },
     {
         "number": 64,
+        "number000": "064",
         "name": "Kadabra",
         "internal_name": "KADABRA",
         "type": [
@@ -7213,6 +7277,7 @@
     },
     {
         "number": 65,
+        "number000": "065",
         "name": "Alakazam",
         "internal_name": "ALAKAZAM",
         "type": [
@@ -7325,6 +7390,7 @@
     },
     {
         "number": 66,
+        "number000": "066",
         "name": "Machop",
         "internal_name": "MACHOP",
         "type": [
@@ -7453,6 +7519,7 @@
     },
     {
         "number": 67,
+        "number000": "067",
         "name": "Machoke",
         "internal_name": "MACHOKE",
         "type": [
@@ -7573,6 +7640,7 @@
     },
     {
         "number": 68,
+        "number000": "068",
         "name": "Machamp",
         "internal_name": "MACHAMP",
         "type": [
@@ -7690,6 +7758,7 @@
     },
     {
         "number": 69,
+        "number000": "069",
         "name": "Bellsprout",
         "internal_name": "BELLSPROUT",
         "type": [
@@ -7813,6 +7882,7 @@
     },
     {
         "number": 70,
+        "number000": "070",
         "name": "Weepinbell",
         "internal_name": "WEEPINBELL",
         "type": [
@@ -7929,6 +7999,7 @@
     },
     {
         "number": 71,
+        "number000": "071",
         "name": "Victreebel",
         "internal_name": "VICTREEBEL",
         "type": [
@@ -8022,6 +8093,7 @@
     },
     {
         "number": 72,
+        "number000": "072",
         "name": "Tentacool",
         "internal_name": "TENTACOOL",
         "type": [
@@ -8156,6 +8228,7 @@
     },
     {
         "number": 73,
+        "number000": "073",
         "name": "Tentacruel",
         "internal_name": "TENTACRUEL",
         "type": [
@@ -8278,6 +8351,7 @@
     },
     {
         "number": 74,
+        "number000": "074",
         "name": "Geodude",
         "internal_name": "GEODUDE",
         "type": [
@@ -8410,6 +8484,7 @@
     },
     {
         "number": 75,
+        "number000": "075",
         "name": "Graveler",
         "internal_name": "GRAVELER",
         "type": [
@@ -8539,6 +8614,7 @@
     },
     {
         "number": 76,
+        "number000": "076",
         "name": "Golem",
         "internal_name": "GOLEM",
         "type": [
@@ -8665,6 +8741,7 @@
     },
     {
         "number": 77,
+        "number000": "077",
         "name": "Ponyta",
         "internal_name": "PONYTA",
         "type": [
@@ -8789,6 +8866,7 @@
     },
     {
         "number": 78,
+        "number000": "078",
         "name": "Rapidash",
         "internal_name": "RAPIDASH",
         "type": [
@@ -8926,6 +9004,7 @@
     },
     {
         "number": 79,
+        "number000": "079",
         "name": "Slowpoke",
         "internal_name": "SLOWPOKE",
         "type": [
@@ -9070,6 +9149,7 @@
     },
     {
         "number": 80,
+        "number000": "080",
         "name": "Slowbro",
         "internal_name": "SLOWBRO",
         "type": [
@@ -9193,6 +9273,7 @@
     },
     {
         "number": 81,
+        "number000": "081",
         "name": "Magnemite",
         "internal_name": "MAGNEMITE",
         "type": [
@@ -9318,6 +9399,7 @@
     },
     {
         "number": 82,
+        "number000": "082",
         "name": "Magneton",
         "internal_name": "MAGNETON",
         "type": [
@@ -9459,6 +9541,7 @@
     },
     {
         "number": 83,
+        "number000": "083",
         "name": "Farfetch'd",
         "internal_name": "FARFETCHD",
         "type": [
@@ -9596,7 +9679,7 @@
         "pokedex_description": "It is always seen with a stick from a plant. Apparently, there are good sticks and bad sticks. This Pokémon occasionally fights with others over choice sticks.",
         "evolutions": [
             {
-                "name": "Sirfetch'd",
+                "name": "Sirfetchd",
                 "method": "Level",
                 "item_or_condition": "36"
             }
@@ -9606,6 +9689,7 @@
     },
     {
         "number": 84,
+        "number000": "084",
         "name": "Doduo",
         "internal_name": "DODUO",
         "type": [
@@ -9727,6 +9811,7 @@
     },
     {
         "number": 85,
+        "number000": "085",
         "name": "Dodrio",
         "internal_name": "DODRIO",
         "type": [
@@ -9845,6 +9930,7 @@
     },
     {
         "number": 86,
+        "number000": "086",
         "name": "Seel",
         "internal_name": "SEEL",
         "type": [
@@ -9983,6 +10069,7 @@
     },
     {
         "number": 87,
+        "number000": "087",
         "name": "Dewgong",
         "internal_name": "DEWGONG",
         "type": [
@@ -10114,6 +10201,7 @@
     },
     {
         "number": 88,
+        "number000": "088",
         "name": "Grimer",
         "internal_name": "GRIMER",
         "type": [
@@ -10244,6 +10332,7 @@
     },
     {
         "number": 89,
+        "number000": "089",
         "name": "Muk",
         "internal_name": "MUK",
         "type": [
@@ -10361,6 +10450,7 @@
     },
     {
         "number": 90,
+        "number000": "090",
         "name": "Shellder",
         "internal_name": "SHELLDER",
         "type": [
@@ -10495,6 +10585,7 @@
     },
     {
         "number": 91,
+        "number000": "091",
         "name": "Cloyster",
         "internal_name": "CLOYSTER",
         "type": [
@@ -10577,6 +10668,7 @@
     },
     {
         "number": 92,
+        "number000": "092",
         "name": "Gastly",
         "internal_name": "GASTLY",
         "type": [
@@ -10706,6 +10798,7 @@
     },
     {
         "number": 93,
+        "number000": "093",
         "name": "Haunter",
         "internal_name": "HAUNTER",
         "type": [
@@ -10829,6 +10922,7 @@
     },
     {
         "number": 94,
+        "number000": "094",
         "name": "Gengar",
         "internal_name": "GENGAR",
         "type": [
@@ -10945,6 +11039,7 @@
     },
     {
         "number": 95,
+        "number000": "095",
         "name": "Onix",
         "internal_name": "ONIX",
         "type": [
@@ -11096,6 +11191,7 @@
     },
     {
         "number": 96,
+        "number000": "096",
         "name": "Drowzee",
         "internal_name": "DROWZEE",
         "type": [
@@ -11234,6 +11330,7 @@
     },
     {
         "number": 97,
+        "number000": "097",
         "name": "Hypno",
         "internal_name": "HYPNO",
         "type": [
@@ -11367,6 +11464,7 @@
     },
     {
         "number": 98,
+        "number000": "098",
         "name": "Krabby",
         "internal_name": "KRABBY",
         "type": [
@@ -11496,6 +11594,7 @@
     },
     {
         "number": 99,
+        "number000": "099",
         "name": "Kingler",
         "internal_name": "KINGLER",
         "type": [
@@ -11621,6 +11720,7 @@
     },
     {
         "number": 100,
+        "number000": "100",
         "name": "Voltorb",
         "internal_name": "VOLTORB",
         "type": [
@@ -11737,6 +11837,7 @@
     },
     {
         "number": 101,
+        "number000": "101",
         "name": "Electrode",
         "internal_name": "ELECTRODE",
         "type": [
@@ -11858,6 +11959,7 @@
     },
     {
         "number": 102,
+        "number000": "102",
         "name": "Exeggcute",
         "internal_name": "EXEGGCUTE",
         "type": [
@@ -11989,6 +12091,7 @@
     },
     {
         "number": 103,
+        "number000": "103",
         "name": "Exeggutor",
         "internal_name": "EXEGGUTOR",
         "type": [
@@ -12078,6 +12181,7 @@
     },
     {
         "number": 104,
+        "number000": "104",
         "name": "Cubone",
         "internal_name": "CUBONE",
         "type": [
@@ -12207,6 +12311,7 @@
     },
     {
         "number": 105,
+        "number000": "105",
         "name": "Marowak",
         "internal_name": "MAROWAK",
         "type": [
@@ -12329,6 +12434,7 @@
     },
     {
         "number": 106,
+        "number000": "106",
         "name": "Hitmonlee",
         "internal_name": "HITMONLEE",
         "type": [
@@ -12446,6 +12552,7 @@
     },
     {
         "number": 107,
+        "number000": "107",
         "name": "Hitmonchan",
         "internal_name": "HITMONCHAN",
         "type": [
@@ -12563,6 +12670,7 @@
     },
     {
         "number": 108,
+        "number000": "108",
         "name": "Lickitung",
         "internal_name": "LICKITUNG",
         "type": [
@@ -12692,6 +12800,7 @@
     },
     {
         "number": 109,
+        "number000": "109",
         "name": "Koffing",
         "internal_name": "KOFFING",
         "type": [
@@ -12815,6 +12924,7 @@
     },
     {
         "number": 110,
+        "number000": "110",
         "name": "Weezing",
         "internal_name": "WEEZING",
         "type": [
@@ -12930,6 +13040,7 @@
     },
     {
         "number": 111,
+        "number000": "111",
         "name": "Rhyhorn",
         "internal_name": "RHYHORN",
         "type": [
@@ -13059,6 +13170,7 @@
     },
     {
         "number": 112,
+        "number000": "112",
         "name": "Rhydon",
         "internal_name": "RHYDON",
         "type": [
@@ -13185,6 +13297,7 @@
     },
     {
         "number": 113,
+        "number000": "113",
         "name": "Chansey",
         "internal_name": "CHANSEY",
         "type": [
@@ -13320,6 +13433,7 @@
     },
     {
         "number": 114,
+        "number000": "114",
         "name": "Tangela",
         "internal_name": "TANGELA",
         "type": [
@@ -13462,6 +13576,7 @@
     },
     {
         "number": 115,
+        "number000": "115",
         "name": "Kangaskhan",
         "internal_name": "KANGASKHAN",
         "type": [
@@ -13586,6 +13701,7 @@
     },
     {
         "number": 116,
+        "number000": "116",
         "name": "Horsea",
         "internal_name": "HORSEA",
         "type": [
@@ -13706,6 +13822,7 @@
     },
     {
         "number": 117,
+        "number000": "117",
         "name": "Seadra",
         "internal_name": "SEADRA",
         "type": [
@@ -13823,6 +13940,7 @@
     },
     {
         "number": 118,
+        "number000": "118",
         "name": "Goldeen",
         "internal_name": "GOLDEEN",
         "type": [
@@ -13948,6 +14066,7 @@
     },
     {
         "number": 119,
+        "number000": "119",
         "name": "Seaking",
         "internal_name": "SEAKING",
         "type": [
@@ -14061,6 +14180,7 @@
     },
     {
         "number": 120,
+        "number000": "120",
         "name": "Staryu",
         "internal_name": "STARYU",
         "type": [
@@ -14181,6 +14301,7 @@
     },
     {
         "number": 121,
+        "number000": "121",
         "name": "Starmie",
         "internal_name": "STARMIE",
         "type": [
@@ -14251,6 +14372,7 @@
     },
     {
         "number": 122,
+        "number000": "122",
         "name": "Mr. Mime",
         "internal_name": "MRMIME",
         "type": [
@@ -14414,6 +14536,7 @@
     },
     {
         "number": 123,
+        "number000": "123",
         "name": "Scyther",
         "internal_name": "SCYTHER",
         "type": [
@@ -14560,6 +14683,7 @@
     },
     {
         "number": 124,
+        "number000": "124",
         "name": "Jynx",
         "internal_name": "JYNX",
         "type": [
@@ -14682,6 +14806,7 @@
     },
     {
         "number": 125,
+        "number000": "125",
         "name": "Electabuzz",
         "internal_name": "ELECTABUZZ",
         "type": [
@@ -14797,6 +14922,7 @@
     },
     {
         "number": 126,
+        "number000": "126",
         "name": "Magmar",
         "internal_name": "MAGMAR",
         "type": [
@@ -14912,6 +15038,7 @@
     },
     {
         "number": 127,
+        "number000": "127",
         "name": "Pinsir",
         "internal_name": "PINSIR",
         "type": [
@@ -15032,6 +15159,7 @@
     },
     {
         "number": 128,
+        "number000": "128",
         "name": "Tauros",
         "internal_name": "TAUROS",
         "type": [
@@ -15137,6 +15265,7 @@
     },
     {
         "number": 129,
+        "number000": "129",
         "name": "Magikarp",
         "internal_name": "MAGIKARP",
         "type": [
@@ -15205,6 +15334,7 @@
     },
     {
         "number": 130,
+        "number000": "130",
         "name": "Gyarados",
         "internal_name": "GYARADOS",
         "type": [
@@ -15299,6 +15429,7 @@
     },
     {
         "number": 131,
+        "number000": "131",
         "name": "Lapras",
         "internal_name": "LAPRAS",
         "type": [
@@ -15425,6 +15556,7 @@
     },
     {
         "number": 132,
+        "number000": "132",
         "name": "Ditto",
         "internal_name": "DITTO",
         "type": [
@@ -15477,6 +15609,7 @@
     },
     {
         "number": 133,
+        "number000": "133",
         "name": "Eevee",
         "internal_name": "EEVEE",
         "type": [
@@ -15642,6 +15775,7 @@
     },
     {
         "number": 134,
+        "number000": "134",
         "name": "Vaporeon",
         "internal_name": "VAPOREON",
         "type": [
@@ -15746,6 +15880,7 @@
     },
     {
         "number": 135,
+        "number000": "135",
         "name": "Jolteon",
         "internal_name": "JOLTEON",
         "type": [
@@ -15850,6 +15985,7 @@
     },
     {
         "number": 136,
+        "number000": "136",
         "name": "Flareon",
         "internal_name": "FLAREON",
         "type": [
@@ -15954,6 +16090,7 @@
     },
     {
         "number": 137,
+        "number000": "137",
         "name": "Porygon",
         "internal_name": "PORYGON",
         "type": [
@@ -16070,6 +16207,7 @@
     },
     {
         "number": 138,
+        "number000": "138",
         "name": "Omanyte",
         "internal_name": "OMANYTE",
         "type": [
@@ -16199,6 +16337,7 @@
     },
     {
         "number": 139,
+        "number000": "139",
         "name": "Omastar",
         "internal_name": "OMASTAR",
         "type": [
@@ -16314,6 +16453,7 @@
     },
     {
         "number": 140,
+        "number000": "140",
         "name": "Kabuto",
         "internal_name": "KABUTO",
         "type": [
@@ -16433,6 +16573,7 @@
     },
     {
         "number": 141,
+        "number000": "141",
         "name": "Kabutops",
         "internal_name": "KABUTOPS",
         "type": [
@@ -16556,6 +16697,7 @@
     },
     {
         "number": 142,
+        "number000": "142",
         "name": "Aerodactyl",
         "internal_name": "AERODACTYL",
         "type": [
@@ -16685,6 +16827,7 @@
     },
     {
         "number": 143,
+        "number000": "143",
         "name": "Snorlax",
         "internal_name": "SNORLAX",
         "type": [
@@ -16816,6 +16959,7 @@
     },
     {
         "number": 144,
+        "number000": "144",
         "name": "Articuno",
         "internal_name": "ARTICUNO",
         "type": [
@@ -16925,6 +17069,7 @@
     },
     {
         "number": 145,
+        "number000": "145",
         "name": "Zapdos",
         "internal_name": "ZAPDOS",
         "type": [
@@ -17034,6 +17179,7 @@
     },
     {
         "number": 146,
+        "number000": "146",
         "name": "Moltres",
         "internal_name": "MOLTRES",
         "type": [
@@ -17143,6 +17289,7 @@
     },
     {
         "number": 147,
+        "number000": "147",
         "name": "Dratini",
         "internal_name": "DRATINI",
         "type": [
@@ -17268,6 +17415,7 @@
     },
     {
         "number": 148,
+        "number000": "148",
         "name": "Dragonair",
         "internal_name": "DRAGONAIR",
         "type": [
@@ -17388,6 +17536,7 @@
     },
     {
         "number": 149,
+        "number000": "149",
         "name": "Dragonite",
         "internal_name": "DRAGONITE",
         "type": [
@@ -17522,6 +17671,7 @@
     },
     {
         "number": 150,
+        "number000": "150",
         "name": "Mewtwo",
         "internal_name": "MEWTWO",
         "type": [
@@ -17642,6 +17792,7 @@
     },
     {
         "number": 151,
+        "number000": "151",
         "name": "Mew",
         "internal_name": "MEW",
         "type": [
@@ -17741,6 +17892,7 @@
     },
     {
         "number": 152,
+        "number000": "152",
         "name": "Chikorita",
         "internal_name": "CHIKORITA",
         "type": [
@@ -17869,6 +18021,7 @@
     },
     {
         "number": 153,
+        "number000": "153",
         "name": "Bayleef",
         "internal_name": "BAYLEEF",
         "type": [
@@ -17989,6 +18142,7 @@
     },
     {
         "number": 154,
+        "number000": "154",
         "name": "Meganium",
         "internal_name": "MEGANIUM",
         "type": [
@@ -18107,6 +18261,7 @@
     },
     {
         "number": 155,
+        "number000": "155",
         "name": "Cyndaquil",
         "internal_name": "CYNDAQUIL",
         "type": [
@@ -18238,6 +18393,7 @@
     },
     {
         "number": 156,
+        "number000": "156",
         "name": "Quilava",
         "internal_name": "QUILAVA",
         "type": [
@@ -18361,6 +18517,7 @@
     },
     {
         "number": 157,
+        "number000": "157",
         "name": "Typhlosion",
         "internal_name": "TYPHLOSION",
         "type": [
@@ -18481,6 +18638,7 @@
     },
     {
         "number": 158,
+        "number000": "158",
         "name": "Totodile",
         "internal_name": "TOTODILE",
         "type": [
@@ -18616,6 +18774,7 @@
     },
     {
         "number": 159,
+        "number000": "159",
         "name": "Croconaw",
         "internal_name": "CROCONAW",
         "type": [
@@ -18741,6 +18900,7 @@
     },
     {
         "number": 160,
+        "number000": "160",
         "name": "Feraligatr",
         "internal_name": "FERALIGATR",
         "type": [
@@ -18867,6 +19027,7 @@
     },
     {
         "number": 161,
+        "number000": "161",
         "name": "Sentret",
         "internal_name": "SENTRET",
         "type": [
@@ -18993,6 +19154,7 @@
     },
     {
         "number": 162,
+        "number000": "162",
         "name": "Furret",
         "internal_name": "FURRET",
         "type": [
@@ -19110,6 +19272,7 @@
     },
     {
         "number": 163,
+        "number000": "163",
         "name": "Hoothoot",
         "internal_name": "HOOTHOOT",
         "type": [
@@ -19247,6 +19410,7 @@
     },
     {
         "number": 164,
+        "number000": "164",
         "name": "Noctowl",
         "internal_name": "NOCTOWL",
         "type": [
@@ -19373,6 +19537,7 @@
     },
     {
         "number": 165,
+        "number000": "165",
         "name": "Ledyba",
         "internal_name": "LEDYBA",
         "type": [
@@ -19495,6 +19660,7 @@
     },
     {
         "number": 166,
+        "number000": "166",
         "name": "Ledian",
         "internal_name": "LEDIAN",
         "type": [
@@ -19604,6 +19770,7 @@
     },
     {
         "number": 167,
+        "number000": "167",
         "name": "Spinarak",
         "internal_name": "SPINARAK",
         "type": [
@@ -19734,6 +19901,7 @@
     },
     {
         "number": 168,
+        "number000": "168",
         "name": "Ariados",
         "internal_name": "ARIADOS",
         "type": [
@@ -19852,6 +20020,7 @@
     },
     {
         "number": 169,
+        "number000": "169",
         "name": "Crobat",
         "internal_name": "CROBAT",
         "type": [
@@ -19969,6 +20138,7 @@
     },
     {
         "number": 170,
+        "number000": "170",
         "name": "Chinchou",
         "internal_name": "CHINCHOU",
         "type": [
@@ -20098,6 +20268,7 @@
     },
     {
         "number": 171,
+        "number000": "171",
         "name": "Lanturn",
         "internal_name": "LANTURN",
         "type": [
@@ -20224,6 +20395,7 @@
     },
     {
         "number": 172,
+        "number000": "172",
         "name": "Pichu",
         "internal_name": "PICHU",
         "type": [
@@ -20318,6 +20490,7 @@
     },
     {
         "number": 173,
+        "number000": "173",
         "name": "Cleffa",
         "internal_name": "CLEFFA",
         "type": [
@@ -20414,6 +20587,7 @@
     },
     {
         "number": 174,
+        "number000": "174",
         "name": "Igglybuff",
         "internal_name": "IGGLYBUFF",
         "type": [
@@ -20505,6 +20679,7 @@
     },
     {
         "number": 175,
+        "number000": "175",
         "name": "Togepi",
         "internal_name": "TOGEPI",
         "type": [
@@ -20633,6 +20808,7 @@
     },
     {
         "number": 176,
+        "number000": "176",
         "name": "Togetic",
         "internal_name": "TOGETIC",
         "type": [
@@ -20762,6 +20938,7 @@
     },
     {
         "number": 177,
+        "number000": "177",
         "name": "Natu",
         "internal_name": "NATU",
         "type": [
@@ -20897,6 +21074,7 @@
     },
     {
         "number": 178,
+        "number000": "178",
         "name": "Xatu",
         "internal_name": "XATU",
         "type": [
@@ -21015,6 +21193,7 @@
     },
     {
         "number": 179,
+        "number000": "179",
         "name": "Mareep",
         "internal_name": "MAREEP",
         "type": [
@@ -21143,6 +21322,7 @@
     },
     {
         "number": 180,
+        "number000": "180",
         "name": "Flaaffy",
         "internal_name": "FLAAFFY",
         "type": [
@@ -21267,6 +21447,7 @@
     },
     {
         "number": 181,
+        "number000": "181",
         "name": "Ampharos",
         "internal_name": "AMPHAROS",
         "type": [
@@ -21392,6 +21573,7 @@
     },
     {
         "number": 182,
+        "number000": "182",
         "name": "Bellossom",
         "internal_name": "BELLOSSOM",
         "type": [
@@ -21476,6 +21658,7 @@
     },
     {
         "number": 183,
+        "number000": "183",
         "name": "Marill",
         "internal_name": "MARILL",
         "type": [
@@ -21608,6 +21791,7 @@
     },
     {
         "number": 184,
+        "number000": "184",
         "name": "Azumarill",
         "internal_name": "AZUMARILL",
         "type": [
@@ -21727,6 +21911,7 @@
     },
     {
         "number": 185,
+        "number000": "185",
         "name": "Sudowoodo",
         "internal_name": "SUDOWOODO",
         "type": [
@@ -21863,6 +22048,7 @@
     },
     {
         "number": 186,
+        "number000": "186",
         "name": "Politoed",
         "internal_name": "POLITOED",
         "type": [
@@ -21940,6 +22126,7 @@
     },
     {
         "number": 187,
+        "number000": "187",
         "name": "Hoppip",
         "internal_name": "HOPPIP",
         "type": [
@@ -22082,6 +22269,7 @@
     },
     {
         "number": 188,
+        "number000": "188",
         "name": "Skiploom",
         "internal_name": "SKIPLOOM",
         "type": [
@@ -22224,6 +22412,7 @@
     },
     {
         "number": 189,
+        "number000": "189",
         "name": "Jumpluff",
         "internal_name": "JUMPLUFF",
         "type": [
@@ -22359,6 +22548,7 @@
     },
     {
         "number": 190,
+        "number000": "190",
         "name": "Aipom",
         "internal_name": "AIPOM",
         "type": [
@@ -22486,6 +22676,7 @@
     },
     {
         "number": 191,
+        "number000": "191",
         "name": "Sunkern",
         "internal_name": "SUNKERN",
         "type": [
@@ -22620,6 +22811,7 @@
     },
     {
         "number": 192,
+        "number000": "192",
         "name": "Sunflora",
         "internal_name": "SUNFLORA",
         "type": [
@@ -22737,6 +22929,7 @@
     },
     {
         "number": 193,
+        "number000": "193",
         "name": "Yanma",
         "internal_name": "YANMA",
         "type": [
@@ -22870,6 +23063,7 @@
     },
     {
         "number": 194,
+        "number000": "194",
         "name": "Wooper",
         "internal_name": "WOOPER",
         "type": [
@@ -22996,6 +23190,7 @@
     },
     {
         "number": 195,
+        "number000": "195",
         "name": "Quagsire",
         "internal_name": "QUAGSIRE",
         "type": [
@@ -23103,6 +23298,7 @@
     },
     {
         "number": 196,
+        "number000": "196",
         "name": "Espeon",
         "internal_name": "ESPEON",
         "type": [
@@ -23207,6 +23403,7 @@
     },
     {
         "number": 197,
+        "number000": "197",
         "name": "Umbreon",
         "internal_name": "UMBREON",
         "type": [
@@ -23311,6 +23508,7 @@
     },
     {
         "number": 198,
+        "number000": "198",
         "name": "Murkrow",
         "internal_name": "MURKROW",
         "type": [
@@ -23444,6 +23642,7 @@
     },
     {
         "number": 199,
+        "number000": "199",
         "name": "Slowking",
         "internal_name": "SLOWKING",
         "type": [
@@ -23567,6 +23766,7 @@
     },
     {
         "number": 200,
+        "number000": "200",
         "name": "Misdreavus",
         "internal_name": "MISDREAVUS",
         "type": [
@@ -23691,6 +23891,7 @@
     },
     {
         "number": 201,
+        "number000": "201",
         "name": "Unown",
         "internal_name": "UNOWN",
         "type": [
@@ -23746,6 +23947,7 @@
     },
     {
         "number": 202,
+        "number000": "202",
         "name": "Wobbuffet",
         "internal_name": "WOBBUFFET",
         "type": [
@@ -23810,6 +24012,7 @@
     },
     {
         "number": 203,
+        "number000": "203",
         "name": "Girafarig",
         "internal_name": "GIRAFARIG",
         "type": [
@@ -23939,6 +24142,7 @@
     },
     {
         "number": 204,
+        "number000": "204",
         "name": "Pineco",
         "internal_name": "PINECO",
         "type": [
@@ -24063,6 +24267,7 @@
     },
     {
         "number": 205,
+        "number000": "205",
         "name": "Forretress",
         "internal_name": "FORRETRESS",
         "type": [
@@ -24200,6 +24405,7 @@
     },
     {
         "number": 206,
+        "number000": "206",
         "name": "Dunsparce",
         "internal_name": "DUNSPARCE",
         "type": [
@@ -24340,6 +24546,7 @@
     },
     {
         "number": 207,
+        "number000": "207",
         "name": "Gligar",
         "internal_name": "GLIGAR",
         "type": [
@@ -24473,6 +24680,7 @@
     },
     {
         "number": 208,
+        "number000": "208",
         "name": "Steelix",
         "internal_name": "STEELIX",
         "type": [
@@ -24619,6 +24827,7 @@
     },
     {
         "number": 209,
+        "number000": "209",
         "name": "Snubbull",
         "internal_name": "SNUBBULL",
         "type": [
@@ -24752,6 +24961,7 @@
     },
     {
         "number": 210,
+        "number000": "210",
         "name": "Granbull",
         "internal_name": "GRANBULL",
         "type": [
@@ -24866,6 +25076,7 @@
     },
     {
         "number": 211,
+        "number000": "211",
         "name": "Qwilfish",
         "internal_name": "QWILFISH",
         "type": [
@@ -25011,6 +25222,7 @@
     },
     {
         "number": 212,
+        "number000": "212",
         "name": "Scizor",
         "internal_name": "SCIZOR",
         "type": [
@@ -25133,6 +25345,7 @@
     },
     {
         "number": 213,
+        "number000": "213",
         "name": "Shuckle",
         "internal_name": "SHUCKLE",
         "type": [
@@ -25266,6 +25479,7 @@
     },
     {
         "number": 214,
+        "number000": "214",
         "name": "Heracross",
         "internal_name": "HERACROSS",
         "type": [
@@ -25388,6 +25602,7 @@
     },
     {
         "number": 215,
+        "number000": "215",
         "name": "Sneasel",
         "internal_name": "SNEASEL",
         "type": [
@@ -25530,6 +25745,7 @@
     },
     {
         "number": 216,
+        "number000": "216",
         "name": "Teddiursa",
         "internal_name": "TEDDIURSA",
         "type": [
@@ -25658,6 +25874,7 @@
     },
     {
         "number": 217,
+        "number000": "217",
         "name": "Ursaring",
         "internal_name": "URSARING",
         "type": [
@@ -25771,6 +25988,7 @@
     },
     {
         "number": 218,
+        "number000": "218",
         "name": "Slugma",
         "internal_name": "SLUGMA",
         "type": [
@@ -25895,6 +26113,7 @@
     },
     {
         "number": 219,
+        "number000": "219",
         "name": "Magcargo",
         "internal_name": "MAGCARGO",
         "type": [
@@ -26012,6 +26231,7 @@
     },
     {
         "number": 220,
+        "number000": "220",
         "name": "Swinub",
         "internal_name": "SWINUB",
         "type": [
@@ -26143,6 +26363,7 @@
     },
     {
         "number": 221,
+        "number000": "221",
         "name": "Piloswine",
         "internal_name": "PILOSWINE",
         "type": [
@@ -26276,6 +26497,7 @@
     },
     {
         "number": 222,
+        "number000": "222",
         "name": "Corsola",
         "internal_name": "CORSOLA",
         "type": [
@@ -26416,6 +26638,7 @@
     },
     {
         "number": 223,
+        "number000": "223",
         "name": "Remoraid",
         "internal_name": "REMORAID",
         "type": [
@@ -26539,6 +26762,7 @@
     },
     {
         "number": 224,
+        "number000": "224",
         "name": "Octillery",
         "internal_name": "OCTILLERY",
         "type": [
@@ -26669,6 +26893,7 @@
     },
     {
         "number": 225,
+        "number000": "225",
         "name": "Delibird",
         "internal_name": "DELIBIRD",
         "type": [
@@ -26788,6 +27013,7 @@
     },
     {
         "number": 226,
+        "number000": "226",
         "name": "Mantine",
         "internal_name": "MANTINE",
         "type": [
@@ -26934,6 +27160,7 @@
     },
     {
         "number": 227,
+        "number000": "227",
         "name": "Skarmory",
         "internal_name": "SKARMORY",
         "type": [
@@ -27056,6 +27283,7 @@
     },
     {
         "number": 228,
+        "number000": "228",
         "name": "Houndour",
         "internal_name": "HOUNDOUR",
         "type": [
@@ -27192,6 +27420,7 @@
     },
     {
         "number": 229,
+        "number000": "229",
         "name": "Houndoom",
         "internal_name": "HOUNDOOM",
         "type": [
@@ -27318,6 +27547,7 @@
     },
     {
         "number": 230,
+        "number000": "230",
         "name": "Kingdra",
         "internal_name": "KINGDRA",
         "type": [
@@ -27433,6 +27663,7 @@
     },
     {
         "number": 231,
+        "number000": "231",
         "name": "Phanpy",
         "internal_name": "PHANPY",
         "type": [
@@ -27553,6 +27784,7 @@
     },
     {
         "number": 232,
+        "number000": "232",
         "name": "Donphan",
         "internal_name": "DONPHAN",
         "type": [
@@ -27665,6 +27897,7 @@
     },
     {
         "number": 233,
+        "number000": "233",
         "name": "Porygon2",
         "internal_name": "PORYGON2",
         "type": [
@@ -27785,6 +28018,7 @@
     },
     {
         "number": 234,
+        "number000": "234",
         "name": "Stantler",
         "internal_name": "STANTLER",
         "type": [
@@ -27914,6 +28148,7 @@
     },
     {
         "number": 235,
+        "number000": "235",
         "name": "Smeargle",
         "internal_name": "SMEARGLE",
         "type": [
@@ -28007,6 +28242,7 @@
     },
     {
         "number": 236,
+        "number000": "236",
         "name": "Tyrogue",
         "internal_name": "TYROGUE",
         "type": [
@@ -28102,6 +28338,7 @@
     },
     {
         "number": 237,
+        "number000": "237",
         "name": "Hitmontop",
         "internal_name": "HITMONTOP",
         "type": [
@@ -28215,6 +28452,7 @@
     },
     {
         "number": 238,
+        "number000": "238",
         "name": "Smoochum",
         "internal_name": "SMOOCHUM",
         "type": [
@@ -28338,6 +28576,7 @@
     },
     {
         "number": 239,
+        "number000": "239",
         "name": "Elekid",
         "internal_name": "ELEKID",
         "type": [
@@ -28462,6 +28701,7 @@
     },
     {
         "number": 240,
+        "number000": "240",
         "name": "Magby",
         "internal_name": "MAGBY",
         "type": [
@@ -28587,6 +28827,7 @@
     },
     {
         "number": 241,
+        "number000": "241",
         "name": "Miltank",
         "internal_name": "MILTANK",
         "type": [
@@ -28707,6 +28948,7 @@
     },
     {
         "number": 242,
+        "number000": "242",
         "name": "Blissey",
         "internal_name": "BLISSEY",
         "type": [
@@ -28824,6 +29066,7 @@
     },
     {
         "number": 243,
+        "number000": "243",
         "name": "Raikou",
         "internal_name": "RAIKOU",
         "type": [
@@ -28928,6 +29171,7 @@
     },
     {
         "number": 244,
+        "number000": "244",
         "name": "Entei",
         "internal_name": "ENTEI",
         "type": [
@@ -29032,6 +29276,7 @@
     },
     {
         "number": 245,
+        "number000": "245",
         "name": "Suicune",
         "internal_name": "SUICUNE",
         "type": [
@@ -29136,6 +29381,7 @@
     },
     {
         "number": 246,
+        "number000": "246",
         "name": "Larvitar",
         "internal_name": "LARVITAR",
         "type": [
@@ -29262,6 +29508,7 @@
     },
     {
         "number": 247,
+        "number000": "247",
         "name": "Pupitar",
         "internal_name": "PUPITAR",
         "type": [
@@ -29381,6 +29628,7 @@
     },
     {
         "number": 248,
+        "number000": "248",
         "name": "Tyranitar",
         "internal_name": "TYRANITAR",
         "type": [
@@ -29510,6 +29758,7 @@
     },
     {
         "number": 249,
+        "number000": "249",
         "name": "Lugia",
         "internal_name": "LUGIA",
         "type": [
@@ -29623,6 +29872,7 @@
     },
     {
         "number": 250,
+        "number000": "250",
         "name": "Ho-Oh",
         "internal_name": "HOOH",
         "type": [
@@ -29736,6 +29986,7 @@
     },
     {
         "number": 251,
+        "number000": "251",
         "name": "Celebi",
         "internal_name": "CELEBI",
         "type": [
@@ -29848,6 +30099,7 @@
     },
     {
         "number": 252,
+        "number000": "252",
         "name": "Treecko",
         "internal_name": "TREECKO",
         "type": [
@@ -29969,6 +30221,7 @@
     },
     {
         "number": 253,
+        "number000": "253",
         "name": "Grovyle",
         "internal_name": "GROVYLE",
         "type": [
@@ -30085,6 +30338,7 @@
     },
     {
         "number": 254,
+        "number000": "254",
         "name": "Sceptile",
         "internal_name": "SCEPTILE",
         "type": [
@@ -30199,6 +30453,7 @@
     },
     {
         "number": 255,
+        "number000": "255",
         "name": "Torchic",
         "internal_name": "TORCHIC",
         "type": [
@@ -30314,6 +30569,7 @@
     },
     {
         "number": 256,
+        "number000": "256",
         "name": "Combusken",
         "internal_name": "COMBUSKEN",
         "type": [
@@ -30430,6 +30686,7 @@
     },
     {
         "number": 257,
+        "number000": "257",
         "name": "Blaziken",
         "internal_name": "BLAZIKEN",
         "type": [
@@ -30551,6 +30808,7 @@
     },
     {
         "number": 258,
+        "number000": "258",
         "name": "Mudkip",
         "internal_name": "MUDKIP",
         "type": [
@@ -30673,6 +30931,7 @@
     },
     {
         "number": 259,
+        "number000": "259",
         "name": "Marshtomp",
         "internal_name": "MARSHTOMP",
         "type": [
@@ -30790,6 +31049,7 @@
     },
     {
         "number": 260,
+        "number000": "260",
         "name": "Swampert",
         "internal_name": "SWAMPERT",
         "type": [
@@ -30904,6 +31164,7 @@
     },
     {
         "number": 261,
+        "number000": "261",
         "name": "Poochyena",
         "internal_name": "POOCHYENA",
         "type": [
@@ -31030,6 +31291,7 @@
     },
     {
         "number": 262,
+        "number000": "262",
         "name": "Mightyena",
         "internal_name": "MIGHTYENA",
         "type": [
@@ -31159,6 +31421,7 @@
     },
     {
         "number": 263,
+        "number000": "263",
         "name": "Zigzagoon",
         "internal_name": "ZIGZAGOON",
         "type": [
@@ -31283,6 +31546,7 @@
     },
     {
         "number": 264,
+        "number000": "264",
         "name": "Linoone",
         "internal_name": "LINOONE",
         "type": [
@@ -31408,6 +31672,7 @@
     },
     {
         "number": 265,
+        "number000": "265",
         "name": "Wurmple",
         "internal_name": "WURMPLE",
         "type": [
@@ -31484,6 +31749,7 @@
     },
     {
         "number": 266,
+        "number000": "266",
         "name": "Silcoon",
         "internal_name": "SILCOON",
         "type": [
@@ -31546,6 +31812,7 @@
     },
     {
         "number": 267,
+        "number000": "267",
         "name": "Beautifly",
         "internal_name": "BEAUTIFLY",
         "type": [
@@ -31647,6 +31914,7 @@
     },
     {
         "number": 268,
+        "number000": "268",
         "name": "Cascoon",
         "internal_name": "CASCOON",
         "type": [
@@ -31709,6 +31977,7 @@
     },
     {
         "number": 269,
+        "number000": "269",
         "name": "Dustox",
         "internal_name": "DUSTOX",
         "type": [
@@ -31806,6 +32075,7 @@
     },
     {
         "number": 270,
+        "number000": "270",
         "name": "Lotad",
         "internal_name": "LOTAD",
         "type": [
@@ -31920,6 +32190,7 @@
     },
     {
         "number": 271,
+        "number000": "271",
         "name": "Lombre",
         "internal_name": "LOMBRE",
         "type": [
@@ -32022,6 +32293,7 @@
     },
     {
         "number": 272,
+        "number000": "272",
         "name": "Ludicolo",
         "internal_name": "LUDICOLO",
         "type": [
@@ -32089,6 +32361,7 @@
     },
     {
         "number": 273,
+        "number000": "273",
         "name": "Seedot",
         "internal_name": "SEEDOT",
         "type": [
@@ -32187,6 +32460,7 @@
     },
     {
         "number": 274,
+        "number000": "274",
         "name": "Nuzleaf",
         "internal_name": "NUZLEAF",
         "type": [
@@ -32288,6 +32562,7 @@
     },
     {
         "number": 275,
+        "number000": "275",
         "name": "Shiftry",
         "internal_name": "SHIFTRY",
         "type": [
@@ -32374,6 +32649,7 @@
     },
     {
         "number": 276,
+        "number000": "276",
         "name": "Taillow",
         "internal_name": "TAILLOW",
         "type": [
@@ -32483,6 +32759,7 @@
     },
     {
         "number": 277,
+        "number000": "277",
         "name": "Swellow",
         "internal_name": "SWELLOW",
         "type": [
@@ -32584,6 +32861,7 @@
     },
     {
         "number": 278,
+        "number000": "278",
         "name": "Wingull",
         "internal_name": "WINGULL",
         "type": [
@@ -32708,6 +32986,7 @@
     },
     {
         "number": 279,
+        "number000": "279",
         "name": "Pelipper",
         "internal_name": "PELIPPER",
         "type": [
@@ -32839,6 +33118,7 @@
     },
     {
         "number": 280,
+        "number000": "280",
         "name": "Ralts",
         "internal_name": "RALTS",
         "type": [
@@ -32968,6 +33248,7 @@
     },
     {
         "number": 281,
+        "number000": "281",
         "name": "Kirlia",
         "internal_name": "KIRLIA",
         "type": [
@@ -33102,6 +33383,7 @@
     },
     {
         "number": 282,
+        "number000": "282",
         "name": "Gardevoir",
         "internal_name": "GARDEVOIR",
         "type": [
@@ -33228,6 +33510,7 @@
     },
     {
         "number": 283,
+        "number000": "283",
         "name": "Surskit",
         "internal_name": "SURSKIT",
         "type": [
@@ -33332,6 +33615,7 @@
     },
     {
         "number": 284,
+        "number000": "284",
         "name": "Masquerain",
         "internal_name": "MASQUERAIN",
         "type": [
@@ -33446,6 +33730,7 @@
     },
     {
         "number": 285,
+        "number000": "285",
         "name": "Shroomish",
         "internal_name": "SHROOMISH",
         "type": [
@@ -33563,6 +33848,7 @@
     },
     {
         "number": 286,
+        "number000": "286",
         "name": "Breloom",
         "internal_name": "BRELOOM",
         "type": [
@@ -33678,6 +33964,7 @@
     },
     {
         "number": 287,
+        "number000": "287",
         "name": "Slakoth",
         "internal_name": "SLAKOTH",
         "type": [
@@ -33785,6 +34072,7 @@
     },
     {
         "number": 288,
+        "number000": "288",
         "name": "Vigoroth",
         "internal_name": "VIGOROTH",
         "type": [
@@ -33891,6 +34179,7 @@
     },
     {
         "number": 289,
+        "number000": "289",
         "name": "Slaking",
         "internal_name": "SLAKING",
         "type": [
@@ -34002,6 +34291,7 @@
     },
     {
         "number": 290,
+        "number000": "290",
         "name": "Nincada",
         "internal_name": "NINCADA",
         "type": [
@@ -34113,6 +34403,7 @@
     },
     {
         "number": 291,
+        "number000": "291",
         "name": "Ninjask",
         "internal_name": "NINJASK",
         "type": [
@@ -34230,6 +34521,7 @@
     },
     {
         "number": 292,
+        "number000": "292",
         "name": "Shedinja",
         "internal_name": "SHEDINJA",
         "type": [
@@ -34326,6 +34618,7 @@
     },
     {
         "number": 293,
+        "number000": "293",
         "name": "Whismur",
         "internal_name": "WHISMUR",
         "type": [
@@ -34441,6 +34734,7 @@
     },
     {
         "number": 294,
+        "number000": "294",
         "name": "Loudred",
         "internal_name": "LOUDRED",
         "type": [
@@ -34561,6 +34855,7 @@
     },
     {
         "number": 295,
+        "number000": "295",
         "name": "Exploud",
         "internal_name": "EXPLOUD",
         "type": [
@@ -34694,6 +34989,7 @@
     },
     {
         "number": 296,
+        "number000": "296",
         "name": "Makuhita",
         "internal_name": "MAKUHITA",
         "type": [
@@ -34835,6 +35131,7 @@
     },
     {
         "number": 297,
+        "number000": "297",
         "name": "Hariyama",
         "internal_name": "HARIYAMA",
         "type": [
@@ -34961,6 +35258,7 @@
     },
     {
         "number": 298,
+        "number000": "298",
         "name": "Azurill",
         "internal_name": "AZURILL",
         "type": [
@@ -35068,6 +35366,7 @@
     },
     {
         "number": 299,
+        "number000": "299",
         "name": "Nosepass",
         "internal_name": "NOSEPASS",
         "type": [
@@ -35196,6 +35495,7 @@
     },
     {
         "number": 300,
+        "number000": "300",
         "name": "Skitty",
         "internal_name": "SKITTY",
         "type": [
@@ -35336,6 +35636,7 @@
     },
     {
         "number": 301,
+        "number000": "301",
         "name": "Delcatty",
         "internal_name": "DELCATTY",
         "type": [
@@ -35402,6 +35703,7 @@
     },
     {
         "number": 302,
+        "number000": "302",
         "name": "Sableye",
         "internal_name": "SABLEYE",
         "type": [
@@ -35539,6 +35841,7 @@
     },
     {
         "number": 303,
+        "number000": "303",
         "name": "Mawile",
         "internal_name": "MAWILE",
         "type": [
@@ -35667,6 +35970,7 @@
     },
     {
         "number": 304,
+        "number000": "304",
         "name": "Aron",
         "internal_name": "ARON",
         "type": [
@@ -35801,6 +36105,7 @@
     },
     {
         "number": 305,
+        "number000": "305",
         "name": "Lairon",
         "internal_name": "LAIRON",
         "type": [
@@ -35930,6 +36235,7 @@
     },
     {
         "number": 306,
+        "number000": "306",
         "name": "Aggron",
         "internal_name": "AGGRON",
         "type": [
@@ -36052,6 +36358,7 @@
     },
     {
         "number": 307,
+        "number000": "307",
         "name": "Meditite",
         "internal_name": "MEDITITE",
         "type": [
@@ -36183,6 +36490,7 @@
     },
     {
         "number": 308,
+        "number000": "308",
         "name": "Medicham",
         "internal_name": "MEDICHAM",
         "type": [
@@ -36316,6 +36624,7 @@
     },
     {
         "number": 309,
+        "number000": "309",
         "name": "Electrike",
         "internal_name": "ELECTRIKE",
         "type": [
@@ -36443,6 +36752,7 @@
     },
     {
         "number": 310,
+        "number000": "310",
         "name": "Manectric",
         "internal_name": "MANECTRIC",
         "type": [
@@ -36564,6 +36874,7 @@
     },
     {
         "number": 311,
+        "number000": "311",
         "name": "Plusle",
         "internal_name": "PLUSLE",
         "type": [
@@ -36690,6 +37001,7 @@
     },
     {
         "number": 312,
+        "number000": "312",
         "name": "Minun",
         "internal_name": "MINUN",
         "type": [
@@ -36816,6 +37128,7 @@
     },
     {
         "number": 313,
+        "number000": "313",
         "name": "Volbeat",
         "internal_name": "VOLBEAT",
         "type": [
@@ -36932,6 +37245,7 @@
     },
     {
         "number": 314,
+        "number000": "314",
         "name": "Illumise",
         "internal_name": "ILLUMISE",
         "type": [
@@ -37041,6 +37355,7 @@
     },
     {
         "number": 315,
+        "number000": "315",
         "name": "Roselia",
         "internal_name": "ROSELIA",
         "type": [
@@ -37176,6 +37491,7 @@
     },
     {
         "number": 316,
+        "number000": "316",
         "name": "Gulpin",
         "internal_name": "GULPIN",
         "type": [
@@ -37301,6 +37617,7 @@
     },
     {
         "number": 317,
+        "number000": "317",
         "name": "Swalot",
         "internal_name": "SWALOT",
         "type": [
@@ -37426,6 +37743,7 @@
     },
     {
         "number": 318,
+        "number000": "318",
         "name": "Carvanha",
         "internal_name": "CARVANHA",
         "type": [
@@ -37542,6 +37860,7 @@
     },
     {
         "number": 319,
+        "number000": "319",
         "name": "Sharpedo",
         "internal_name": "SHARPEDO",
         "type": [
@@ -37671,6 +37990,7 @@
     },
     {
         "number": 320,
+        "number000": "320",
         "name": "Wailmer",
         "internal_name": "WAILMER",
         "type": [
@@ -37802,6 +38122,7 @@
     },
     {
         "number": 321,
+        "number000": "321",
         "name": "Wailord",
         "internal_name": "WAILORD",
         "type": [
@@ -37928,6 +38249,7 @@
     },
     {
         "number": 322,
+        "number000": "322",
         "name": "Numel",
         "internal_name": "NUMEL",
         "type": [
@@ -38061,6 +38383,7 @@
     },
     {
         "number": 323,
+        "number000": "323",
         "name": "Camerupt",
         "internal_name": "CAMERUPT",
         "type": [
@@ -38183,6 +38506,7 @@
     },
     {
         "number": 324,
+        "number000": "324",
         "name": "Torkoal",
         "internal_name": "TORKOAL",
         "type": [
@@ -38310,6 +38634,7 @@
     },
     {
         "number": 325,
+        "number000": "325",
         "name": "Spoink",
         "internal_name": "SPOINK",
         "type": [
@@ -38438,6 +38763,7 @@
     },
     {
         "number": 326,
+        "number000": "326",
         "name": "Grumpig",
         "internal_name": "GRUMPIG",
         "type": [
@@ -38559,6 +38885,7 @@
     },
     {
         "number": 327,
+        "number000": "327",
         "name": "Spinda",
         "internal_name": "SPINDA",
         "type": [
@@ -38677,6 +39004,7 @@
     },
     {
         "number": 328,
+        "number000": "328",
         "name": "Trapinch",
         "internal_name": "TRAPINCH",
         "type": [
@@ -38809,6 +39137,7 @@
     },
     {
         "number": 329,
+        "number000": "329",
         "name": "Vibrava",
         "internal_name": "VIBRAVA",
         "type": [
@@ -38932,6 +39261,7 @@
     },
     {
         "number": 330,
+        "number000": "330",
         "name": "Flygon",
         "internal_name": "FLYGON",
         "type": [
@@ -39056,6 +39386,7 @@
     },
     {
         "number": 331,
+        "number000": "331",
         "name": "Cacnea",
         "internal_name": "CACNEA",
         "type": [
@@ -39192,6 +39523,7 @@
     },
     {
         "number": 332,
+        "number000": "332",
         "name": "Cacturne",
         "internal_name": "CACTURNE",
         "type": [
@@ -39318,6 +39650,7 @@
     },
     {
         "number": 333,
+        "number000": "333",
         "name": "Swablu",
         "internal_name": "SWABLU",
         "type": [
@@ -39447,6 +39780,7 @@
     },
     {
         "number": 334,
+        "number000": "334",
         "name": "Altaria",
         "internal_name": "ALTARIA",
         "type": [
@@ -39585,6 +39919,7 @@
     },
     {
         "number": 335,
+        "number000": "335",
         "name": "Zangoose",
         "internal_name": "ZANGOOSE",
         "type": [
@@ -39708,6 +40043,7 @@
     },
     {
         "number": 336,
+        "number000": "336",
         "name": "Seviper",
         "internal_name": "SEVIPER",
         "type": [
@@ -39835,6 +40171,7 @@
     },
     {
         "number": 337,
+        "number000": "337",
         "name": "Lunatone",
         "internal_name": "LUNATONE",
         "type": [
@@ -39947,6 +40284,7 @@
     },
     {
         "number": 338,
+        "number000": "338",
         "name": "Solrock",
         "internal_name": "SOLROCK",
         "type": [
@@ -40059,6 +40397,7 @@
     },
     {
         "number": 339,
+        "number000": "339",
         "name": "Barboach",
         "internal_name": "BARBOACH",
         "type": [
@@ -40184,6 +40523,7 @@
     },
     {
         "number": 340,
+        "number000": "340",
         "name": "Whiscash",
         "internal_name": "WHISCASH",
         "type": [
@@ -40306,6 +40646,7 @@
     },
     {
         "number": 341,
+        "number000": "341",
         "name": "Corphish",
         "internal_name": "CORPHISH",
         "type": [
@@ -40428,6 +40769,7 @@
     },
     {
         "number": 342,
+        "number000": "342",
         "name": "Crawdaunt",
         "internal_name": "CRAWDAUNT",
         "type": [
@@ -40547,6 +40889,7 @@
     },
     {
         "number": 343,
+        "number000": "343",
         "name": "Baltoy",
         "internal_name": "BALTOY",
         "type": [
@@ -40670,6 +41013,7 @@
     },
     {
         "number": 344,
+        "number000": "344",
         "name": "Claydol",
         "internal_name": "CLAYDOL",
         "type": [
@@ -40798,6 +41142,7 @@
     },
     {
         "number": 345,
+        "number000": "345",
         "name": "Lileep",
         "internal_name": "LILEEP",
         "type": [
@@ -40917,6 +41262,7 @@
     },
     {
         "number": 346,
+        "number000": "346",
         "name": "Cradily",
         "internal_name": "CRADILY",
         "type": [
@@ -41026,6 +41372,7 @@
     },
     {
         "number": 347,
+        "number000": "347",
         "name": "Anorith",
         "internal_name": "ANORITH",
         "type": [
@@ -41140,6 +41487,7 @@
     },
     {
         "number": 348,
+        "number000": "348",
         "name": "Armaldo",
         "internal_name": "ARMALDO",
         "type": [
@@ -41245,6 +41593,7 @@
     },
     {
         "number": 349,
+        "number000": "349",
         "name": "Feebas",
         "internal_name": "FEEBAS",
         "type": [
@@ -41339,6 +41688,7 @@
     },
     {
         "number": 350,
+        "number000": "350",
         "name": "Milotic",
         "internal_name": "MILOTIC",
         "type": [
@@ -41445,6 +41795,7 @@
     },
     {
         "number": 351,
+        "number000": "351",
         "name": "Castform",
         "internal_name": "CASTFORM",
         "type": [
@@ -41550,6 +41901,7 @@
     },
     {
         "number": 352,
+        "number000": "352",
         "name": "Kecleon",
         "internal_name": "KECLEON",
         "type": [
@@ -41682,6 +42034,7 @@
     },
     {
         "number": 353,
+        "number000": "353",
         "name": "Shuppet",
         "internal_name": "SHUPPET",
         "type": [
@@ -41810,6 +42163,7 @@
     },
     {
         "number": 354,
+        "number000": "354",
         "name": "Banette",
         "internal_name": "BANETTE",
         "type": [
@@ -41938,6 +42292,7 @@
     },
     {
         "number": 355,
+        "number000": "355",
         "name": "Duskull",
         "internal_name": "DUSKULL",
         "type": [
@@ -42055,6 +42410,7 @@
     },
     {
         "number": 356,
+        "number000": "356",
         "name": "Dusclops",
         "internal_name": "DUSCLOPS",
         "type": [
@@ -42193,6 +42549,7 @@
     },
     {
         "number": 357,
+        "number000": "357",
         "name": "Tropius",
         "internal_name": "TROPIUS",
         "type": [
@@ -42322,6 +42679,7 @@
     },
     {
         "number": 358,
+        "number000": "358",
         "name": "Chimecho",
         "internal_name": "CHIMECHO",
         "type": [
@@ -42438,6 +42796,7 @@
     },
     {
         "number": 359,
+        "number000": "359",
         "name": "Absol",
         "internal_name": "ABSOL",
         "type": [
@@ -42575,6 +42934,7 @@
     },
     {
         "number": 360,
+        "number000": "360",
         "name": "Wynaut",
         "internal_name": "WYNAUT",
         "type": [
@@ -42658,6 +43018,7 @@
     },
     {
         "number": 361,
+        "number000": "361",
         "name": "Snorunt",
         "internal_name": "SNORUNT",
         "type": [
@@ -42779,6 +43140,7 @@
     },
     {
         "number": 362,
+        "number000": "362",
         "name": "Glalie",
         "internal_name": "GLALIE",
         "type": [
@@ -42893,6 +43255,7 @@
     },
     {
         "number": 363,
+        "number000": "363",
         "name": "Spheal",
         "internal_name": "SPHEAL",
         "type": [
@@ -43017,6 +43380,7 @@
     },
     {
         "number": 364,
+        "number000": "364",
         "name": "Sealeo",
         "internal_name": "SEALEO",
         "type": [
@@ -43131,6 +43495,7 @@
     },
     {
         "number": 365,
+        "number000": "365",
         "name": "Walrein",
         "internal_name": "WALREIN",
         "type": [
@@ -43250,6 +43615,7 @@
     },
     {
         "number": 366,
+        "number000": "366",
         "name": "Clamperl",
         "internal_name": "CLAMPERL",
         "type": [
@@ -43343,6 +43709,7 @@
     },
     {
         "number": 367,
+        "number000": "367",
         "name": "Huntail",
         "internal_name": "HUNTAIL",
         "type": [
@@ -43440,6 +43807,7 @@
     },
     {
         "number": 368,
+        "number000": "368",
         "name": "Gorebyss",
         "internal_name": "GOREBYSS",
         "type": [
@@ -43536,6 +43904,7 @@
     },
     {
         "number": 369,
+        "number000": "369",
         "name": "Relicanth",
         "internal_name": "RELICANTH",
         "type": [
@@ -43653,6 +44022,7 @@
     },
     {
         "number": 370,
+        "number000": "370",
         "name": "Luvdisc",
         "internal_name": "LUVDISC",
         "type": [
@@ -43768,6 +44138,7 @@
     },
     {
         "number": 371,
+        "number000": "371",
         "name": "Bagon",
         "internal_name": "BAGON",
         "type": [
@@ -43883,6 +44254,7 @@
     },
     {
         "number": 372,
+        "number000": "372",
         "name": "Shelgon",
         "internal_name": "SHELGON",
         "type": [
@@ -44002,6 +44374,7 @@
     },
     {
         "number": 373,
+        "number000": "373",
         "name": "Salamence",
         "internal_name": "SALAMENCE",
         "type": [
@@ -44131,6 +44504,7 @@
     },
     {
         "number": 374,
+        "number000": "374",
         "name": "Beldum",
         "internal_name": "BELDUM",
         "type": [
@@ -44191,6 +44565,7 @@
     },
     {
         "number": 375,
+        "number000": "375",
         "name": "Metang",
         "internal_name": "METANG",
         "type": [
@@ -44311,6 +44686,7 @@
     },
     {
         "number": 376,
+        "number000": "376",
         "name": "Metagross",
         "internal_name": "METAGROSS",
         "type": [
@@ -44428,6 +44804,7 @@
     },
     {
         "number": 377,
+        "number000": "377",
         "name": "Regirock",
         "internal_name": "REGIROCK",
         "type": [
@@ -44528,6 +44905,7 @@
     },
     {
         "number": 378,
+        "number000": "378",
         "name": "Regice",
         "internal_name": "REGICE",
         "type": [
@@ -44628,6 +45006,7 @@
     },
     {
         "number": 379,
+        "number000": "379",
         "name": "Registeel",
         "internal_name": "REGISTEEL",
         "type": [
@@ -44736,6 +45115,7 @@
     },
     {
         "number": 380,
+        "number000": "380",
         "name": "Latias",
         "internal_name": "LATIAS",
         "type": [
@@ -44856,6 +45236,7 @@
     },
     {
         "number": 381,
+        "number000": "381",
         "name": "Latios",
         "internal_name": "LATIOS",
         "type": [
@@ -44976,6 +45357,7 @@
     },
     {
         "number": 382,
+        "number000": "382",
         "name": "Kyogre",
         "internal_name": "KYOGRE",
         "type": [
@@ -45075,6 +45457,7 @@
     },
     {
         "number": 383,
+        "number000": "383",
         "name": "Groudon",
         "internal_name": "GROUDON",
         "type": [
@@ -45174,6 +45557,7 @@
     },
     {
         "number": 384,
+        "number000": "384",
         "name": "Rayquaza",
         "internal_name": "RAYQUAZA",
         "type": [
@@ -45274,6 +45658,7 @@
     },
     {
         "number": 385,
+        "number000": "385",
         "name": "Jirachi",
         "internal_name": "JIRACHI",
         "type": [
@@ -45386,6 +45771,7 @@
     },
     {
         "number": 386,
+        "number000": "386",
         "name": "Deoxys",
         "internal_name": "DEOXYS",
         "type": [
@@ -45489,6 +45875,7 @@
     },
     {
         "number": 387,
+        "number000": "387",
         "name": "Turtwig",
         "internal_name": "TURTWIG",
         "type": [
@@ -45609,6 +45996,7 @@
     },
     {
         "number": 388,
+        "number000": "388",
         "name": "Grotle",
         "internal_name": "GROTLE",
         "type": [
@@ -45716,6 +46104,7 @@
     },
     {
         "number": 389,
+        "number000": "389",
         "name": "Torterra",
         "internal_name": "TORTERRA",
         "type": [
@@ -45833,6 +46222,7 @@
     },
     {
         "number": 390,
+        "number000": "390",
         "name": "Chimchar",
         "internal_name": "CHIMCHAR",
         "type": [
@@ -45956,6 +46346,7 @@
     },
     {
         "number": 391,
+        "number000": "391",
         "name": "Monferno",
         "internal_name": "MONFERNO",
         "type": [
@@ -46072,6 +46463,7 @@
     },
     {
         "number": 392,
+        "number000": "392",
         "name": "Infernape",
         "internal_name": "INFERNAPE",
         "type": [
@@ -46185,6 +46577,7 @@
     },
     {
         "number": 393,
+        "number000": "393",
         "name": "Piplup",
         "internal_name": "PIPLUP",
         "type": [
@@ -46307,6 +46700,7 @@
     },
     {
         "number": 394,
+        "number000": "394",
         "name": "Prinplup",
         "internal_name": "PRINPLUP",
         "type": [
@@ -46422,6 +46816,7 @@
     },
     {
         "number": 395,
+        "number000": "395",
         "name": "Empoleon",
         "internal_name": "EMPOLEON",
         "type": [
@@ -46539,6 +46934,7 @@
     },
     {
         "number": 396,
+        "number000": "396",
         "name": "Starly",
         "internal_name": "STARLY",
         "type": [
@@ -46655,6 +47051,7 @@
     },
     {
         "number": 397,
+        "number000": "397",
         "name": "Staravia",
         "internal_name": "STARAVIA",
         "type": [
@@ -46762,6 +47159,7 @@
     },
     {
         "number": 398,
+        "number000": "398",
         "name": "Staraptor",
         "internal_name": "STARAPTOR",
         "type": [
@@ -46870,6 +47268,7 @@
     },
     {
         "number": 399,
+        "number000": "399",
         "name": "Bidoof",
         "internal_name": "BIDOOF",
         "type": [
@@ -46988,6 +47387,7 @@
     },
     {
         "number": 400,
+        "number000": "400",
         "name": "Bibarel",
         "internal_name": "BIBAREL",
         "type": [
@@ -47094,6 +47494,7 @@
     },
     {
         "number": 401,
+        "number000": "401",
         "name": "Kricketot",
         "internal_name": "KRICKETOT",
         "type": [
@@ -47164,6 +47565,7 @@
     },
     {
         "number": 402,
+        "number000": "402",
         "name": "Kricketune",
         "internal_name": "KRICKETUNE",
         "type": [
@@ -47263,6 +47665,7 @@
     },
     {
         "number": 403,
+        "number000": "403",
         "name": "Shinx",
         "internal_name": "SHINX",
         "type": [
@@ -47380,6 +47783,7 @@
     },
     {
         "number": 404,
+        "number000": "404",
         "name": "Luxio",
         "internal_name": "LUXIO",
         "type": [
@@ -47487,6 +47891,7 @@
     },
     {
         "number": 405,
+        "number000": "405",
         "name": "Luxray",
         "internal_name": "LUXRAY",
         "type": [
@@ -47599,6 +48004,7 @@
     },
     {
         "number": 406,
+        "number000": "406",
         "name": "Budew",
         "internal_name": "BUDEW",
         "type": [
@@ -47694,6 +48100,7 @@
     },
     {
         "number": 407,
+        "number000": "407",
         "name": "Roserade",
         "internal_name": "ROSERADE",
         "type": [
@@ -47779,6 +48186,7 @@
     },
     {
         "number": 408,
+        "number000": "408",
         "name": "Cranidos",
         "internal_name": "CRANIDOS",
         "type": [
@@ -47894,6 +48302,7 @@
     },
     {
         "number": 409,
+        "number000": "409",
         "name": "Rampardos",
         "internal_name": "RAMPARDOS",
         "type": [
@@ -47993,6 +48402,7 @@
     },
     {
         "number": 410,
+        "number000": "410",
         "name": "Shieldon",
         "internal_name": "SHIELDON",
         "type": [
@@ -48110,6 +48520,7 @@
     },
     {
         "number": 411,
+        "number000": "411",
         "name": "Bastiodon",
         "internal_name": "BASTIODON",
         "type": [
@@ -48218,6 +48629,7 @@
     },
     {
         "number": 412,
+        "number000": "412",
         "name": "Burmy",
         "internal_name": "BURMY",
         "type": [
@@ -48293,6 +48705,7 @@
     },
     {
         "number": 413,
+        "number000": "413",
         "name": "Wormadam",
         "internal_name": "WORMADAM",
         "type": [
@@ -48393,6 +48806,7 @@
     },
     {
         "number": 414,
+        "number000": "414",
         "name": "Mothim",
         "internal_name": "MOTHIM",
         "type": [
@@ -48501,6 +48915,7 @@
     },
     {
         "number": 415,
+        "number000": "415",
         "name": "Combee",
         "internal_name": "COMBEE",
         "type": [
@@ -48572,6 +48987,7 @@
     },
     {
         "number": 416,
+        "number000": "416",
         "name": "Vespiquen",
         "internal_name": "VESPIQUEN",
         "type": [
@@ -48689,6 +49105,7 @@
     },
     {
         "number": 417,
+        "number000": "417",
         "name": "Pachirisu",
         "internal_name": "PACHIRISU",
         "type": [
@@ -48808,6 +49225,7 @@
     },
     {
         "number": 418,
+        "number000": "418",
         "name": "Buizel",
         "internal_name": "BUIZEL",
         "type": [
@@ -48934,6 +49352,7 @@
     },
     {
         "number": 419,
+        "number000": "419",
         "name": "Floatzel",
         "internal_name": "FLOATZEL",
         "type": [
@@ -49058,6 +49477,7 @@
     },
     {
         "number": 420,
+        "number000": "420",
         "name": "Cherubi",
         "internal_name": "CHERUBI",
         "type": [
@@ -49171,6 +49591,7 @@
     },
     {
         "number": 421,
+        "number000": "421",
         "name": "Cherrim",
         "internal_name": "CHERRIM",
         "type": [
@@ -49270,6 +49691,7 @@
     },
     {
         "number": 422,
+        "number000": "422",
         "name": "Shellos",
         "internal_name": "SHELLOS",
         "type": [
@@ -49383,6 +49805,7 @@
     },
     {
         "number": 423,
+        "number000": "423",
         "name": "Gastrodon",
         "internal_name": "GASTRODON",
         "type": [
@@ -49485,6 +49908,7 @@
     },
     {
         "number": 424,
+        "number000": "424",
         "name": "Ambipom",
         "internal_name": "AMBIPOM",
         "type": [
@@ -49597,6 +50021,7 @@
     },
     {
         "number": 425,
+        "number000": "425",
         "name": "Drifloon",
         "internal_name": "DRIFLOON",
         "type": [
@@ -49724,6 +50149,7 @@
     },
     {
         "number": 426,
+        "number000": "426",
         "name": "Drifblim",
         "internal_name": "DRIFBLIM",
         "type": [
@@ -49845,6 +50271,7 @@
     },
     {
         "number": 427,
+        "number000": "427",
         "name": "Buneary",
         "internal_name": "BUNEARY",
         "type": [
@@ -49981,6 +50408,7 @@
     },
     {
         "number": 428,
+        "number000": "428",
         "name": "Lopunny",
         "internal_name": "LOPUNNY",
         "type": [
@@ -50109,6 +50537,7 @@
     },
     {
         "number": 429,
+        "number000": "429",
         "name": "Mismagius",
         "internal_name": "MISMAGIUS",
         "type": [
@@ -50179,6 +50608,7 @@
     },
     {
         "number": 430,
+        "number000": "430",
         "name": "Honchkrow",
         "internal_name": "HONCHKROW",
         "type": [
@@ -50268,6 +50698,7 @@
     },
     {
         "number": 431,
+        "number000": "431",
         "name": "Glameow",
         "internal_name": "GLAMEOW",
         "type": [
@@ -50387,6 +50818,7 @@
     },
     {
         "number": 432,
+        "number000": "432",
         "name": "Purugly",
         "internal_name": "PURUGLY",
         "type": [
@@ -50499,6 +50931,7 @@
     },
     {
         "number": 433,
+        "number000": "433",
         "name": "Chingling",
         "internal_name": "CHINGLING",
         "type": [
@@ -50590,6 +51023,7 @@
     },
     {
         "number": 434,
+        "number000": "434",
         "name": "Stunky",
         "internal_name": "STUNKY",
         "type": [
@@ -50712,6 +51146,7 @@
     },
     {
         "number": 435,
+        "number000": "435",
         "name": "Skuntank",
         "internal_name": "SKUNTANK",
         "type": [
@@ -50825,6 +51260,7 @@
     },
     {
         "number": 436,
+        "number000": "436",
         "name": "Bronzor",
         "internal_name": "BRONZOR",
         "type": [
@@ -50945,6 +51381,7 @@
     },
     {
         "number": 437,
+        "number000": "437",
         "name": "Bronzong",
         "internal_name": "BRONZONG",
         "type": [
@@ -51078,6 +51515,7 @@
     },
     {
         "number": 438,
+        "number000": "438",
         "name": "Bonsly",
         "internal_name": "BONSLY",
         "type": [
@@ -51196,6 +51634,7 @@
     },
     {
         "number": 439,
+        "number000": "439",
         "name": "Mime Jr.",
         "internal_name": "MIMEJR",
         "type": [
@@ -51339,6 +51778,7 @@
     },
     {
         "number": 440,
+        "number000": "440",
         "name": "Happiny",
         "internal_name": "HAPPINY",
         "type": [
@@ -51427,6 +51867,7 @@
     },
     {
         "number": 441,
+        "number000": "441",
         "name": "Chatot",
         "internal_name": "CHATOT",
         "type": [
@@ -51547,6 +51988,7 @@
     },
     {
         "number": 442,
+        "number000": "442",
         "name": "Spiritomb",
         "internal_name": "SPIRITOMB",
         "type": [
@@ -51657,6 +52099,7 @@
     },
     {
         "number": 443,
+        "number000": "443",
         "name": "Gible",
         "internal_name": "GIBLE",
         "type": [
@@ -51768,6 +52211,7 @@
     },
     {
         "number": 444,
+        "number000": "444",
         "name": "Gabite",
         "internal_name": "GABITE",
         "type": [
@@ -51872,6 +52316,7 @@
     },
     {
         "number": 445,
+        "number000": "445",
         "name": "Garchomp",
         "internal_name": "GARCHOMP",
         "type": [
@@ -51985,6 +52430,7 @@
     },
     {
         "number": 446,
+        "number000": "446",
         "name": "Munchlax",
         "internal_name": "MUNCHLAX",
         "type": [
@@ -52121,6 +52567,7 @@
     },
     {
         "number": 447,
+        "number000": "447",
         "name": "Riolu",
         "internal_name": "RIOLU",
         "type": [
@@ -52236,6 +52683,7 @@
     },
     {
         "number": 448,
+        "number000": "448",
         "name": "Lucario",
         "internal_name": "LUCARIO",
         "type": [
@@ -52362,6 +52810,7 @@
     },
     {
         "number": 449,
+        "number000": "449",
         "name": "Hippopotas",
         "internal_name": "HIPPOPOTAS",
         "type": [
@@ -52472,6 +52921,7 @@
     },
     {
         "number": 450,
+        "number000": "450",
         "name": "Hippowdon",
         "internal_name": "HIPPOWDON",
         "type": [
@@ -52583,6 +53033,7 @@
     },
     {
         "number": 451,
+        "number000": "451",
         "name": "Skorupi",
         "internal_name": "SKORUPI",
         "type": [
@@ -52718,6 +53169,7 @@
     },
     {
         "number": 452,
+        "number000": "452",
         "name": "Drapion",
         "internal_name": "DRAPION",
         "type": [
@@ -52852,6 +53304,7 @@
     },
     {
         "number": 453,
+        "number000": "453",
         "name": "Croagunk",
         "internal_name": "CROAGUNK",
         "type": [
@@ -52984,6 +53437,7 @@
     },
     {
         "number": 454,
+        "number000": "454",
         "name": "Toxicroak",
         "internal_name": "TOXICROAK",
         "type": [
@@ -53101,6 +53555,7 @@
     },
     {
         "number": 455,
+        "number000": "455",
         "name": "Carnivine",
         "internal_name": "CARNIVINE",
         "type": [
@@ -53220,6 +53675,7 @@
     },
     {
         "number": 456,
+        "number000": "456",
         "name": "Finneon",
         "internal_name": "FINNEON",
         "type": [
@@ -53344,6 +53800,7 @@
     },
     {
         "number": 457,
+        "number000": "457",
         "name": "Lumineon",
         "internal_name": "LUMINEON",
         "type": [
@@ -53456,6 +53913,7 @@
     },
     {
         "number": 458,
+        "number000": "458",
         "name": "Mantyke",
         "internal_name": "MANTYKE",
         "type": [
@@ -53585,6 +54043,7 @@
     },
     {
         "number": 459,
+        "number000": "459",
         "name": "Snover",
         "internal_name": "SNOVER",
         "type": [
@@ -53702,6 +54161,7 @@
     },
     {
         "number": 460,
+        "number000": "460",
         "name": "Abomasnow",
         "internal_name": "ABOMASNOW",
         "type": [
@@ -53822,6 +54282,7 @@
     },
     {
         "number": 461,
+        "number000": "461",
         "name": "Weavile",
         "internal_name": "WEAVILE",
         "type": [
@@ -53950,6 +54411,7 @@
     },
     {
         "number": 462,
+        "number000": "462",
         "name": "Magnezone",
         "internal_name": "MAGNEZONE",
         "type": [
@@ -54087,6 +54549,7 @@
     },
     {
         "number": 463,
+        "number000": "463",
         "name": "Lickilicky",
         "internal_name": "LICKILICKY",
         "type": [
@@ -54199,6 +54662,7 @@
     },
     {
         "number": 464,
+        "number000": "464",
         "name": "Rhyperior",
         "internal_name": "RHYPERIOR",
         "type": [
@@ -54321,6 +54785,7 @@
     },
     {
         "number": 465,
+        "number000": "465",
         "name": "Tangrowth",
         "internal_name": "TANGROWTH",
         "type": [
@@ -54445,6 +54910,7 @@
     },
     {
         "number": 466,
+        "number000": "466",
         "name": "Electivire",
         "internal_name": "ELECTIVIRE",
         "type": [
@@ -54564,6 +55030,7 @@
     },
     {
         "number": 467,
+        "number000": "467",
         "name": "Magmortar",
         "internal_name": "MAGMORTAR",
         "type": [
@@ -54687,6 +55154,7 @@
     },
     {
         "number": 468,
+        "number000": "468",
         "name": "Togekiss",
         "internal_name": "TOGEKISS",
         "type": [
@@ -54752,6 +55220,7 @@
     },
     {
         "number": 469,
+        "number000": "469",
         "name": "Yanmega",
         "internal_name": "YANMEGA",
         "type": [
@@ -54881,6 +55350,7 @@
     },
     {
         "number": 470,
+        "number000": "470",
         "name": "Leafeon",
         "internal_name": "LEAFEON",
         "type": [
@@ -54984,6 +55454,7 @@
     },
     {
         "number": 471,
+        "number000": "471",
         "name": "Glaceon",
         "internal_name": "GLACEON",
         "type": [
@@ -55091,6 +55562,7 @@
     },
     {
         "number": 472,
+        "number000": "472",
         "name": "Gliscor",
         "internal_name": "GLISCOR",
         "type": [
@@ -55224,6 +55696,7 @@
     },
     {
         "number": 473,
+        "number000": "473",
         "name": "Mamoswine",
         "internal_name": "MAMOSWINE",
         "type": [
@@ -55349,6 +55822,7 @@
     },
     {
         "number": 474,
+        "number000": "474",
         "name": "Porygon-Z",
         "internal_name": "PORYGONZ",
         "type": [
@@ -55461,6 +55935,7 @@
     },
     {
         "number": 475,
+        "number000": "475",
         "name": "Gallade",
         "internal_name": "GALLADE",
         "type": [
@@ -55589,6 +56064,7 @@
     },
     {
         "number": 476,
+        "number000": "476",
         "name": "Probopass",
         "internal_name": "PROBOPASS",
         "type": [
@@ -55722,6 +56198,7 @@
     },
     {
         "number": 477,
+        "number000": "477",
         "name": "Dusknoir",
         "internal_name": "DUSKNOIR",
         "type": [
@@ -55854,6 +56331,7 @@
     },
     {
         "number": 478,
+        "number000": "478",
         "name": "Froslass",
         "internal_name": "FROSLASS",
         "type": [
@@ -55971,6 +56449,7 @@
     },
     {
         "number": 479,
+        "number000": "479",
         "name": "Rotom",
         "internal_name": "ROTOM",
         "type": [
@@ -56074,6 +56553,7 @@
     },
     {
         "number": 480,
+        "number000": "480",
         "name": "Uxie",
         "internal_name": "UXIE",
         "type": [
@@ -56168,6 +56648,7 @@
     },
     {
         "number": 481,
+        "number000": "481",
         "name": "Mesprit",
         "internal_name": "MESPRIT",
         "type": [
@@ -56262,6 +56743,7 @@
     },
     {
         "number": 482,
+        "number000": "482",
         "name": "Azelf",
         "internal_name": "AZELF",
         "type": [
@@ -56356,6 +56838,7 @@
     },
     {
         "number": 483,
+        "number000": "483",
         "name": "Dialga",
         "internal_name": "DIALGA",
         "type": [
@@ -56456,6 +56939,7 @@
     },
     {
         "number": 484,
+        "number000": "484",
         "name": "Palkia",
         "internal_name": "PALKIA",
         "type": [
@@ -56556,6 +57040,7 @@
     },
     {
         "number": 485,
+        "number000": "485",
         "name": "Heatran",
         "internal_name": "HEATRAN",
         "type": [
@@ -56656,6 +57141,7 @@
     },
     {
         "number": 486,
+        "number000": "486",
         "name": "Regigigas",
         "internal_name": "REGIGIGAS",
         "type": [
@@ -56758,6 +57244,7 @@
     },
     {
         "number": 487,
+        "number000": "487",
         "name": "Giratina",
         "internal_name": "GIRATINA",
         "type": [
@@ -56858,6 +57345,7 @@
     },
     {
         "number": 488,
+        "number000": "488",
         "name": "Cresselia",
         "internal_name": "CRESSELIA",
         "type": [
@@ -56952,6 +57440,7 @@
     },
     {
         "number": 489,
+        "number000": "489",
         "name": "Phione",
         "internal_name": "PHIONE",
         "type": [
@@ -57043,6 +57532,7 @@
     },
     {
         "number": 490,
+        "number000": "490",
         "name": "Manaphy",
         "internal_name": "MANAPHY",
         "type": [
@@ -57142,6 +57632,7 @@
     },
     {
         "number": 491,
+        "number000": "491",
         "name": "Darkrai",
         "internal_name": "DARKRAI",
         "type": [
@@ -57236,6 +57727,7 @@
     },
     {
         "number": 492,
+        "number000": "492",
         "name": "Shaymin",
         "internal_name": "SHAYMIN",
         "type": [
@@ -57331,6 +57823,7 @@
     },
     {
         "number": 493,
+        "number000": "493",
         "name": "Arceus",
         "internal_name": "ARCEUS",
         "type": [
@@ -57433,6 +57926,7 @@
     },
     {
         "number": 494,
+        "number000": "494",
         "name": "Victini",
         "internal_name": "VICTINI",
         "type": [
@@ -57548,6 +58042,7 @@
     },
     {
         "number": 495,
+        "number000": "495",
         "name": "Snivy",
         "internal_name": "SNIVY",
         "type": [
@@ -57675,6 +58170,7 @@
     },
     {
         "number": 496,
+        "number000": "496",
         "name": "Servine",
         "internal_name": "SERVINE",
         "type": [
@@ -57802,6 +58298,7 @@
     },
     {
         "number": 497,
+        "number000": "497",
         "name": "Serperior",
         "internal_name": "SERPERIOR",
         "type": [
@@ -57922,6 +58419,7 @@
     },
     {
         "number": 498,
+        "number000": "498",
         "name": "Tepig",
         "internal_name": "TEPIG",
         "type": [
@@ -58048,6 +58546,7 @@
     },
     {
         "number": 499,
+        "number000": "499",
         "name": "Pignite",
         "internal_name": "PIGNITE",
         "type": [
@@ -58179,6 +58678,7 @@
     },
     {
         "number": 500,
+        "number000": "500",
         "name": "Emboar",
         "internal_name": "EMBOAR",
         "type": [
@@ -58307,6 +58807,7 @@
     },
     {
         "number": 501,
+        "number000": "501",
         "name": "Oshawott",
         "internal_name": "OSHAWOTT",
         "type": [
@@ -58431,6 +58932,7 @@
     },
     {
         "number": 502,
+        "number000": "502",
         "name": "Dewott",
         "internal_name": "DEWOTT",
         "type": [
@@ -58557,6 +59059,7 @@
     },
     {
         "number": 503,
+        "number000": "503",
         "name": "Samurott",
         "internal_name": "SAMUROTT",
         "type": [
@@ -58685,6 +59188,7 @@
     },
     {
         "number": 504,
+        "number000": "504",
         "name": "Patrat",
         "internal_name": "PATRAT",
         "type": [
@@ -58809,6 +59313,7 @@
     },
     {
         "number": 505,
+        "number000": "505",
         "name": "Watchog",
         "internal_name": "WATCHOG",
         "type": [
@@ -58933,6 +59438,7 @@
     },
     {
         "number": 506,
+        "number000": "506",
         "name": "Lillipup",
         "internal_name": "LILLIPUP",
         "type": [
@@ -59053,6 +59559,7 @@
     },
     {
         "number": 507,
+        "number000": "507",
         "name": "Herdier",
         "internal_name": "HERDIER",
         "type": [
@@ -59168,6 +59675,7 @@
     },
     {
         "number": 508,
+        "number000": "508",
         "name": "Stoutland",
         "internal_name": "STOUTLAND",
         "type": [
@@ -59288,6 +59796,7 @@
     },
     {
         "number": 509,
+        "number000": "509",
         "name": "Purrloin",
         "internal_name": "PURRLOIN",
         "type": [
@@ -59417,6 +59926,7 @@
     },
     {
         "number": 510,
+        "number000": "510",
         "name": "Liepard",
         "internal_name": "LIEPARD",
         "type": [
@@ -59541,6 +60051,7 @@
     },
     {
         "number": 511,
+        "number000": "511",
         "name": "Pansage",
         "internal_name": "PANSAGE",
         "type": [
@@ -59667,6 +60178,7 @@
     },
     {
         "number": 512,
+        "number000": "512",
         "name": "Simisage",
         "internal_name": "SIMISAGE",
         "type": [
@@ -59730,6 +60242,7 @@
     },
     {
         "number": 513,
+        "number000": "513",
         "name": "Pansear",
         "internal_name": "PANSEAR",
         "type": [
@@ -59856,6 +60369,7 @@
     },
     {
         "number": 514,
+        "number000": "514",
         "name": "Simisear",
         "internal_name": "SIMISEAR",
         "type": [
@@ -59919,6 +60433,7 @@
     },
     {
         "number": 515,
+        "number000": "515",
         "name": "Panpour",
         "internal_name": "PANPOUR",
         "type": [
@@ -60045,6 +60560,7 @@
     },
     {
         "number": 516,
+        "number000": "516",
         "name": "Simipour",
         "internal_name": "SIMIPOUR",
         "type": [
@@ -60108,6 +60624,7 @@
     },
     {
         "number": 517,
+        "number000": "517",
         "name": "Munna",
         "internal_name": "MUNNA",
         "type": [
@@ -60242,6 +60759,7 @@
     },
     {
         "number": 518,
+        "number000": "518",
         "name": "Musharna",
         "internal_name": "MUSHARNA",
         "type": [
@@ -60310,6 +60828,7 @@
     },
     {
         "number": 519,
+        "number000": "519",
         "name": "Pidove",
         "internal_name": "PIDOVE",
         "type": [
@@ -60435,6 +60954,7 @@
     },
     {
         "number": 520,
+        "number000": "520",
         "name": "Tranquill",
         "internal_name": "TRANQUILL",
         "type": [
@@ -60563,6 +61083,7 @@
     },
     {
         "number": 521,
+        "number000": "521",
         "name": "Unfezant",
         "internal_name": "UNFEZANT",
         "type": [
@@ -60684,6 +61205,7 @@
     },
     {
         "number": 522,
+        "number000": "522",
         "name": "Blitzle",
         "internal_name": "BLITZLE",
         "type": [
@@ -60802,6 +61324,7 @@
     },
     {
         "number": 523,
+        "number000": "523",
         "name": "Zebstrika",
         "internal_name": "ZEBSTRIKA",
         "type": [
@@ -60914,6 +61437,7 @@
     },
     {
         "number": 524,
+        "number000": "524",
         "name": "Roggenrola",
         "internal_name": "ROGGENROLA",
         "type": [
@@ -61030,6 +61554,7 @@
     },
     {
         "number": 525,
+        "number000": "525",
         "name": "Boldore",
         "internal_name": "BOLDORE",
         "type": [
@@ -61152,6 +61677,7 @@
     },
     {
         "number": 526,
+        "number000": "526",
         "name": "Gigalith",
         "internal_name": "GIGALITH",
         "type": [
@@ -61268,6 +61794,7 @@
     },
     {
         "number": 527,
+        "number000": "527",
         "name": "Woobat",
         "internal_name": "WOOBAT",
         "type": [
@@ -61391,6 +61918,7 @@
     },
     {
         "number": 528,
+        "number000": "528",
         "name": "Swoobat",
         "internal_name": "SWOOBAT",
         "type": [
@@ -61509,6 +62037,7 @@
     },
     {
         "number": 529,
+        "number000": "529",
         "name": "Drilbur",
         "internal_name": "DRILBUR",
         "type": [
@@ -61634,6 +62163,7 @@
     },
     {
         "number": 530,
+        "number000": "530",
         "name": "Excadrill",
         "internal_name": "EXCADRILL",
         "type": [
@@ -61755,6 +62285,7 @@
     },
     {
         "number": 531,
+        "number000": "531",
         "name": "Audino",
         "internal_name": "AUDINO",
         "type": [
@@ -61878,6 +62409,7 @@
     },
     {
         "number": 532,
+        "number000": "532",
         "name": "Timburr",
         "internal_name": "TIMBURR",
         "type": [
@@ -62009,6 +62541,7 @@
     },
     {
         "number": 533,
+        "number000": "533",
         "name": "Gurdurr",
         "internal_name": "GURDURR",
         "type": [
@@ -62135,6 +62668,7 @@
     },
     {
         "number": 534,
+        "number000": "534",
         "name": "Conkeldurr",
         "internal_name": "CONKELDURR",
         "type": [
@@ -62254,6 +62788,7 @@
     },
     {
         "number": 535,
+        "number000": "535",
         "name": "Tympole",
         "internal_name": "TYMPOLE",
         "type": [
@@ -62375,6 +62910,7 @@
     },
     {
         "number": 536,
+        "number000": "536",
         "name": "Palpitoad",
         "internal_name": "PALPITOAD",
         "type": [
@@ -62495,6 +63031,7 @@
     },
     {
         "number": 537,
+        "number000": "537",
         "name": "Seismitoad",
         "internal_name": "SEISMITOAD",
         "type": [
@@ -62616,6 +63153,7 @@
     },
     {
         "number": 538,
+        "number000": "538",
         "name": "Throh",
         "internal_name": "THROH",
         "type": [
@@ -62724,6 +63262,7 @@
     },
     {
         "number": 539,
+        "number000": "539",
         "name": "Sawk",
         "internal_name": "SAWK",
         "type": [
@@ -62832,6 +63371,7 @@
     },
     {
         "number": 540,
+        "number000": "540",
         "name": "Sewaddle",
         "internal_name": "SEWADDLE",
         "type": [
@@ -62931,6 +63471,7 @@
     },
     {
         "number": 541,
+        "number000": "541",
         "name": "Swadloon",
         "internal_name": "SWADLOON",
         "type": [
@@ -63010,6 +63551,7 @@
     },
     {
         "number": 542,
+        "number000": "542",
         "name": "Leavanny",
         "internal_name": "LEAVANNY",
         "type": [
@@ -63119,6 +63661,7 @@
     },
     {
         "number": 543,
+        "number000": "543",
         "name": "Venipede",
         "internal_name": "VENIPEDE",
         "type": [
@@ -63239,6 +63782,7 @@
     },
     {
         "number": 544,
+        "number000": "544",
         "name": "Whirlipede",
         "internal_name": "WHIRLIPEDE",
         "type": [
@@ -63359,6 +63903,7 @@
     },
     {
         "number": 545,
+        "number000": "545",
         "name": "Scolipede",
         "internal_name": "SCOLIPEDE",
         "type": [
@@ -63480,6 +64025,7 @@
     },
     {
         "number": 546,
+        "number000": "546",
         "name": "Cottonee",
         "internal_name": "COTTONEE",
         "type": [
@@ -63612,6 +64158,7 @@
     },
     {
         "number": 547,
+        "number000": "547",
         "name": "Whimsicott",
         "internal_name": "WHIMSICOTT",
         "type": [
@@ -63690,6 +64237,7 @@
     },
     {
         "number": 548,
+        "number000": "548",
         "name": "Petilil",
         "internal_name": "PETILIL",
         "type": [
@@ -63821,6 +64369,7 @@
     },
     {
         "number": 549,
+        "number000": "549",
         "name": "Lilligant",
         "internal_name": "LILLIGANT",
         "type": [
@@ -63918,6 +64467,7 @@
     },
     {
         "number": 550,
+        "number000": "550",
         "name": "Basculin",
         "internal_name": "BASCULIN",
         "type": [
@@ -64048,6 +64598,7 @@
     },
     {
         "number": 551,
+        "number000": "551",
         "name": "Sandile",
         "internal_name": "SANDILE",
         "type": [
@@ -64184,6 +64735,7 @@
     },
     {
         "number": 552,
+        "number000": "552",
         "name": "Krokorok",
         "internal_name": "KROKOROK",
         "type": [
@@ -64316,6 +64868,7 @@
     },
     {
         "number": 553,
+        "number000": "553",
         "name": "Krookodile",
         "internal_name": "KROOKODILE",
         "type": [
@@ -64441,6 +64994,7 @@
     },
     {
         "number": 554,
+        "number000": "554",
         "name": "Darumaka",
         "internal_name": "DARUMAKA",
         "type": [
@@ -64570,6 +65124,7 @@
     },
     {
         "number": 555,
+        "number000": "555",
         "name": "Darmanitan",
         "internal_name": "DARMANITAN",
         "type": [
@@ -64697,6 +65252,7 @@
     },
     {
         "number": 556,
+        "number000": "556",
         "name": "Maractus",
         "internal_name": "MARACTUS",
         "type": [
@@ -64827,6 +65383,7 @@
     },
     {
         "number": 557,
+        "number000": "557",
         "name": "Dwebble",
         "internal_name": "DWEBBLE",
         "type": [
@@ -64954,6 +65511,7 @@
     },
     {
         "number": 558,
+        "number000": "558",
         "name": "Crustle",
         "internal_name": "CRUSTLE",
         "type": [
@@ -65076,6 +65634,7 @@
     },
     {
         "number": 559,
+        "number000": "559",
         "name": "Scraggy",
         "internal_name": "SCRAGGY",
         "type": [
@@ -65210,6 +65769,7 @@
     },
     {
         "number": 560,
+        "number000": "560",
         "name": "Scrafty",
         "internal_name": "SCRAFTY",
         "type": [
@@ -65332,6 +65892,7 @@
     },
     {
         "number": 561,
+        "number000": "561",
         "name": "Sigilyph",
         "internal_name": "SIGILYPH",
         "type": [
@@ -65456,6 +66017,7 @@
     },
     {
         "number": 562,
+        "number000": "562",
         "name": "Yamask",
         "internal_name": "YAMASK",
         "type": [
@@ -65585,6 +66147,7 @@
     },
     {
         "number": 563,
+        "number000": "563",
         "name": "Cofagrigus",
         "internal_name": "COFAGRIGUS",
         "type": [
@@ -65704,6 +66267,7 @@
     },
     {
         "number": 564,
+        "number000": "564",
         "name": "Tirtouga",
         "internal_name": "TIRTOUGA",
         "type": [
@@ -65844,6 +66408,7 @@
     },
     {
         "number": 565,
+        "number000": "565",
         "name": "Carracosta",
         "internal_name": "CARRACOSTA",
         "type": [
@@ -65970,6 +66535,7 @@
     },
     {
         "number": 566,
+        "number000": "566",
         "name": "Archen",
         "internal_name": "ARCHEN",
         "type": [
@@ -66106,6 +66672,7 @@
     },
     {
         "number": 567,
+        "number000": "567",
         "name": "Archeops",
         "internal_name": "ARCHEOPS",
         "type": [
@@ -66230,6 +66797,7 @@
     },
     {
         "number": 568,
+        "number000": "568",
         "name": "Trubbish",
         "internal_name": "TRUBBISH",
         "type": [
@@ -66359,6 +66927,7 @@
     },
     {
         "number": 569,
+        "number000": "569",
         "name": "Garbodor",
         "internal_name": "GARBODOR",
         "type": [
@@ -66479,6 +67048,7 @@
     },
     {
         "number": 570,
+        "number000": "570",
         "name": "Zorua",
         "internal_name": "ZORUA",
         "type": [
@@ -66606,6 +67176,7 @@
     },
     {
         "number": 571,
+        "number000": "571",
         "name": "Zoroark",
         "internal_name": "ZOROARK",
         "type": [
@@ -66732,6 +67303,7 @@
     },
     {
         "number": 572,
+        "number000": "572",
         "name": "Minccino",
         "internal_name": "MINCCINO",
         "type": [
@@ -66866,6 +67438,7 @@
     },
     {
         "number": 573,
+        "number000": "573",
         "name": "Cinccino",
         "internal_name": "CINCCINO",
         "type": [
@@ -66938,6 +67511,7 @@
     },
     {
         "number": 574,
+        "number000": "574",
         "name": "Gothita",
         "internal_name": "GOTHITA",
         "type": [
@@ -67064,6 +67638,7 @@
     },
     {
         "number": 575,
+        "number000": "575",
         "name": "Gothorita",
         "internal_name": "GOTHORITA",
         "type": [
@@ -67194,6 +67769,7 @@
     },
     {
         "number": 576,
+        "number000": "576",
         "name": "Gothitelle",
         "internal_name": "GOTHITELLE",
         "type": [
@@ -67326,6 +67902,7 @@
     },
     {
         "number": 577,
+        "number000": "577",
         "name": "Solosis",
         "internal_name": "SOLOSIS",
         "type": [
@@ -67453,6 +68030,7 @@
     },
     {
         "number": 578,
+        "number000": "578",
         "name": "Duosion",
         "internal_name": "DUOSION",
         "type": [
@@ -67583,6 +68161,7 @@
     },
     {
         "number": 579,
+        "number000": "579",
         "name": "Reuniclus",
         "internal_name": "REUNICLUS",
         "type": [
@@ -67710,6 +68289,7 @@
     },
     {
         "number": 580,
+        "number000": "580",
         "name": "Ducklett",
         "internal_name": "DUCKLETT",
         "type": [
@@ -67836,6 +68416,7 @@
     },
     {
         "number": 581,
+        "number000": "581",
         "name": "Swanna",
         "internal_name": "SWANNA",
         "type": [
@@ -67957,6 +68538,7 @@
     },
     {
         "number": 582,
+        "number000": "582",
         "name": "Vanillite",
         "internal_name": "VANILLITE",
         "type": [
@@ -68081,6 +68663,7 @@
     },
     {
         "number": 583,
+        "number000": "583",
         "name": "Vanillish",
         "internal_name": "VANILLISH",
         "type": [
@@ -68207,6 +68790,7 @@
     },
     {
         "number": 584,
+        "number000": "584",
         "name": "Vanilluxe",
         "internal_name": "VANILLUXE",
         "type": [
@@ -68331,6 +68915,7 @@
     },
     {
         "number": 585,
+        "number000": "585",
         "name": "Deerling",
         "internal_name": "DEERLING",
         "type": [
@@ -68458,6 +69043,7 @@
     },
     {
         "number": 586,
+        "number000": "586",
         "name": "Sawsbuck",
         "internal_name": "SAWSBUCK",
         "type": [
@@ -68583,6 +69169,7 @@
     },
     {
         "number": 587,
+        "number000": "587",
         "name": "Emolga",
         "internal_name": "EMOLGA",
         "type": [
@@ -68706,6 +69293,7 @@
     },
     {
         "number": 588,
+        "number000": "588",
         "name": "Karrablast",
         "internal_name": "KARRABLAST",
         "type": [
@@ -68831,6 +69419,7 @@
     },
     {
         "number": 589,
+        "number000": "589",
         "name": "Escavalier",
         "internal_name": "ESCAVALIER",
         "type": [
@@ -68952,6 +69541,7 @@
     },
     {
         "number": 590,
+        "number000": "590",
         "name": "Foongus",
         "internal_name": "FOONGUS",
         "type": [
@@ -69077,6 +69667,7 @@
     },
     {
         "number": 591,
+        "number000": "591",
         "name": "Amoonguss",
         "internal_name": "AMOONGUSS",
         "type": [
@@ -69197,6 +69788,7 @@
     },
     {
         "number": 592,
+        "number000": "592",
         "name": "Frillish",
         "internal_name": "FRILLISH",
         "type": [
@@ -69317,6 +69909,7 @@
     },
     {
         "number": 593,
+        "number000": "593",
         "name": "Jellicent",
         "internal_name": "JELLICENT",
         "type": [
@@ -69430,6 +70023,7 @@
     },
     {
         "number": 594,
+        "number000": "594",
         "name": "Alomomola",
         "internal_name": "ALOMOMOLA",
         "type": [
@@ -69555,6 +70149,7 @@
     },
     {
         "number": 595,
+        "number000": "595",
         "name": "Joltik",
         "internal_name": "JOLTIK",
         "type": [
@@ -69684,6 +70279,7 @@
     },
     {
         "number": 596,
+        "number000": "596",
         "name": "Galvantula",
         "internal_name": "GALVANTULA",
         "type": [
@@ -69801,6 +70397,7 @@
     },
     {
         "number": 597,
+        "number000": "597",
         "name": "Ferroseed",
         "internal_name": "FERROSEED",
         "type": [
@@ -69926,6 +70523,7 @@
     },
     {
         "number": 598,
+        "number000": "598",
         "name": "Ferrothorn",
         "internal_name": "FERROTHORN",
         "type": [
@@ -70050,6 +70648,7 @@
     },
     {
         "number": 599,
+        "number000": "599",
         "name": "Klink",
         "internal_name": "KLINK",
         "type": [
@@ -70165,6 +70764,7 @@
     },
     {
         "number": 600,
+        "number000": "600",
         "name": "Klang",
         "internal_name": "KLANG",
         "type": [
@@ -70292,6 +70892,7 @@
     },
     {
         "number": 601,
+        "number000": "601",
         "name": "Klinklang",
         "internal_name": "KLINKLANG",
         "type": [
@@ -70411,6 +71012,7 @@
     },
     {
         "number": 602,
+        "number000": "602",
         "name": "Tynamo",
         "internal_name": "TYNAMO",
         "type": [
@@ -70480,6 +71082,7 @@
     },
     {
         "number": 603,
+        "number000": "603",
         "name": "Eelektrik",
         "internal_name": "EELEKTRIK",
         "type": [
@@ -70593,6 +71196,7 @@
     },
     {
         "number": 604,
+        "number000": "604",
         "name": "Eelektross",
         "internal_name": "EELEKTROSS",
         "type": [
@@ -70659,6 +71263,7 @@
     },
     {
         "number": 605,
+        "number000": "605",
         "name": "Elgyem",
         "internal_name": "ELGYEM",
         "type": [
@@ -70796,6 +71401,7 @@
     },
     {
         "number": 606,
+        "number000": "606",
         "name": "Beheeyem",
         "internal_name": "BEHEEYEM",
         "type": [
@@ -70928,6 +71534,7 @@
     },
     {
         "number": 607,
+        "number000": "607",
         "name": "Litwick",
         "internal_name": "LITWICK",
         "type": [
@@ -71052,6 +71659,7 @@
     },
     {
         "number": 608,
+        "number000": "608",
         "name": "Lampent",
         "internal_name": "LAMPENT",
         "type": [
@@ -71183,6 +71791,7 @@
     },
     {
         "number": 609,
+        "number000": "609",
         "name": "Chandelure",
         "internal_name": "CHANDELURE",
         "type": [
@@ -71251,6 +71860,7 @@
     },
     {
         "number": 610,
+        "number000": "610",
         "name": "Axew",
         "internal_name": "AXEW",
         "type": [
@@ -71383,6 +71993,7 @@
     },
     {
         "number": 611,
+        "number000": "611",
         "name": "Fraxure",
         "internal_name": "FRAXURE",
         "type": [
@@ -71515,6 +72126,7 @@
     },
     {
         "number": 612,
+        "number000": "612",
         "name": "Haxorus",
         "internal_name": "HAXORUS",
         "type": [
@@ -71640,6 +72252,7 @@
     },
     {
         "number": 613,
+        "number000": "613",
         "name": "Cubchoo",
         "internal_name": "CUBCHOO",
         "type": [
@@ -71764,6 +72377,7 @@
     },
     {
         "number": 614,
+        "number000": "614",
         "name": "Beartic",
         "internal_name": "BEARTIC",
         "type": [
@@ -71895,6 +72509,7 @@
     },
     {
         "number": 615,
+        "number000": "615",
         "name": "Cryogonal",
         "internal_name": "CRYOGONAL",
         "type": [
@@ -72013,6 +72628,7 @@
     },
     {
         "number": 616,
+        "number000": "616",
         "name": "Shelmet",
         "internal_name": "SHELMET",
         "type": [
@@ -72140,6 +72756,7 @@
     },
     {
         "number": 617,
+        "number000": "617",
         "name": "Accelgor",
         "internal_name": "ACCELGOR",
         "type": [
@@ -72260,6 +72877,7 @@
     },
     {
         "number": 618,
+        "number000": "618",
         "name": "Stunfisk",
         "internal_name": "STUNFISK",
         "type": [
@@ -72381,6 +72999,7 @@
     },
     {
         "number": 619,
+        "number000": "619",
         "name": "Mienfoo",
         "internal_name": "MIENFOO",
         "type": [
@@ -72511,6 +73130,7 @@
     },
     {
         "number": 620,
+        "number000": "620",
         "name": "Mienshao",
         "internal_name": "MIENSHAO",
         "type": [
@@ -72636,6 +73256,7 @@
     },
     {
         "number": 621,
+        "number000": "621",
         "name": "Druddigon",
         "internal_name": "DRUDDIGON",
         "type": [
@@ -72762,6 +73383,7 @@
     },
     {
         "number": 622,
+        "number000": "622",
         "name": "Golett",
         "internal_name": "GOLETT",
         "type": [
@@ -72877,6 +73499,7 @@
     },
     {
         "number": 623,
+        "number000": "623",
         "name": "Golurk",
         "internal_name": "GOLURK",
         "type": [
@@ -72997,6 +73620,7 @@
     },
     {
         "number": 624,
+        "number000": "624",
         "name": "Pawniard",
         "internal_name": "PAWNIARD",
         "type": [
@@ -73126,6 +73750,7 @@
     },
     {
         "number": 625,
+        "number000": "625",
         "name": "Bisharp",
         "internal_name": "BISHARP",
         "type": [
@@ -73259,6 +73884,7 @@
     },
     {
         "number": 626,
+        "number000": "626",
         "name": "Bouffalant",
         "internal_name": "BOUFFALANT",
         "type": [
@@ -73373,6 +73999,7 @@
     },
     {
         "number": 627,
+        "number000": "627",
         "name": "Rufflet",
         "internal_name": "RUFFLET",
         "type": [
@@ -73493,6 +74120,7 @@
     },
     {
         "number": 628,
+        "number000": "628",
         "name": "Braviary",
         "internal_name": "BRAVIARY",
         "type": [
@@ -73618,6 +74246,7 @@
     },
     {
         "number": 629,
+        "number000": "629",
         "name": "Vullaby",
         "internal_name": "VULLABY",
         "type": [
@@ -73746,6 +74375,7 @@
     },
     {
         "number": 630,
+        "number000": "630",
         "name": "Mandibuzz",
         "internal_name": "MANDIBUZZ",
         "type": [
@@ -73871,6 +74501,7 @@
     },
     {
         "number": 631,
+        "number000": "631",
         "name": "Heatmor",
         "internal_name": "HEATMOR",
         "type": [
@@ -73999,6 +74630,7 @@
     },
     {
         "number": 632,
+        "number000": "632",
         "name": "Durant",
         "internal_name": "DURANT",
         "type": [
@@ -74116,6 +74748,7 @@
     },
     {
         "number": 633,
+        "number000": "633",
         "name": "Deino",
         "internal_name": "DEINO",
         "type": [
@@ -74246,6 +74879,7 @@
     },
     {
         "number": 634,
+        "number000": "634",
         "name": "Zweilous",
         "internal_name": "ZWEILOUS",
         "type": [
@@ -74372,6 +75006,7 @@
     },
     {
         "number": 635,
+        "number000": "635",
         "name": "Hydreigon",
         "internal_name": "HYDREIGON",
         "type": [
@@ -74491,6 +75126,7 @@
     },
     {
         "number": 636,
+        "number000": "636",
         "name": "Larvesta",
         "internal_name": "LARVESTA",
         "type": [
@@ -74603,6 +75239,7 @@
     },
     {
         "number": 637,
+        "number000": "637",
         "name": "Volcarona",
         "internal_name": "VOLCARONA",
         "type": [
@@ -74711,6 +75348,7 @@
     },
     {
         "number": 638,
+        "number000": "638",
         "name": "Cobalion",
         "internal_name": "COBALION",
         "type": [
@@ -74814,6 +75452,7 @@
     },
     {
         "number": 639,
+        "number000": "639",
         "name": "Terrakion",
         "internal_name": "TERRAKION",
         "type": [
@@ -74917,6 +75556,7 @@
     },
     {
         "number": 640,
+        "number000": "640",
         "name": "Virizion",
         "internal_name": "VIRIZION",
         "type": [
@@ -75020,6 +75660,7 @@
     },
     {
         "number": 641,
+        "number000": "641",
         "name": "Tornadus",
         "internal_name": "TORNADUS",
         "type": [
@@ -75135,6 +75776,7 @@
     },
     {
         "number": 642,
+        "number000": "642",
         "name": "Thundurus",
         "internal_name": "THUNDURUS",
         "type": [
@@ -75251,6 +75893,7 @@
     },
     {
         "number": 643,
+        "number000": "643",
         "name": "Reshiram",
         "internal_name": "RESHIRAM",
         "type": [
@@ -75362,6 +76005,7 @@
     },
     {
         "number": 644,
+        "number000": "644",
         "name": "Zekrom",
         "internal_name": "ZEKROM",
         "type": [
@@ -75473,6 +76117,7 @@
     },
     {
         "number": 645,
+        "number000": "645",
         "name": "Landorus",
         "internal_name": "LANDORUS",
         "type": [
@@ -75589,6 +76234,7 @@
     },
     {
         "number": 646,
+        "number000": "646",
         "name": "Kyurem",
         "internal_name": "KYUREM",
         "type": [
@@ -75696,6 +76342,7 @@
     },
     {
         "number": 647,
+        "number000": "647",
         "name": "Keldeo",
         "internal_name": "KELDEO",
         "type": [
@@ -75799,6 +76446,7 @@
     },
     {
         "number": 648,
+        "number000": "648",
         "name": "Meloetta",
         "internal_name": "MELOETTA",
         "type": [
@@ -75906,6 +76554,7 @@
     },
     {
         "number": 649,
+        "number000": "649",
         "name": "Genesect",
         "internal_name": "GENESECT",
         "type": [
@@ -76029,6 +76678,7 @@
     },
     {
         "number": 650,
+        "number000": "650",
         "name": "Chespin",
         "internal_name": "CHESPIN",
         "type": [
@@ -76148,6 +76798,7 @@
     },
     {
         "number": 651,
+        "number000": "651",
         "name": "Quilladin",
         "internal_name": "QUILLADIN",
         "type": [
@@ -76262,6 +76913,7 @@
     },
     {
         "number": 652,
+        "number000": "652",
         "name": "Chesnaught",
         "internal_name": "CHESNAUGHT",
         "type": [
@@ -76398,6 +77050,7 @@
     },
     {
         "number": 653,
+        "number000": "653",
         "name": "Fennekin",
         "internal_name": "FENNEKIN",
         "type": [
@@ -76522,6 +77175,7 @@
     },
     {
         "number": 654,
+        "number000": "654",
         "name": "Braixen",
         "internal_name": "BRAIXEN",
         "type": [
@@ -76640,6 +77294,7 @@
     },
     {
         "number": 655,
+        "number000": "655",
         "name": "Delphox",
         "internal_name": "DELPHOX",
         "type": [
@@ -76780,6 +77435,7 @@
     },
     {
         "number": 656,
+        "number000": "656",
         "name": "Froakie",
         "internal_name": "FROAKIE",
         "type": [
@@ -76898,6 +77554,7 @@
     },
     {
         "number": 657,
+        "number000": "657",
         "name": "Frogadier",
         "internal_name": "FROGADIER",
         "type": [
@@ -77008,6 +77665,7 @@
     },
     {
         "number": 658,
+        "number000": "658",
         "name": "Greninja",
         "internal_name": "GRENINJA",
         "type": [
@@ -77136,6 +77794,7 @@
     },
     {
         "number": 659,
+        "number000": "659",
         "name": "Bunnelby",
         "internal_name": "BUNNELBY",
         "type": [
@@ -77259,6 +77918,7 @@
     },
     {
         "number": 660,
+        "number000": "660",
         "name": "Diggersby",
         "internal_name": "DIGGERSBY",
         "type": [
@@ -77387,6 +78047,7 @@
     },
     {
         "number": 661,
+        "number000": "661",
         "name": "Fletchling",
         "internal_name": "FLETCHLING",
         "type": [
@@ -77503,6 +78164,7 @@
     },
     {
         "number": 662,
+        "number000": "662",
         "name": "Fletchinder",
         "internal_name": "FLETCHINDER",
         "type": [
@@ -77618,6 +78280,7 @@
     },
     {
         "number": 663,
+        "number000": "663",
         "name": "Talonflame",
         "internal_name": "TALONFLAME",
         "type": [
@@ -77738,6 +78401,7 @@
     },
     {
         "number": 664,
+        "number000": "664",
         "name": "Scatterbug",
         "internal_name": "SCATTERBUG",
         "type": [
@@ -77814,6 +78478,7 @@
     },
     {
         "number": 665,
+        "number000": "665",
         "name": "Spewpa",
         "internal_name": "SPEWPA",
         "type": [
@@ -77876,6 +78541,7 @@
     },
     {
         "number": 666,
+        "number000": "666",
         "name": "Vivillon",
         "internal_name": "VIVILLON",
         "type": [
@@ -77989,6 +78655,7 @@
     },
     {
         "number": 667,
+        "number000": "667",
         "name": "Litleo",
         "internal_name": "LITLEO",
         "type": [
@@ -78111,6 +78778,7 @@
     },
     {
         "number": 668,
+        "number000": "668",
         "name": "Pyroar",
         "internal_name": "PYROAR",
         "type": [
@@ -78224,6 +78892,7 @@
     },
     {
         "number": 669,
+        "number000": "669",
         "name": "Flabebe",
         "internal_name": "FLABEBE",
         "type": [
@@ -78338,6 +79007,7 @@
     },
     {
         "number": 670,
+        "number000": "670",
         "name": "Floette",
         "internal_name": "FLOETTE",
         "type": [
@@ -78447,6 +79117,7 @@
     },
     {
         "number": 671,
+        "number000": "671",
         "name": "Florges",
         "internal_name": "FLORGES",
         "type": [
@@ -78541,6 +79212,7 @@
     },
     {
         "number": 672,
+        "number000": "672",
         "name": "Skiddo",
         "internal_name": "SKIDDO",
         "type": [
@@ -78663,6 +79335,7 @@
     },
     {
         "number": 673,
+        "number000": "673",
         "name": "Gogoat",
         "internal_name": "GOGOAT",
         "type": [
@@ -78785,6 +79458,7 @@
     },
     {
         "number": 674,
+        "number000": "674",
         "name": "Pancham",
         "internal_name": "PANCHAM",
         "type": [
@@ -78904,6 +79578,7 @@
     },
     {
         "number": 675,
+        "number000": "675",
         "name": "Pangoro",
         "internal_name": "PANGORO",
         "type": [
@@ -79030,6 +79705,7 @@
     },
     {
         "number": 676,
+        "number000": "676",
         "name": "Furfrou",
         "internal_name": "FURFROU",
         "type": [
@@ -79135,6 +79811,7 @@
     },
     {
         "number": 677,
+        "number000": "677",
         "name": "Espurr",
         "internal_name": "ESPURR",
         "type": [
@@ -79232,6 +79909,7 @@
     },
     {
         "number": 678,
+        "number000": "678",
         "name": "Meowstic",
         "internal_name": "MEOWSTIC",
         "type": [
@@ -79364,6 +80042,7 @@
     },
     {
         "number": 679,
+        "number000": "679",
         "name": "Honedge",
         "internal_name": "HONEDGE",
         "type": [
@@ -79484,6 +80163,7 @@
     },
     {
         "number": 680,
+        "number000": "680",
         "name": "Doublade",
         "internal_name": "DOUBLADE",
         "type": [
@@ -79598,6 +80278,7 @@
     },
     {
         "number": 681,
+        "number000": "681",
         "name": "Aegislash",
         "internal_name": "AEGISLASH",
         "type": [
@@ -79705,6 +80386,7 @@
     },
     {
         "number": 682,
+        "number000": "682",
         "name": "Spritzee",
         "internal_name": "SPRITZEE",
         "type": [
@@ -79829,6 +80511,7 @@
     },
     {
         "number": 683,
+        "number000": "683",
         "name": "Aromatisse",
         "internal_name": "AROMATISSE",
         "type": [
@@ -79956,6 +80639,7 @@
     },
     {
         "number": 684,
+        "number000": "684",
         "name": "Swirlix",
         "internal_name": "SWIRLIX",
         "type": [
@@ -80080,6 +80764,7 @@
     },
     {
         "number": 685,
+        "number000": "685",
         "name": "Slurpuff",
         "internal_name": "SLURPUFF",
         "type": [
@@ -80191,6 +80876,7 @@
     },
     {
         "number": 686,
+        "number000": "686",
         "name": "Inkay",
         "internal_name": "INKAY",
         "type": [
@@ -80326,6 +81012,7 @@
     },
     {
         "number": 687,
+        "number000": "687",
         "name": "Malamar",
         "internal_name": "MALAMAR",
         "type": [
@@ -80455,6 +81142,7 @@
     },
     {
         "number": 688,
+        "number000": "688",
         "name": "Binacle",
         "internal_name": "BINACLE",
         "type": [
@@ -80582,6 +81270,7 @@
     },
     {
         "number": 689,
+        "number000": "689",
         "name": "Barbaracle",
         "internal_name": "BARBARACLE",
         "type": [
@@ -80712,6 +81401,7 @@
     },
     {
         "number": 690,
+        "number000": "690",
         "name": "Skrelp",
         "internal_name": "SKRELP",
         "type": [
@@ -80840,6 +81530,7 @@
     },
     {
         "number": 691,
+        "number000": "691",
         "name": "Dragalge",
         "internal_name": "DRAGALGE",
         "type": [
@@ -80970,6 +81661,7 @@
     },
     {
         "number": 692,
+        "number000": "692",
         "name": "Clauncher",
         "internal_name": "CLAUNCHER",
         "type": [
@@ -81083,6 +81775,7 @@
     },
     {
         "number": 693,
+        "number000": "693",
         "name": "Clawitzer",
         "internal_name": "CLAWITZER",
         "type": [
@@ -81210,6 +81903,7 @@
     },
     {
         "number": 694,
+        "number000": "694",
         "name": "Helioptile",
         "internal_name": "HELIOPTILE",
         "type": [
@@ -81325,6 +82019,7 @@
     },
     {
         "number": 695,
+        "number000": "695",
         "name": "Heliolisk",
         "internal_name": "HELIOLISK",
         "type": [
@@ -81403,6 +82098,7 @@
     },
     {
         "number": 696,
+        "number000": "696",
         "name": "Tyrunt",
         "internal_name": "TYRUNT",
         "type": [
@@ -81528,6 +82224,7 @@
     },
     {
         "number": 697,
+        "number000": "697",
         "name": "Tyrantrum",
         "internal_name": "TYRANTRUM",
         "type": [
@@ -81653,6 +82350,7 @@
     },
     {
         "number": 698,
+        "number000": "698",
         "name": "Amaura",
         "internal_name": "AMAURA",
         "type": [
@@ -81786,6 +82484,7 @@
     },
     {
         "number": 699,
+        "number000": "699",
         "name": "Aurorus",
         "internal_name": "AURORUS",
         "type": [
@@ -81913,6 +82612,7 @@
     },
     {
         "number": 700,
+        "number000": "700",
         "name": "Sylveon",
         "internal_name": "SYLVEON",
         "type": [
@@ -82020,6 +82720,7 @@
     },
     {
         "number": 701,
+        "number000": "701",
         "name": "Hawlucha",
         "internal_name": "HAWLUCHA",
         "type": [
@@ -82146,6 +82847,7 @@
     },
     {
         "number": 702,
+        "number000": "702",
         "name": "Dedenne",
         "internal_name": "DEDENNE",
         "type": [
@@ -82265,6 +82967,7 @@
     },
     {
         "number": 703,
+        "number000": "703",
         "name": "Carbink",
         "internal_name": "CARBINK",
         "type": [
@@ -82378,6 +83081,7 @@
     },
     {
         "number": 704,
+        "number000": "704",
         "name": "Goomy",
         "internal_name": "GOOMY",
         "type": [
@@ -82484,6 +83188,7 @@
     },
     {
         "number": 705,
+        "number000": "705",
         "name": "Sliggoo",
         "internal_name": "SLIGGOO",
         "type": [
@@ -82583,6 +83288,7 @@
     },
     {
         "number": 706,
+        "number000": "706",
         "name": "Goodra",
         "internal_name": "GOODRA",
         "type": [
@@ -82695,6 +83401,7 @@
     },
     {
         "number": 707,
+        "number000": "707",
         "name": "Klefki",
         "internal_name": "KLEFKI",
         "type": [
@@ -82812,6 +83519,7 @@
     },
     {
         "number": 708,
+        "number000": "708",
         "name": "Phantump",
         "internal_name": "PHANTUMP",
         "type": [
@@ -82931,6 +83639,7 @@
     },
     {
         "number": 709,
+        "number000": "709",
         "name": "Trevenant",
         "internal_name": "TREVENANT",
         "type": [
@@ -83045,6 +83754,7 @@
     },
     {
         "number": 710,
+        "number000": "710",
         "name": "Pumpkaboo",
         "internal_name": "PUMPKABOO",
         "type": [
@@ -83166,6 +83876,7 @@
     },
     {
         "number": 711,
+        "number000": "711",
         "name": "Gourgeist",
         "internal_name": "GOURGEIST",
         "type": [
@@ -83299,6 +84010,7 @@
     },
     {
         "number": 712,
+        "number000": "712",
         "name": "Bergmite",
         "internal_name": "BERGMITE",
         "type": [
@@ -83420,6 +84132,7 @@
     },
     {
         "number": 713,
+        "number000": "713",
         "name": "Avalugg",
         "internal_name": "AVALUGG",
         "type": [
@@ -83548,6 +84261,7 @@
     },
     {
         "number": 714,
+        "number000": "714",
         "name": "Noibat",
         "internal_name": "NOIBAT",
         "type": [
@@ -83674,6 +84388,7 @@
     },
     {
         "number": 715,
+        "number000": "715",
         "name": "Noivern",
         "internal_name": "NOIVERN",
         "type": [
@@ -83811,6 +84526,7 @@
     },
     {
         "number": 716,
+        "number000": "716",
         "name": "Xerneas",
         "internal_name": "XERNEAS",
         "type": [
@@ -83929,6 +84645,7 @@
     },
     {
         "number": 717,
+        "number000": "717",
         "name": "Yveltal",
         "internal_name": "YVELTAL",
         "type": [
@@ -84048,6 +84765,7 @@
     },
     {
         "number": 718,
+        "number000": "718",
         "name": "Zygarde",
         "internal_name": "ZYGARDE",
         "type": [
@@ -84167,6 +84885,7 @@
     },
     {
         "number": 719,
+        "number000": "719",
         "name": "Diancie",
         "internal_name": "DIANCIE",
         "type": [
@@ -84282,6 +85001,7 @@
     },
     {
         "number": 720,
+        "number000": "720",
         "name": "Hoopa",
         "internal_name": "HOOPA",
         "type": [
@@ -84409,6 +85129,7 @@
     },
     {
         "number": 721,
+        "number000": "721",
         "name": "Volcanion",
         "internal_name": "VOLCANION",
         "type": [
@@ -84521,6 +85242,7 @@
     },
     {
         "number": 722,
+        "number000": "722",
         "name": "Rowlet",
         "internal_name": "ROWLET",
         "type": [
@@ -84645,6 +85367,7 @@
     },
     {
         "number": 723,
+        "number000": "723",
         "name": "Dartrix",
         "internal_name": "DARTRIX",
         "type": [
@@ -84769,6 +85492,7 @@
     },
     {
         "number": 724,
+        "number000": "724",
         "name": "Decidueye",
         "internal_name": "DECIDUEYE",
         "type": [
@@ -84894,6 +85618,7 @@
     },
     {
         "number": 725,
+        "number000": "725",
         "name": "Litten",
         "internal_name": "LITTEN",
         "type": [
@@ -85017,6 +85742,7 @@
     },
     {
         "number": 726,
+        "number000": "726",
         "name": "Torracat",
         "internal_name": "TORRACAT",
         "type": [
@@ -85136,6 +85862,7 @@
     },
     {
         "number": 727,
+        "number000": "727",
         "name": "Incineroar",
         "internal_name": "INCINEROAR",
         "type": [
@@ -85269,6 +85996,7 @@
     },
     {
         "number": 728,
+        "number000": "728",
         "name": "Popplio",
         "internal_name": "POPPLIO",
         "type": [
@@ -85393,6 +86121,7 @@
     },
     {
         "number": 729,
+        "number000": "729",
         "name": "Brionne",
         "internal_name": "BRIONNE",
         "type": [
@@ -85517,6 +86246,7 @@
     },
     {
         "number": 730,
+        "number000": "730",
         "name": "Primarina",
         "internal_name": "PRIMARINA",
         "type": [
@@ -85639,6 +86369,7 @@
     },
     {
         "number": 731,
+        "number000": "731",
         "name": "Pikipek",
         "internal_name": "PIKIPEK",
         "type": [
@@ -85751,6 +86482,7 @@
     },
     {
         "number": 732,
+        "number000": "732",
         "name": "Trumbeak",
         "internal_name": "TRUMBEAK",
         "type": [
@@ -85868,6 +86600,7 @@
     },
     {
         "number": 733,
+        "number000": "733",
         "name": "Toucannon",
         "internal_name": "TOUCANNON",
         "type": [
@@ -85982,6 +86715,7 @@
     },
     {
         "number": 734,
+        "number000": "734",
         "name": "Yungoos",
         "internal_name": "YUNGOOS",
         "type": [
@@ -86105,6 +86839,7 @@
     },
     {
         "number": 735,
+        "number000": "735",
         "name": "Gumshoos",
         "internal_name": "GUMSHOOS",
         "type": [
@@ -86217,6 +86952,7 @@
     },
     {
         "number": 736,
+        "number000": "736",
         "name": "Grubbin",
         "internal_name": "GRUBBIN",
         "type": [
@@ -86317,6 +87053,7 @@
     },
     {
         "number": 737,
+        "number000": "737",
         "name": "Charjabug",
         "internal_name": "CHARJABUG",
         "type": [
@@ -86428,6 +87165,7 @@
     },
     {
         "number": 738,
+        "number000": "738",
         "name": "Vikavolt",
         "internal_name": "VIKAVOLT",
         "type": [
@@ -86548,6 +87286,7 @@
     },
     {
         "number": 739,
+        "number000": "739",
         "name": "Crabrawler",
         "internal_name": "CRABRAWLER",
         "type": [
@@ -86662,6 +87401,7 @@
     },
     {
         "number": 740,
+        "number000": "740",
         "name": "Crabominable",
         "internal_name": "CRABOMINABLE",
         "type": [
@@ -86768,6 +87508,7 @@
     },
     {
         "number": 741,
+        "number000": "741",
         "name": "Oricorio",
         "internal_name": "ORICORIO",
         "type": [
@@ -86886,6 +87627,7 @@
     },
     {
         "number": 742,
+        "number000": "742",
         "name": "Cutiefly",
         "internal_name": "CUTIEFLY",
         "type": [
@@ -86994,6 +87736,7 @@
     },
     {
         "number": 743,
+        "number000": "743",
         "name": "Ribombee",
         "internal_name": "RIBOMBEE",
         "type": [
@@ -87092,6 +87835,7 @@
     },
     {
         "number": 744,
+        "number000": "744",
         "name": "Rockruff",
         "internal_name": "ROCKRUFF",
         "type": [
@@ -87215,6 +87959,7 @@
     },
     {
         "number": 745,
+        "number000": "745",
         "name": "Lycanroc",
         "internal_name": "LYCANROC",
         "type": [
@@ -87340,6 +88085,7 @@
     },
     {
         "number": 746,
+        "number000": "746",
         "name": "Wishiwashi",
         "internal_name": "WISHIWASHI",
         "type": [
@@ -87453,6 +88199,7 @@
     },
     {
         "number": 747,
+        "number000": "747",
         "name": "Mareanie",
         "internal_name": "MAREANIE",
         "type": [
@@ -87568,6 +88315,7 @@
     },
     {
         "number": 748,
+        "number000": "748",
         "name": "Toxapex",
         "internal_name": "TOXAPEX",
         "type": [
@@ -87678,6 +88426,7 @@
     },
     {
         "number": 749,
+        "number000": "749",
         "name": "Mudbray",
         "internal_name": "MUDBRAY",
         "type": [
@@ -87797,6 +88546,7 @@
     },
     {
         "number": 750,
+        "number000": "750",
         "name": "Mudsdale",
         "internal_name": "MUDSDALE",
         "type": [
@@ -87905,6 +88655,7 @@
     },
     {
         "number": 751,
+        "number000": "751",
         "name": "Dewpider",
         "internal_name": "DEWPIDER",
         "type": [
@@ -88024,6 +88775,7 @@
     },
     {
         "number": 752,
+        "number000": "752",
         "name": "Araquanid",
         "internal_name": "ARAQUANID",
         "type": [
@@ -88142,6 +88894,7 @@
     },
     {
         "number": 753,
+        "number000": "753",
         "name": "Fomantis",
         "internal_name": "FOMANTIS",
         "type": [
@@ -88248,6 +89001,7 @@
     },
     {
         "number": 754,
+        "number000": "754",
         "name": "Lurantis",
         "internal_name": "LURANTIS",
         "type": [
@@ -88348,6 +89102,7 @@
     },
     {
         "number": 755,
+        "number000": "755",
         "name": "Morelull",
         "internal_name": "MORELULL",
         "type": [
@@ -88464,6 +89219,7 @@
     },
     {
         "number": 756,
+        "number000": "756",
         "name": "Shiinotic",
         "internal_name": "SHIINOTIC",
         "type": [
@@ -88566,6 +89322,7 @@
     },
     {
         "number": 757,
+        "number000": "757",
         "name": "Salandit",
         "internal_name": "SALANDIT",
         "type": [
@@ -88686,6 +89443,7 @@
     },
     {
         "number": 758,
+        "number000": "758",
         "name": "Salazzle",
         "internal_name": "SALAZZLE",
         "type": [
@@ -88816,6 +89574,7 @@
     },
     {
         "number": 759,
+        "number000": "759",
         "name": "Stufful",
         "internal_name": "STUFFUL",
         "type": [
@@ -88934,6 +89693,7 @@
     },
     {
         "number": 760,
+        "number000": "760",
         "name": "Bewear",
         "internal_name": "BEWEAR",
         "type": [
@@ -89035,6 +89795,7 @@
     },
     {
         "number": 761,
+        "number000": "761",
         "name": "Bounsweet",
         "internal_name": "BOUNSWEET",
         "type": [
@@ -89135,6 +89896,7 @@
     },
     {
         "number": 762,
+        "number000": "762",
         "name": "Steenee",
         "internal_name": "STEENEE",
         "type": [
@@ -89243,6 +90005,7 @@
     },
     {
         "number": 763,
+        "number000": "763",
         "name": "Tsareena",
         "internal_name": "TSAREENA",
         "type": [
@@ -89352,6 +90115,7 @@
     },
     {
         "number": 764,
+        "number000": "764",
         "name": "Comfey",
         "internal_name": "COMFEY",
         "type": [
@@ -89482,6 +90246,7 @@
     },
     {
         "number": 765,
+        "number000": "765",
         "name": "Oranguru",
         "internal_name": "ORANGURU",
         "type": [
@@ -89597,6 +90362,7 @@
     },
     {
         "number": 766,
+        "number000": "766",
         "name": "Passimian",
         "internal_name": "PASSIMIAN",
         "type": [
@@ -89713,6 +90479,7 @@
     },
     {
         "number": 767,
+        "number000": "767",
         "name": "Wimpod",
         "internal_name": "WIMPOD",
         "type": [
@@ -89784,6 +90551,7 @@
     },
     {
         "number": 768,
+        "number000": "768",
         "name": "Golisopod",
         "internal_name": "GOLISOPOD",
         "type": [
@@ -89897,6 +90665,7 @@
     },
     {
         "number": 769,
+        "number000": "769",
         "name": "Sandygast",
         "internal_name": "SANDYGAST",
         "type": [
@@ -90017,6 +90786,7 @@
     },
     {
         "number": 770,
+        "number000": "770",
         "name": "Palossand",
         "internal_name": "PALOSSAND",
         "type": [
@@ -90122,6 +90892,7 @@
     },
     {
         "number": 771,
+        "number000": "771",
         "name": "Pyukumuku",
         "internal_name": "PYUKUMUKU",
         "type": [
@@ -90244,6 +91015,7 @@
     },
     {
         "number": 772,
+        "number000": "772",
         "name": "Código Cero",
         "internal_name": "TYPENULL",
         "type": [
@@ -90369,6 +91141,7 @@
     },
     {
         "number": 773,
+        "number000": "773",
         "name": "Silvally",
         "internal_name": "SILVALLY",
         "type": [
@@ -90520,6 +91293,7 @@
     },
     {
         "number": 774,
+        "number000": "774",
         "name": "Minior",
         "internal_name": "MINIOR",
         "type": [
@@ -90628,6 +91402,7 @@
     },
     {
         "number": 775,
+        "number000": "775",
         "name": "Komala",
         "internal_name": "KOMALA",
         "type": [
@@ -90733,6 +91508,7 @@
     },
     {
         "number": 776,
+        "number000": "776",
         "name": "Turtonator",
         "internal_name": "TURTONATOR",
         "type": [
@@ -90848,6 +91624,7 @@
     },
     {
         "number": 777,
+        "number000": "777",
         "name": "Togedemaru",
         "internal_name": "TOGEDEMARU",
         "type": [
@@ -90970,6 +91747,7 @@
     },
     {
         "number": 778,
+        "number000": "778",
         "name": "Mimikyu",
         "internal_name": "MIMIKYU",
         "type": [
@@ -91084,6 +91862,7 @@
     },
     {
         "number": 779,
+        "number000": "779",
         "name": "Bruxish",
         "internal_name": "BRUXISH",
         "type": [
@@ -91191,6 +91970,7 @@
     },
     {
         "number": 780,
+        "number000": "780",
         "name": "Drampa",
         "internal_name": "DRAMPA",
         "type": [
@@ -91308,6 +92088,7 @@
     },
     {
         "number": 781,
+        "number000": "781",
         "name": "Dhelmise",
         "internal_name": "DHELMISE",
         "type": [
@@ -91428,6 +92209,7 @@
     },
     {
         "number": 782,
+        "number000": "782",
         "name": "Jangmo-o",
         "internal_name": "JANGMOO",
         "type": [
@@ -91544,6 +92326,7 @@
     },
     {
         "number": 783,
+        "number000": "783",
         "name": "Hakamo-o",
         "internal_name": "HAKAMOO",
         "type": [
@@ -91664,6 +92447,7 @@
     },
     {
         "number": 784,
+        "number000": "784",
         "name": "Kommo-o",
         "internal_name": "KOMMOO",
         "type": [
@@ -91785,6 +92569,7 @@
     },
     {
         "number": 785,
+        "number000": "785",
         "name": "Tapu Koko",
         "internal_name": "TAPUKOKO",
         "type": [
@@ -91906,6 +92691,7 @@
     },
     {
         "number": 786,
+        "number000": "786",
         "name": "Tapu Lele",
         "internal_name": "TAPULELE",
         "type": [
@@ -92027,6 +92813,7 @@
     },
     {
         "number": 787,
+        "number000": "787",
         "name": "Tapu Bulu",
         "internal_name": "TAPUBULU",
         "type": [
@@ -92148,6 +92935,7 @@
     },
     {
         "number": 788,
+        "number000": "788",
         "name": "Tapu Fini",
         "internal_name": "TAPUFINI",
         "type": [
@@ -92269,6 +93057,7 @@
     },
     {
         "number": 789,
+        "number000": "789",
         "name": "Cosmog",
         "internal_name": "COSMOG",
         "type": [
@@ -92331,6 +93120,7 @@
     },
     {
         "number": 790,
+        "number000": "790",
         "name": "Cosmoem",
         "internal_name": "COSMOEM",
         "type": [
@@ -92398,6 +93188,7 @@
     },
     {
         "number": 791,
+        "number000": "791",
         "name": "Solgaleo",
         "internal_name": "SOLGALEO",
         "type": [
@@ -92514,6 +93305,7 @@
     },
     {
         "number": 792,
+        "number000": "792",
         "name": "Lunala",
         "internal_name": "LUNALA",
         "type": [
@@ -92630,6 +93422,7 @@
     },
     {
         "number": 793,
+        "number000": "793",
         "name": "Magearna",
         "internal_name": "MAGEARNA",
         "type": [
@@ -92758,6 +93551,7 @@
     },
     {
         "number": 794,
+        "number000": "794",
         "name": "Marshadow",
         "internal_name": "MARSHADOW",
         "type": [
@@ -92890,6 +93684,7 @@
     },
     {
         "number": 795,
+        "number000": "795",
         "name": "Snampery",
         "internal_name": "SNAMPERY",
         "type": [
@@ -93014,6 +93809,7 @@
     },
     {
         "number": 796,
+        "number000": "796",
         "name": "Descargot",
         "internal_name": "DESCARGOT",
         "type": [
@@ -93147,6 +93943,7 @@
     },
     {
         "number": 797,
+        "number000": "797",
         "name": "Gastesla",
         "internal_name": "GASTESLA",
         "type": [
@@ -93289,6 +94086,7 @@
     },
     {
         "number": 798,
+        "number000": "798",
         "name": "Flasinge",
         "internal_name": "FLASINGE",
         "type": [
@@ -93415,6 +94213,7 @@
     },
     {
         "number": 799,
+        "number000": "799",
         "name": "Shaboon",
         "internal_name": "SHABOON",
         "type": [
@@ -93550,6 +94349,7 @@
     },
     {
         "number": 800,
+        "number000": "800",
         "name": "Lunaye",
         "internal_name": "LUNAYE",
         "type": [
@@ -93690,6 +94490,7 @@
     },
     {
         "number": 801,
+        "number000": "801",
         "name": "Swolphin",
         "internal_name": "SWOLPHIN",
         "type": [
@@ -93816,6 +94617,7 @@
     },
     {
         "number": 802,
+        "number000": "802",
         "name": "Norspear",
         "internal_name": "NORSPEAR",
         "type": [
@@ -93951,6 +94753,7 @@
     },
     {
         "number": 803,
+        "number000": "803",
         "name": "Narvalor",
         "internal_name": "NARVALOR",
         "type": [
@@ -94091,6 +94894,7 @@
     },
     {
         "number": 804,
+        "number000": "804",
         "name": "Missingno",
         "internal_name": "MISSINGNO",
         "type": [
@@ -94146,6 +94950,7 @@
     },
     {
         "number": 805,
+        "number000": "805",
         "name": "Necrozma",
         "internal_name": "NECROZMA",
         "type": [
@@ -94273,6 +95078,7 @@
     },
     {
         "number": 806,
+        "number000": "806",
         "name": "Zeraora",
         "internal_name": "ZERAORA",
         "type": [
@@ -94400,6 +95206,7 @@
     },
     {
         "number": 807,
+        "number000": "807",
         "name": "Cefireon",
         "internal_name": "CEFIREON",
         "type": [
@@ -94512,6 +95319,7 @@
     },
     {
         "number": 808,
+        "number000": "808",
         "name": "Meltan",
         "internal_name": "MELTAN",
         "type": [
@@ -94593,6 +95401,7 @@
     },
     {
         "number": 809,
+        "number000": "809",
         "name": "Melmetal",
         "internal_name": "MELMETAL",
         "type": [
@@ -94700,6 +95509,7 @@
     },
     {
         "number": 810,
+        "number000": "810",
         "name": "Grookey",
         "internal_name": "GROOKEY",
         "type": [
@@ -94809,6 +95619,7 @@
     },
     {
         "number": 811,
+        "number000": "811",
         "name": "Thwackey",
         "internal_name": "THWACKEY",
         "type": [
@@ -94913,6 +95724,7 @@
     },
     {
         "number": 812,
+        "number000": "812",
         "name": "Rillaboom",
         "internal_name": "RILLABOOM",
         "type": [
@@ -95022,6 +95834,7 @@
     },
     {
         "number": 813,
+        "number000": "813",
         "name": "Scorbunny",
         "internal_name": "SCORBUNNY",
         "type": [
@@ -95128,6 +95941,7 @@
     },
     {
         "number": 814,
+        "number000": "814",
         "name": "Raboot",
         "internal_name": "RABOOT",
         "type": [
@@ -95228,6 +96042,7 @@
     },
     {
         "number": 815,
+        "number000": "815",
         "name": "Cinderace",
         "internal_name": "CINDERACE",
         "type": [
@@ -95333,6 +96148,7 @@
     },
     {
         "number": 816,
+        "number000": "816",
         "name": "Sobble",
         "internal_name": "SOBBLE",
         "type": [
@@ -95433,6 +96249,7 @@
     },
     {
         "number": 817,
+        "number000": "817",
         "name": "Drizzile",
         "internal_name": "DRIZZILE",
         "type": [
@@ -95533,6 +96350,7 @@
     },
     {
         "number": 818,
+        "number000": "818",
         "name": "Inteleon",
         "internal_name": "INTELEON",
         "type": [
@@ -95643,6 +96461,7 @@
     },
     {
         "number": 819,
+        "number000": "819",
         "name": "Skwovet",
         "internal_name": "SKWOVET",
         "type": [
@@ -95756,6 +96575,7 @@
     },
     {
         "number": 820,
+        "number000": "820",
         "name": "Greedent",
         "internal_name": "GREEDENT",
         "type": [
@@ -95860,6 +96680,7 @@
     },
     {
         "number": 821,
+        "number000": "821",
         "name": "Rookidee",
         "internal_name": "ROOKIDEE",
         "type": [
@@ -95969,6 +96790,7 @@
     },
     {
         "number": 822,
+        "number000": "822",
         "name": "Corvisquire",
         "internal_name": "CORVISQUIRE",
         "type": [
@@ -96069,6 +96891,7 @@
     },
     {
         "number": 823,
+        "number000": "823",
         "name": "Corviknight",
         "internal_name": "CORVIKNIGHT",
         "type": [
@@ -96167,6 +96990,7 @@
     },
     {
         "number": 824,
+        "number000": "824",
         "name": "Blipbug",
         "internal_name": "BLIPBUG",
         "type": [
@@ -96233,6 +97057,7 @@
     },
     {
         "number": 825,
+        "number000": "825",
         "name": "Dottler",
         "internal_name": "DOTTLER",
         "type": [
@@ -96326,6 +97151,7 @@
     },
     {
         "number": 826,
+        "number000": "826",
         "name": "Orbeetle",
         "internal_name": "ORBEETLE",
         "type": [
@@ -96436,6 +97262,7 @@
     },
     {
         "number": 827,
+        "number000": "827",
         "name": "Nickit",
         "internal_name": "NICKIT",
         "type": [
@@ -96542,6 +97369,7 @@
     },
     {
         "number": 828,
+        "number000": "828",
         "name": "Thievul",
         "internal_name": "THIEVUL",
         "type": [
@@ -96643,6 +97471,7 @@
     },
     {
         "number": 829,
+        "number000": "829",
         "name": "Gossifleur",
         "internal_name": "GOSSIFLEUR",
         "type": [
@@ -96750,6 +97579,7 @@
     },
     {
         "number": 830,
+        "number000": "830",
         "name": "Eldegoss",
         "internal_name": "ELDEGOSS",
         "type": [
@@ -96850,6 +97680,7 @@
     },
     {
         "number": 831,
+        "number000": "831",
         "name": "Wooloo",
         "internal_name": "WOOLOO",
         "type": [
@@ -96958,6 +97789,7 @@
     },
     {
         "number": 832,
+        "number000": "832",
         "name": "Dubwool",
         "internal_name": "DUBWOOL",
         "type": [
@@ -97058,6 +97890,7 @@
     },
     {
         "number": 833,
+        "number000": "833",
         "name": "Chewtle",
         "internal_name": "CHEWTLE",
         "type": [
@@ -97156,6 +97989,7 @@
     },
     {
         "number": 834,
+        "number000": "834",
         "name": "Drednaw",
         "internal_name": "DREDNAW",
         "type": [
@@ -97267,6 +98101,7 @@
     },
     {
         "number": 835,
+        "number000": "835",
         "name": "Yamper",
         "internal_name": "YAMPER",
         "type": [
@@ -97373,6 +98208,7 @@
     },
     {
         "number": 836,
+        "number000": "836",
         "name": "Boltund",
         "internal_name": "BOLTUND",
         "type": [
@@ -97486,6 +98322,7 @@
     },
     {
         "number": 837,
+        "number000": "837",
         "name": "Rolycoly",
         "internal_name": "ROLYCOLY",
         "type": [
@@ -97586,6 +98423,7 @@
     },
     {
         "number": 838,
+        "number000": "838",
         "name": "Carkol",
         "internal_name": "CARKOL",
         "type": [
@@ -97690,6 +98528,7 @@
     },
     {
         "number": 839,
+        "number000": "839",
         "name": "Coalossal",
         "internal_name": "COALOSSAL",
         "type": [
@@ -97795,6 +98634,7 @@
     },
     {
         "number": 840,
+        "number000": "840",
         "name": "Applin",
         "internal_name": "APPLIN",
         "type": [
@@ -97876,6 +98716,7 @@
     },
     {
         "number": 841,
+        "number000": "841",
         "name": "Flapple",
         "internal_name": "FLAPPLE",
         "type": [
@@ -97995,6 +98836,7 @@
     },
     {
         "number": 842,
+        "number000": "842",
         "name": "Appletun",
         "internal_name": "APPLETUN",
         "type": [
@@ -98114,6 +98956,7 @@
     },
     {
         "number": 843,
+        "number000": "843",
         "name": "Silicobra",
         "internal_name": "SILICOBRA",
         "type": [
@@ -98225,6 +99068,7 @@
     },
     {
         "number": 844,
+        "number000": "844",
         "name": "Sandaconda",
         "internal_name": "SANDACONDA",
         "type": [
@@ -98326,6 +99170,7 @@
     },
     {
         "number": 845,
+        "number000": "845",
         "name": "Cramorant",
         "internal_name": "CRAMORANT",
         "type": [
@@ -98434,6 +99279,7 @@
     },
     {
         "number": 846,
+        "number000": "846",
         "name": "Arrokuda",
         "internal_name": "ARROKUDA",
         "type": [
@@ -98535,6 +99381,7 @@
     },
     {
         "number": 847,
+        "number000": "847",
         "name": "Barraskewda",
         "internal_name": "BARRASKEWDA",
         "type": [
@@ -98631,6 +99478,7 @@
     },
     {
         "number": 848,
+        "number000": "848",
         "name": "Toxel",
         "internal_name": "TOXEL",
         "type": [
@@ -98717,6 +99565,7 @@
     },
     {
         "number": 849,
+        "number000": "849",
         "name": "Toxtricity",
         "internal_name": "TOXTRICITY",
         "type": [
@@ -98863,6 +99712,7 @@
     },
     {
         "number": 850,
+        "number000": "850",
         "name": "Sizzlipede",
         "internal_name": "SIZZLIPEDE",
         "type": [
@@ -98978,6 +99828,7 @@
     },
     {
         "number": 851,
+        "number000": "851",
         "name": "Centiskorch",
         "internal_name": "CENTISKORCH",
         "type": [
@@ -99088,6 +99939,7 @@
     },
     {
         "number": 852,
+        "number000": "852",
         "name": "Clobbopus",
         "internal_name": "CLOBBOPUS",
         "type": [
@@ -99196,6 +100048,7 @@
     },
     {
         "number": 853,
+        "number000": "853",
         "name": "Grapploct",
         "internal_name": "GRAPPLOCT",
         "type": [
@@ -99301,6 +100154,7 @@
     },
     {
         "number": 854,
+        "number000": "854",
         "name": "Sinistea",
         "internal_name": "SINISTEA",
         "type": [
@@ -99405,6 +100259,7 @@
     },
     {
         "number": 855,
+        "number000": "855",
         "name": "Polteageist",
         "internal_name": "POLTEAGEIST",
         "type": [
@@ -99514,6 +100369,7 @@
     },
     {
         "number": 856,
+        "number000": "856",
         "name": "Hatenna",
         "internal_name": "HATENNA",
         "type": [
@@ -99619,6 +100475,7 @@
     },
     {
         "number": 857,
+        "number000": "857",
         "name": "Hattrem",
         "internal_name": "HATTREM",
         "type": [
@@ -99722,6 +100579,7 @@
     },
     {
         "number": 858,
+        "number000": "858",
         "name": "Hatterene",
         "internal_name": "HATTERENE",
         "type": [
@@ -99827,6 +100685,7 @@
     },
     {
         "number": 859,
+        "number000": "859",
         "name": "Impidimp",
         "internal_name": "IMPIDIMP",
         "type": [
@@ -99937,6 +100796,7 @@
     },
     {
         "number": 860,
+        "number000": "860",
         "name": "Morgrem",
         "internal_name": "MORGREM",
         "type": [
@@ -100051,6 +100911,7 @@
     },
     {
         "number": 861,
+        "number000": "861",
         "name": "Grimmsnarl",
         "internal_name": "GRIMMSNARL",
         "type": [
@@ -100174,6 +101035,7 @@
     },
     {
         "number": 862,
+        "number000": "862",
         "name": "Obstagoon",
         "internal_name": "OBSTAGOON",
         "type": [
@@ -100308,6 +101170,7 @@
     },
     {
         "number": 863,
+        "number000": "863",
         "name": "Milcery",
         "internal_name": "MILCERY",
         "type": [
@@ -100415,6 +101278,7 @@
     },
     {
         "number": 864,
+        "number000": "864",
         "name": "Alcremie",
         "internal_name": "ALCREMIE",
         "type": [
@@ -100512,6 +101376,7 @@
     },
     {
         "number": 865,
+        "number000": "865",
         "name": "Falinks",
         "internal_name": "FALINKS",
         "type": [
@@ -100618,6 +101483,7 @@
     },
     {
         "number": 866,
+        "number000": "866",
         "name": "Pincurchin",
         "internal_name": "PINCURCHIN",
         "type": [
@@ -100727,6 +101593,7 @@
     },
     {
         "number": 867,
+        "number000": "867",
         "name": "Snom",
         "internal_name": "SNOM",
         "type": [
@@ -100795,6 +101662,7 @@
     },
     {
         "number": 868,
+        "number000": "868",
         "name": "Frosmoth",
         "internal_name": "FROSMOTH",
         "type": [
@@ -100917,6 +101785,7 @@
     },
     {
         "number": 869,
+        "number000": "869",
         "name": "Stonjourner",
         "internal_name": "STONJOURNER",
         "type": [
@@ -101020,6 +101889,7 @@
     },
     {
         "number": 870,
+        "number000": "870",
         "name": "Eiscue",
         "internal_name": "EISCUE",
         "type": [
@@ -101124,6 +101994,7 @@
     },
     {
         "number": 871,
+        "number000": "871",
         "name": "Indeedee",
         "internal_name": "INDEEDEE",
         "type": [
@@ -101231,6 +102102,7 @@
     },
     {
         "number": 872,
+        "number000": "872",
         "name": "Morpeko",
         "internal_name": "MORPEKO",
         "type": [
@@ -101346,6 +102218,7 @@
     },
     {
         "number": 873,
+        "number000": "873",
         "name": "Cufant",
         "internal_name": "CUFANT",
         "type": [
@@ -101464,6 +102337,7 @@
     },
     {
         "number": 874,
+        "number000": "874",
         "name": "Copperajah",
         "internal_name": "COPPERAJAH",
         "type": [
@@ -101573,6 +102447,7 @@
     },
     {
         "number": 875,
+        "number000": "875",
         "name": "Dracozolt",
         "internal_name": "DRACOZOLT",
         "type": [
@@ -101675,6 +102550,7 @@
     },
     {
         "number": 876,
+        "number000": "876",
         "name": "Arctozolt",
         "internal_name": "ARCTOZOLT",
         "type": [
@@ -101777,6 +102653,7 @@
     },
     {
         "number": 877,
+        "number000": "877",
         "name": "Dracovish",
         "internal_name": "DRACOVISH",
         "type": [
@@ -101879,6 +102756,7 @@
     },
     {
         "number": 878,
+        "number000": "878",
         "name": "Arctovish",
         "internal_name": "ARCTOVISH",
         "type": [
@@ -101981,6 +102859,7 @@
     },
     {
         "number": 879,
+        "number000": "879",
         "name": "Duraludon",
         "internal_name": "DURALUDON",
         "type": [
@@ -102089,6 +102968,7 @@
     },
     {
         "number": 880,
+        "number000": "880",
         "name": "Dreepy",
         "internal_name": "DREEPY",
         "type": [
@@ -102172,6 +103052,7 @@
     },
     {
         "number": 881,
+        "number000": "881",
         "name": "Drakloak",
         "internal_name": "DRAKLOAK",
         "type": [
@@ -102298,6 +103179,7 @@
     },
     {
         "number": 882,
+        "number000": "882",
         "name": "Dragapult",
         "internal_name": "DRAGAPULT",
         "type": [
@@ -102421,6 +103303,7 @@
     },
     {
         "number": 883,
+        "number000": "883",
         "name": "Mr. Rime",
         "internal_name": "MRRIME",
         "type": [
@@ -102586,6 +103469,7 @@
     },
     {
         "number": 884,
+        "number000": "884",
         "name": "Sirfetch'd",
         "internal_name": "SIRFETCHD",
         "type": [
@@ -102708,6 +103592,7 @@
     },
     {
         "number": 885,
+        "number000": "885",
         "name": "Cursola",
         "internal_name": "CURSOLA",
         "type": [
@@ -102809,6 +103694,7 @@
     },
     {
         "number": 886,
+        "number000": "886",
         "name": "Zacian",
         "internal_name": "ZACIAN",
         "type": [
@@ -102913,6 +103799,7 @@
     },
     {
         "number": 887,
+        "number000": "887",
         "name": "Zamazenta",
         "internal_name": "ZAMAZENTA",
         "type": [
@@ -103017,6 +103904,7 @@
     },
     {
         "number": 888,
+        "number000": "888",
         "name": "Eternatus",
         "internal_name": "ETERNATUS",
         "type": [
@@ -103069,6 +103957,7 @@
     },
     {
         "number": 889,
+        "number000": "889",
         "name": "Lupice",
         "internal_name": "LUPICE",
         "type": [
@@ -103194,6 +104083,7 @@
     },
     {
         "number": 890,
+        "number000": "890",
         "name": "Mossfoot",
         "internal_name": "MOSSFOOT",
         "type": [
@@ -103307,6 +104197,7 @@
     },
     {
         "number": 891,
+        "number000": "891",
         "name": "Astrem",
         "internal_name": "ASTREM",
         "type": [
@@ -103458,6 +104349,7 @@
     },
     {
         "number": 892,
+        "number000": "892",
         "name": "Maidible",
         "internal_name": "MAIDIBLE",
         "type": [
@@ -103579,6 +104471,7 @@
     },
     {
         "number": 893,
+        "number000": "893",
         "name": "Zippectre",
         "internal_name": "ZIPPECTRE",
         "type": [
@@ -103700,6 +104593,7 @@
     },
     {
         "number": 894,
+        "number000": "894",
         "name": "Soundow",
         "internal_name": "SOUNDOW",
         "type": [
@@ -103817,6 +104711,7 @@
     },
     {
         "number": 895,
+        "number000": "895",
         "name": "Nihilego",
         "internal_name": "NIHILEGO",
         "type": [
@@ -103941,6 +104836,7 @@
     },
     {
         "number": 896,
+        "number000": "896",
         "name": "Buzzwole",
         "internal_name": "BUZZWOLE",
         "type": [
@@ -104069,6 +104965,7 @@
     },
     {
         "number": 897,
+        "number000": "897",
         "name": "Pheromosa",
         "internal_name": "PHEROMOSA",
         "type": [
@@ -104185,6 +105082,7 @@
     },
     {
         "number": 898,
+        "number000": "898",
         "name": "Xurkitree",
         "internal_name": "XURKITREE",
         "type": [
@@ -104300,6 +105198,7 @@
     },
     {
         "number": 899,
+        "number000": "899",
         "name": "Celesteela",
         "internal_name": "CELESTEELA",
         "type": [
@@ -104424,6 +105323,7 @@
     },
     {
         "number": 900,
+        "number000": "900",
         "name": "Kartana",
         "internal_name": "KARTANA",
         "type": [
@@ -104548,6 +105448,7 @@
     },
     {
         "number": 901,
+        "number000": "901",
         "name": "Guzzlord",
         "internal_name": "GUZZLORD",
         "type": [
@@ -104672,6 +105573,7 @@
     },
     {
         "number": 902,
+        "number000": "902",
         "name": "Poipole",
         "internal_name": "POIPOLE",
         "type": [
@@ -104778,6 +105680,7 @@
     },
     {
         "number": 903,
+        "number000": "903",
         "name": "Naganadel",
         "internal_name": "NAGANADEL",
         "type": [
@@ -104890,6 +105793,7 @@
     },
     {
         "number": 904,
+        "number000": "904",
         "name": "Stakataka",
         "internal_name": "STAKATAKA",
         "type": [
@@ -104990,6 +105894,7 @@
     },
     {
         "number": 905,
+        "number000": "905",
         "name": "Blacephalon",
         "internal_name": "BLACEPHALON",
         "type": [
@@ -105086,6 +105991,7 @@
     },
     {
         "number": 906,
+        "number000": "906",
         "name": "Unktena",
         "internal_name": "UNKTENA",
         "type": [
@@ -105198,6 +106104,7 @@
     },
     {
         "number": 907,
+        "number000": "907",
         "name": "Polekin",
         "internal_name": "POLEKIN",
         "type": [
@@ -105317,6 +106224,7 @@
     },
     {
         "number": 908,
+        "number000": "908",
         "name": "Fungorse",
         "internal_name": "FUNGORSE",
         "type": [
@@ -105445,6 +106353,7 @@
     },
     {
         "number": 909,
+        "number000": "909",
         "name": "Cervantrier",
         "internal_name": "CERVANTRIER",
         "type": [
@@ -105574,6 +106483,7 @@
     },
     {
         "number": 910,
+        "number000": "910",
         "name": "Lugnis",
         "internal_name": "LUGNIS",
         "type": [
@@ -105700,6 +106610,7 @@
     },
     {
         "number": 911,
+        "number000": "911",
         "name": "Luravit",
         "internal_name": "LURAVIT",
         "type": [
@@ -105834,6 +106745,7 @@
     },
     {
         "number": 912,
+        "number000": "912",
         "name": "Luxpiravit",
         "internal_name": "LUXPIRAVIT",
         "type": [
@@ -105986,6 +106898,7 @@
     },
     {
         "number": 913,
+        "number000": "913",
         "name": "Quisquite",
         "internal_name": "QUISQUITE",
         "type": [
@@ -106109,6 +107022,7 @@
     },
     {
         "number": 914,
+        "number000": "914",
         "name": "Gambarrel",
         "internal_name": "GAMBARREL",
         "type": [
@@ -106236,6 +107150,7 @@
     },
     {
         "number": 915,
+        "number000": "915",
         "name": "Bogaleon",
         "internal_name": "BOGALEON",
         "type": [
@@ -106368,6 +107283,7 @@
     },
     {
         "number": 916,
+        "number000": "916",
         "name": "Runerigus",
         "internal_name": "RUNERIGUS",
         "type": [
@@ -106488,6 +107404,7 @@
     },
     {
         "number": 917,
+        "number000": "917",
         "name": "Perrserker",
         "internal_name": "PERRSERKER",
         "type": [
@@ -106597,6 +107514,7 @@
     },
     {
         "number": 918,
+        "number000": "918",
         "name": "Kubfu",
         "internal_name": "KUBFU",
         "type": [
@@ -106714,6 +107632,7 @@
     },
     {
         "number": 919,
+        "number000": "919",
         "name": "Urshifu",
         "internal_name": "URSHIFU",
         "type": [
@@ -106830,6 +107749,7 @@
     },
     {
         "number": 920,
+        "number000": "920",
         "name": "Zarude",
         "internal_name": "ZARUDE",
         "type": [
@@ -106942,6 +107862,7 @@
     },
     {
         "number": 921,
+        "number000": "921",
         "name": "Regieleki",
         "internal_name": "REGIELEKI",
         "type": [
@@ -107049,6 +107970,7 @@
     },
     {
         "number": 922,
+        "number000": "922",
         "name": "Regidrago",
         "internal_name": "REGIDRAGO",
         "type": [
@@ -107156,6 +108078,7 @@
     },
     {
         "number": 923,
+        "number000": "923",
         "name": "Glastrier",
         "internal_name": "GLASTRIER",
         "type": [
@@ -107259,6 +108182,7 @@
     },
     {
         "number": 924,
+        "number000": "924",
         "name": "Spectrier",
         "internal_name": "SPECTRIER",
         "type": [
@@ -107362,6 +108286,7 @@
     },
     {
         "number": 925,
+        "number000": "925",
         "name": "Calyrex",
         "internal_name": "CALYREX",
         "type": [
@@ -107466,6 +108391,7 @@
     },
     {
         "number": 926,
+        "number000": "926",
         "name": "Kleavor",
         "internal_name": "KLEAVOR",
         "type": [
@@ -107588,6 +108514,7 @@
     },
     {
         "number": 927,
+        "number000": "927",
         "name": "Wyrdeer",
         "internal_name": "WYRDEER",
         "type": [
@@ -107711,6 +108638,7 @@
     },
     {
         "number": 928,
+        "number000": "928",
         "name": "Basculegion",
         "internal_name": "BASCULEGION",
         "type": [
@@ -107835,6 +108763,7 @@
     },
     {
         "number": 929,
+        "number000": "929",
         "name": "Overqwil",
         "internal_name": "OVERQWIL",
         "type": [
@@ -107973,6 +108902,7 @@
     },
     {
         "number": 930,
+        "number000": "930",
         "name": "Sneasler",
         "internal_name": "SNEASLER",
         "type": [

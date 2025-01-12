@@ -40,7 +40,7 @@ function displayPokemon(pokemonData) {
     const pokemonItem = document.createElement("div");
     pokemonItem.classList.add("pokemon-item");
     pokemonItem.innerHTML = `
-      <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}" loading="lazy">
+      <img src="./images/Opalo/pokemon/${pokemon.number000}.png" alt="${pokemon.name}" loading="lazy">
       <span>${pokemon.number}</span>
       <span>${pokemon.name}</span>
       <div class="types">

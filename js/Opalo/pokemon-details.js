@@ -211,7 +211,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
         <a id="goLeft" href=Opalo-pokemon-details.html?number=${prePokemon.number}> 
           <div class="flex">
             <p>#${prePokemon.number}:</p>
-            <img src="/images/pokemon/${prePokemon.name}.png" class="iconImg">
+            <img src="/images/Opalo/pokemon/${prePokemon.number000}.png" class="iconImg">
             <p>${prePokemon.name}</p>
           </div>
         </a>
@@ -221,13 +221,13 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
         <a id="goRight" href=Opalo-pokemon-details.html?number=${postPokemon.number}> 
           <div class="flex">
             <p>#${postPokemon.number}:</p>
-            <img src="/images/pokemon/${postPokemon.name}.png" class="iconImg">
+            <img src="/images/Opalo/pokemon/${postPokemon.number000}.png" class="iconImg">
             <p>${postPokemon.name}</p>
           </div> </a>
         </div>
 
           <div class="pkmImagen">  
-            <img id="pkmImg" src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}">
+            <img id="pkmImg" src="./images/Opalo/pokemon/${pokemon.number000}.png" alt="${pokemon.name}">
           </div>
           <!-- tab para las megas
           <div class="statBlock">  
@@ -429,7 +429,7 @@ function generateEvolutionHTML(evolutionChain, pokemonData) {
                   let pokemonHTML = `
                       <div class="${className}">
                           <a href="/Opalo-pokemon-details.html?number=${stagePokemon.number}" class="pkm ${index === 0 ? "second" : index === 2 ? "first" : ""}" id="${className}-${stagePokemon.name}">
-                              <img src="/images/pokemon/${stagePokemon.name}.png" alt="${stagePokemon.name}">
+                              <img src="/images/Opalo/pokemon/${stagePokemon.number000}.png" alt="${stagePokemon.name}">
                               <p>${stagePokemon.name}</p>
                               <div class="flex">${typeHTML}</div>
                           </a>

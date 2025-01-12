@@ -28,8 +28,7 @@ def parse_effort_points(effort_line):
 # Función para procesar movimientos
 def parse_moves(moves_line):
     moves = moves_line.split(",")
-    parsed_moves = [{"level": int(moves[i]), "move": moves[i + 1].capitalize()} for i in range(0, len(moves), 2)]
-    return parsed_moves
+    return [{"level": int(moves[i]), "move": moves[i + 1].capitalize()} for i in range(0, len(moves), 2)]
 
 # Función para procesar evoluciones
 def parse_evolutions(evolutions_line):
@@ -61,7 +60,11 @@ for line in lines:
         if current_pokemon:
             pokemon_list.append(current_pokemon)
 
-        current_pokemon = {"number": int(line.strip("[]"))}
+        current_number = int(line.strip("[]"))
+        current_pokemon = {
+            "number": current_number,
+            "number000": f"{current_number:03}"
+        }
 
     elif "=" in line:
         key, value = line.split("=", 1)
