@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeRadar</title>
+
+  <link rel="stylesheet" href="css/pokeRadar.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/gral.css">
+
+
+</head>
+<body>
+  <header>
+
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html">Principal</a></li>
+        
+        <li>
+          <a href="Anil-index.html" class="active">
+            <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+          </a>
+        </li>
+        <li>
+          <a href="Opalo-index.html">
+            <img src="./images/Logo-Pokemon-Opalo.png" alt="Pokémon Opalo" id="navbar-logo">
+          </a>
+        </li>
+        
+        <li><a href="Anil-pokedex.html">Pokedex</a></li>
+        <li><a href="Anil-encuentros.html">Encuentros</a></li>
+        <li><a href="Anil-pokeRadar.html">Poke Radar</a></li>
+
+        <li id="GralSearchBar">
+          <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <div id="floating-description" class="hidden"></div>
+  <div id="floating-description-moves" class="hidden"></div>
+
+
+
+  
+
+  <div class="container">
+
+    <main>
+
+
+
+      <section id="zona-details">
+        
+        <div class="zona-grid">
+          
+          <h2>Selecciona una Zona</h2>
+          
+          <input type="text" id="search-bar" placeholder="Buscar zona..." autocomplete="off">
+          
+          <select id="zona-select">
+            <!-- Opciones generadas dinámicamente -->
+          </select>
+          
+          <div class="toggle-buttons">
+            <input type="radio" id="Clasico" name="dificultad" value="Clasico" hidden>
+            <label for="Clasico" class="toggle-option">
+              <span>Clasico</span>
+            </label>
+          
+            <input type="radio" id="Completo" name="dificultad" value="Completo" hidden>
+            <label for="Completo" class="toggle-option">
+              <span>Completo</span>
+            </label>
+          
+            <input type="radio" id="Radical" name="dificultad" value="Radical" hidden>
+            <label for="Radical" class="toggle-option">
+              <span>Radical</span>
+            </label>
+          </div>
+
+          <div id="map-container" style="display: none;"><!-- Oculto el mapa -->
+            <img src="./images/Anil/mapRegion0.png" alt="Mapa del mundo" id="map-image">
+            
+            <div id="zone-marker"></div>
+          
+          </div>
+        </div>
+
+      </section>
+      
+      <section id="pokemon-details">
+        <h2>Pokémon en la Zona</h2>
+        <div id="encounters-list">
+          <!-- Lista de Pokémon generada dinámicamente -->
+        </div>
+      </section>
+
+    </main>
+  </div>
+  <script src="js/Anil/pokeRadar.js"></script>
+  <script src="js/Anil/navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  main {
+    padding: 10px;
+    overflow-y: auto; /* Permite scroll en los detalles si es necesario */
+    background-color: #59646e; /* Color de fondo suave */
+    border-radius: 15px; /* Marco redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: black solid 1px;
+    color: white;
+
+    }
+    
+/* zona-details // pokemons-details */
+#zona-details{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+
+.encounter-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: black;
+ 
+    border-radius: 10px;
+    border: black solid 1px;
+    
+  }
+
+  .encounter-card h3{
+    margin: 0;
+  }
+  .encounter-card p{
+    margin: 0;
+  }
+
+  .encounter-group {
+    margin-bottom: 10px;
+    border-top: 2px solid #aaa;;
+  }
+  
+  .encounters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  img{
+    width: 70px;
+    height: inherit;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.tipoEncuentro h2{
+    text-decoration: underline;
+    margin: 10px;
+}
+
+
+/* Mapa del pokeRadar */
+#map-container {
+    position: relative;
+    width: 600px; /* Ajusta el tamaño según tu mapa */
+    height: 400px; /* Ajusta el tamaño según tu mapa */
+    
+    
+    display: flex;
+    align-items: center;
+    
+    margin: 0px 25px;
+    
+    
+  }
+  
+  #map-image {
+    width: 100%;
+    height: auto;
+
+    border: black solid 1px;
+    border-radius: 10px;
+  }
+  
+  #zone-marker {
+    position: absolute;
+    width: 30px; /* Tamaño del marcador */
+    height: 30px; /* Tamaño del marcador */
+    border-radius: 50%;
+    background-color: rgba(239, 247, 241, 0.472); /* Color del marcador */
+    transform: translate(-50%, -50%); /* Centra el marcador en la posición */
+    pointer-events: none; /* No interfiere con clics en el mapa */
+    border: solid rgb(239, 35, 35) 2px;
+  }
+  
+/* Barra de búsqueda */
+#search-bar {
+
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efecto de foco */
+#search-bar:focus {
+  border-color: #4caf50;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+  outline: none;
+}
+
+/* Placeholder estilizado */
+#search-bar::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+#zona-select{
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efecto de foco */
+#zona-select:focus {
+  border-color: #4caf50;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+  outline: none;
+}
+
+/* Placeholder estilizado */
+#zona-select::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+/* Solo para Anil-pokeRadar */
+/* Opciones individuales */
+.toggle-buttons{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.toggle-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  margin: 0px;
+}
+
+.toggle-option img {
+  width: 50px;
+  height: 50px;
+}
+
+.toggle-option span {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Efectos al pasar el mouse */
+.toggle-option:hover {
+  border-color: #4caf50;
+  background-color: #e8f5e9;
+}
+/* Estilo seleccionado */
+input[type="radio"]:checked + .toggle-option {
+  border-color: #4caf50;
+  background-color: #a5d6a7;
+  color: #fff;
+}
+
+/* Efecto hover específico para el botón de radio "Radical" */
+input[type="radio"]#Completo:hover + .toggle-option {
+  border-color: #eef733; /* Cambia el color del borde al pasar el mouse */
+  background-color: #eefccb; /* Cambia el color de fondo al pasar el mouse */
+  color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+/* Estilo seleccionado para el botón de radio "Radical" */
+input[type="radio"]#Completo:checked + .toggle-option {
+  border-color: #eef733; /* Cambia el color del borde */
+  background-color: #eefccb; /* Cambia el color de fondo */
+  color: #fff; /* Cambia el color del texto */
+}
+
+/* Efecto hover específico para el botón de radio "Radical" */
+input[type="radio"]#Radical:hover + .toggle-option {
+  border-color: #ff5733; /* Cambia el color del borde al pasar el mouse */
+  background-color: #ffcccb; /* Cambia el color de fondo al pasar el mouse */
+  color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+/* Estilo seleccionado para el botón de radio "Radical" */
+input[type="radio"]#Radical:checked + .toggle-option {
+  border-color: #ff5733; /* Cambia el color del borde */
+  background-color: #ffcccb; /* Cambia el color de fondo */
+  color: #fff; /* Cambia el color del texto */
+}

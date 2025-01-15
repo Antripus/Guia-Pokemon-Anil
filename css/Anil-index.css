@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+flex: 2;
+padding: 10px;
+overflow-y: auto; /* Permite scroll en los detalles si es necesario */
+background-color: #59646e; /* Color de fondo suave */
+border-radius: 15px; /* Marco redondeado */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+
+margin: 1% 15%;
+padding: 15px;
+border-radius: 10px;
+border: black solid 1px;
+
+}
+
+/* Estilo para las imágenes en la lista de Pokémon */
+ul li img {
+width: 50px; /* Define el ancho de la imagen */
+height: 50px; /* Define la altura de la imagen */
+margin-right: 10px; /* Espacio entre la imagen y el texto */
+border-radius: 50%; /* Hace la imagen circular */
+object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
+}
+
+/* Ajusta la alineación del contenido dentro de los elementos de la lista */
+ul li {
+display: flex; /* Alinea la imagen y el texto horizontalmente */
+align-items: center; /* Centra verticalmente la imagen y el texto */
+padding: 5px 10px; /* Espacio interno para cada elemento */
+cursor: pointer; /* Cambia el cursor al pasar sobre la lista */
+border-bottom: 1px solid #ddd; /* Línea separadora entre elementos */
+}
+
+
+
+/* lista de pokemon a la izquierda de la pantalla*/
+
+#juegos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.descripcion h4 { 
+  line-height: 1.8; /* Espaciado entre líneas */
+  text-align: justify; /* Justifica el texto para una apariencia más profesional */
+  margin: 0; /* Añade margen alrededor del contenedor */
+  padding: 0 20px; /* Añade espacio interno a los lados */
+  text-indent: 2em; /* Sangría al inicio del párrafo */
+ 
+}
+
+
+/* ---------------------OPALO INDEX ---------------------*/
+
+.main-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+
+.main-card{
+  grid-row: 1/2;
+  grid-column: 1/4;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+
+
+}
+
+.main-logo{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  
+  flex-direction: column;
+  align-items: center;
+  margin: 20px ;
+  padding: 20px;
+  box-shadow: 0 1px 16px rgba(255, 255, 255, 2);
+  border-radius: 8px;
+  gap: 20px;
+  color: white;
+}
+.descripcion{
+  grid-row: 1/2;
+  grid-column: 2/4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px ;
+  padding: 20px;
+  box-shadow: 0 1px 16px rgba(255, 255, 255, 2);
+  border-radius: 8px;
+  gap: 20px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.caracteristicas {
+  grid-row: 2/3;
+  grid-column: 1/3;
+
+  max-width: 1fr;
+  height: inherit;
+  margin: 20px ;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  gap: 20px;
+  border: black solid 1px;
+}
+
+.imagenes-grid {
+  grid-row: 2/3;
+  grid-column: 3/4;
+
+  display: grid;
+  grid-template-columns: auto auto;
+
+  padding: 20px 0px;
+
+  border-radius: 8px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.imagen{
+  width: 170px;
+  height: inherit;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: black solid 1px;
+  gap: 0px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+ul #carac{
+  list-style-type: none;
+  padding: 0;
+}
+.car{
+  margin: 10px 0;
+  padding: 10px;
+  background: #f1f3f5;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+}
+

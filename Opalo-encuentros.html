@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuentros</title>
+
+  <link rel="stylesheet" href="css/encuentros.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/gral.css">
+
+
+</head>
+<body>
+  <header>
+
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html">Principal</a></li>
+        
+        <li>
+          <a href="Anil-index.html">
+            <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+          </a>
+        </li>
+        <li>
+          <a href="Opalo-index.html" class="active">
+            <img src="./images/Logo-Pokemon-Opalo.png" alt="Pokémon Opalo" id="navbar-logo">
+          </a>
+        </li>
+        
+        <li><a href="Opalo-pokedex.html">Pokedex</a></li>
+        <li><a href="Opalo-encuentros.html">Encuentros</a></li>
+        <li><a href="Opalo-pokeRadar.html">Poke Radar</a></li>
+        <li id="GralSearchBar">
+          <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <div id="floating-description" class="hidden"></div>
+  <div id="floating-description-moves" class="hidden"></div>
+
+  <div class="container">
+
+          
+    <aside>
+        <div class="toggle-buttons">
+        <input type="radio" name="starter" value="Bulbasaur" id="bulbasaur" hidden>
+        <label for="bulbasaur" class="toggle-option">  
+          <img src="./images/pokemon/bulbasaur.png" class="inicialIMG">
+        </label>
+        
+        <input type="radio" name="starter" value="Charmander" id="charmander" hidden>
+        <label for="charmander" class="toggle-option">  
+          <img src="./images/pokemon/charmander.png" class="inicialIMG">
+        </label>
+      
+        <input type="radio" name="starter" value="Squirtle" id="squirtle" hidden>
+        <label for="squirtle" class="toggle-option">
+          <img src="./images/pokemon/squirtle.png" class="inicialIMG">
+        </label>
+        
+      </div>
+
+      <div class="toggle-buttons">
+        <input type="radio" id="Clasico" name="dificultad" value="Clasico" hidden>
+        <label for="Clasico" class="toggle-option">
+          <span>Clasico</span>
+        </label>
+      
+        <input type="radio" id="Completo" name="dificultad" value="Completo" hidden>
+        <label for="Completo" class="toggle-option">
+          <span>Completo</span>
+        </label>
+      
+        <input type="radio" id="Radical" name="dificultad" value="Radical" hidden>
+        <label for="Radical" class="toggle-option">
+          <span>Radical</span>
+        </label>
+      </div>
+
+      <div class="entrenadoresSearchBar">
+        <input type="text" id="search-bar" placeholder="Buscar Entrenador..." autocomplete="off">
+      </div>
+
+      <div class="listaEntrenadores">
+        <ul id="encounter-list">
+          <!-- La lista de encuentros se genera dinámicamente -->
+        </ul>
+      </div>
+
+    </aside>
+
+    <main>
+
+      <section id="trainer-details">
+        <!-- Información del entrenador -->
+      </section>
+      
+      <section id="pokemon-details">
+        <!-- Detalles de los Pokémon -->
+      </section>
+    </main>
+  </div>
+  <script src="js/Anil/encuentros.js"></script>
+  <script src="js/Anil/navbar.js"></script>
+</body>
+</html>

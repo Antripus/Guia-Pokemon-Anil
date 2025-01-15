@@ -5,37 +5,76 @@ if (!window.navbarInitialized) {
     let links = [];  // Para almacenar los enlaces generados en el dropdown
     const navbarSearch = document.getElementById("navbar-search");  // Declarar navbarSearch globalmente
 
+    // Determinar qué archivo JSON cargar según la página activa
+    function getPokemonDataFile() {
+      const navbarLinks = document.querySelectorAll("#navbar a");
+      let dataFile = "./data/Anil/pokemon.json"; // Predeterminado
+      console.log("navbarLinks: " + navbarLinks)
+      navbarLinks.forEach(link => {
+        if (link.classList.contains("active")) {
+          if (link.href.includes("Opalo-index.html")) {
+            dataFile = "./data/Opalo/pokemon.json";
+          } else if (link.href.includes("Anil-index.html")) {
+            dataFile = "./data/Anil/pokemon.json";
+          }
+        }
+        console.log("Links: " + link + " "+link.classList);
+      });
+      console.log("Archivo seleccionado:", dataFile);
+      return dataFile;
+    }
 
+    function isSessionStorageAvailable() {
+      try {
+          const testKey = '__test__';
+          sessionStorage.setItem(testKey, 'test');
+          sessionStorage.removeItem(testKey);
+          return true;
+      } catch (error) {
+          console.error("Session storage is not available:", error);
+          return false;
+      }
+ 
+    }
+  
     // Función para cargar datos de Pokémon en sessionStorage si no están presentes
     async function ensurePokemonDataLoaded() {
-      if (!sessionStorage.getItem("pokemonData")) {
-        try {
-          const response = await fetch("./data/pokemon.json");
+      try {
+        const dataFile = getPokemonDataFile(); // Define la variable dentro de la función
+        if (
+          isSessionStorageAvailable() &&
+          (!sessionStorage.getItem("navbarPokemonData") || sessionStorage.getItem("currentDataFile") !== dataFile)
+        ) {
+          console.log("Cargando datos desde:", dataFile);
+    
+          const response = await fetch(dataFile);
           const pokemonData = await response.json();
-          sessionStorage.setItem("pokemonData", JSON.stringify(pokemonData));
-        } catch (error) {
-          console.error("Error loading Pokémon data:", error);
+    
+          sessionStorage.setItem("navbarPokemonData", JSON.stringify(pokemonData));
+          sessionStorage.setItem("currentDataFile", dataFile);
         }
+      } catch (error) {
+        console.error("Error loading Pokémon data:", error);
       }
     }
+    
 
     // Función para manejar la búsqueda en la barra de navegación
     function setupNavbarSearch() {
       navbarSearch.addEventListener("input", () => {
-        const query = navbarSearch.value.toLowerCase();
-        const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
-
-        if (!pokemonData) {
+        const storedData = sessionStorage.getItem("navbarPokemonData");
+        if (!storedData) {
           console.error("No Pokémon data available for search.");
           return;
         }
-
-        // Filtrar los Pokémon que coincidan con la consulta
+    
+        const pokemonData = JSON.parse(storedData);
+        const query = navbarSearch.value.toLowerCase();
+    
         const filteredPokemon = pokemonData.filter(pokemon =>
           pokemon.name.toLowerCase().includes(query)
         );
-
-        // Mostrar resultados sugeridos en el dropdown
+    
         displayDropdownResults(filteredPokemon);
       });
 
@@ -91,10 +130,23 @@ if (!window.navbarInitialized) {
         });
     */
         link.addEventListener("click", () => {
-            sessionStorage.setItem("selectedPokemon", JSON.stringify(pokemon)); // Guarda el Pokémon seleccionado
-            window.location.href = "pokemon-details.html?number="+ pokemon.number; // Redirige a la página sin parámetros
-
+          // Guarda el Pokémon seleccionado en sessionStorage
+          sessionStorage.setItem("selectedPokemon", JSON.stringify(pokemon));
+        
+          // Obtén el archivo actual desde sessionStorage
+          const currentDataFile = sessionStorage.getItem("currentDataFile");
+        
+          // Define la redirección según el archivo actual
+          if (currentDataFile && currentDataFile.includes("Opalo")) {
+            window.location.href = `Opalo-pokemon-details.html?number=${pokemon.number}`;
+          } else if (currentDataFile && currentDataFile.includes("Anil")) {
+            window.location.href = `Anil-pokemon-details.html?number=${pokemon.number}`;
+          } else {
+            console.warn("No se pudo determinar el archivo actual, redirigiendo a una página predeterminada.");
+            window.location.href = `Anil-pokemon-details.html?number=${pokemon.number}`; // O un fallback
+          }
         });
+        
 
         
         dropdown.appendChild(link);
@@ -128,9 +180,29 @@ if (!window.navbarInitialized) {
     document.addEventListener("click", closeDropdownOnClickOutside);
 
     // Inicializar la funcionalidad de búsqueda en la barra de navegación
-    console.log("Navbar search initialized");
+    
 
-    ensurePokemonDataLoaded().then(setupNavbarSearch);
+    //ensurePokemonDataLoaded().then(setupNavbarSearch);
 
+    if (isSessionStorageAvailable()) {
+      ensurePokemonDataLoaded().then(setupNavbarSearch);
+      console.log("Navbar search initialized");
+    } else {
+        console.warn("Session storage is unavailable. Some features may not work.");
+    }
 
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const navbarLinks = document.querySelectorAll("#navbar a");
+  const currentUrl = window.location.pathname;
+  //const currentUrl = window.location.pathname.split("/").pop(); // Solo el archivo
+
+
+  navbarLinks.forEach(link => {
+      if (link.href.includes(currentUrl)) {
+          link.classList.add("active");
+      }
+  });
+});

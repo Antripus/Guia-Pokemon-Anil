@@ -208,7 +208,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   pkmGrid.innerHTML = `
     
         <div id="topPanel">
-        <a id="goLeft" href=pokemon-details.html?number=${prePokemon.number}> 
+        <a id="goLeft" href=Anil-pokemon-details.html?number=${prePokemon.number}> 
           <div class="flex">
             <p>#${prePokemon.number}:</p>
             <img src="/images/pokemon/${prePokemon.name}.png" class="iconImg">
@@ -218,7 +218,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
       
           <h1 id="pkmName">${pokemon.name}</h1>
 
-        <a id="goRight" href=pokemon-details.html?number=${postPokemon.number}> 
+        <a id="goRight" href=Anil-pokemon-details.html?number=${postPokemon.number}> 
           <div class="flex">
             <p>#${postPokemon.number}:</p>
             <img src="/images/pokemon/${postPokemon.name}.png" class="iconImg">
@@ -428,7 +428,7 @@ function generateEvolutionHTML(evolutionChain, pokemonData) {
 
                   let pokemonHTML = `
                       <div class="${className}">
-                          <a href="/pokemon-details.html?number=${stagePokemon.number}" class="pkm ${index === 0 ? "second" : index === 2 ? "first" : ""}" id="${className}-${stagePokemon.name}">
+                          <a href="/Anil-pokemon-details.html?number=${stagePokemon.number}" class="pkm ${index === 0 ? "second" : index === 2 ? "first" : ""}" id="${className}-${stagePokemon.name}">
                               <img src="/images/pokemon/${stagePokemon.name}.png" alt="${stagePokemon.name}">
                               <p>${stagePokemon.name}</p>
                               <div class="flex">${typeHTML}</div>
@@ -509,18 +509,18 @@ function generateUbicacionHTML(pokemon_name, encountersData) {
   const typeIcons = {
     Land: './images/land3.png',
     LandClassic: './images/land3.png',
-    Water: './images/water.png',
-    WaterClassic: './images/water.png',
+    Water: './images/water3.png',
+    WaterClassic: './images/water3.png',
     OldRod: './images/rod2.png',
     OldRodClassic: './images/rod2.png',
   };
   const typeDefinition = {
-    Land: 'Hierva Modo Completo y Radical',
-    LandClassic: 'Hierva Modo Classic',
-    Water: 'Agua Modo Completo y Radical',
-    WaterClassic: 'Agua Modo Classic',
-    OldRod: 'Old Rod Modo Completo y Radical',
-    OldRodClassic: 'Old Rod Modo Classic',
+    Land: 'Hierva - Modo Completo y Radical',
+    LandClassic: 'Hierva - Modo Classic',
+    Water: 'Agua - Modo Completo y Radical',
+    WaterClassic: 'Agua - Modo Classic',
+    OldRod: 'Old Rod - Modo Completo y Radical',
+    OldRodClassic: 'Old Rod - Modo Classic',
   };
 
 

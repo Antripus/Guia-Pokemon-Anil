@@ -50,16 +50,18 @@ header {
 
 /* Estilo General de la Navbar */
 #navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 5%; /* Espaciado lateral */
-    padding: 10px 100px;
-    background-color: #97d18c;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra elegante */
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5%; /* Espaciado lateral */
+  padding: 10px 20px;
+  background-color: #97d18c;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+}
+
+
   
   /* Estilo de los enlaces e íconos en la barra */
   #navbar a {
@@ -71,56 +73,38 @@ header {
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s, box-shadow 0.3s;
-    border-bottom: none; /* Línea separadora entre elementos */
-  }
-  
-  #navbar a:hover {
+    border-bottom: none;
+}
+
+#navbar a:hover,
+
+#navbar a.active {
     background-color: #f8f8f8;
     box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.6);
-  }
+    border: 2px solid #777;
+    border-radius: 10px;
+}
+
   
   #navbar-logo {
     width: 85px;
-    height: 50px;
-    margin-right: 10px;
+    height: inherit;
     border-radius: 1px;
     transition: box-shadow 0.3s;
-
+    margin: 0px;
   }
   
   #navbar-logo:hover {
     box-shadow: 0px 0px 8px 1px #fff;
   }
 
-  #navbar li {
-    border-bottom: none; /* Línea separadora entre elementos */
-  }
-  #navbar li {
-    list-style-type: none;
-  }
+
   
   /* Diseño para el dropdown de búsqueda */
   #pokemonDropdown {
     position: relative;
   }
-  
-  #navbar-search {
-    width: 200px;
-    padding: 7px;
-    border: 2px solid #777;
-    border-radius: 4px;
-    transition: box-shadow 0.25s ease-in-out;
-  }
-  
-  #navbar-search:focus {
-    outline: none;
-    box-shadow: 0px 0px 4px 2px #42bf2f;
-  }
-  
-  #GralSearchBar {
 
-    padding: 15px;
-  }
 
   /*Todos estos dropdown no se donde van????*/
 /* Dropdown de búsqueda */
@@ -162,3 +146,65 @@ header {
 
   
 
+/* */
+
+
+#navbar {
+  display: flex;
+  justify-content: space-between; /* Asegura una distribución uniforme */
+  align-items: center;
+  margin: 0 auto; /* Centra el navbar horizontalmente */
+  padding: 10px 20px; /* Reduce el relleno para evitar expansión excesiva */
+  max-width: 1200px; /* Define un ancho máximo consistente */
+  background-color: #97d18c;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#GralSearchBar {
+  padding: 0; /* Elimina relleno extra */
+}
+
+
+#navbar-search {
+  width: 200px;
+  max-width: 100%; /* Evita que sobresalga en tamaños pequeños */
+  padding: 7px;
+  border: 2px solid #777;
+  border-radius: 4px;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px; /* Reduce los espacios */
+  border-bottom: none; /* Línea separadora entre elementos */
+  list-style-type: none;
+}
+
+
+
+#navbar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    flex-wrap: wrap; /* Permite que los elementos se ajusten */
+    padding: 10px;
+  }
+  #GralSearchBar {
+    margin-left: 0;
+    margin-top: 10px; /* Baja la barra de búsqueda */
+  }
+  #navbar-search {
+    width: 100%;
+  }
+}

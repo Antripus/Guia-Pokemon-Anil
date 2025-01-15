@@ -103,13 +103,11 @@ body {
 }
 .thirdBlock .statBlock .grid {
         display: grid;
-        grid-template-columns: 0.5fr 0.3fr 3fr; /* 3 columnas: Label, Valor, Barra */
+        grid-template-columns: 0.7fr 0.5fr 3fr; /* 3 columnas: Label, Valor, Barra */
         grid-template-rows: 25px;
         align-items: center;
         margin: 5px 0;
         color: black;
-        
-     
       
 }
 
@@ -126,7 +124,7 @@ body {
     grid-template-rows: 25px;
     align-items: center;
     margin: 5px 0;
-
+    
   }
   
   .grid .label {
@@ -159,7 +157,11 @@ body {
 
 
  /*-------------Abilities Description-------------------------------*/   
-    #floating-description {
+  .abilities{
+    width: 120px;
+  }
+ 
+  #floating-description {
         position: absolute;
         background-color: rgba(255, 255, 255, 0.9);
         border: 1px solid #ddd;
@@ -244,7 +246,7 @@ align-items: center;
     border-radius: 15px;
     display: flex;
     align-items: center;
-   
+    justify-content: center;
 }
 
 #pkmImg{
@@ -308,7 +310,9 @@ align-items: center;
       grid-row: 1/2;
       grid-column: 1/2;
       border-right: 2px solid #aaa;
-      padding-right: 10px
+      padding-right: 10px;
+      width: 240px;
+
   }
   
   #pkmGrid .tabContent .firstBlock ol {
@@ -327,7 +331,8 @@ align-items: center;
   #pkmGrid .tabContent .secondBlock {
       grid-row: 1/2;
       grid-column: 2/3;
-      padding-left: 10px
+      padding-left: 10px;
+      width: 240px;
   }
 
   

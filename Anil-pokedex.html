@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  
+  
+  <link rel="stylesheet" href="css/pokedex.css">
+  <link rel="stylesheet" href="css/navbar.css">
+
+
+</head>
+<body>
+
+  <header>
+
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html">Principal</a></li>
+        
+        <li>
+          <a href="Anil-index.html" class="active">
+            <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+          </a>
+        </li>
+        <li>
+          <a href="Opalo-index.html">
+            <img src="./images/Logo-Pokemon-Opalo.png" alt="Pokémon Opalo" id="navbar-logo">
+          </a>
+        </li>
+        
+        <li><a href="Anil-pokedex.html">Pokedex</a></li>
+        <li><a href="Anil-encuentros.html">Encuentros</a></li>
+        <li><a href="Anil-pokeRadar.html">Poke Radar</a></li>
+        <li id="GralSearchBar">
+          <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- Pendiente:
+ 1- Mantener la barra navegadora
+ 2- Definir Estilos, Letras y Colores (Imagenes limpias y sensillas)
+ 3- ordenar la lista por nro de pokemon
+ 4- que la busqueda funcione
+
+-->
+
+
+  <!-- Barra de búsqueda -->
+  <input type="text" id="search-bar" placeholder="Buscar Pokémon..." onkeyup="searchPokemon()" autocomplete="off">
+  
+  <!-- Listado de Pokémon -->
+  <div id="pokemon-list">
+    <!-- Aquí se mostrarán los Pokémon dinámicamente -->
+  </div>
+
+  <script src="js/Anil/pokedex.js"></script>
+  <script src="js/Anil/navbar.js"></script>
+
+</body>
+</html>
