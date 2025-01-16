@@ -9,23 +9,27 @@ if (!window.navbarInitialized) {
     function getPokemonDataFile() {
       const navbarLinks = document.querySelectorAll("#navbar a");
       let dataFile = "./data/Anil/pokemon.json"; // Predeterminado
-      console.log("navbarLinks: " + navbarLinks)
+      console.log("navbarLinks:", navbarLinks);
+    
       navbarLinks.forEach(link => {
         if (link.classList.contains("active")) {
-          if (link.href.includes("Opalo-index.html")) {
+          const href = link.href.toLowerCase(); // Asegura coincidencia insensible a mayúsculas
+          if (href.includes("opalo-index")) {
             dataFile = "./data/Opalo/pokemon.json";
-          } else if (link.href.includes("Anil-index.html")) {
+          } else if (href.includes("anil-index")) {
             dataFile = "./data/Anil/pokemon.json";
           }
         }
-        console.log("Links: " + link + " "+link.classList);
+        console.log("Links:", link.href, link.classList);
       });
+    
       console.log("Archivo seleccionado:", dataFile);
       console.log("URL actual:", window.location.href);
       console.log("Enlaces en la barra de navegación:", navbarLinks);
-
+    
       return dataFile;
     }
+    
 
     function isSessionStorageAvailable() {
       try {
