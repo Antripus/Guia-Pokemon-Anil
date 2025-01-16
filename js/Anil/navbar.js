@@ -7,20 +7,23 @@ if (!window.navbarInitialized) {
 
     // Determinar qué archivo JSON cargar según la página activa
     function getPokemonDataFile() {
+      const navbarLinks = document.querySelectorAll("#navbar a");
       let dataFile = "./data/Anil/pokemon.json"; // Predeterminado
-      const activeLink = document.querySelector("#navbar a.active");
-    
-      if (activeLink) {
-        if (activeLink.href.includes("opalo-index.html")) {
-          dataFile = "./data/Opalo/pokemon.json";
-        } else if (activeLink.href.includes("anil-index.html")) {
-          dataFile = "./data/Anil/pokemon.json";
+      console.log("navbarLinks: " + navbarLinks)
+      navbarLinks.forEach(link => {
+        if (link.classList.contains("active")) {
+          if (link.href.includes("Opalo-index.html")) {
+            dataFile = "./data/Opalo/pokemon.json";
+          } else if (link.href.includes("Anil-index.html")) {
+            dataFile = "./data/Anil/pokemon.json";
+          }
         }
-      } else {
-        console.warn("No active link found in the navbar.");
-      }
-    
+        console.log("Links: " + link + " "+link.classList);
+      });
       console.log("Archivo seleccionado:", dataFile);
+      console.log("URL actual:", window.location.href);
+      console.log("Enlaces en la barra de navegación:", navbarLinks);
+
       return dataFile;
     }
 
