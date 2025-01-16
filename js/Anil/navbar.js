@@ -11,9 +11,9 @@ if (!window.navbarInitialized) {
       const activeLink = document.querySelector("#navbar a.active");
     
       if (activeLink) {
-        if (activeLink.href.includes("Opalo-index.html")) {
+        if (activeLink.href.includes("opalo-index.html")) {
           dataFile = "./data/Opalo/pokemon.json";
-        } else if (activeLink.href.includes("Anil-index.html")) {
+        } else if (activeLink.href.includes("anil-index.html")) {
           dataFile = "./data/Anil/pokemon.json";
         }
       } else {
