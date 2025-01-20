@@ -516,8 +516,8 @@ function generateUbicacionHTML(pokemon_name, encountersData) {
     SuperRod: './images/rod2.png',
   };
   const typeDefinition = {
-    Land: 'Hierva',
-    LandClassic: 'Hierva Modo Classic',
+    Land: 'Hierba',
+    LandClassic: 'Hierba Modo Classic',
     Water: 'Agua',
     WaterClassic: 'Agua Modo Classic',
     OldRod: 'Old Rod',

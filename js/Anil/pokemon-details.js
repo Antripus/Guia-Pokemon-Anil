@@ -515,8 +515,8 @@ function generateUbicacionHTML(pokemon_name, encountersData) {
     OldRodClassic: './images/rod2.png',
   };
   const typeDefinition = {
-    Land: 'Hierva - Modo Completo y Radical',
-    LandClassic: 'Hierva - Modo Classic',
+    Land: 'Hierba - Modo Completo y Radical',
+    LandClassic: 'Hierba - Modo Classic',
     Water: 'Agua - Modo Completo y Radical',
     WaterClassic: 'Agua - Modo Classic',
     OldRod: 'Old Rod - Modo Completo y Radical',

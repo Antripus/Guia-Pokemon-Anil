@@ -104,8 +104,8 @@ function displayEncounters(zona) {
     };
 
     const typeDefinition = {
-        Land: 'Hierva / Cueva', //[Modo Completo y Radical]
-        LandClassic: 'Hierva / Cueva', //[Modo Clasico]
+        Land: 'Hierba / Cueva', //[Modo Completo y Radical]
+        LandClassic: 'Hierba / Cueva', //[Modo Clasico]
         Water: 'Agua',
         WaterClassic: 'Agua',
         OldRod: 'Old Rod',
