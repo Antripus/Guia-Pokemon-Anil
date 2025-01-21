@@ -17,7 +17,11 @@ async function loadPokemon() {
     try {
         const response = await fetch(jsonPathPokemon);
         const pokemonData = await response.json();
-        sessionStorage.setItem("pokemonData", JSON.stringify(pokemonData)); // Guarda en sessionStorage
+        if (Array.isArray(pokemonData)) {
+            sessionStorage.setItem("pokemonData", JSON.stringify(pokemonData));
+        } else {
+            console.error("Invalid Pokémon data format:", pokemonData);
+        }
     } catch (error) {
         console.error("Error loading Pokémon data:", error);
     }
@@ -61,20 +65,31 @@ function populateZonaSelect(encuentrosData, pokemonData) {
 }
 
 // Función para filtrar las opciones de la barra de búsqueda
-function filterZonaOptions(query, encuentrosData) {
+function filterZonaOptions(query, encuentrosData, pokemonData) {
     const filtered = encuentrosData.filter((zona) =>
         zona.nombre_zona.toLowerCase().includes(query.toLowerCase())
     );
-    populateZonaSelect(filtered);
+    populateZonaSelect(filtered, pokemonData);
 }
 
 // Función para buscar un Pokémon por nombre en pokemonData
 function findPokemonByName(name, pokemonData) {
+    if (!Array.isArray(pokemonData)) {
+        console.error("Invalid pokemonData:", pokemonData);
+        return null;
+    }
+
     return pokemonData.find(pokemon => pokemon.internal_name.toLowerCase() === name.toLowerCase());
 }
 
+
 // 4. Función para mostrar los encuentros de una zona específica
 function displayEncounters(zona, pokemonData) {
+    if (!zona || !zona.encounters) {
+        console.error("Invalid zone or encounters:", zona);
+        return;
+    }
+
     const typeIcons = {
         Land: './images/land3.png',
         Water: './images/water2.png',
@@ -88,40 +103,32 @@ function displayEncounters(zona, pokemonData) {
         SuperRod: 'Super Rod',
     };
 
-    if (!zona.encounters) {
-        console.error("No encounters found for the selected zone:", zona);
-        return;
-    }
-
     const encounterTypes = Object.keys(zona.encounters);
 
     encountersList.innerHTML = encounterTypes
         .map((type) => {
             const encounters = zona.encounters[type]
-            .map((enc) => {
-                // Buscar información del Pokémon usando findPokemonByName
-                const pokemon = findPokemonByName(enc.pokemon, pokemonData);
-                if (!pokemon) {
-                    console.warn(`Pokémon ${enc.pokemon} not found in pokemonData.`);
-                }
+                .map((enc) => {
+                    const pokemon = findPokemonByName(enc.pokemon, pokemonData);
+                    if (!pokemon) {
+                        console.warn(`Pokémon ${enc.pokemon} not found.`);
+                    }
 
-                const pokemonImage = pokemon
-                    ? `./images/Opalo/pokemon/${pokemon.number000}.png`
-                    : './images/Opalo/pokemon/000.png'; // Imagen predeterminada si no se encuentra el Pokémon
+                    const pokemonImage = pokemon
+                        ? `./images/Opalo/pokemon/${pokemon.number000}.png`
+                        : './images/Opalo/pokemon/000.png';
 
-                return `
-                <div class="encounter-card">
-                    <h3>${pokemon.name}</h3>
-                    
-                    <a href="/Opalo-pokemon-details.html?name=${enc.pokemon.toLowerCase()}">
-                        <img src="${pokemonImage}" alt="${enc.pokemon.toLowerCase()}">
-                    </a>
-                    
-                    <p>Nivel: ${enc.min_level} - ${enc.max_level}</p>
-                </div>
-                `;
-            })
-            .join("");
+                    return `
+                        <div class="encounter-card">
+                            <h3>${pokemon ? pokemon.name : enc.pokemon}</h3>
+                            <a href="/Opalo-pokemon-details.html?name=${enc.pokemon.toLowerCase()}">
+                                <img src="${pokemonImage}" alt="${enc.pokemon.toLowerCase()}">
+                            </a>
+                            <p>Nivel: ${enc.min_level} - ${enc.max_level}</p>
+                        </div>
+                    `;
+                })
+                .join("");
 
             const icon = typeIcons[type] || '';
             const definition = typeDefinition[type] || '';
@@ -137,6 +144,7 @@ function displayEncounters(zona, pokemonData) {
         })
         .join("");
 }
+
 
 // 5. Función para actualizar el marcador en el mapa
 function updateZoneMarker(zoneNumber) {
@@ -164,7 +172,6 @@ function initializeZoneMarker(encuentrosData, pokemonData) {
     }
 }
 
-// 7. Función principal para inicializar la aplicación
 async function init() {
     await loadPokemon();
     await loadEncuentros();
@@ -172,17 +179,23 @@ async function init() {
 
     const encuentrosData = JSON.parse(sessionStorage.getItem("encuentrosData"));
     const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
-    if (encuentrosData) {
-        initializeZoneMarker(encuentrosData, pokemonData);
 
-        // Conectar la barra de búsqueda
-        searchBar.addEventListener("input", (e) => {
-            const query = e.target.value;
-            filterZonaOptions(query, encuentrosData);
-        });
-    } else {
-        console.error("No encounters data found in sessionStorage.");
+    if (!encuentrosData || !pokemonData) {
+        console.error("Data missing: Encuentros or Pokémon data is not loaded.");
+        return;
     }
+
+    if (!Array.isArray(pokemonData)) {
+        console.error("pokemonData is not an array:", pokemonData);
+        return;
+    }
+
+    initializeZoneMarker(encuentrosData, pokemonData);
+
+    searchBar.addEventListener("input", (e) => {
+        const query = e.target.value;
+        filterZonaOptions(query, encuentrosData, pokemonData);
+    });
 }
 
 // 8. Eventos

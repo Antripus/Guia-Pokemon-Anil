@@ -205,6 +205,7 @@ async function init() {
     await loadCoordinates();
 
     const encuentrosData = JSON.parse(sessionStorage.getItem("encuentrosData"));
+    
     if (encuentrosData) {
         initializeZoneMarker(encuentrosData);
 
@@ -228,6 +229,7 @@ async function init() {
 // 8. Eventos
 zonaSelect.addEventListener("change", () => {
     const selectedZonaNumber = zonaSelect.value;
+    console.log("selectedzone number: "+selectedZonaNumber);
     const encuentrosData = JSON.parse(sessionStorage.getItem("encuentrosData"));
     const selectedZona = encuentrosData.find(
         (zona) => zona.nro_zona === selectedZonaNumber
@@ -235,6 +237,8 @@ zonaSelect.addEventListener("change", () => {
 
     if (selectedZona) {
         displayEncounters(selectedZona);
+
+        console.log("2-selectedzone number: "+selectedZonaNumber);
         updateZoneMarker(selectedZonaNumber);
     } else {
         console.error("Selected zone not found:", selectedZonaNumber);
