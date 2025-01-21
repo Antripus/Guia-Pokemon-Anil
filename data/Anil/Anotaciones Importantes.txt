@@ -46,3 +46,10 @@ PRISMA
 -ZAPDOS POR ZAPDOS-GALAR
 -MOLTRES POR MOLTRES-GALAR
 
+en abilities.json se agrego:
+    {
+        "id": 238,
+        "name_en": "PASTELVEIL",
+        "name_es": "Velo Pastel",
+        "description": " impide al Pokémon poseedor de la habilidad y a sus aliados ser envenenados."
+    }

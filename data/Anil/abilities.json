@@ -1420,5 +1420,11 @@
         "name_en": "POISONPUPPETEER",
         "name_es": "Títere Tóxico",
         "description": "Si envenena al rival también lo confunde."
+    },
+    {
+        "id": 238,
+        "name_en": "PASTELVEIL",
+        "name_es": "Velo Pastel",
+        "description": " impide al Pokémon poseedor de la habilidad y a sus aliados ser envenenados."
     }
 ]
