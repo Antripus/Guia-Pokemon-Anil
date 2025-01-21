@@ -1,0 +1,48 @@
+
+
+
+En el Archivo pokemon. json se agregaron a mano las siguientes formas:
+
+Agragados:
+Liligant-Hisue, 
+Rapidash-Galar, 
+Articuno-Galar, 
+Zapdos-Galar, 
+Moltres-Galar, 
+
+Pendientes:
+Mega Pinsir, 
+Mega Gengar, 
+Mega Aerodactyl, 
+Mega Beedrill, 
+Mega Charizard X, 
+Mega Medichan, 
+Mega Alakazam, 
+Mega Sharpedo, 
+Mega Blastoise, 
+Mega Venasaur, 
+Mega Charizard Y, 
+Mega Lapras, 
+Mega Machamp, 
+Mega Ampharos, 
+Mega Metagross, 
+Mega Garchomp, 
+Mega Butterfree, 
+
+A cada uno de esos pokemon se le agrego el dato "form". Este dato puede ser Hisui, Galar o Mega.
+form: [Hisui, Galar, Mega]
+
+
+En trainers-actualizados.json se modifico lo siguiente:
+
+ERIKA 
+-LILIGANT POR LILLIGANT-HISUI
+
+SURYA
+RAPIDASH POR RAPIDASH-GALAR
+
+PRISMA 
+-ARTICUNO POR ARTICUNO*GALAR
+-ZAPDOS POR ZAPDOS-GALAR
+-MOLTRES POR MOLTRES-GALAR
+

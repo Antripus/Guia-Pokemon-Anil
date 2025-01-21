@@ -5,7 +5,7 @@
         "variant": 1,
         "num_pokemon": 1,
         "healing_item": null,
-        "pokemons": [
+        "pokemons": [ 
             {
                 "name": "CHARMANDER",
                 "level": 5,
@@ -8983,7 +8983,7 @@
                 "nature": "QUIRKY"
             },
             {
-                "name": "LILLIGANT",
+                "name": "LILLIGANT-HISUI",
                 "level": 38,
                 "item": null,
                 "moves": [
@@ -9049,7 +9049,7 @@
                 "nature": "ADAMANT"
             },
             {
-                "name": "LILLIGANT",
+                "name": "LILLIGANT-HISUI",
                 "level": 38,
                 "item": "FOCUSSASH",
                 "moves": [
@@ -17345,7 +17345,7 @@
                 "nature": "QUIRKY"
             },
             {
-                "name": "RAPIDASH",
+                "name": "RAPIDASH-GALAR",
                 "level": 56,
                 "item": "ASSAULTVEST",
                 "moves": [
@@ -17411,7 +17411,7 @@
                 "nature": "QUIRKY"
             },
             {
-                "name": "RAPIDASH",
+                "name": "RAPIDASH-GALAR",
                 "level": 56,
                 "item": "ASSAULTVEST",
                 "moves": [
@@ -17490,7 +17490,7 @@
                 "nature": "ADAMANT"
             },
             {
-                "name": "RAPIDASH",
+                "name": "RAPIDASH-GALAR",
                 "level": 56,
                 "item": "CHOICEBAND",
                 "moves": [
@@ -19703,7 +19703,7 @@
                 "nature": "QUIRKY"
             },
             {
-                "name": "RAPIDASH",
+                "name": "RAPIDASH-GALAR",
                 "level": 61,
                 "item": "ASSAULTVEST",
                 "moves": [
@@ -27204,7 +27204,7 @@
         "healing_item": null,
         "pokemons": [
             {
-                "name": "ARTICUNO",
+                "name": "ARTICUNO-GALAR",
                 "level": 84,
                 "item": "WEAKNESSPOLICY",
                 "moves": [
@@ -27230,7 +27230,7 @@
                 "nature": "ADAMANT"
             },
             {
-                "name": "ZAPDOS",
+                "name": "ZAPDOS-GALAR",
                 "level": 84,
                 "item": "LIFEORB",
                 "moves": [
@@ -27256,7 +27256,7 @@
                 "nature": "MODEST"
             },
             {
-                "name": "MOLTRES",
+                "name": "MOLTRES-GALAR",
                 "level": 84,
                 "item": "CHESTOBERRY",
                 "moves": [
@@ -27611,7 +27611,7 @@
                 "nature": "ADAMANT"
             },
             {
-                "name": "LILLIGANT",
+                "name": "LILLIGANT-HISUI",
                 "level": 89,
                 "item": "FOCUSSASH",
                 "moves": [
@@ -28025,3 +28025,4 @@
         "tipo_de_combate": "Combate Simple"
     }
 ]
+

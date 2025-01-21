@@ -118377,5 +118377,269 @@
         "pokedex_description": "Un Pokémon que perteneció a los grandes reyes del pasado por su porte y enorme poder. Se le creía desaparecido.",
         "pre_evolution": "Eevee",
         "evolution_stage": 2
+    },
+    {
+        "number": 549,
+        "name": "Lilligant-Hisui",
+        "internal_name": "LILLIGANT-HISUI",
+        "type": [
+            "Grass",
+            "Fighting"
+        ],
+        "base_stats": {
+            "hp": 70,
+            "attack": 60,
+            "defense": 75,
+            "speed": 90,
+            "sp_attack": 110,
+            "sp_defense": 75,
+            "total": 480
+        },
+        "gender_rate": "AlwaysFemale",
+        "growth_rate": "Medium",
+        "base_exp": 168,
+        "effort_points": {
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "speed": 0,
+            "sp_attack": 2,
+            "sp_defense": 0
+        },
+        "rareness": 75,
+        "happiness": 70,
+        "abilities": [
+            "HUSTLE"
+        ],
+        "moves": [
+            {
+                "level": 1,
+                "move": "No hay detalles de los movimientos por ahora"
+            }
+        ],
+        "compatibility": [
+            "Grass"
+        ],
+        "steps_to_hatch": 5355,
+        "height": 1.1,
+        "weight": 16.3,
+        "color": "Green",
+        "kind": "Flowering",
+        "pokedex_description": "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+        "pre_evolution": "Petilil",
+        "evolution_stage": 2,
+        "form": "Hisui"
+    },
+    {
+        "number": 78,
+        "name": "Rapidash-Galar",
+        "internal_name": "RAPIDASH-GALAR",
+        "type": [
+            "Psychic",
+            "Fairy"
+        ],
+        "base_stats": {
+            "hp": 85,
+            "attack": 110,
+            "defense": 70,
+            "speed": 105,
+            "sp_attack": 80,
+            "sp_defense": 80,
+            "total": 530
+        },
+        "gender_rate": "Female50Percent",
+        "growth_rate": "Medium",
+        "base_exp": 175,
+        "effort_points": {
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "speed": 2,
+            "sp_attack": 0,
+            "sp_defense": 0
+        },
+        "rareness": 60,
+        "happiness": 70,
+        "abilities": [
+            "PASTEL VEIL"
+        ],
+        "moves": [
+            {
+                "level": 1,
+                "move": "No hay detalles de los movimientos por ahora"
+            }
+        ],
+        "compatibility": [
+            "Field"
+        ],
+        "steps_to_hatch": 5355,
+        "height": 1.7,
+        "weight": 95.0,
+        "color": "Yellow",
+        "habitat": "Grassland",
+        "kind": "Fire Horse",
+        "pokedex_description": "It usually canters casually in the fields and plains. But once a Rapidash turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.",
+        "pre_evolution": "Ponyta",
+        "evolution_stage": 2,
+        "form": "Galar"
+    },
+    {
+        "number": 144,
+        "name": "Articuno-Galar",
+        "internal_name": "ARTICUNO-GALAR",
+        "type": [
+            "Psychic",
+            "Flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 85,
+            "defense": 100,
+            "speed": 85,
+            "sp_attack": 95,
+            "sp_defense": 125,
+            "total": 580
+        },
+        "gender_rate": "Genderless",
+        "growth_rate": "Slow",
+        "base_exp": 351,
+        "effort_points": {
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "speed": 0,
+            "sp_attack": 0,
+            "sp_defense": 3
+        },
+        "rareness": 3,
+        "happiness": 35,
+        "abilities": [
+            "COMPETITIVE"
+        ],
+        "moves": [
+            {
+                "level": 1,
+                "move": "No hay detalles de los movimientos por ahora"
+            }
+        ],
+        "compatibility": [
+            "Undiscovered"
+        ],
+        "steps_to_hatch": 20655,
+        "height": 1.7,
+        "weight": 55.4,
+        "color": "Blue",
+        "habitat": "Rare",
+        "kind": "Freeze",
+        "pokedex_description": "Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.",
+        "pre_evolution": "Ninguna",
+        "evolution_stage": 1,
+        "form":"Galar"
+    },
+    {
+        "number": 145,
+        "name": "Zapdos-Galar",
+        "internal_name": "ZAPDOS-GALAR",
+        "type": [
+            "Fighting",
+            "Flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 90,
+            "defense": 85,
+            "speed": 100,
+            "sp_attack": 125,
+            "sp_defense": 90,
+            "total": 580
+        },
+        "gender_rate": "Genderless",
+        "growth_rate": "Slow",
+        "base_exp": 351,
+        "effort_points": {
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "speed": 0,
+            "sp_attack": 3,
+            "sp_defense": 0
+        },
+        "rareness": 9,
+        "happiness": 35,
+        "abilities": [
+            "DEFIANT"
+        ],
+        "moves": [
+            {
+                "level": 1,
+                "move": "No hay detalles de los movimientos por ahora"
+            }
+        ],
+        "compatibility": [
+            "Undiscovered"
+        ],
+        "steps_to_hatch": 20655,
+        "height": 1.6,
+        "weight": 52.6,
+        "color": "Yellow",
+        "habitat": "Rare",
+        "kind": "Electric",
+        "pokedex_description": "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. It gains power if it is stricken by lightning bolts.",
+        "pre_evolution": "Ninguna",
+        "evolution_stage": 1,
+        "form":"Galar"
+    },
+    {
+        "number": 146,
+        "name": "Moltres-Galar",
+        "internal_name": "MOLTRES-GALAR",
+        "type": [
+            "Dark",
+            "Flying"
+        ],
+        "base_stats": {
+            "hp": 90,
+            "attack": 100,
+            "defense": 90,
+            "speed": 90,
+            "sp_attack": 125,
+            "sp_defense": 85,
+            "total": 580
+        },
+        "gender_rate": "Genderless",
+        "growth_rate": "Slow",
+        "base_exp": 351,
+        "effort_points": {
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "speed": 0,
+            "sp_attack": 3,
+            "sp_defense": 0
+        },
+        "rareness": 9,
+        "happiness": 35,
+        "abilities": [
+            "BERSERK"
+        ],
+        "moves": [
+            {
+                "level": 1,
+                "move": "No hay detalles de los movimientos por ahora"
+            }
+        ],
+        "compatibility": [
+            "Undiscovered"
+        ],
+        "steps_to_hatch": 20655,
+        "height": 2.0,
+        "weight": 60.0,
+        "color": "Yellow",
+        "habitat": "Rare",
+        "kind": "Flame",
+        "pokedex_description": "Moltres is a legendary bird Pokémon that can control fire. If injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
+        "pre_evolution": "Ninguna",
+        "evolution_stage": 1,
+        "form":"Galar"
     }
 ]
