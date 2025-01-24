@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeRadar</title>
+
+  <link rel="stylesheet" href="css/pokeRadar.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/gral.css">
+
+
+</head>
+<body>
+  <header>
+
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html">Principal</a></li>
+        
+        <li>
+          <a href="Anil-index.html">
+            <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+          </a>
+        </li>
+        <li>
+          <a href="Opalo-index.html" class="active">
+            <img src="./images/Logo-Pokemon-Opalo.png" alt="Pokémon Opalo" id="navbar-logo">
+          </a>
+        </li>
+        
+        <li><a href="Opalo-pokedex.html">Pokedex</a></li>
+        <li><a href="Opalo-encuentros.html">Encuentros</a></li>
+        <li><a href="Opalo-pokeRadar.html">Poke Radar</a></li>
+
+        <li id="GralSearchBar">
+          <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <div id="floating-description" class="hidden"></div>
+  <div id="floating-description-moves" class="hidden"></div>
+
+
+
+  
+
+  <div class="container">
+
+    <main>
+
+
+
+      <section id="zona-details">
+        
+        <div class="zona-grid">
+          
+          <h2>Selecciona una Zona</h2>
+          <input type="text" id="search-bar" placeholder="Buscar zona..." autocomplete="off">
+          <select id="zona-select">
+            <!-- Opciones generadas dinámicamente -->
+          </select>
+          
+          <div id="map-container" style="display: none;"><!-- Oculto el mapa -->
+            <img src="./images/Opalo/Mapa_Opalo.webp" alt="Mapa del mundo" id="map-image">
+            
+            <div id="zone-marker"></div>
+          
+          </div>
+        </div>
+
+      </section>
+      
+      <section id="pokemon-details">
+        <h2>Pokémon en la Zona</h2>
+        <div id="encounters-list">
+          <!-- Lista de Pokémon generada dinámicamente -->
+        </div>
+      </section>
+
+    </main>
+  </div>
+  <script src="js/Opalo/pokeRadar.js"></script>
+  <script src="js/Anil/navbar.js"></script>
+
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Guia Pokemon | Creado por Antripus </p>
+  <p>
+    <a href="https://github.com/Antripus" target="_blank" style="color: #ecf0f1;">GitHub</a>
+  </p>
+  <p> 
+    <a href="https://www.paypal.com/donate/?hosted_button_id=PJYALXY69T8WA" target="_blank" style="color: #1abc9c; text-decoration: none;">¡Apóyanos con una donación!</a>
+  </p>
+  <p>
+    <a href="https://www.buymeacoffee.com/antripus" target="_blank" style="display: inline-block; margin-left: 5px;"> <img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: 40px; vertical-align: middle;"> </a>
+  </p>
+ 
+</footer>
+
+</body>
+</html>

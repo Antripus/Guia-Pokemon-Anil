@@ -4,6 +4,7 @@ const jsonPathPokemon = "./data/Opalo/pokemon.json";
 const jsonPathMoves = "./data/Opalo/moves.json";
 const jsonPathAbilities = "./data/Opalo/abilities.json";
 const jsonPathEncounters = "./data/Opalo/encounters.json";
+const jsonPathTypes = "./data/Opalo/types.json";
 
 // Elementos del DOM
 const pkmGrid = document.getElementById("pkmGrid");
@@ -126,6 +127,17 @@ async function loadPokemonDetails() {
     }
   }
 
+  // Función para cargar el types.JSON
+  async function loadTypes() {
+    try {
+      const response = await fetch(jsonPathTypes);
+      const typesData = await response.json();
+      sessionStorage.setItem("typesData", JSON.stringify(typesData)); // Almacena los datos en sessionStorage
+    } catch (error) {
+      console.error("Error loading Types data:", error);
+    }
+  }
+
   function checkNumberBounds(number, maxNumber) {
     if (number < 1) return 1;
     if (number > maxNumber) return maxNumber;
@@ -141,6 +153,65 @@ function chequearLeftAndRight(pokemonNumber) {
   return pokemonNumber;
 }
 
+function capitalizeFirstWord(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+}
+
+function calculateTypeInteractions(types, typesData) {
+  const interactions = {
+      weaknesses: [],
+      resistances: [],
+      immunities: []
+  };
+  console.log ("TIPOS: "+types);
+  types.forEach((type) => {
+    console.log ("TIPO: "+type);
+    
+      const typeInfo = typesData.find(t => t.internalname === type.toUpperCase());
+      if (typeInfo) {
+          // Agregar debilidades, resistencias e inmunidades
+          console.log ("TIPO: "+typeInfo);
+          interactions.weaknesses.push(...(typeInfo.weaknesses || []));
+          interactions.resistances.push(...(typeInfo.resistances || []));
+          interactions.immunities.push(...(typeInfo.immunities || []));
+      }
+  });
+
+  // Eliminar interacciones duplicadas y resolver conflictos
+  interactions.weaknesses = interactions.weaknesses.filter(weakness => {
+      return !interactions.resistances.includes(weakness) && !interactions.immunities.includes(weakness);
+  });
+
+  interactions.resistances = [...new Set(interactions.resistances.filter(resistance => {
+      return !interactions.immunities.includes(resistance);
+  }))];
+
+  interactions.immunities = [...new Set(interactions.immunities)];
+
+  return interactions;
+}
+
+// Función para generar HTML de debilidades, inmunidades y resistencias
+function generateTypeInteractionsHTML(pokemon, typesData) {
+  const { weaknesses, resistances, immunities } = calculateTypeInteractions(pokemon.type, typesData);
+
+  // Generar HTML para debilidades
+  const debilidadesHTML = weaknesses.length > 0
+      ? weaknesses.map(w => `<p class="type" style="background-color: ${typeColors[capitalizeFirstWord(w)] || "#000"};">${capitalizeFirstWord(w)}</p>`).join("")
+      : "<p>Sin debilidades</p>";
+
+  // Generar HTML para inmunidades
+  const inmunidadesHTML = immunities.length > 0
+      ? immunities.map(i => `<p class="type" style="background-color: ${typeColors[capitalizeFirstWord(i)] || "#000"};">${capitalizeFirstWord(i)}</p>`).join("")
+      : "<p>Sin inmunidades</p>";
+
+  // Generar HTML para resistencias
+  const resistenciasHTML = resistances.length > 0
+      ? resistances.map(r => `<p class="type" style="background-color: ${typeColors[capitalizeFirstWord(r)] || "#000"};">${capitalizeFirstWord(r)}</p>`).join("")
+      : "<p>Sin resistencias</p>";
+
+  return { debilidadesHTML, inmunidadesHTML, resistenciasHTML };
+}
 
 function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   const typeHTML = pokemon.type
@@ -187,11 +258,18 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
   const encountersData = JSON.parse(sessionStorage.getItem("encountersData"));
   const movesData = JSON.parse(sessionStorage.getItem("movesData"));
-
-  
+  const typesData = JSON.parse(sessionStorage.getItem("typesData"));
+    if (!typesData) {
+        console.error("typesData no está disponible. Verifica la carga del archivo.");
+        return { debilidadesHTML: "<p>Error cargando datos</p>", inmunidadesHTML: "<p>Error cargando datos</p>", resistenciasHTML: "<p>Error cargando datos</p>" };
+    }
+      
     //Obtener ubicaciones
     const movesHTML = generateMovesHTML(pokemon, movesData);
 
+    const eggsMovesHTML = generateEggsMovesHTML(pokemon, movesData);
+
+    
     //Obtener ubicaciones
     const ubicacionesHTML = generateUbicacionHTML(pokemon.name, encountersData);
 
@@ -203,7 +281,9 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
     const evolutionChain = getEvolutionChain(pokemon.name, pokemonData);
     const EvolucionesHTML = generateEvolutionHTML(evolutionChain, pokemonData);
 
-  
+    
+   //Obterneer las relaciones de tipos  
+    const { debilidadesHTML, inmunidadesHTML, resistenciasHTML } = generateTypeInteractionsHTML(pokemon, typesData);
 
   pkmGrid.innerHTML = `
     
@@ -226,8 +306,22 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
           </div> </a>
         </div>
 
-          <div class="pkmImagen">  
-            <img id="pkmImg" src="./images/Opalo/pokemon/${pokemon.number000}.png" alt="${pokemon.name}">
+          <div class="pkmImagen">
+              <img id="pkmImg" src="./images/Opalo/pokemon/${pokemon.number000}.png" alt="${pokemon.name}">
+              <div class="type-interactions">
+                  <div class="interaction-category">
+                      <h3>Debilidades</h3>
+                      <div class="types">${debilidadesHTML}</div>
+                  </div>
+                  <div class="interaction-category">
+                      <h3>Inmunidad</h3>
+                      <div class="types">${inmunidadesHTML}</div>
+                  </div>
+                  <div class="interaction-category">
+                      <h3>Resistencias</h3>
+                      <div class="types">${resistenciasHTML}</div>
+                  </div>
+              </div>
           </div>
           <!-- tab para las megas
           <div class="statBlock">  
@@ -296,6 +390,10 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
     <div id="moves">
       ${movesHTML}  
     </div> 
+     <div id="eggMoves">
+      ${eggsMovesHTML}  
+    </div> 
+    
     
 
 
@@ -614,9 +712,9 @@ function generateMovesHTML(pokemonDetails, movesData) {
               <td>${level}</td>
               <td><img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type} Type" class="type-icon"></td>
               <td>
-                    <p class="move-tooltip" data-description="${moveDetails.description}">
-                    ${moveDetails.name_es}
-                     </p>
+                <p class="move-tooltip" data-description="${moveDetails.description}">
+                  ${moveDetails.name_es}
+                </p>
               </td>
               <td><img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category} Move" class="category-icon"></td>
               <td>${moveDetails.power || 'N/A'}</td>
@@ -647,9 +745,78 @@ function generateMovesHTML(pokemonDetails, movesData) {
   return listMovesHTML;
 }
 
+function generateEggsMovesHTML(pokemonDetails, movesData) {
+  // Crear el contenedor principal de la lista con un encabezado
+  let listMovesHTML = `
+    <div class="listMoves">
+      <h2>Movimientos de Huevo</h2>
+      <div id="moves-container">
+        <table class="moves-table">
+          <thead>
+            <tr>
+              <th data-sort="eggType">Tipo</th>
+              <th data-sort="eggName">Nombre</th>
+              <th data-sort="eggCategory">Categoría</th>
+              <th data-sort="eggPower">Poder</th>
+              <th data-sort="eggAccuracy">Precisión</th>
+            </tr>
+          </thead>
+          <tbody id="moves-tbody2">
+  `;
+
+  // Verificar si hay movimientos en el Pokémon
+  if (pokemonDetails && pokemonDetails.egg_moves) {
+    // Ordenar los movimientos por nombre
+    const eggMoves = pokemonDetails.egg_moves.sort((a, b) => a.localeCompare(b));
+
+    // Generar filas para cada movimiento
+    eggMoves.forEach((move) => {
+      if (move) {
+        const moveDetails = movesData.find(
+          m => m.name_en && m.name_en.toLowerCase() === move.toLowerCase()
+        );
+
+        if (moveDetails) {
+          listMovesHTML += `
+            <tr>
+              <td><img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type} Type" class="type-icon"></td>
+              <td>
+                <p class="move-tooltip" data-description="${moveDetails.description}">
+                  ${moveDetails.name_es}
+                </p>
+              </td>
+              <td><img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category} Move" class="category-icon"></td>
+              <td>${moveDetails.power || 'N/A'}</td>
+              <td>${moveDetails.accuracy || 'N/A'}</td>
+            </tr>
+          `;
+        } else {
+          listMovesHTML += `
+            <tr>
+              <td colspan="5">Detalles no disponibles para el movimiento ${move}</td>
+            </tr>
+          `;
+        }
+      }
+    });
+  } else {
+    listMovesHTML += `<tr><td colspan="5">No hay movimientos disponibles para este Pokémon.</td></tr>`;
+  }
+
+  // Cerrar la tabla y contenedor
+  listMovesHTML += `
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+
+  return listMovesHTML;
+}
+
 // Función para ordenar la tabla
-function sortTable(column, order) {
-  const tbody = document.getElementById('moves-tbody');
+function sortTable(tbodyId, column, order) {
+  const tbody = document.getElementById(tbodyId);
   const rows = Array.from(tbody.querySelectorAll('tr'));
 
   const getCellValue = (row, column) => {
@@ -691,7 +858,8 @@ document.addEventListener('click', (event) => {
     const column = Array.from(event.target.parentNode.children).indexOf(event.target);
     const order = event.target.dataset.order === 'asc' ? 'desc' : 'asc';
     event.target.dataset.order = order;
-    sortTable(column, order);
+    const tbodyId = event.target.closest('table').querySelector('tbody').id;
+    sortTable(tbodyId, column, order);
   }
 });
 
@@ -703,13 +871,24 @@ document.addEventListener('click', (event) => {
 
 
 
+/*
 // Modificar init para inicializar con todos los entrenadores
 function init() {
   loadPokemonDetails();
   loadAbilities();
   loadEncounters();
   loadMoves();
+  loadTypes();
 }
 
 // Inicializa la página cuando carga
 document.addEventListener("DOMContentLoaded", init);
+*/
+
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadAbilities();
+  await loadEncounters();
+  await loadMoves();
+  await loadTypes();
+  loadPokemonDetails(); // Función que llama a displayPokemonDetails
+});

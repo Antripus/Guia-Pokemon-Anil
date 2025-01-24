@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuentros</title>
+
+  <link rel="stylesheet" href="css/encuentros.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/gral.css">
+
+
+</head>
+<body>
+  <header>
+
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html">Principal</a></li>
+        
+        <li>
+          <a href="Anil-index.html">
+            <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
+          </a>
+        </li>
+        <li>
+          <a href="Opalo-index.html" class="active">
+            <img src="./images/Logo-Pokemon-Opalo.png" alt="Pokémon Opalo" id="navbar-logo">
+          </a>
+        </li>
+        
+        <li><a href="Opalo-pokedex.html">Pokedex</a></li>
+        <li><a href="Opalo-encuentros.html">Encuentros</a></li>
+        <li><a href="Opalo-pokeRadar.html">Poke Radar</a></li>
+        <li id="GralSearchBar">
+          <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <div id="floating-description" class="hidden"></div>
+  <div id="floating-description-moves" class="hidden"></div>
+
+  <div class="container">
+
+          
+    <aside>
+        <div class="toggle-buttons">
+        <input type="radio" name="starter" value="Snampery" id="snampery" hidden>
+        <label for="snampery" class="toggle-option">  
+          <img src="./images/Opalo/Opalo-index/snampery.png" class="inicialIMG">
+        </label>
+        
+        <input type="radio" name="starter" value="Flasinge" id="flasinge" hidden>
+        <label for="flasinge" class="toggle-option">  
+          <img src="./images/Opalo/Opalo-index/flasinge.png" class="inicialIMG">
+        </label>
+      
+        <input type="radio" name="starter" value="Swolphin" id="swolphin" hidden>
+        <label for="swolphin" class="toggle-option">
+          <img src="./images/Opalo/Opalo-index/swolphin.png" class="inicialIMG">
+        </label>
+        
+      </div>
+
+
+      <div class="entrenadoresSearchBar">
+        <input type="text" id="search-bar" placeholder="Buscar Entrenador..." autocomplete="off">
+      </div>
+
+    
+      <div class="listaEntrenadores">
+        <ul id="encounter-list">
+          <!-- La lista de encuentros se genera dinámicamente -->
+        </ul>
+      </div>
+
+    </aside>
+
+    <main>
+
+      <section id="trainer-details">
+        <!-- Información del entrenador -->
+      </section>
+      
+      <section id="pokemon-details">
+        <!-- Detalles de los Pokémon -->
+      </section>
+    </main>
+  </div>
+  <script src="js/Opalo/encuentros.js"></script>
+  <script src="js/Anil/navbar.js"></script>
+
+
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Guia Pokemon | Creado por Antripus </p>
+  <p>
+    <a href="https://github.com/Antripus" target="_blank" style="color: #ecf0f1;">GitHub</a>
+  </p>
+  <p> 
+    <a href="https://www.paypal.com/donate/?hosted_button_id=PJYALXY69T8WA" target="_blank" style="color: #1abc9c; text-decoration: none;">¡Apóyanos con una donación!</a>
+  </p>
+  <p>
+    <a href="https://www.buymeacoffee.com/antripus" target="_blank" style="display: inline-block; margin-left: 5px;"> <img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: 40px; vertical-align: middle;"> </a>
+  </p>
+ 
+</footer>
+
+</body>
+</html>
