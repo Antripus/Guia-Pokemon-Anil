@@ -65,9 +65,9 @@ async function loadPokemonDetails() {
     // Buscar Pokémon según número o nombre
     const pokemon = pokemonNumber
       ? pokemonData.find(p => p.number === pokemonNumber)
-      : pokemonData.find(p => p.name.toLowerCase() === pokemonName);
-    console.log(pokemonName);
-    console.log(pokemonNumber);
+      : pokemonData.find(p => p.internal_name.toLowerCase() === pokemonName);
+    console.log("Poekmon Internal Name: "+pokemonName);
+    console.log("Poekmon Number: "+pokemonNumber);
     if (!pokemon) {
       pkmGrid.innerHTML = `<p>Pokémon no encontrado</p>`;
       return;

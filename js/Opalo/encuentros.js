@@ -161,7 +161,7 @@ const natureTypes = {
 
     // Función para buscar un Pokémon por nombre en pokemonData
     function findPokemonByName(name, pokemonData) {
-        return pokemonData.find(pokemon => pokemon.name.toLowerCase() === name.toLowerCase());
+        return pokemonData.find(pokemon => pokemon.internal_name.toLowerCase() === name.toLowerCase());
     }
 
   // Función para mostrar la tarjeta de entrenadores
