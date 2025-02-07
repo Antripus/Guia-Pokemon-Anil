@@ -260,6 +260,246 @@
         "form": "Mega"
     },
     {
+        "base_number": 142,
+        "name": "Mega-Aerodactyl",
+        "type": ["Rock", "Flying"],
+        "base_stats": {
+            "hp": 80,
+            "attack": 135,
+            "defense": 85,
+            "speed": 150,
+            "sp_attack": 70,
+            "sp_defense": 95,
+            "total": 615
+        },
+        "base_exp": 999,
+        "abilities": ["TOUGHCLAWS"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 376,
+        "name": "Mega-Metagross",
+        "type": ["Steel", "Psychic"],
+        "base_stats": {
+            "hp": 80,
+            "attack": 145,
+            "defense": 150,
+            "speed": 110,
+            "sp_attack": 105,
+            "sp_defense": 110,
+            "total": 700
+        },
+        "base_exp": 999,
+        "abilities": ["TOUGHCLAWS"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 445,
+        "name": "Mega-Garchomp",
+        "type": ["Dragon", "Ground"],
+        "base_stats": {
+            "hp": 108,
+            "attack": 170,
+            "defense": 115,
+            "speed": 92,
+            "sp_attack": 120,
+            "sp_defense": 95,
+            "total": 700
+        },
+        "base_exp": 999,
+        "abilities": ["SANDFORCE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 115,
+        "name": "Mega-Kangaskhan",
+        "type": ["Normal"],
+        "base_stats": {
+            "hp": 105,
+            "attack": 115,
+            "defense": 100,
+            "speed": 100,
+            "sp_attack": 60,
+            "sp_defense": 100,
+            "total": 580
+        },
+        "base_exp": 999,
+        "abilities": ["PARENTALBOND"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 208,
+        "name": "Mega-Steelix",
+        "type": ["Steel","Ground"],
+        "base_stats": {
+            "hp": 75,
+            "attack": 125,
+            "defense": 230,
+            "speed": 30,
+            "sp_attack": 55,
+            "sp_defense": 95,
+            "total": 610
+        },
+        "base_exp": 999,
+        "abilities": ["SHEERFORCE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 254,
+        "name": "Mega-Sceptile",
+        "type": ["Grass", "Dragon"],
+        "base_stats": {
+            "hp": 70,
+            "attack": 145,
+            "defense": 75,
+            "speed": 145,
+            "sp_attack": 110,
+            "sp_defense": 85,
+            "total": 630
+        },
+        "base_exp": 999,
+        "abilities": ["SILVANO"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 302,
+        "name": "Mega-Sableye",
+        "type": ["Dark", "Ghost"],
+        "base_stats": {
+            "hp": 50,
+            "attack": 125,
+            "defense": 95,
+            "speed": 110,
+            "sp_attack": 65,
+            "sp_defense": 85,
+            "total": 530
+        },
+        "base_exp": 999,
+        "abilities": ["TOUGHCLAWS"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 282,
+        "name": "Mega-Gardevoir",
+        "type": ["Psychic", "Fairy"],
+        "base_stats": {
+            "hp": 68,
+            "attack": 95,
+            "defense": 65,
+            "speed": 100,
+            "sp_attack": 155,
+            "sp_defense": 135,
+            "total": 618
+        },
+        "base_exp": 999,
+        "abilities": ["PIXILATE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 323,
+        "name": "Mega-Camerupt",
+        "type": ["Fire", "Ground"],
+        "base_stats": {
+            "hp": 70,
+            "attack": 120,
+            "defense": 100,
+            "speed": 20,
+            "sp_attack": 145,
+            "sp_defense": 105,
+            "total": 560
+        },
+        "base_exp": 999,
+        "abilities": ["SHEERFORCE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 334,
+        "name": "Mega-Altaria",
+        "type": ["Dragon", "Fairy"],
+        "base_stats": {
+            "hp": 75,
+            "attack": 110,
+            "defense": 110,
+            "speed": 90,
+            "sp_attack": 120,
+            "sp_defense": 105,
+            "total": 610
+        },
+        "base_exp": 999,
+        "abilities": ["PIXILATE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 362,
+        "name": "Mega-Glalie",
+        "type": ["Ice"],
+        "base_stats": {
+            "hp": 80,
+            "attack": 120,
+            "defense": 80,
+            "speed": 100,
+            "sp_attack": 120,
+            "sp_defense": 80,
+            "total": 580
+        },
+        "base_exp": 999,
+        "abilities": ["PIELHELADA"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 475,
+        "name": "Mega-Gallade",
+        "type": ["Psychic", "Fighting"],
+        "base_stats": {
+            "hp": 68,
+            "attack": 165,
+            "defense": 95,
+            "speed": 110,
+            "sp_attack": 65,
+            "sp_defense": 115,
+            "total": 618
+        },
+        "base_exp": 999,
+        "abilities": ["INNERFOCUS"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
         "base_number": 131,
         "name": "Mega-Lapras",
         "type": ["Water", "Ice"],
@@ -278,6 +518,46 @@
           { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
         ],
         "form": "Mega"
-    }
+    },
+    {
+      "base_number": 879,
+      "name": "Mega-Copperajah",
+      "type": ["Steel"],
+      "base_stats": {
+          "hp": 1,
+          "attack": 1,
+          "defense": 1,
+          "speed": 1,
+          "sp_attack": 1,
+          "sp_defense": 1,
+          "total": 1
+      },
+      "base_exp": 999,
+      "abilities": ["Desconocida"],
+      "moves": [
+        { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+      ],
+      "form": "Mega"
+  },
+  {
+      "base_number": 869,
+      "name": "Mega-Alcremie",
+      "type": ["Fairy"],
+      "base_stats": {
+          "hp": 1,
+          "attack": 1,
+          "defense": 1,
+          "speed": 1,
+          "sp_attack": 1,
+          "sp_defense": 1,
+          "total": 1
+      },
+      "base_exp": 999,
+      "abilities": ["Desconocida"],
+      "moves": [
+        { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+      ],
+      "form": "Mega"
+  }
   ]
   
