@@ -5,6 +5,7 @@ const jsonPathMoves = "./data/Anil/moves.json";
 const jsonPathAbilities = "./data/Anil/abilities.json";
 const jsonPathEncounters = "./data/Anil/encounters.json";
 const jsonPathTypes = "./data/Anil/types.json";
+const jsonPathMegas = "./data/Anil/megas.json";
 
 // Elementos del DOM
 const pkmGrid = document.getElementById("pkmGrid");
@@ -138,6 +139,15 @@ async function loadPokemonDetails() {
     }
   }
 
+  async function loadMegas() {
+    try {
+      const response = await fetch(jsonPathMegas);
+      const megasData = await response.json();
+      sessionStorage.setItem("megasData", JSON.stringify(megasData));
+    } catch (error) {
+      console.error("Error al cargar los datos de megaevoluciones:", error);
+    }
+  }
 
 
   function checkNumberBounds(number, maxNumber) {
@@ -216,23 +226,13 @@ function generateTypeInteractionsHTML(pokemon, typesData) {
   return { debilidadesHTML, inmunidadesHTML, resistenciasHTML };
 }
 
-function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
-  const typeHTML = pokemon.type
-    .map(
-      (type) =>
-        `
-      <p class="type" style="background-color: ${typeColors[type] || "#000"};">${type}</p>
-      `
-    )
-    .join(" ");
-
-
+function generateCuadroEstadisticas (base_stats){
 
   // Obtener el valor máximo de los stats (excluyendo 'total' para no tener barra)
-  const statsWithoutTotal = Object.entries(pokemon.base_stats).filter(
+  const statsWithoutTotal = Object.entries(base_stats).filter(
     ([stat]) => stat !== "total"
   );
-  const maxStatValue = 170 //Math.max(...statsWithoutTotal.map(([stat, value]) => value));
+  const maxStatValue = 180 //Math.max(...statsWithoutTotal.map(([stat, value]) => value));
 
 
   // Manejo de las barras de estadísticas base
@@ -250,22 +250,45 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
 
 
   // Mostrar el stat total sin barra
-  const totalHTML = pokemon.base_stats.total
+  const totalHTML = base_stats.total
     ? `<div class="grid">
         <p class="label">TOTAL</p>
-        <p class="label">${pokemon.base_stats.total}</p>
+        <p class="label">${base_stats.total}</p>
         </div>`
     : "";
+
+    return statsHTML + totalHTML;
+}
+
+function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
+  
+  const megasData = JSON.parse(sessionStorage.getItem("megasData"));
+  const megaEvolution = megasData ? megasData.find(mega => mega.base_number === pokemon.number) : null;
+
+  // Tipo y stats del Pokémon
+  const typeHTML = pokemon.type.map(type =>
+    `<p class="type" style="background-color: ${typeColors[type] || "#000"};">${type}</p>`
+  ).join("");
+
+
+
+  // Obtener el valor máximo de los stats (excluyendo 'total' para no tener barra)
+  const HTMLcuadroEstadisticas = generateCuadroEstadisticas(pokemon.base_stats);
+  let HTMLcuadroEstadisticasMega = "";
+  let typeHTMLMega = "";
+    
+
+
     //agarro los json de memoria
-  const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData"));
-  const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
-  const encountersData = JSON.parse(sessionStorage.getItem("encountersData"));
-  const movesData = JSON.parse(sessionStorage.getItem("movesData"));
-  const typesData = JSON.parse(sessionStorage.getItem("typesData"));
-    if (!typesData) {
-        console.error("typesData no está disponible. Verifica la carga del archivo.");
-        return { debilidadesHTML: "<p>Error cargando datos</p>", inmunidadesHTML: "<p>Error cargando datos</p>", resistenciasHTML: "<p>Error cargando datos</p>" };
-    }
+    const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData"));
+    const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
+    const encountersData = JSON.parse(sessionStorage.getItem("encountersData"));
+    const movesData = JSON.parse(sessionStorage.getItem("movesData"));
+    const typesData = JSON.parse(sessionStorage.getItem("typesData"));
+      if (!typesData) {
+          console.error("typesData no está disponible. Verifica la carga del archivo.");
+          return { debilidadesHTML: "<p>Error cargando datos</p>", inmunidadesHTML: "<p>Error cargando datos</p>", resistenciasHTML: "<p>Error cargando datos</p>" };
+      }
   
     //Obtener ubicaciones
     const movesHTML = generateMovesHTML(pokemon, movesData);
@@ -277,7 +300,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
 
     // Obtener habilidades
     const abilitiesHTML = getAbilitiesHTML(pokemon,abilitiesData);
-
+    let abilitiesHTMLMega = "";
 
     //Obtener cadena de Evoluciones
     const evolutionChain = getEvolutionChain(pokemon.name, pokemonData);
@@ -286,6 +309,28 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
     //Obterneer las relaciones de tipos  
     const { debilidadesHTML, inmunidadesHTML, resistenciasHTML } = generateTypeInteractionsHTML(pokemon, typesData);
 
+    // Generar pestañas para la mega evolución si existe
+
+    let tabsHTML = `
+      <div id="tabs">
+        <button id="buttonBase" class="tab-button active" onclick="switchTab('base')">Pokémon Base</button>
+    `;
+    if (megaEvolution) {
+      tabsHTML += `<button id="buttonMega" class="tab-button" onclick="switchTab('mega')">${megaEvolution.name}</button>`;
+    }
+    tabsHTML += `</div>`;
+
+
+    //Armar el cuadro para la Mega
+    if (megaEvolution){
+      // Obtener el valor máximo de los stats (excluyendo 'total' para no tener barra)
+      HTMLcuadroEstadisticasMega = generateCuadroEstadisticas(megaEvolution.base_stats);
+      abilitiesHTMLMega =getAbilitiesHTML(megaEvolution,abilitiesData);
+
+      typeHTMLMega = megaEvolution.type.map(type =>
+        `<p class="type" style="background-color: ${typeColors[type] || "#000"};">${type}</p>`
+      ).join("");
+  }
 
   pkmGrid.innerHTML = `
     
@@ -309,7 +354,18 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
         </div>
 
             <div class="pkmImagen">
-              <img id="pkmImg" src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}">
+              
+                  <div id="imgBase">
+                  <img id="pkmImg" src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}">
+                  </div>
+                  <div id="imgMega" class="hidden" >
+                  ${megaEvolution ? `<img id="pkmImg" src="./images/pokemon/${megaEvolution.name.toLowerCase()}.png" alt="${megaEvolution.name}">` : ""}
+                  </div>
+            
+            
+
+              
+
               <div class="type-interactions">
                   <div class="interaction-category">
                       <h3>Debilidades</h3>
@@ -326,19 +382,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
               </div>
           </div>
 
-
-          <!-- tab para las megas
-          <div class="statBlock">  
-          ${statsHTML}${totalHTML}
-          </div>
-           -->
-        <div id="tabs">
-            <!-- tab para las megas
-            <div class="tab ax active">
-                <h3>AX</h3>
-            </div>
-              -->
-        </div>
+        
 
         <div class="tabContent ax active">
         <div class="firstBlock">
@@ -349,11 +393,20 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
             <div class="flex last">
               
             <div class="typeLabel">
-            ${typeHTML}
- 
+            
+                  <div id="typeBase">
+                  ${typeHTML}
+                  </div>
+                  <div id="typeMega" class="hidden" >
+                  ${megaEvolution ? typeHTMLMega :""}
+                  </div>
+
+            
             </div>
+           
 
             </div>
+            ${megaEvolution ? tabsHTML :""}
             
             
         </div>
@@ -368,7 +421,17 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
                 <div class="flex last">
                 <p class="label">Abilities</p>
                 <ol>
-                <div class="abilities">${abilitiesHTML}</div>
+                <div class="abilities">
+                
+                  <div id="abBase">
+                  ${abilitiesHTML}
+                  </div>
+                  <div id="abMega" class="hidden" >
+                  ${megaEvolution ? abilitiesHTMLMega :""}
+                  </div>
+                
+                </div>
+
                 <ol>
             </div>
             </div>
@@ -376,9 +439,15 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
 
         <div class="thirdBlock">
 
-            <div class="statBlock">  
-          ${statsHTML}${totalHTML}
+          <div class="statBlock">  
+            <div id="statBase">
+            ${HTMLcuadroEstadisticas}
+            </div>
+            <div id="statMega" class="hidden" >
+             ${megaEvolution ? HTMLcuadroEstadisticasMega :""}
+            </div>
           </div>
+     
         </div>
             
         </div>
@@ -397,11 +466,62 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
     <div id="eggMoves">
       ${eggsMovesHTML}  
     </div>
-
-
     `;
 
 }
+
+function switchTab(tabType) {
+  const baseImg = document.getElementById("imgBase");
+  const megaImg = document.getElementById("imgMega");
+ 
+  const baseAb = document.getElementById("abBase");
+  const megaAb = document.getElementById("abMega");
+  
+  const baseStats = document.getElementById("statBase");
+  const megaStats = document.getElementById("statMega");
+
+  const baseType = document.getElementById("typeBase");
+  const megaType = document.getElementById("typeMega");
+  
+
+  const botonBase = document.getElementById("buttonBase");
+  const botonMega = document.getElementById("buttonMega");
+
+  if (tabType === "base") {
+    baseImg.classList.remove("hidden");
+    megaImg.classList.add("hidden");
+
+    baseAb.classList.remove("hidden");
+    megaAb.classList.add("hidden");
+
+    baseStats.classList.remove("hidden");
+    megaStats.classList.add("hidden");
+
+    baseType.classList.remove("hidden");
+    megaType.classList.add("hidden");
+
+    botonMega.classList.remove("active");
+    botonBase.classList.add("active");
+
+  } else if (tabType === "mega") {
+    megaImg.classList.remove("hidden");
+    baseImg.classList.add("hidden");
+
+    megaAb.classList.remove("hidden");
+    baseAb.classList.add("hidden");
+    
+    megaStats.classList.remove("hidden");
+    baseStats.classList.add("hidden");
+
+    megaType.classList.remove("hidden");
+    baseType.classList.add("hidden");
+
+    botonBase.classList.remove("active");
+    botonMega.classList.add("active");
+  }
+  
+}
+
 
 document.addEventListener("mousemove", (event) => {
   if (event.target.classList.contains("ability-tooltip")) {
@@ -889,5 +1009,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadEncounters();
   await loadMoves();
   await loadTypes();
+  await loadMegas();
   loadPokemonDetails(); // Función que llama a displayPokemonDetails
 });

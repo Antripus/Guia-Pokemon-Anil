@@ -1,0 +1,303 @@
+[
+    {
+      "base_number": 823,
+      "name": "Mega-Corviknight",
+      "type": ["Flying", "Steel"],
+      "base_stats": {
+        "hp": 98,
+        "attack": 117,
+        "defense": 125,
+        "speed": 87,
+        "sp_attack": 73,
+        "sp_defense": 95,
+        "total": 595
+      },
+      "base_exp": 999,
+      "abilities": ["RECKLESS"],
+      "moves": [
+        { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+      ],
+      "form": "Mega"
+    },
+    {
+        "base_number": 839,
+        "name": "Mega-Coalossal",
+        "type": ["Rock", "Fire"],
+        "base_stats": {
+            "hp": 110,
+            "attack": 110,
+            "defense": 140,
+            "speed": 30,
+            "sp_attack": 110,
+            "sp_defense": 110,
+            "total": 610
+        },
+        "base_exp": 999,
+        "abilities": ["FLAMEBODY"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 99,
+        "name": "Mega-Kingler",
+        "type": ["Water"],
+        "base_stats": {
+            "hp": 75,
+            "attack": 170,
+            "defense": 135,
+            "speed": 75,
+            "sp_attack": 70,
+            "sp_defense": 70,
+            "total": 595
+        },
+        "base_exp": 999,
+        "abilities": ["TOUGHCLAWS"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 12,
+        "name": "Mega-Butterfree",
+        "type": ["Bug", "Flying"],
+        "base_stats": {
+            "hp": 60,
+            "attack": 55,
+            "defense": 70,
+            "speed": 110,
+            "sp_attack": 120,
+            "sp_defense": 130,
+            "total": 545
+        },
+        "base_exp": 999,
+        "abilities": ["COMPOUNDEYES"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 826,
+        "name": "Mega-Orbeetle",
+        "type": ["Bug", "Psychic"],
+        "base_stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 130,
+            "speed": 100,
+            "sp_attack": 110,
+            "sp_defense": 140,
+            "total": 605
+        },
+        "base_exp": 999,
+        "abilities": ["NEUROFORCE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 834,
+        "name": "Mega-Drednaw",
+        "type": ["Rock","Water"],
+        "base_stats": {
+            "hp": 90,
+            "attack": 145,
+            "defense": 130,
+            "speed": 74,
+            "sp_attack": 58,
+            "sp_defense": 88,
+            "total": 585
+        },
+        "base_exp": 999,
+        "abilities": ["SOLIDROCK"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 851,
+        "name": "Mega-Centiskorch",
+        "type": ["Fire", "Bug"],
+        "base_stats": {
+            "hp": 100,
+            "attack": 145,
+            "defense": 95,
+            "speed": 95,
+            "sp_attack": 100,
+            "sp_defense": 90,
+            "total": 625
+        },
+        "base_exp": 999,
+        "abilities": ["BLAZE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 99,
+        "name": "Mega-Kingler",
+        "type": ["Water"],
+        "base_stats": {
+            "hp": 75,
+            "attack": 170,
+            "defense": 135,
+            "speed": 75,
+            "sp_attack": 70,
+            "sp_defense": 70,
+            "total": 595
+        },
+        "base_exp": 999,
+        "abilities": ["TOUGHCLAWS"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 849,
+        "name": "Mega-Toxtricity",
+        "type": ["Electric", "Poison"],
+        "base_stats": {
+            "hp": 75,
+            "attack": 118,
+            "defense": 90,
+            "speed": 95,
+            "sp_attack": 144,
+            "sp_defense": 80,
+            "total": 602
+        },
+        "base_exp": 999,
+        "abilities": ["DOWNLOAD"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 858,
+        "name": "Mega-Hatterene",
+        "type": ["Psychic", "Fairy"],
+        "base_stats": {
+            "hp": 57,
+            "attack": 110,
+            "defense": 115,
+            "speed": 49,
+            "sp_attack": 156,
+            "sp_defense": 123,
+            "total": 610
+        },
+        "base_exp": 999,
+        "abilities": ["MAGICBOUNCE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 861,
+        "name": "Mega-Grimmsnarl",
+        "type": ["Dark", "Fairy"],
+        "base_stats": {
+            "hp": 95,
+            "attack": 150,
+            "defense": 85,
+            "speed": 90,
+            "sp_attack": 115,
+            "sp_defense": 75,
+            "total": 610
+        },
+        "base_exp": 999,
+        "abilities": ["SHEERFORCE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 841,
+        "name": "Mega-Flapple",
+        "type": ["Grass", "Dragon"],
+        "base_stats": {
+            "hp": 110,
+            "attack": 125,
+            "defense": 100,
+            "speed": 50,
+            "sp_attack": 100,
+            "sp_defense": 100,
+            "total": 585
+        },
+        "base_exp": 999,
+        "abilities": ["HUSTLE"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 569,
+        "name": "Mega-Garbodor",
+        "type": ["Poison", "Steel"],
+        "base_stats": {
+            "hp": 100,
+            "attack": 125,
+            "defense": 112,
+            "speed": 55,
+            "sp_attack": 95,
+            "sp_defense": 112,
+            "total": 599
+        },
+        "base_exp": 999,
+        "abilities": ["MAGNETPULL"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 68,
+        "name": "Mega-Machamp",
+        "type": ["Fighting", "Ground"],
+        "base_stats": {
+            "hp": 90,
+            "attack": 160,
+            "defense": 100,
+            "speed": 75,
+            "sp_attack": 75,
+            "sp_defense": 95,
+            "total": 595
+        },
+        "base_exp": 999,
+        "abilities": ["NOGUARD"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    },
+    {
+        "base_number": 131,
+        "name": "Mega-Lapras",
+        "type": ["Water", "Ice"],
+        "base_stats": {
+            "hp": 130,
+            "attack": 95,
+            "defense": 100,
+            "speed": 80,
+            "sp_attack": 125,
+            "sp_defense": 105,
+            "total": 635
+        },
+        "base_exp": 999,
+        "abilities": ["PIELHELADA"],
+        "moves": [
+          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+        ],
+        "form": "Mega"
+    }
+  ]
+  
