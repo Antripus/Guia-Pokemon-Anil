@@ -140,26 +140,6 @@
         "form": "Mega"
     },
     {
-        "base_number": 99,
-        "name": "Mega-Kingler",
-        "type": ["Water"],
-        "base_stats": {
-            "hp": 75,
-            "attack": 170,
-            "defense": 135,
-            "speed": 75,
-            "sp_attack": 70,
-            "sp_defense": 70,
-            "total": 595
-        },
-        "base_exp": 999,
-        "abilities": ["TOUGHCLAWS"],
-        "moves": [
-          { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
-        ],
-        "form": "Mega"
-    },
-    {
         "base_number": 849,
         "name": "Mega-Toxtricity",
         "type": ["Electric", "Poison"],
