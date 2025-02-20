@@ -121,7 +121,7 @@ function displayEncounters(zona, pokemonData) {
                     return `
                         <div class="encounter-card">
                             <h3>${pokemon ? pokemon.name : enc.pokemon}</h3>
-                            <a href="/Opalo-pokemon-details.html?name=${enc.pokemon.toLowerCase()}">
+                            <a href="/Opalo-pokemon-details.html?name=${enc.pokemon.toLowerCase()}" target="_blank">
                                 <img src="${pokemonImage}" alt="${enc.pokemon.toLowerCase()}">
                             </a>
                             <p>Nivel: ${enc.min_level} - ${enc.max_level}</p>

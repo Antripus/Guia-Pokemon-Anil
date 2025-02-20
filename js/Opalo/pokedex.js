@@ -48,9 +48,10 @@ function displayPokemon(pokemonData) {
       </div>
     `;
     pokemonItem.addEventListener("click", () => {
-      window.location.href = `Opalo-pokemon-details.html?number=${pokemon.number}`;
+      //window.location.href = `Opalo-pokemon-details.html?number=${pokemon.number}`;
+      window.open(`Opalo-pokemon-details.html?number=${pokemon.number}`, '_blank');
     });
-
+    
     pokemonListElement.appendChild(pokemonItem);
   });
 }

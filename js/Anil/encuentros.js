@@ -205,7 +205,8 @@ const natureTypes = {
                   .concat(Array(6 - trainer.pokemons.length).fill({ name: "noPokemon" }))
                   .slice(0, 6)
                   .map(pokemon => `
-                    <a href="/Anil-pokemon-details.html?name=${pokemon.name}.html">
+                    <a href="/Anil-pokemon-details.html?name=${pokemon.name}.html" target="_blank">
+                    
                     <img src="./images/pokemon/${pokemon.name}.png" alt="${pokemon.name}" >
                     </a>
                   `).join("")}

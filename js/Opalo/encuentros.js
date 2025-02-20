@@ -212,7 +212,7 @@ const natureTypes = {
                     const pokemonDetails = findPokemonByName(pokemon.name, pokemonData);
                     if (pokemonDetails) {
                       return `
-                        <a href="/Opalo-pokemon-details.html?name=${pokemon.name}.html">
+                        <a href="/Opalo-pokemon-details.html?name=${pokemon.name}.html" target="_blank">
                         <img src="./images/Opalo/pokemon/${pokemonDetails.number000}.png" alt="${pokemon.name}" >
                         </a>
                       `;

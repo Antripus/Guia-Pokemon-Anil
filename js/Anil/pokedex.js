@@ -48,9 +48,11 @@ function displayPokemon(pokemonData) {
       </div>
     `;
     pokemonItem.addEventListener("click", () => {
-      window.location.href = `Anil-pokemon-details.html?number=${pokemon.number}`;
+      //window.location.href = `Anil-pokemon-details.html?number=${pokemon.number}`;
+      window.open(`Anil-pokemon-details.html?number=${pokemon.number}`, '_blank');
     });
 
+    
     pokemonListElement.appendChild(pokemonItem);
   });
 }
