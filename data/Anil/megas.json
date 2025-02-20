@@ -558,6 +558,28 @@
         { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
       ],
       "form": "Mega"
+  },
+  {
+    "base_number": 78,
+    "name": "Rapidash-Galar",
+    "type": ["Psychic", "Fairy"],
+    "base_stats": {
+            "hp": 85,
+            "attack": 110,
+            "defense": 70,
+            "speed": 105,
+            "sp_attack": 80,
+            "sp_defense": 80,
+            "total": 530
+        },
+    "base_exp": 175,
+    "abilities": [
+      "PASTELVEIL"
+    ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Galar"
   }
   ]
   

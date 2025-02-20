@@ -223,8 +223,10 @@ function generateTypeInteractionsHTML(pokemon, typesData) {
       ? resistances.map(r => `<p class="type" style="background-color: ${typeColors[capitalizeFirstWord(r)] || "#000"};">${capitalizeFirstWord(r)}</p>`).join("")
       : "<p>Sin resistencias</p>";
 
+  console.log("Tipo de pokemon= "+ pokemon.type + " debilidades: "+ debilidadesHTML)    
   return { debilidadesHTML, inmunidadesHTML, resistenciasHTML };
 }
+
 
 function generateCuadroEstadisticas (base_stats){
 
@@ -276,8 +278,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   const HTMLcuadroEstadisticas = generateCuadroEstadisticas(pokemon.base_stats);
   let HTMLcuadroEstadisticasMega = "";
   let typeHTMLMega = "";
-    
-
+  
 
     //agarro los json de memoria
     const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData"));
@@ -308,6 +309,13 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
 
     //Obterneer las relaciones de tipos  
     const { debilidadesHTML, inmunidadesHTML, resistenciasHTML } = generateTypeInteractionsHTML(pokemon, typesData);
+    const megaInteraction = megaEvolution ? generateTypeInteractionsHTML(megaEvolution, typesData) : { debilidadesHTML: "", inmunidadesHTML: "", resistenciasHTML: "" };
+
+    const debilidadesHTMLMega = megaInteraction.debilidadesHTML;
+    const inmunidadesHTMLMega = megaInteraction.inmunidadesHTML;
+    const resistenciasHTMLMega = megaInteraction.resistenciasHTML;
+
+  console.log("aaaaaaaaaaaaaaaa "+debilidadesHTMLMega);
 
     // Generar pestañas para la mega evolución si existe
 
@@ -330,7 +338,11 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
       typeHTMLMega = megaEvolution.type.map(type =>
         `<p class="type" style="background-color: ${typeColors[type] || "#000"};">${type}</p>`
       ).join("");
+
+      
   }
+
+
 
   pkmGrid.innerHTML = `
     
@@ -369,15 +381,42 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
               <div class="type-interactions">
                   <div class="interaction-category">
                       <h3>Debilidades</h3>
-                      <div class="types">${debilidadesHTML}</div>
+                      <div class="types">
+
+                          <div id="debBase">
+                          ${debilidadesHTML}
+                          </div>
+                          <div id="debMega" class="hidden" >
+                          ${megaEvolution ? debilidadesHTMLMega :""}
+                          </div>
+
+                      </div>
                   </div>
                   <div class="interaction-category">
                       <h3>Inmunidad</h3>
-                      <div class="types">${inmunidadesHTML}</div>
+                      <div class="types">
+
+                          <div id="inmBase">
+                          ${inmunidadesHTML}
+                          </div>
+                          <div id="inmMega" class="hidden" >
+                          ${megaEvolution ? inmunidadesHTMLMega :""}
+                          </div>
+                      
+                      </div>
                   </div>
                   <div class="interaction-category">
                       <h3>Resistencias</h3>
-                      <div class="types">${resistenciasHTML}</div>
+                      <div class="types">
+                      
+                          <div id="resBase">
+                          ${resistenciasHTML}
+                          </div>
+                          <div id="resMega" class="hidden" >
+                          ${megaEvolution ? resistenciasHTMLMega :""}
+                          </div>
+
+                     </div>
                   </div>
               </div>
           </div>
@@ -483,6 +522,15 @@ function switchTab(tabType) {
   const baseType = document.getElementById("typeBase");
   const megaType = document.getElementById("typeMega");
   
+  const baseDeb = document.getElementById("debBase");
+  const megaDeb = document.getElementById("debMega");
+
+  const baseInm = document.getElementById("inmBase");
+  const megaInm = document.getElementById("inmMega");
+
+  const baseRes = document.getElementById("resBase");
+  const megaRes = document.getElementById("resMega");
+  
 
   const botonBase = document.getElementById("buttonBase");
   const botonMega = document.getElementById("buttonMega");
@@ -500,6 +548,16 @@ function switchTab(tabType) {
     baseType.classList.remove("hidden");
     megaType.classList.add("hidden");
 
+    baseDeb.classList.remove("hidden");
+    megaDeb.classList.add("hidden");
+
+    baseInm.classList.remove("hidden");
+    megaInm.classList.add("hidden");
+
+    baseRes.classList.remove("hidden");
+    megaRes.classList.add("hidden");
+
+
     botonMega.classList.remove("active");
     botonBase.classList.add("active");
 
@@ -515,6 +573,17 @@ function switchTab(tabType) {
 
     megaType.classList.remove("hidden");
     baseType.classList.add("hidden");
+
+    megaDeb.classList.remove("hidden");
+    baseDeb.classList.add("hidden");
+
+    megaInm.classList.remove("hidden");
+    baseInm.classList.add("hidden");
+
+    megaRes.classList.remove("hidden");
+    baseRes.classList.add("hidden");
+
+
 
     botonBase.classList.remove("active");
     botonMega.classList.add("active");
