@@ -580,6 +580,834 @@
       { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
     ],
     "form": "Galar"
-  }
+  },
+  {
+    "base_number": 232,
+    "name": "Great Tusk",
+    "type": [
+        "Ground",
+        "Fighting"
+    ],
+    "base_stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 110,
+        "speed": 50,
+        "sp_attack": 60,
+        "sp_defense": 60,
+        "total": 500
+    },
+    "base_exp": 999,
+      "abilities": [
+            "X"
+        ],
+      "moves": [
+        { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+      ],
+      "form": "Regional"
+},
+{
+    "base_number": 225,
+    "name": "Iron Bundle",
+    "type": [
+        "Ice",
+        "Water"
+    ],
+    "base_stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 85,
+        "speed": 120,
+        "sp_attack": 110,
+        "sp_defense": 60,
+        "total": 515
+    },
+    "base_exp": 999,
+      "abilities": [
+            "X"
+        ],
+      "moves": [
+        { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+      ],
+      "form": "Regional"
+},
+{
+    "base_number": 637,
+    "name": "Iron Moth",
+    "type": [
+        "Bug",
+        "Dragon"
+    ],
+    "base_stats": {
+        "hp": 85,
+        "attack": 135,
+        "defense": 105,
+        "speed": 100,
+        "sp_attack": 60,
+        "sp_defense": 65,
+        "total": 550
+    },
+    "base_exp": 999,
+      "abilities": [
+            "X"
+        ],
+      "moves": [
+        { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+      ],
+      "form": "Regional"
+},
+{
+    "base_number": 462,
+    "name": "Sandy Shocks",
+    "type": [
+        "Electric",
+        "Ground"
+    ],
+    "base_stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 80,
+        "speed": 110,
+        "sp_attack": 120,
+        "sp_defense": 85,
+        "total": 535
+    },
+    "base_exp": 999,
+    "abilities": [
+          "X"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 297,
+    "name": "Iron Hands",
+    "type": [
+        "Fighting",
+        "Electric"
+    ],
+    "base_stats": {
+        "hp": 144,
+        "attack": 110,
+        "defense": 90,
+        "speed": 40,
+        "sp_attack": 40,
+        "sp_defense": 50,
+        "total": 474
+    },
+    "base_exp": 999,
+    "abilities": [
+          "X"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 706,
+    "name": "Goodra Hisui",
+    "type": [
+        "Dragon",
+        "Steel"
+    ],
+    "base_stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 100,
+        "speed": 60,
+        "sp_attack": 110,
+        "sp_defense": 150,
+        "total": 600
+    },
+    "base_exp": 999,
+    "abilities": [
+          "SHELLARMOR"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 713,
+    "name": "Avalugg Hisui",
+    "type": [
+        "Ice",
+        "Rock"
+    ],
+    "base_stats": {
+        "hp": 95,
+        "attack": 127,
+        "defense": 184,
+        "speed": 38,
+        "sp_attack": 34,
+        "sp_defense": 36,
+        "total": 514
+    },
+    "base_exp": 999,
+    "abilities": [
+          "ADAPTABILITY"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 628,
+    "name": "Braviary Hisui",
+    "type": [
+        "Psychic",
+        "Flying"
+    ],
+    "base_stats": {
+        "hp": 110,
+        "attack": 83,
+        "defense": 70,
+        "speed": 65,
+        "sp_attack": 112,
+        "sp_defense": 70,
+        "total": 510
+    },
+    "base_exp": 999,
+    "abilities": [
+          "X"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 549,
+    "name": "Lilligant-Hisui",
+    "type": [
+        "Grass",
+        "Fighting"
+    ],
+    "base_stats": {
+        "hp": 70,
+        "attack": 105,
+        "defense": 75,
+        "speed": 105,
+        "sp_attack": 50,
+        "sp_defense": 75,
+        "total": 480
+    },
+    "base_exp": 999,
+    "abilities": [
+          "HUSTLE"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 571,
+    "name": "Zoroark-Hisui",
+    "type": [
+        "Normal",
+        "Ghost"
+    ],
+    "base_stats": {
+        "hp": 60,
+        "attack": 105,
+        "defense": 60,
+        "speed": 105,
+        "sp_attack": 120,
+        "sp_defense": 60,
+        "total": 510
+    },
+    "base_exp": 999,
+    "abilities": [
+          "ILLUSION"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 76,
+    "name": "Golem Alola",
+    "type": [
+        "Rock",
+        "Electric"
+    ],
+    "base_stats": {
+        "hp": 110,
+        "attack": 120,
+        "defense": 130,
+        "speed": 45,
+        "sp_attack": 55,
+        "sp_defense": 65,
+        "total": 525
+    },
+    "base_exp": 999,
+    "abilities": [
+          "PIELELECTRICA"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 103,
+    "name": "Exeggutor Alola",
+    "type": [
+        "Grass",
+        "Dragon"
+    ],
+    "base_stats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 85,
+        "speed": 55,
+        "sp_attack": 125,
+        "sp_defense": 75,
+        "total": 530
+    },
+    "base_exp": 999,
+    "abilities": [
+          "FRISK"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 105,
+    "name": "Marowak Alola",
+    "type": [
+        "Ghost",
+        "Fire"
+    ],
+    "base_stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "speed": 65,
+        "sp_attack": 50,
+        "sp_defense": 80,
+        "total": 445
+    },
+    "base_exp": 999,
+    "abilities": [
+          "ROCKHEAD"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 110,
+    "name": "Weezing Galar",
+    "type": [
+        "Poison",
+        "Fairy"
+    ],
+    "base_stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "speed": 60,
+        "sp_attack": 95,
+        "sp_defense": 70,
+        "total": 500
+    },
+    "base_exp": 999,
+    "abilities": [
+          "MISTYSURGE"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 555,
+    "name": "Darmanitan Galar",
+    "type": [
+        "Fire",
+        "Ice"
+    ],
+    "base_stats": {
+        "hp": 105,
+        "attack": 140,
+        "defense": 55,
+        "speed": 95,
+        "sp_attack": 30,
+        "sp_defense": 55,
+        "total": 480
+    },
+    "base_exp": 999,
+    "abilities": [
+          "ADAPTABILITY"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 80,
+    "name": "Slowbro Galar",
+    "type": [
+        "Psychic",
+        "Poison"
+    ],
+    "base_stats": {
+        "hp": 95,
+        "attack": 65,
+        "defense": 80,
+        "speed": 30,
+        "sp_attack": 110,
+        "sp_defense": 110,
+        "total": 490
+    },
+    "base_exp": 999,
+    "abilities": [
+          "MEGALAUNCHER"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 199,
+    "name": "Slowking Galar",
+    "type": [
+        "Psychic",
+        "Poison"
+    ],
+    "base_stats": {
+        "hp": 95,
+        "attack": 65,
+        "defense": 80,
+        "speed": 30,
+        "sp_attack": 110,
+        "sp_defense": 110,
+        "total": 490
+    },
+    "base_exp": 999,
+    "abilities": [
+          "ESPANTO"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 20,
+    "name": "Raticate Alola",
+    "type": [
+        "Normal",
+        "Dark"
+    ],
+    "base_stats": {
+        "hp": 75,
+        "attack": 71,
+        "defense": 70,
+        "speed": 77,
+        "sp_attack": 40,
+        "sp_defense": 80,
+        "total": 413
+    },
+    "base_exp": 999,
+    "abilities": [
+          "X"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 51,
+    "name": "Wugtrio",
+    "type": [
+        "Water",
+        "Ground"
+    ],
+    "base_stats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 60,
+        "speed": 110,
+        "sp_attack": 50,
+        "sp_defense": 70,
+        "total": 425
+    },
+    "base_exp": 999,
+    "abilities": [
+          "LIMBER",
+          "TECHNICIAN"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 53,
+    "name": "Persian Alola",
+    "type": [
+        "Dark",
+        "Normal"
+    ],
+    "base_stats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 60,
+        "speed": 115,
+        "sp_attack": 75,
+        "sp_defense": 65,
+        "total": 440
+    },
+    "base_exp": 999,
+    "abilities": [
+          "FURCOAT",
+          "TECHNICIAN",
+          "RATTLED"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 59,
+    "name": "Arcanine Hisui",
+    "type": [
+        "Fire",
+        "Rock"
+    ],
+    "base_stats": {
+        "hp": 95,
+        "attack": 115,
+        "defense": 80,
+        "speed": 90,
+        "sp_attack": 95,
+        "sp_defense": 80,
+        "total": 555
+    },
+    "base_exp": 999,
+    "abilities": [
+          "ROCKHEAD"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 101,
+    "name": "Electrode Hisui",
+    "type": [
+        "Electric",
+        "Grass"
+    ],
+    "base_stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "speed": 150,
+        "sp_attack": 80,
+        "sp_defense": 80,
+        "total": 490
+    },
+    "base_exp": 999,
+    "abilities": [
+          "GRASSYSURGE"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 73,
+    "name": "Tentacruel Paldea",
+    "type": [
+        "Grass",
+        "Ground"
+    ],
+    "base_stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "speed": 100,
+        "sp_attack": 80,
+        "sp_defense": 120,
+        "total": 515
+    },
+    "base_exp": 999,
+    "abilities": [
+          "GRASSYSURGE"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 128,
+    "name": "Tauros Paldea",
+    "type": [
+        "Fighting",
+        "Normal"
+    ],
+    "base_stats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 105,
+        "speed": 100,
+        "sp_attack": 30,
+        "sp_defense": 70,
+        "total": 490
+    },
+    "base_exp": 999,
+    "abilities": [
+          "X"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 157,
+    "name": "Typhlosion Hisui",
+    "type": [
+        "Fire",
+        "Ghost"
+    ],
+    "base_stats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "speed": 100,
+        "sp_attack": 109,
+        "sp_defense": 85,
+        "total": 534
+    },
+    "base_exp": 999,
+    "abilities": [
+          "BERSERK"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 724,
+    "name": "Decidueye Hisui",
+    "type": [
+        "Grass",
+        "Fighting"
+    ],
+    "base_stats": {
+        "hp": 88,
+        "attack": 112,
+        "defense": 90,
+        "speed": 60,
+        "sp_attack": 85,
+        "sp_defense": 95,
+        "total": 530
+    },
+    "base_exp": 999,
+    "abilities": [
+          "SCRAPPY"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 503,
+    "name": "Samurott Hisui",
+    "type": [
+        "Water",
+        "Dark"
+    ],
+    "base_stats": {
+        "hp": 90,
+        "attack": 118,
+        "defense": 80,
+        "speed": 85,
+        "sp_attack": 90,
+        "sp_defense": 65,
+        "total": 528
+    },
+    "base_exp": 999,
+    "abilities": [
+          "CORTANTE"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 618,
+    "name": "Stunfisk Galar",
+    "type": [
+        "Ground",
+        "Steel"
+    ],
+    "base_stats": {
+        "hp": 109,
+        "attack": 81,
+        "defense": 99,
+        "speed": 32,
+        "sp_attack": 66,
+        "sp_defense": 84,
+        "total": 471
+    },
+    "base_exp": 999,
+    "abilities": [
+          "IRONBARBS"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 89,
+    "name": "Muk Alola",
+    "type": [
+        "Poison",
+        "Dark"
+    ],
+    "base_stats": {
+        "hp": 105,
+        "attack": 105,
+        "defense": 75,
+        "speed": 50,
+        "sp_attack": 65,
+        "sp_defense": 100,
+        "total": 500
+    },
+    "base_exp": 999,
+    "abilities": [
+          "GLUTTONY"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 26,
+    "name": "Raichu Alola",
+    "type": [
+        "Electric",
+        "Psychic"
+    ],
+    "base_stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "speed": 100,
+        "sp_attack": 90,
+        "sp_defense": 80,
+        "total": 475
+    },
+    "base_exp": 999,
+    "abilities": [
+          "PSYCHICSURGE"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 28,
+    "name": "Sandlash Alola",
+    "type": [
+        "Ice",
+        "Steel"
+    ],
+    "base_stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "speed": 90,
+        "sp_attack": 45,
+        "sp_defense": 55,
+        "total": 475
+    },
+    "base_exp": 999,
+    "abilities": [
+          "SLUSHRUSH"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 38,
+    "name": "Ninetales Alola",
+    "type": [
+        "Ice",
+        "Fairy"
+    ],
+    "base_stats": {
+        "hp": 73,
+        "attack": 67,
+        "defense": 75,
+        "speed": 100,
+        "sp_attack": 100,
+        "sp_defense": 100,
+        "total": 515
+    },
+    "base_exp": 999,
+    "abilities": [
+          "SNOWWARNING"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Regional"
+},
+{
+    "base_number": 658,
+    "name": "Mega-Greninja",
+    "type": [
+        "Water",
+        "Dark"
+    ],
+    "base_stats": {
+        "hp": 72,
+        "attack": 145,
+        "defense": 67,
+        "speed": 132,
+        "sp_attack": 153, 
+        "sp_defense": 71,
+        "total": 640
+    },
+    "base_exp": 999,
+    "abilities": [
+          "PROTEAN"
+      ],
+    "moves": [
+      { "level": 1, "move": "No hay detalles de los movimientos por ahora" }
+    ],
+    "form": "Mega"
+}
   ]
   
