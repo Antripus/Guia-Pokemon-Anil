@@ -658,6 +658,17 @@ align-items: center;
 
   #eggMoves{
     grid-row: 5/6;
+    grid-column: 2/3;
+    display: flex;
+    margin: 15px;
+    align-items:start;
+    padding: 10px 30px;
+    border-bottom: 2px solid #aaa;
+    justify-content: center;
+  }
+
+  #TMsMoves{
+    grid-row: 5/6;
     grid-column: 1/2;
     display: flex;
     margin: 15px;

@@ -269,6 +269,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
 
     const eggsMovesHTML = generateEggsMovesHTML(pokemon, movesData);
 
+    const TMsMovesHTML = generateTMsMovesHTML(pokemon, movesData);
     
     //Obtener ubicaciones
     const ubicacionesHTML = generateUbicacionHTML(pokemon.name, encountersData);
@@ -394,6 +395,9 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
       ${eggsMovesHTML}  
     </div> 
     
+    <div id="TMsMoves">
+      ${TMsMovesHTML}  
+    </div> 
     
 
 
@@ -680,7 +684,7 @@ function generateMovesHTML(pokemonDetails, movesData) {
     <div class="listMoves">
       <h2>Lista de Movimientos</h2>
       <div id="moves-container">
-        <table class="moves-table">
+        <table id="general-moves-table" class="moves-table">
           <thead>
             <tr>
               <th data-sort="level">Nivel</th>
@@ -749,9 +753,9 @@ function generateEggsMovesHTML(pokemonDetails, movesData) {
   // Crear el contenedor principal de la lista con un encabezado
   let listMovesHTML = `
     <div class="listMoves">
-      <h2>Movimientos de Huevo</h2>
+      <h2>Movimientos Huevo</h2>
       <div id="moves-container">
-        <table class="moves-table">
+        <table id="egg-moves-table" class="moves-table">
           <thead>
             <tr>
               <th data-sort="eggType">Tipo</th>
@@ -761,7 +765,7 @@ function generateEggsMovesHTML(pokemonDetails, movesData) {
               <th data-sort="eggAccuracy">Precisión</th>
             </tr>
           </thead>
-          <tbody id="moves-tbody2">
+          <tbody id="egg-moves-tbody">
   `;
 
   // Verificar si hay movimientos en el Pokémon
@@ -771,6 +775,75 @@ function generateEggsMovesHTML(pokemonDetails, movesData) {
 
     // Generar filas para cada movimiento
     eggMoves.forEach((move) => {
+      if (move) {
+        const moveDetails = movesData.find(
+          m => m.name_en && m.name_en.toLowerCase() === move.toLowerCase()
+        );
+
+        if (moveDetails) {
+          listMovesHTML += `
+            <tr>
+              <td><img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type} Type" class="type-icon"></td>
+              <td>
+                <p class="move-tooltip" data-description="${moveDetails.description}">
+                  ${moveDetails.name_es}
+                </p>
+              </td>
+              <td><img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category} Move" class="category-icon"></td>
+              <td>${moveDetails.power || 'N/A'}</td>
+              <td>${moveDetails.accuracy || 'N/A'}</td>
+            </tr>
+          `;
+        } else {
+          listMovesHTML += `
+            <tr>
+              <td colspan="5">Detalles no disponibles para el movimiento ${move}</td>
+            </tr>
+          `;
+        }
+      }
+    });
+  } else {
+    listMovesHTML += `<tr><td colspan="5">No hay movimientos disponibles para este Pokémon.</td></tr>`;
+  }
+
+  // Cerrar la tabla y contenedor
+  listMovesHTML += `
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+
+  return listMovesHTML;
+}
+
+function generateTMsMovesHTML(pokemonDetails, movesData) {
+  // Crear el contenedor principal de la lista con un encabezado
+  let listMovesHTML = `
+    <div class="listMoves">
+      <h2>Movimientos MT</h2>
+      <div id="moves-container">
+        <table id= "TM-moves-table" class="moves-table">
+          <thead>
+            <tr>
+              <th data-sort="TMType">Tipo</th>
+              <th data-sort="TMName">Nombre</th>
+              <th data-sort="TMCategory">Categoría</th>
+              <th data-sort="TMPower">Poder</th>
+              <th data-sort="TMAccuracy">Precisión</th>
+            </tr>
+          </thead>
+          <tbody id="TM-moves-tbody">
+  `;
+
+  // Verificar si hay movimientos en el Pokémon
+  if (pokemonDetails && pokemonDetails.TM_moves) {
+    // Ordenar los movimientos por nombre
+    const TMMoves = pokemonDetails.TM_moves.sort((a, b) => a.localeCompare(b));
+
+    // Generar filas para cada movimiento
+    TMMoves.forEach((move) => {
       if (move) {
         const moveDetails = movesData.find(
           m => m.name_en && m.name_en.toLowerCase() === move.toLowerCase()
@@ -852,14 +925,66 @@ function sortTable(tbodyId, column, order) {
   sortedRows.forEach(row => tbody.appendChild(row));
 }
 
+function sortTable2(tbodyId, column, order) { //For eggs and TM table
+  const tbody = document.getElementById(tbodyId);
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+
+  const getCellValue = (row, column) => {
+    const cell = row.children[column];
+    if (cell) {
+      if (column === 0 || column === 2) {
+        return cell.querySelector('img').alt;
+      } else if (column === 3 || column === 4) {
+        return cell.textContent === 'N/A' ? 0 : parseInt(cell.textContent, 10);
+      } else {
+        return cell.textContent;
+      }
+    }
+    return '';
+  };
+
+  const sortedRows = rows.sort((a, b) => {
+    const aValue = getCellValue(a, column);
+    const bValue = getCellValue(b, column);
+
+    if (aValue < bValue) {
+      return order === 'asc' ? -1 : 1;
+    }
+    if (aValue > bValue) {
+      return order === 'asc' ? 1 : -1;
+    }
+    return 0;
+  });
+
+  tbody.innerHTML = '';
+  sortedRows.forEach(row => tbody.appendChild(row));
+}
+
 // Agregar manejadores de eventos para ordenar las columnas
 document.addEventListener('click', (event) => {
+  // Verifica si el clic fue en un <th> dentro de alguna tabla específica
   if (event.target.tagName === 'TH' && event.target.dataset.sort) {
-    const column = Array.from(event.target.parentNode.children).indexOf(event.target);
-    const order = event.target.dataset.order === 'asc' ? 'desc' : 'asc';
-    event.target.dataset.order = order;
-    const tbodyId = event.target.closest('table').querySelector('tbody').id;
-    sortTable(tbodyId, column, order);
+    const table = event.target.closest('table');
+    const validTables = ['egg-moves-table', 'TM-moves-table', 'general-moves-table'];
+
+    // Revisa si la tabla tiene un ID válido
+    if (table && validTables.includes(table.id)) {
+      const column = Array.from(event.target.parentNode.children).indexOf(event.target);
+      const order = event.target.dataset.order === 'asc' ? 'desc' : 'asc';
+      event.target.dataset.order = order;
+      const tbodyId = table.querySelector('tbody').id;
+
+      console.log(tbodyId);
+      console.log(table.id + " " + validTables);
+      // Llama a la función de ordenamiento con el tbody correspondiente
+      if (table.id === "general-moves-table"){
+        sortTable(tbodyId, column, order);
+      }else{
+        sortTable2(tbodyId, column, order);
+      }
+      
+      
+    }
   }
 });
 
