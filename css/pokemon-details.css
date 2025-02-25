@@ -163,14 +163,15 @@ body {
  
   #floating-description {
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.9);
-        border: 1px solid #ddd;
+        background-color: #1e1e2f;
+        border: 1px solid black;
         padding: 10px;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         pointer-events: none;
         z-index: 1000;
         display: none; /* Asegúrate de ocultarlo inicialmente */
+        color: white;
       }
         
         #floating-description.hidden {
@@ -180,14 +181,15 @@ body {
  /*-------------Moves Description-------------------------------*/   
         #floating-description-moves {
           position: absolute;
-          background-color: rgba(255, 255, 255, 0.9);
-          border: 1px solid #ddd;
+          background-color: #1e1e2f;
+          border: 1px solid black;
           padding: 10px;
           border-radius: 5px;
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
           pointer-events: none;
           z-index: 1000;
           display: none; /* Asegúrate de ocultarlo inicialmente */
+          color: white;
         }
           
           #floating-description-moves.hidden {

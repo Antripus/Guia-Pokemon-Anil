@@ -144,15 +144,6 @@ async function loadPokemonDetails() {
     return number;
   }
 
-function chequearLeftAndRight(pokemonNumber) {
-  if (pokemonNumber < 1) {
-    return 1;
-  } else if (pokemonNumber > 1004) {
-    return 1004;
-  }
-  return pokemonNumber;
-}
-
 function capitalizeFirstWord(str) {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
@@ -259,12 +250,13 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   const encountersData = JSON.parse(sessionStorage.getItem("encountersData"));
   const movesData = JSON.parse(sessionStorage.getItem("movesData"));
   const typesData = JSON.parse(sessionStorage.getItem("typesData"));
+
     if (!typesData) {
         console.error("typesData no está disponible. Verifica la carga del archivo.");
         return { debilidadesHTML: "<p>Error cargando datos</p>", inmunidadesHTML: "<p>Error cargando datos</p>", resistenciasHTML: "<p>Error cargando datos</p>" };
     }
       
-    //Obtener ubicaciones
+    //Obtener Movimientos
     const movesHTML = generateMovesHTML(pokemon, movesData);
 
     const eggsMovesHTML = generateEggsMovesHTML(pokemon, movesData);

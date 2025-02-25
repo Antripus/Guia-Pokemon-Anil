@@ -143,7 +143,7 @@ function displayEncounters(zona) {
                 <div class="encounter-card">
                     <h3>${pokemon.name}</h3>
                     
-                    <a href="/Opalo-pokemon-details.html?name=${enc.pokemon.toLowerCase()}" target="_blank">
+                    <a href="/Anil-pokemon-details.html?name=${enc.pokemon.toLowerCase()}" target="_blank">
                         <img src="${pokemonImage}" alt="${enc.pokemon.toLowerCase()}">
                     </a>
                     

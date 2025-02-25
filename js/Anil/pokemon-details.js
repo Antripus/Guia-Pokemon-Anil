@@ -82,7 +82,7 @@ async function loadPokemonDetails() {
 
     // Asegurarse de que los números están en rango
     preNumber = checkNumberBounds(preNumber, pokemonData.length);
-    postNumber = checkNumberBounds(postNumber, pokemonData.length);
+    postNumber = checkNumberBounds(postNumber, 1004);//pokemonData.length);
 
     const prePokemon = pokemonData.find(p => p.number === preNumber);
     const postPokemon = pokemonData.find(p => p.number === postNumber);
@@ -156,14 +156,6 @@ async function loadPokemonDetails() {
     return number;
   }
 
-function chequearLeftAndRight(pokemonNumber) {
-  if (pokemonNumber < 1) {
-    return 1;
-  } else if (pokemonNumber > 1004) {
-    return 1004;
-  }
-  return pokemonNumber;
-}
 
 function capitalizeFirstWord(str) {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
