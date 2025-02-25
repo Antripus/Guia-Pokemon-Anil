@@ -974,8 +974,8 @@ document.addEventListener('click', (event) => {
       event.target.dataset.order = order;
       const tbodyId = table.querySelector('tbody').id;
 
-      console.log(tbodyId);
-      console.log(table.id + " " + validTables);
+      //console.log(tbodyId);
+      //console.log(table.id + " " + validTables);
       // Llama a la función de ordenamiento con el tbody correspondiente
       if (table.id === "general-moves-table"){
         sortTable(tbodyId, column, order);
