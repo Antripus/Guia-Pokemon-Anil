@@ -1,214 +1,168 @@
   
   /*----------------------------------------------------*/
-  
-  #trainer-details {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    align-content: center;
-    border: 1px solid black;
-    
-  }
-  
-  .trainer-card {
-    background-color: #153f7a; /*fff*/
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    text-align: center;
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Define el ancho: 1/4, 2/4, 1/4 */
-    
-  }
 
-.trainer1 {
-  padding: 5px;
-  grid-column: 1; /* Primera columna */
+/*new style trainer-card*/
 
-  color: #000000;  
-  border-radius: 10px;
-  border: 1px solid black;
-  background-color: #fff;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Paleta moderna */
+:root {
+  --primary-bg: #1f2937;
+  --secondary-bg: #374151;
+  --accent: #3b82f6;
+  --success: #10b981;
+  --text-light: #f9fafb;
+  --text-muted: #9ca3af;
+  --card-border: #4b5563;
 }
 
-.trainer1 h2{
-  margin: 5px;
+body {
+  font-family: 'Segoe UI', sans-serif;
 }
+
+/* Contenedor principal */
+.trainer-card {
+  background-color: var(--primary-bg);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 15px;
+  color: var(--text-light);
+  transition: transform 0.2s ease;
+}
+
+.pokemon-card:hover  {
+  transform: scale(1.01);
+}
+.trainer-card:hover {
+  transform: scale(1.01);
+}
+
+/* Tarjeta lateral izquierda */
+.trainer1, .trainer2 {
+  background-color: var(--secondary-bg);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.trainer1 h2,
+.trainer2 h3,
+.trainer2 h2 {
+  margin: 10px 0;
+  font-weight: 600;
+}
+
 .trainer-img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  margin: 10px 0;
 }
 
-.trainer1 .tipo{
-  background-color: #79aaff;
-  text-align: center;
-  padding: 5px;
-  color: #fff;
-  border-radius: 10px;
-  margin: 5px;
-  border: black solid 1px;
+/* Etiquetas */
+.tipo,
+.Tipo-Combate {
+  padding: 6px 12px;
+  border-radius: 999px;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9em;
+  display: inline-block;
+  margin: 5px 0;
 }
 
-.trainer1 .Tipo-Combate{
-  background-color: #37de82;
-  text-align: center;
-  padding: 5px;
-  color: #fff;
-  border-radius: 10px;
-  margin: 5px;
-  border: black solid 1px;
+.tipo {
+  background-color: var(--accent);
 }
-Tipo-Combate
-.trainer1 .pokeballIMG {
-  width: 30px; /* Define el ancho de la imagen */
-  height: 30px; /* Define la altura de la imagen */
-  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
-  margin-right: 0px;
+
+.Tipo-Combate {
+  background-color: var(--success);
+}
+
+.pokeballIMG {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
   border-radius: 50%;
 }
 
+/* Centro */
 .trainer2 {
-  padding: 10px;
-  margin: 10px;
-  color: #000000;  
-  border-radius: 10px;
-  border: 1px solid black;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  
-}
-
-
-
-.trainer2 .pokeballIMG {
-  width: 30px; /* Define el ancho de la imagen */
-  height: 30px; /* Define la altura de la imagen */
-  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
-  margin-right: 0px;
-  border-radius: 50%;
+  justify-content: space-between;
 }
 
 .header {
   display: flex;
-  justify-content: space-between; /* Espacio entre los elementos */
-  width: 100%; /* Asegura que ocupe todo el ancho */
-  align-items: center; /* Centra verticalmente */
-}
-
-.orden {
-  text-align: left; /* Alinea a la izquierda */
-  margin: 0; /* Elimina margen */
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nombre-entrenador {
-  text-align: center; /* Centra el nombre del entrenador */
-
+  text-align: left;
+  font-size: 1.1em;
 }
 
-.objCurativo {
-  display: flex; /* Activa Flexbox */
-  align-items:center; /* Alinea verticalmente al centro */
-  padding: 5px;
-  gap: 5px; /* Espacio entre la imagen y el texto */
-  
-}
-
-.objCurativo h3 {
-  margin: 0; /* Elimina el margen por defecto del h3 */
-  font-size: 18px; /* Ajusta el tamaño del texto */
-}
-
+.objCurativo,
 .cantPokemon {
-  display: flex; /* Activa Flexbox */
-  align-items: center; /* Alinea verticalmente al centro */
-  justify-content: flex-end; /* Alinea a la derecha */
-  padding: 5px;
-  gap: 5px; /* Espacio entre la imagen y el texto */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
 }
 
+.objCurativo h3,
 .cantPokemon h3 {
-  margin: 0; /* Elimina el margen por defecto del h3 */
-  font-size: 18px; /* Ajusta el tamaño del texto */
+  margin: 0;
+  font-size: 1.5em;
+  color: var(--text-light);
 }
 
 .ubicacion {
-  text-align: center; /* Centra la ubicación */
-  font-weight: bold; /* Resalta el texto */
-  margin: 15px; /* Espacio superior e inferior */
-  padding: 15px;
-  border: 1px solid black;
-  border-radius: 20px;
-  display: grid;
-  grid-template-columns: 1fr; /* 3 columnas de 80px */
-
-  justify-content: center; /* Centra todo el grid */
-  align-content: center; /* Alinea verticalmente */
-  
-}
-
-
-.battle-type {
-  background-color: #6c5ce7;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-
-/* Tipos con colores para las clases*/
-.type {
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 0 5px;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
   text-align: center;
-  border: 1px solid black;
+  padding: 12px;
+  background-color: #111827;
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  font-weight: bold;
+  margin-top: 20px;
 }
 
+/* Tarjeta derecha: pokémones */
 .trainer3 {
-  grid-column: 3; 
-  
-  gap: 10px; /* Espacio entre las imágenes */
-  justify-content: center; /* Centra todo el grid */
-  align-content: center; /* Alinea verticalmente */
-
-  margin: 0 auto; /* Centrado horizontal */
- 
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .resumenPokemon {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas de 80px */
-  gap: 10px; /* Espacio entre las imágenes */
-  justify-content: center; /* Centra todo el grid */
-  align-content: center; /* Alinea verticalmente */
-  margin: 0 auto; /* Centrado horizontal */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .resumenPokemon img {
   width: 70px;
   height: 70px;
-  border-radius: 20%; /* Hace la imagen redonda */
+  border-radius: 20%;
   object-fit: cover;
-  background-color: #f2f2f2;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border: black solid 1px;
+  background-color: #f3f4f6;
+  border: 2px solid var(--accent);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resumenPokemon img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px var(--accent);
 }
 
 
-
-
-
+/**/
 
 
 /* lista de pokemon a la izquierda de la pantalla*/

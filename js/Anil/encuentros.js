@@ -175,7 +175,7 @@ const natureTypes = {
         trainerSection.innerHTML = `
           <div class="trainer-card"> 
             <div class="trainer1"> 
-              <h2 class="orden">${trainer.Orden}</h2>
+              
               <img src="./images/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-img">  
               <h2>${trainer.name} </h2>
               <div class="tipo">${trainer.tipo}</div> <!-- Obligatorio u opcional --> 
@@ -184,7 +184,7 @@ const natureTypes = {
 
       <div class="trainer2">
           <div class="header">
-    
+              <h2 class="orden">${trainer.Orden}</h2>
               <h3 class="nombre-entrenador">${trainer.descripcion_de_entrenador}</h3>
               <div class="cantPokemon">
                   <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG">
