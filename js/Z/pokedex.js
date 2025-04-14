@@ -55,6 +55,37 @@ function displayPokemon(pokemonData) {
   });
 }
 
+/* --------para contar cuantos pokemon se muestran------------
+
+function displayPokemon(pokemonData) {
+  pokemonListElement.innerHTML = "";
+  let counter = 1; // Inicia contador en 1
+
+  pokemonData.forEach((pokemon) => {
+    const pokemonItem = document.createElement("div");
+    pokemonItem.classList.add("pokemon-item");
+
+    // Puedes personalizar cómo se ve el contador aquí
+    pokemonItem.innerHTML = `
+      <div class="pokemon-counter">#${counter}</div>
+      <img src="./images/Z/pokemon/${pokemon.number000}.png" alt="${pokemon.name}" loading="lazy">
+      <span>${pokemon.number}</span>
+      <span>${pokemon.name}</span>
+      <div class="types">
+        ${pokemon.type.map(type => `<span class="type" style="background-color: ${typeColors[type]};">${type}</span>`).join(' ')}
+      </div>
+    `;
+
+    pokemonItem.addEventListener("click", () => {
+      window.open(`Z-pokemon-details.html?number=${pokemon.number}`, '_blank');
+    });
+
+    pokemonListElement.appendChild(pokemonItem);
+    counter++; // Incrementa el contador para el próximo Pokémon
+  });
+}
+*/
+
 // Función de búsqueda
 function searchPokemon() {
   const searchQuery = document.getElementById("search-bar").value.toLowerCase();

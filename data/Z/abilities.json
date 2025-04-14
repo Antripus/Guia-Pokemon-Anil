@@ -735,7 +735,7 @@
         "id": 123,
         "name_en": "BADDREAMS",
         "name_es": "Mal Sueño",
-        "description": "Reduce los PS de cualquier rival que esté dormido al final de cada turno."
+        "description": "Reduce 1/6 los PS del rival que esté dormido al final de cada turno."
     },
     {
         "id": 124,
@@ -825,7 +825,7 @@
         "id": 138,
         "name_en": "FLAREBOOST",
         "name_es": "Ímpetu Ardiente",
-        "description": "Sube la velocidad si esta quemado."
+        "description": "Sube el Ataque Especial si esta quemado."
     },
     {
         "id": 139,
@@ -1245,7 +1245,7 @@
         "id": 208,
         "name_en": "PENETRANTE",
         "name_es": "Penetrante",
-        "description": "Los movs. punzantes de alta probabilidad de crítico tienen un 20% de hacer retroceder."
+        "description": "Los movs. punzantes de alta probabilidad de crítico tienen un 30% de hacer retroceder."
     },
     {
         "id": 209,
@@ -1399,9 +1399,9 @@
     },
     {
         "id": 234,
-        "name_en": "ALTALCURNIA",
-        "name_es": "Alta Alcurnia",
-        "description": "Cuando su salud está por encima del 75% adquiere una forma noble que aumenta mucho su Evasión."
+        "name_en": "FORMAILUSORIA",
+        "name_es": "Forma Ilusoria",
+        "description": "Cuando su salud está por encima del 75% adquiere una forma que aumenta mucho su Evasión."
     },
     {
         "id": 235,
@@ -1414,5 +1414,95 @@
         "name_en": "PRESENCIARARA",
         "name_es": "Presencia Rara",
         "description": "Aplica Espacio Raro cuando sale a combatir."
+    },
+    {
+        "id": 237,
+        "name_en": "BRUTALIDAD",
+        "name_es": "Brutalidad",
+        "description": "Los ataques de contacto pueden aplicar Hemorragia (el objetivo tendrá el doble de prob. de recibir golpes críticos)."
+    },
+    {
+        "id": 238,
+        "name_en": "VOZVALQUIRIA",
+        "name_es": "Voz de Valquiria",
+        "description": "Los movs. de sonido pasan a ser de tipo Hielo y tienen un 30% de hacer retroceder."
+    },
+    {
+        "id": 239,
+        "name_en": "GRANPESADILLA",
+        "name_es": "Gran Pesadilla",
+        "description": "Reduce 1/4 los PS del rival que esté dormido al final de cada turno."
+    },
+    {
+        "id": 240,
+        "name_en": "GOODASGOLD",
+        "name_es": "Cuerpo Áureo",
+        "description": "No es afectado por ataques de estado."
+    },
+    {
+        "id": 241,
+        "name_en": "PURIFYINGSALT",
+        "name_es": "Sal Purificadora",
+        "description": "Evita estados alterados y reduce a la mitad el daño del Tipo fantasma."
+    },
+    {
+        "id": 242,
+        "name_en": "NEUTRALIZINGGAS",
+        "name_es": "Gas Reactivo",
+        "description": "Anula las habilidades de todos los Pokémon."
+    },
+    {
+        "id": 243,
+        "name_en": "SURGESURFER",
+        "name_es": "Cola Surf",
+        "description": "Duplica la Velocidad en terreno eléctrico."
+    },
+    {
+        "id": 244,
+        "name_en": "INNARDSOUT",
+        "name_es": "Revés",
+        "description": "Al caer debilitado"
+    },
+    {
+        "id": 245,
+        "name_en": "WINDRIDER",
+        "name_es": "Surcavientos",
+        "description": "Si recibe un ataque de viento/tormenta su ataque sube 1 nivel."
+    },
+    {
+        "id": 246,
+        "name_en": "WINDPOWER",
+        "name_es": "Energía Eólica",
+        "description": "Si recibe un ataque de viento/tormenta se carga con energía eléctrica."
+    },
+    {
+        "id": 247,
+        "name_en": "POISONPUPPETEER",
+        "name_es": "Títere Tóxico",
+        "description": "Si envenena al rival también lo confunde."
+    },
+    {
+        "id": 248,
+        "name_en": "FAIRYAURA",
+        "name_es": "Aura Feérica",
+        "description": "Aumenta el daño de tipo Hada un 30%."
+    },
+    {
+        "id": 249,
+        "name_en": "DARKAURA",
+        "name_es": "Aura Oscura",
+        "description": "Aumenta el daño de tipo Siniestro un 30%."
+    },
+    {
+        "id": 250,
+        "name_en": "AURADORADA",
+        "name_es": "Aura Dorada",
+        "description": "Aumenta el daño de tipo Eléctrico un 30%."
+    },
+    {
+        "id": 251,
+        "name_en": "AURABREAK",
+        "name_es": "Rompeaura",
+        "description": "Invierte los efectos de habilidades de aura."
     }
 ]

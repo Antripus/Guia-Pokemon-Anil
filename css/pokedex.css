@@ -135,3 +135,12 @@ body {
         transition: background-color .1s ease-in-out;
         background-color: aquamarine;
     }
+
+
+    .pokemon-counter {
+      font-weight: bold;
+      color: #999;
+      font-size: 0.8em;
+      margin-bottom: 5px;
+    }
+    

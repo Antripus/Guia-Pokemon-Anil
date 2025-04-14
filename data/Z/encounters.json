@@ -209,12 +209,12 @@
         "encounters": {
             "Land": [
                 {
-                    "pokemon": "SKIDDO",
+                    "pokemon": "FIDOUGH",
                     "min_level": 5,
                     "max_level": 8
                 },
                 {
-                    "pokemon": "LITLEO",
+                    "pokemon": "BLITZLE",
                     "min_level": 5,
                     "max_level": 8
                 },
@@ -229,7 +229,7 @@
                     "max_level": 8
                 },
                 {
-                    "pokemon": "PIDGEY",
+                    "pokemon": "SWABLU",
                     "min_level": 5,
                     "max_level": 8
                 },
@@ -274,7 +274,7 @@
                     "max_level": 10
                 },
                 {
-                    "pokemon": "WHISMUR",
+                    "pokemon": "CLEFAIRY",
                     "min_level": 7,
                     "max_level": 10
                 },
@@ -309,7 +309,7 @@
                     "max_level": 10
                 },
                 {
-                    "pokemon": "ROGGENROLA",
+                    "pokemon": "DRILBUR",
                     "min_level": 7,
                     "max_level": 10
                 },
@@ -437,7 +437,7 @@
         "encounters": {
             "Land": [
                 {
-                    "pokemon": "DROWZEE",
+                    "pokemon": "MORELULL",
                     "min_level": 9,
                     "max_level": 12
                 },
@@ -452,7 +452,7 @@
                     "max_level": 12
                 },
                 {
-                    "pokemon": "HOOTHOOT",
+                    "pokemon": "FLITTLE",
                     "min_level": 9,
                     "max_level": 12
                 },
@@ -628,7 +628,7 @@
                     "max_level": 17
                 },
                 {
-                    "pokemon": "NYMBLE",
+                    "pokemon": "SPIDOPS",
                     "min_level": 15,
                     "max_level": 17
                 },
@@ -693,6 +693,11 @@
                     "max_level": 18
                 },
                 {
+                    "pokemon": "PANCHAM",
+                    "min_level": 16,
+                    "max_level": 18
+                },
+                {
                     "pokemon": "LILLIPUP",
                     "min_level": 16,
                     "max_level": 18
@@ -716,17 +721,22 @@
                     "max_level": 19
                 },
                 {
-                    "pokemon": "GRUBBIN",
+                    "pokemon": "NATU",
                     "min_level": 17,
                     "max_level": 19
                 },
                 {
-                    "pokemon": "SANDSHREW",
+                    "pokemon": "TOXEL",
                     "min_level": 17,
                     "max_level": 19
                 },
                 {
-                    "pokemon": "TANGELA",
+                    "pokemon": "SUNKERN",
+                    "min_level": 17,
+                    "max_level": 19
+                },
+                {
+                    "pokemon": "SUNFLORA",
                     "min_level": 17,
                     "max_level": 19
                 },
@@ -826,6 +836,11 @@
                     "max_level": 21
                 },
                 {
+                    "pokemon": "STANTLER",
+                    "min_level": 19,
+                    "max_level": 21
+                },
+                {
                     "pokemon": "FARFETCHD",
                     "min_level": 19,
                     "max_level": 21
@@ -881,12 +896,12 @@
                     "max_level": 22
                 },
                 {
-                    "pokemon": "MRMIME",
+                    "pokemon": "MIMEJR",
                     "min_level": 20,
                     "max_level": 22
                 },
                 {
-                    "pokemon": "SMEARGLE",
+                    "pokemon": "MRMIME",
                     "min_level": 20,
                     "max_level": 22
                 }
@@ -959,12 +974,7 @@
                     "max_level": 24
                 },
                 {
-                    "pokemon": "PURRLOIN",
-                    "min_level": 22,
-                    "max_level": 24
-                },
-                {
-                    "pokemon": "LIEPARD",
+                    "pokemon": "SINISTEA",
                     "min_level": 22,
                     "max_level": 24
                 },
@@ -1002,7 +1012,7 @@
                     "max_level": 25
                 },
                 {
-                    "pokemon": "STANTLER",
+                    "pokemon": "DEERLING",
                     "min_level": 23,
                     "max_level": 25
                 }
@@ -1032,22 +1042,22 @@
                     "max_level": 26
                 },
                 {
-                    "pokemon": "GREAVARD",
+                    "pokemon": "GIRAFARIG",
                     "min_level": 23,
                     "max_level": 26
                 },
                 {
-                    "pokemon": "SNEASEL",
+                    "pokemon": "HATTREM",
                     "min_level": 23,
                     "max_level": 26
                 },
                 {
-                    "pokemon": "TEDDIURSA",
+                    "pokemon": "RELLOR",
                     "min_level": 23,
                     "max_level": 26
                 },
                 {
-                    "pokemon": "STANTLER",
+                    "pokemon": "DEERLING",
                     "min_level": 23,
                     "max_level": 26
                 }
@@ -1342,13 +1352,13 @@
             "OldRod": [
                 {
                     "pokemon": "QUAGSIRE",
-                    "min_level": 43,
-                    "max_level": 45
+                    "min_level": 23,
+                    "max_level": 25
                 },
                 {
                     "pokemon": "SLOWPOKE",
-                    "min_level": 43,
-                    "max_level": 45
+                    "min_level": 23,
+                    "max_level": 25
                 }
             ]
         }
@@ -1374,7 +1384,7 @@
                     "max_level": 29
                 },
                 {
-                    "pokemon": "LOUDRED",
+                    "pokemon": "GLIGAR",
                     "min_level": 27,
                     "max_level": 29
                 },
@@ -1537,7 +1547,7 @@
                     "max_level": 31
                 },
                 {
-                    "pokemon": "DEERLING",
+                    "pokemon": "YAMPER",
                     "min_level": 28,
                     "max_level": 31
                 },
@@ -1597,7 +1607,7 @@
                     "max_level": 32
                 },
                 {
-                    "pokemon": "LILLIPUP",
+                    "pokemon": "YAMPER",
                     "min_level": 29,
                     "max_level": 32
                 },
@@ -1685,7 +1695,7 @@
                     "max_level": 33
                 },
                 {
-                    "pokemon": "DURANT",
+                    "pokemon": "TOGEDEMARU",
                     "min_level": 28,
                     "max_level": 31
                 }
@@ -1732,18 +1742,6 @@
                     "min_level": 31,
                     "max_level": 34
                 }
-            ],
-            "OldRod": [
-                {
-                    "pokemon": "SHELLDER",
-                    "min_level": 31,
-                    "max_level": 34
-                },
-                {
-                    "pokemon": "BRUXISH",
-                    "min_level": 31,
-                    "max_level": 34
-                }
             ]
         }
     },
@@ -1773,7 +1771,7 @@
                     "max_level": 34
                 },
                 {
-                    "pokemon": "SMOOCHUM",
+                    "pokemon": "LOPUNNY",
                     "min_level": 31,
                     "max_level": 34
                 },
@@ -1790,7 +1788,7 @@
             ],
             "OldRod": [
                 {
-                    "pokemon": "SHELLDER",
+                    "pokemon": "LUVDISC",
                     "min_level": 31,
                     "max_level": 34
                 },
@@ -1808,7 +1806,7 @@
         "encounters": {
             "Land": [
                 {
-                    "pokemon": "ROSELIA",
+                    "pokemon": "DOLLIV",
                     "min_level": 31,
                     "max_level": 34
                 },
@@ -1818,17 +1816,17 @@
                     "max_level": 32
                 },
                 {
-                    "pokemon": "RALTS",
+                    "pokemon": "MILCERY",
                     "min_level": 31,
                     "max_level": 34
                 },
                 {
-                    "pokemon": "KIRLIA",
+                    "pokemon": "ALCREMIE",
                     "min_level": 31,
                     "max_level": 34
                 },
                 {
-                    "pokemon": "SMOOCHUM",
+                    "pokemon": "LOPUNNY",
                     "min_level": 31,
                     "max_level": 34
                 },
@@ -1845,7 +1843,7 @@
             ],
             "OldRod": [
                 {
-                    "pokemon": "SHELLDER",
+                    "pokemon": "REMORAID",
                     "min_level": 31,
                     "max_level": 34
                 },
@@ -1873,7 +1871,7 @@
                     "max_level": 36
                 },
                 {
-                    "pokemon": "RIOLU",
+                    "pokemon": "MILTANK",
                     "min_level": 34,
                     "max_level": 36
                 },
@@ -1921,7 +1919,7 @@
                     "max_level": 37
                 },
                 {
-                    "pokemon": "LYCANROC",
+                    "pokemon": "FIDOUGH",
                     "min_level": 34,
                     "max_level": 37
                 },
@@ -2169,7 +2167,7 @@
         "encounters": {
             "Land": [
                 {
-                    "pokemon": "PALOSSAND",
+                    "pokemon": "CRABRAWLER",
                     "min_level": 38,
                     "max_level": 41
                 },
@@ -2189,12 +2187,12 @@
                     "max_level": 41
                 },
                 {
-                    "pokemon": "SHELLOS",
+                    "pokemon": "BINACLE",
                     "min_level": 38,
                     "max_level": 41
                 },
                 {
-                    "pokemon": "GASTRODON",
+                    "pokemon": "BARBARACLE",
                     "min_level": 38,
                     "max_level": 41
                 },
@@ -2261,7 +2259,7 @@
                     "max_level": 40
                 },
                 {
-                    "pokemon": "BRUXISH",
+                    "pokemon": "REMORAID",
                     "min_level": 37,
                     "max_level": 40
                 }
@@ -2394,7 +2392,7 @@
             ],
             "OldRod": [
                 {
-                    "pokemon": "WHISCASH",
+                    "pokemon": "OCTILLERY",
                     "min_level": 39,
                     "max_level": 42
                 },
@@ -2449,7 +2447,7 @@
                     "max_level": 44
                 },
                 {
-                    "pokemon": "AZUMARILL",
+                    "pokemon": "OCTILLERY",
                     "min_level": 41,
                     "max_level": 44
                 }
@@ -2659,7 +2657,7 @@
                     "max_level": 55
                 },
                 {
-                    "pokemon": "SWALOT",
+                    "pokemon": "KANGASKHAN",
                     "min_level": 52,
                     "max_level": 55
                 },
@@ -2680,6 +2678,18 @@
                 },
                 {
                     "pokemon": "MINUN",
+                    "min_level": 52,
+                    "max_level": 55
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "QWILFISH",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "POLIWHIRL",
                     "min_level": 52,
                     "max_level": 55
                 }
@@ -2786,6 +2796,1961 @@
                     "pokemon": "SPIRITOMB",
                     "min_level": 52,
                     "max_level": 55
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "223",
+        "nombre_zona": "Prision del Olvido",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "VULLABY",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "VIBRAVA",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "DARUMAKA",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "DARMANITAN",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "CACTURNE",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "CLAYDOL",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "MANDIBUZZ",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "SANDACONDA",
+                    "min_level": 52,
+                    "max_level": 55
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "222",
+        "nombre_zona": "Prision del Olvido",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "VULLABY",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "KROKOROK",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "CENTISKORCH",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "CACTURNE",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "CLAYDOL",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "MANDIBUZZ",
+                    "min_level": 52,
+                    "max_level": 55
+                },
+                {
+                    "pokemon": "SANDACONDA",
+                    "min_level": 52,
+                    "max_level": 55
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "229",
+        "nombre_zona": "Sima Ardiente",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "TURTONATOR",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "CARKOL",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "DARUMAKA",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "DARMANITAN",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "MAGCARGO",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "ONIX",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "STEELIX",
+                    "min_level": 60,
+                    "max_level": 62
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "349",
+        "nombre_zona": "Sima Ardiente",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "TURTONATOR",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "CARKOL",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "DARUMAKA",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "DARMANITAN",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "MAGCARGO",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "ONIX",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "STEELIX",
+                    "min_level": 60,
+                    "max_level": 62
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "257",
+        "nombre_zona": "Pirineos de Kalos",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "SNOVER",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "BIBAREL",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "SNORUNT",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "GLALIE",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "SWINUB",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "PILOSWINE",
+                    "min_level": 60,
+                    "max_level": 62
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "255",
+        "nombre_zona": "Pirineos de Kalos",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "ABOMASNOW",
+                    "min_level": 60,
+                    "max_level": 63
+                },
+                {
+                    "pokemon": "FROSMOTH",
+                    "min_level": 60,
+                    "max_level": 63
+                },
+                {
+                    "pokemon": "SNORUNT",
+                    "min_level": 60,
+                    "max_level": 63
+                },
+                {
+                    "pokemon": "GLALIE",
+                    "min_level": 60,
+                    "max_level": 63
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 60,
+                    "max_level": 63
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 60,
+                    "max_level": 63
+                },
+                {
+                    "pokemon": "PILOSWINE",
+                    "min_level": 60,
+                    "max_level": 63
+                },
+                {
+                    "pokemon": "MAMOSWINE",
+                    "min_level": 60,
+                    "max_level": 63
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "256",
+        "nombre_zona": "Pirineos de Kalos",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "ABOMASNOW",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "FROSMOTH",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "SNORUNT",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "FROSLASS",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "PILOSWINE",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "FRIGIBAX",
+                    "min_level": 41,
+                    "max_level": 44
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "247",
+        "nombre_zona": "Ciudad Batik",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "HYPNO",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "FROSMOTH",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "MRMIME",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "MRRIME",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "MEDITITE",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "MEDICHAM",
+                    "min_level": 61,
+                    "max_level": 64
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "258",
+        "nombre_zona": "Pirineos de Kalos",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "SNOM",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "BIBAREL",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "SNORUNT",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "GLALIE",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "SWINUB",
+                    "min_level": 60,
+                    "max_level": 62
+                },
+                {
+                    "pokemon": "DELIBIRD",
+                    "min_level": 60,
+                    "max_level": 62
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "130",
+        "nombre_zona": "Ruta 20",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "ORTHWORM",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "NACLSTACK",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "CUFANT",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "COPPERAJAH",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "RHYDON",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "PIDGEOT",
+                    "min_level": 61,
+                    "max_level": 64
+                },
+                {
+                    "pokemon": "HAKAMOO",
+                    "min_level": 41,
+                    "max_level": 44
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "269",
+        "nombre_zona": "Ruta 14",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "BEEDRILL",
+                    "min_level": 64,
+                    "max_level": 67
+                },
+                {
+                    "pokemon": "GOTHORITA",
+                    "min_level": 64,
+                    "max_level": 67
+                },
+                {
+                    "pokemon": "PALPITOAD",
+                    "min_level": 64,
+                    "max_level": 67
+                },
+                {
+                    "pokemon": "SEISMITOAD",
+                    "min_level": 64,
+                    "max_level": 67
+                },
+                {
+                    "pokemon": "GRAFAIAI",
+                    "min_level": 64,
+                    "max_level": 67
+                },
+                {
+                    "pokemon": "BOMBIRDIER",
+                    "min_level": 64,
+                    "max_level": 67
+                },
+                {
+                    "pokemon": "SLIGGOO",
+                    "min_level": 44,
+                    "max_level": 47
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "QWILFISH",
+                    "min_level": 64,
+                    "max_level": 67
+                },
+                {
+                    "pokemon": "DRAGALGE",
+                    "min_level": 64,
+                    "max_level": 67
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "233",
+        "nombre_zona": "Ciudad Romantis",
+        "encounters": {
+            "OldRod": [
+                {
+                    "pokemon": "POLITOED",
+                    "min_level": 66,
+                    "max_level": 69
+                },
+                {
+                    "pokemon": "BASCULIN",
+                    "min_level": 66,
+                    "max_level": 69
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "232",
+        "nombre_zona": "Fabrica de Pokeball",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "KLANG",
+                    "min_level": 67,
+                    "max_level": 69
+                },
+                {
+                    "pokemon": "GURDURR",
+                    "min_level": 67,
+                    "max_level": 69
+                },
+                {
+                    "pokemon": "VOLTORB",
+                    "min_level": 67,
+                    "max_level": 69
+                },
+                {
+                    "pokemon": "ELECTRODE",
+                    "min_level": 67,
+                    "max_level": 69
+                },
+                {
+                    "pokemon": "REVAVROOM",
+                    "min_level": 67,
+                    "max_level": 69
+                },
+                {
+                    "pokemon": "HEATMOR",
+                    "min_level": 67,
+                    "max_level": 69
+                },
+                {
+                    "pokemon": "DURANT",
+                    "min_level": 67,
+                    "max_level": 69
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "234",
+        "nombre_zona": "Ruta 15",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "MIGHTYENA",
+                    "min_level": 69,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "SKORUPI",
+                    "min_level": 69,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "KRICKETUNE",
+                    "min_level": 69,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "GOTHORITA",
+                    "min_level": 69,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "KLEFKI",
+                    "min_level": 69,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "WEEPINBELL",
+                    "min_level": 69,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "DRAMPA",
+                    "min_level": 69,
+                    "max_level": 71
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "LOMBRE",
+                    "min_level": 69,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "BASCULIN",
+                    "min_level": 69,
+                    "max_level": 71
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "270",
+        "nombre_zona": "Ruta 15",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "MIGHTYENA",
+                    "min_level": 70,
+                    "max_level": 72
+                },
+                {
+                    "pokemon": "WHIRLIPEDE",
+                    "min_level": 70,
+                    "max_level": 72
+                },
+                {
+                    "pokemon": "PUMPKABOO",
+                    "min_level": 70,
+                    "max_level": 72
+                },
+                {
+                    "pokemon": "GOURGEIST",
+                    "min_level": 70,
+                    "max_level": 72
+                },
+                {
+                    "pokemon": "GOTHORITA",
+                    "min_level": 70,
+                    "max_level": 72
+                },
+                {
+                    "pokemon": "KLEFKI",
+                    "min_level": 70,
+                    "max_level": 72
+                },
+                {
+                    "pokemon": "SUNFLORA",
+                    "min_level": 70,
+                    "max_level": 72
+                },
+                {
+                    "pokemon": "LIEPARD",
+                    "min_level": 70,
+                    "max_level": 72
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "LOMBRE",
+                    "min_level": 70,
+                    "max_level": 72
+                },
+                {
+                    "pokemon": "BASCULIN",
+                    "min_level": 70,
+                    "max_level": 72
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "237",
+        "nombre_zona": "Ruta 16",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "URSARING",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "SWADLOON",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "PHANTUMP",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "TREVENANT",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "DODRIO",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "STEENEE",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "MAWILE",
+                    "min_level": 71,
+                    "max_level": 73
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "LOMBRE",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "SEAKING",
+                    "min_level": 71,
+                    "max_level": 73
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "284",
+        "nombre_zona": "Ruta 16",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "GREEDENT",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "SWADLOON",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "SPINDA",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "DODRIO",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "STEENEE",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "MAWILE",
+                    "min_level": 71,
+                    "max_level": 73
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "LOMBRE",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "SEAKING",
+                    "min_level": 71,
+                    "max_level": 73
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "242",
+        "nombre_zona": "Ruta 17",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "BEARTIC",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "PILOSWINE",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "VANILLITE",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "VANILLISH",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "HAUNTER",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "MRRIME",
+                    "min_level": 71,
+                    "max_level": 73
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "POLIWHIRL",
+                    "min_level": 71,
+                    "max_level": 73
+                },
+                {
+                    "pokemon": "BASCULIN",
+                    "min_level": 71,
+                    "max_level": 73
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "238",
+        "nombre_zona": "Gruta Helada",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "DELIBIRD",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CETITAN",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "GLALIE",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FROSLASS",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CRYOGONAL",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FRIGIBAX",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "243",
+        "nombre_zona": "Gruta Helada",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "DELIBIRD",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CETITAN",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "GLALIE",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FROSLASS",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CRYOGONAL",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FRIGIBAX",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "SEALEO",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "LAPRAS",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "245",
+        "nombre_zona": "Gruta Helada",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "DELIBIRD",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CETITAN",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "BERGMITE",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "AVALUGG",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "GLALIE",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FROSLASS",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CRYOGONAL",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FRIGIBAX",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "287",
+        "nombre_zona": "Ruta 18",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "ABSOL",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "WEAVILE",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "GRUMPIG",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "BIBAREL",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "WALREIN",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "CASTFORM",
+                    "min_level": 72,
+                    "max_level": 75
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "288",
+        "nombre_zona": "Ruta 18",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "ABSOL",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "WEAVILE",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "GRUMPIG",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "BIBAREL",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "WALREIN",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "CASTFORM",
+                    "min_level": 72,
+                    "max_level": 75
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "SEEL",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "DRATINI",
+                    "min_level": 72,
+                    "max_level": 75
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "297",
+        "nombre_zona": "Ciudad Fluxus",
+        "encounters": {
+            "OldRod": [
+                {
+                    "pokemon": "STARMIE",
+                    "min_level": 72,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "BRUXISH",
+                    "min_level": 72,
+                    "max_level": 75
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "299",
+        "nombre_zona": "Ruta 19",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "CINCCINO",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "FARFETCHD",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "RIBOMBEE",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "TORKOAL",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "PUPITAR",
+                    "min_level": 75,
+                    "max_level": 78
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "SLOWBRO",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "BRUXISH",
+                    "min_level": 75,
+                    "max_level": 78
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "300",
+        "nombre_zona": "Cueva Desenlace",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "MAROWAK",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "DRUDDIGON",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "EXCADRILL",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "GURDURR",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "PUPITAR",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "LAIRON",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "SHUCKLE",
+                    "min_level": 75,
+                    "max_level": 78
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "301",
+        "nombre_zona": "Cueva Desenlace",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "MAROWAK",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "DRUDDIGON",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "DUGTRIO",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "GURDURR",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "PUPITAR",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "LAIRON",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "SHUCKLE",
+                    "min_level": 75,
+                    "max_level": 78
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "303",
+        "nombre_zona": "Cueva Desenlace",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "MAROWAK",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "DRUDDIGON",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "EXCADRILL",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "LARVITAR",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "PUPITAR",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "LAIRON",
+                    "min_level": 75,
+                    "max_level": 78
+                },
+                {
+                    "pokemon": "SHUCKLE",
+                    "min_level": 75,
+                    "max_level": 78
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "290",
+        "nombre_zona": "Pueblo Mosaico",
+        "encounters": {
+            "OldRod": [
+                {
+                    "pokemon": "LOMBRE",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "FLOATZEL",
+                    "min_level": 77,
+                    "max_level": 80
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "292",
+        "nombre_zona": "Ruta 20",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "PARASECT",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "ELDEGOSS",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "CYCLIZAR",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "REUNICLUS",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "GLIGAR",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "GLISCOR",
+                    "min_level": 77,
+                    "max_level": 80
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "WHISCASH",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "POLITOED",
+                    "min_level": 77,
+                    "max_level": 80
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "310",
+        "nombre_zona": "Ciudad Fractal",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "GLALIE",
+                    "min_level": 78,
+                    "max_level": 81
+                },
+                {
+                    "pokemon": "SKARMORY",
+                    "min_level": 78,
+                    "max_level": 81
+                },
+                {
+                    "pokemon": "JYNX",
+                    "min_level": 78,
+                    "max_level": 81
+                },
+                {
+                    "pokemon": "FROSMOTH",
+                    "min_level": 78,
+                    "max_level": 81
+                },
+                {
+                    "pokemon": "CHANSEY",
+                    "min_level": 78,
+                    "max_level": 81
+                },
+                {
+                    "pokemon": "DUNSPARCE",
+                    "min_level": 78,
+                    "max_level": 81
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "230",
+        "nombre_zona": "Isla Montesanto",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "TOUCANNON",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "KOMALA",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "EXEGGUTOR",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "GUMSHOOS",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "ORICORIO",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "HAKAMOO",
+                    "min_level": 68,
+                    "max_level": 71
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "WISHIWASHI",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "TOXAPEX",
+                    "min_level": 68,
+                    "max_level": 71
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "231",
+        "nombre_zona": "Isla Montesanto",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "CHATOT",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "KOMALA",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "FOMANTIS",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "LURANTIS",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "GUMSHOOS",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "ORICORIO",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "HAKAMOO",
+                    "min_level": 68,
+                    "max_level": 71
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "WISHIWASHI",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "TOXAPEX",
+                    "min_level": 68,
+                    "max_level": 71
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "315",
+        "nombre_zona": "Isla Montesanto",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "PYUKUMUKU",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "DHELMISE",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "MALAMAR",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "CORSOLA",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "WIMPOD",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "GOLISOPOD",
+                    "min_level": 68,
+                    "max_level": 71
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "CLAWITZER",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "SEALEO",
+                    "min_level": 68,
+                    "max_level": 71
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "323",
+        "nombre_zona": "Fondo del Lago",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "WIMPOD",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "SKRELP",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FRILLISH",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "JELLICENT",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "MAGIKARP",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CLAUNCHER",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CLAWITZER",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "324",
+        "nombre_zona": "Fondo del Lago",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "WIMPOD",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "SKRELP",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FRILLISH",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "JELLICENT",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "MAGIKARP",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CLAUNCHER",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "CLAWITZER",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "298",
+        "nombre_zona": "Antigua Forja Inundada",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "SOLROCK",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "LUNATONE",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "GOLURK",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "CARBINK",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "EELEKTRIK",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "EELEKTROSS",
+                    "min_level": 73,
+                    "max_level": 75
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "318",
+        "nombre_zona": "Antigua Forja Inundada",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "SOLROCK",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "LUNATONE",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "GOLURK",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "CARBINK",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "EELEKTRIK",
+                    "min_level": 73,
+                    "max_level": 75
+                },
+                {
+                    "pokemon": "EELEKTROSS",
+                    "min_level": 73,
+                    "max_level": 75
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "330",
+        "nombre_zona": "Catacumbas Meridionales",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "CLAYDOL",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "SIGILYPH",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "DUSCLOPS",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "GOLURK",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "GOLBAT",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "CROBAT",
+                    "min_level": 77,
+                    "max_level": 80
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "335",
+        "nombre_zona": "Fondo Marino",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "DHELMISE",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "GOREBYSS",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "LUMINEON",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "HUNTAIL",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FINIZEN",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "PALAFIN",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "336",
+        "nombre_zona": "Fondo Marino",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "WIMPOD",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "RELICANTH",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "TENTACOOL",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "TENTACRUEL",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "GOLISOPOD",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "PYUKUMUKU",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "VELUZA",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "337",
+        "nombre_zona": "Fondo Marino",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "ALOMOMOLA",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "FLOATZEL",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "TATSUGIRI",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "DONDOZO",
+                    "min_level": 72,
+                    "max_level": 74
+                },
+                {
+                    "pokemon": "BARRASKEWDA",
+                    "min_level": 72,
+                    "max_level": 74
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "314",
+        "nombre_zona": "Batalla de Kalos Este",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "GOGOAT",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "RHYDON",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "BLASTOISE",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "AGGRON",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "GARGANACL",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "AEGISLASH",
+                    "min_level": 77,
+                    "max_level": 80
+                }
+            ]
+        }
+    },
+    {
+        "nro_zona": "339",
+        "nombre_zona": "Ruta 21",
+        "encounters": {
+            "Land": [
+                {
+                    "pokemon": "WATCHOG",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "LICKITUNG",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "BOUFFALANT",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "TAUROS",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "FURRET",
+                    "min_level": 77,
+                    "max_level": 80
+                },
+                {
+                    "pokemon": "AUDINO",
+                    "min_level": 77,
+                    "max_level": 80
+                }
+            ],
+            "OldRod": [
+                {
+                    "pokemon": "FLOATZEL",
+                    "min_level": 68,
+                    "max_level": 71
+                },
+                {
+                    "pokemon": "LUDICOLO",
+                    "min_level": 68,
+                    "max_level": 71
                 }
             ]
         }
