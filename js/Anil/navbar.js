@@ -10,7 +10,7 @@ if (!window.navbarInitialized) {
       const navbarLinks = document.querySelectorAll("#navbar a");
       let dataFile = "./data/Anil/pokemon.json"; // Predeterminado
       console.log("navbarLinks:", navbarLinks);
-    
+      console.log("navbarLinks:", navbarLinks);
       navbarLinks.forEach(link => {
         if (link.classList.contains("active")) {
           const href = link.href.toLowerCase(); // Asegura coincidencia insensible a mayúsculas
@@ -18,6 +18,8 @@ if (!window.navbarInitialized) {
             dataFile = "./data/Opalo/pokemon.json";
           } else if (href.includes("anil-index")) {
             dataFile = "./data/Anil/pokemon.json";
+          } else if (href.includes("z-index")) {
+            dataFile = "./data/Z/pokemon.json";
           }
         }
         console.log("Links:", link.href, link.classList);
@@ -148,6 +150,8 @@ if (!window.navbarInitialized) {
             window.location.href = `Opalo-pokemon-details.html?number=${pokemon.number}`;
           } else if (currentDataFile && currentDataFile.includes("Anil")) {
             window.location.href = `Anil-pokemon-details.html?number=${pokemon.number}`;
+          } else if (currentDataFile && currentDataFile.includes("Z")) {
+            window.location.href = `Z-pokemon-details.html?number=${pokemon.number}`;
           } else {
             console.warn("No se pudo determinar el archivo actual, redirigiendo a una página predeterminada.");
             window.location.href = `Anil-pokemon-details.html?number=${pokemon.number}`; // O un fallback
