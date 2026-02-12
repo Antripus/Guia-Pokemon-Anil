@@ -129,7 +129,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -286,7 +285,6 @@
         "pre_evolution": "Bulbasaur",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -441,7 +439,6 @@
         "pre_evolution": "Ivysaur",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -1389,10 +1386,6 @@
             {
                 "level": 60,
                 "move": "Hydropump"
-            },
-            {
-                "level": 65,
-                "move": "Aurasphere"
             }
         ],
         "compatibility": [
@@ -1685,14 +1678,6 @@
             {
                 "level": 46,
                 "move": "Quiverdance"
-            },
-            {
-                "level": 50,
-                "move": "Psychic"
-            },
-            {
-                "level": 55,
-                "move": "Morningsun"
             }
         ],
         "compatibility": [
@@ -1987,10 +1972,6 @@
             {
                 "level": 55,
                 "move": "Barbbarrage"
-            },
-            {
-                "level": 60,
-                "move": "Drillpeck"
             }
         ],
         "compatibility": [
@@ -2006,7 +1987,6 @@
         "pre_evolution": "Kakuna",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -3101,7 +3081,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 68,
+        "base_exp": 58,
         "effort_points": {
             "hp": 0,
             "attack": 1,
@@ -3222,7 +3202,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -3271,7 +3250,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 183,
+        "base_exp": 153,
         "effort_points": {
             "hp": 0,
             "attack": 2,
@@ -3399,7 +3378,6 @@
         "pre_evolution": "Ekans",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -3619,12 +3597,12 @@
         ],
         "base_stats": {
             "hp": 60,
-            "attack": 100,
+            "attack": 105,
             "defense": 55,
-            "speed": 110,
-            "sp_attack": 100,
+            "speed": 100,
+            "sp_attack": 80,
             "sp_defense": 80,
-            "total": 505
+            "total": 480
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -4213,7 +4191,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "SUNNYDAY",
             "ICEBEAM",
@@ -4365,7 +4342,6 @@
         "pre_evolution": "Nidoran",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "SUNNYDAY",
             "ICEBEAM",
@@ -4407,12 +4383,12 @@
         ],
         "base_stats": {
             "hp": 90,
-            "attack": 92,
+            "attack": 82,
             "defense": 87,
             "speed": 76,
             "sp_attack": 85,
             "sp_defense": 85,
-            "total": 515
+            "total": 505
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Parabolic",
@@ -4484,7 +4460,6 @@
         "pre_evolution": "Nidorina",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "STEALTHROCK",
             "SUNNYDAY",
@@ -4663,7 +4638,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "SUNNYDAY",
             "ICEBEAM",
@@ -4814,7 +4788,6 @@
         "pre_evolution": "Nidoran",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "SUNNYDAY",
             "ICEBEAM",
@@ -4932,7 +4905,6 @@
         "pre_evolution": "Nidorino",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "STEALTHROCK",
             "SUNNYDAY",
@@ -5211,16 +5183,12 @@
             "sp_defense": 0
         },
         "rareness": 25,
-        "happiness": 190,
+        "happiness": 140,
         "abilities": [
             "UNAWARE"
         ],
         "hidden_ability": "MAGICGUARD",
         "moves": [
-            {
-                "level": 1,
-                "move": "Airslash"
-            },
             {
                 "level": 1,
                 "move": "Sing"
@@ -5406,6 +5374,10 @@
                 "move": "Flamethrower"
             },
             {
+                "level": 36,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 39,
                 "move": "Extrasensory"
             },
@@ -5487,7 +5459,8 @@
             "WORKUP",
             "DARKPULSE",
             "SUBSTITUTE",
-            "HEATWAVE"
+            "HEATWAVE",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -5503,9 +5476,9 @@
             "attack": 76,
             "defense": 75,
             "speed": 100,
-            "sp_attack": 81,
+            "sp_attack": 86,
             "sp_defense": 100,
-            "total": 505
+            "total": 510
         },
         "gender_rate": "Female75Percent",
         "growth_rate": "Medium",
@@ -5535,6 +5508,10 @@
             },
             {
                 "level": 1,
+                "move": "Escalofrio"
+            },
+            {
+                "level": 1,
                 "move": "Nastyplot"
             },
             {
@@ -5559,7 +5536,7 @@
             },
             {
                 "level": 40,
-                "move": "Moonblast"
+                "move": "Cantoardiente"
             }
         ],
         "compatibility": [
@@ -5605,7 +5582,8 @@
             "DARKPULSE",
             "SUBSTITUTE",
             "HEATWAVE",
-            "ARENASARDIENTES"
+            "ARENASARDIENTES",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -6043,7 +6021,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -6191,7 +6168,6 @@
         "pre_evolution": "Zubat",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -6338,7 +6314,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -6492,7 +6467,6 @@
         "pre_evolution": "Oddish",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -6609,7 +6583,6 @@
         "pre_evolution": "Gloom",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -6769,7 +6742,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -6930,7 +6902,6 @@
         "pre_evolution": "Paras",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -6980,7 +6951,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 90,
+        "base_exp": 61,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -7087,7 +7058,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -7128,7 +7098,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 188,
+        "base_exp": 158,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -7239,7 +7209,6 @@
         "pre_evolution": "Venonat",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -9641,7 +9610,7 @@
         },
         "gender_rate": "Female25Percent",
         "growth_rate": "Parabolic",
-        "base_exp": 230,
+        "base_exp": 221,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -9784,11 +9753,11 @@
         "base_stats": {
             "hp": 70,
             "attack": 80,
-            "defense": 60,
+            "defense": 50,
             "speed": 35,
             "sp_attack": 35,
-            "sp_defense": 45,
-            "total": 325
+            "sp_defense": 35,
+            "total": 305
         },
         "gender_rate": "Female25Percent",
         "growth_rate": "Parabolic",
@@ -10127,10 +10096,6 @@
         "moves": [
             {
                 "level": 1,
-                "move": "Bulletpunch"
-            },
-            {
-                "level": 1,
                 "move": "Wideguard"
             },
             {
@@ -10369,7 +10334,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -10514,7 +10478,6 @@
         "pre_evolution": "Bellsprout",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -10647,7 +10610,6 @@
         "pre_evolution": "Weepinbell",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -10805,7 +10767,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "BLIZZARD",
             "HAIL",
@@ -10959,7 +10920,6 @@
         "pre_evolution": "Tentacool",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "BLIZZARD",
             "HAIL",
@@ -11162,13 +11122,13 @@
             "Ground"
         ],
         "base_stats": {
-            "hp": 65,
+            "hp": 80,
             "attack": 95,
             "defense": 115,
             "speed": 35,
             "sp_attack": 45,
             "sp_defense": 45,
-            "total": 400
+            "total": 415
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
@@ -11321,13 +11281,13 @@
             "Ground"
         ],
         "base_stats": {
-            "hp": 90,
+            "hp": 110,
             "attack": 120,
             "defense": 130,
             "speed": 45,
             "sp_attack": 55,
             "sp_defense": 65,
-            "total": 505
+            "total": 525
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
@@ -11987,7 +11947,8 @@
             "SUBSTITUTE",
             "ECHOEDVOICE",
             "TRICKROOM",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -12170,7 +12131,8 @@
             "DRAINPUNCH",
             "ECHOEDVOICE",
             "TRICKROOM",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -12292,8 +12254,8 @@
         "evolutions": [
             {
                 "name": "Magneton",
-                "method": "Item",
-                "item_or_condition": "THUNDERSTONE"
+                "method": "Level",
+                "item_or_condition": "30"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -13076,10 +13038,6 @@
             {
                 "level": 53,
                 "move": "Hail"
-            },
-            {
-                "level": 57,
-                "move": "Waterfall"
             }
         ],
         "egg_moves": [
@@ -13142,7 +13100,8 @@
             "SUBSTITUTE",
             "TRIPLEAXEL",
             "PIRUETAHELADA",
-            "ECHOEDVOICE"
+            "ECHOEDVOICE",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -13259,10 +13218,6 @@
                 "move": "Icebeam"
             },
             {
-                "level": 58,
-                "move": "Waterfall"
-            },
-            {
                 "level": 61,
                 "move": "Safeguard"
             },
@@ -13309,7 +13264,8 @@
             "VIRAJE",
             "TRIPLEAXEL",
             "PIRUETAHELADA",
-            "ECHOEDVOICE"
+            "ECHOEDVOICE",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -13331,7 +13287,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 95,
+        "base_exp": 65,
         "effort_points": {
             "hp": 1,
             "attack": 0,
@@ -13443,7 +13399,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -13510,7 +13465,7 @@
             "STENCH",
             "POISONTOUCH"
         ],
-        "hidden_ability": "GLUTTONY",
+        "hidden_ability": "POISONTOUCH",
         "moves": [
             {
                 "level": 1,
@@ -13598,7 +13553,6 @@
         "pre_evolution": "Grimer",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -13900,7 +13854,8 @@
             "SUBSTITUTE",
             "VIRAJE",
             "TOXICSPIKES",
-            "PIRUETAHELADA"
+            "PIRUETAHELADA",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -14033,7 +13988,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -14187,7 +14141,6 @@
         "pre_evolution": "Gastly",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -14239,7 +14192,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
-        "base_exp": 235,
+        "base_exp": 225,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -14336,7 +14289,6 @@
         "pre_evolution": "Haunter",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -14583,7 +14535,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 86,
+        "base_exp": 66,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -14628,12 +14580,8 @@
                 "move": "Psybeam"
             },
             {
-                "level": 24,
+                "level": 25,
                 "move": "Meditate"
-            },
-            {
-                "level": 26,
-                "move": "Dreameater"
             },
             {
                 "level": 29,
@@ -14650,6 +14598,10 @@
             {
                 "level": 41,
                 "move": "Zenheadbutt"
+            },
+            {
+                "level": 43,
+                "move": "Escalofrio"
             },
             {
                 "level": 45,
@@ -14737,7 +14689,8 @@
             "SUBSTITUTE",
             "DRAINPUNCH",
             "ABRECAMINOS",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -14775,10 +14728,6 @@
         ],
         "hidden_ability": "INNERFOCUS",
         "moves": [
-            {
-                "level": 1,
-                "move": "Dreameater"
-            },
             {
                 "level": 1,
                 "move": "Nightmare"
@@ -14842,6 +14791,10 @@
             {
                 "level": 41,
                 "move": "Zenheadbutt"
+            },
+            {
+                "level": 43,
+                "move": "Escalofrio"
             },
             {
                 "level": 45,
@@ -14917,7 +14870,8 @@
             "SUBSTITUTE",
             "DRAINPUNCH",
             "ABRECAMINOS",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -15259,7 +15213,7 @@
         },
         "gender_rate": "Genderless",
         "growth_rate": "Medium",
-        "base_exp": 96,
+        "base_exp": 66,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -15397,7 +15351,7 @@
         },
         "gender_rate": "Genderless",
         "growth_rate": "Medium",
-        "base_exp": 178,
+        "base_exp": 168,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -15678,7 +15632,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -15811,7 +15764,6 @@
         "pre_evolution": "Exeggcute",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "PSYSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
@@ -15874,9 +15826,9 @@
         "happiness": 70,
         "abilities": [
             "ROCKHEAD",
-            "WEAKARMOR"
+            "LIGHTNINGROD"
         ],
-        "hidden_ability": "SHEERFORCE",
+        "hidden_ability": "BATTLEARMOR",
         "moves": [
             {
                 "level": 1,
@@ -16021,11 +15973,11 @@
         "base_stats": {
             "hp": 60,
             "attack": 80,
-            "defense": 100,
-            "speed": 45,
+            "defense": 110,
+            "speed": 65,
             "sp_attack": 50,
-            "sp_defense": 70,
-            "total": 405
+            "sp_defense": 80,
+            "total": 445
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -16042,9 +15994,9 @@
         "happiness": 70,
         "abilities": [
             "ROCKHEAD",
-            "BATTLEARMOR"
+            "SHEERFORCE"
         ],
-        "hidden_ability": "SHEERFORCE",
+        "hidden_ability": "BATTLEARMOR",
         "moves": [
             {
                 "level": 1,
@@ -16088,7 +16040,7 @@
             },
             {
                 "level": 23,
-                "move": "Cortepetreo"
+                "move": "Ironhead"
             },
             {
                 "level": 27,
@@ -16096,7 +16048,7 @@
             },
             {
                 "level": 28,
-                "move": "Ferromaza"
+                "move": "Ferrolanza"
             },
             {
                 "level": 33,
@@ -16108,7 +16060,7 @@
             },
             {
                 "level": 43,
-                "move": "Endeavor"
+                "move": "Ferroimpacto"
             },
             {
                 "level": 46,
@@ -16137,13 +16089,6 @@
         "habitat": "Mountain",
         "kind": "Bone Keeper",
         "pokedex_description": "Usan su hueso para producir sonidos golpeando rocas para avisar a otros de que están invadiendo su territorio o para impresionar a las hembras.",
-        "evolutions": [
-            {
-                "name": "Marolier",
-                "method": "Level",
-                "item_or_condition": "65"
-            }
-        ],
         "pre_evolution": "Cubone",
         "evolution_stage": 2,
         "TM_moves": [
@@ -16502,7 +16447,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 160,
+        "base_exp": 140,
         "effort_points": {
             "hp": 2,
             "attack": 0,
@@ -16674,7 +16619,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 128,
+        "base_exp": 108,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -16781,7 +16726,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -16932,7 +16876,6 @@
         "pre_evolution": "Koffing",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -17656,7 +17599,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -17940,10 +17882,6 @@
             {
                 "level": 42,
                 "move": "Dragonpulse"
-            },
-            {
-                "level": 46,
-                "move": "Waterfall"
             }
         ],
         "egg_moves": [
@@ -18109,10 +18047,6 @@
             {
                 "level": 57,
                 "move": "Dragonpulse"
-            },
-            {
-                "level": 62,
-                "move": "Waterfall"
             }
         ],
         "compatibility": [
@@ -18251,10 +18185,6 @@
             {
                 "level": 57,
                 "move": "Megahorn"
-            },
-            {
-                "level": 62,
-                "move": "Waterfall"
             }
         ],
         "egg_moves": [
@@ -18489,7 +18419,7 @@
         },
         "gender_rate": "Genderless",
         "growth_rate": "Slow",
-        "base_exp": 92,
+        "base_exp": 82,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -18666,14 +18596,6 @@
         "moves": [
             {
                 "level": 1,
-                "move": "Hidroariete"
-            },
-            {
-                "level": 1,
-                "move": "Psychocut"
-            },
-            {
-                "level": 1,
                 "move": "Watergun"
             },
             {
@@ -18691,10 +18613,6 @@
             {
                 "level": 22,
                 "move": "Confuseray"
-            },
-            {
-                "level": 30,
-                "move": "Psybeam"
             },
             {
                 "level": 40,
@@ -18975,7 +18893,8 @@
             "GRASSKNOT",
             "SUBSTITUTE",
             "DRAINPUNCH",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -19245,6 +19164,10 @@
                 "move": "Wakeupslap"
             },
             {
+                "level": 35,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 39,
                 "move": "Psychic"
             },
@@ -19321,7 +19244,8 @@
             "DRAINPUNCH",
             "TRIPLEAXEL",
             "ECHOEDVOICE",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -20080,10 +20004,6 @@
             {
                 "level": 50,
                 "move": "Vastoimpacto"
-            },
-            {
-                "level": 56,
-                "move": "Waterfall"
             }
         ],
         "compatibility": [
@@ -20299,7 +20219,8 @@
             "ROCKSMASH",
             "VIRAJE",
             "ECHOEDVOICE",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -20375,7 +20296,7 @@
         },
         "gender_rate": "FemaleOneEighth",
         "growth_rate": "Medium",
-        "base_exp": 125,
+        "base_exp": 95,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -20392,14 +20313,6 @@
         ],
         "hidden_ability": "ANTICIPATION",
         "moves": [
-            {
-                "level": 1,
-                "move": "Yawn"
-            },
-            {
-                "level": 1,
-                "move": "Wish"
-            },
             {
                 "level": 1,
                 "move": "Helpinghand"
@@ -20992,7 +20905,7 @@
         },
         "gender_rate": "Genderless",
         "growth_rate": "Medium",
-        "base_exp": 129,
+        "base_exp": 79,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -21933,7 +21846,7 @@
         },
         "gender_rate": "FemaleOneEighth",
         "growth_rate": "Slow",
-        "base_exp": 230,
+        "base_exp": 189,
         "effort_points": {
             "hp": 2,
             "attack": 0,
@@ -22223,7 +22136,8 @@
             "UTURN",
             "SUBSTITUTE",
             "ROCKSMASH",
-            "ROOST"
+            "ROOST",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -23282,7 +23196,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "MYSTICALFIRE",
             "SCALD",
             "BLIZZARD",
@@ -24518,7 +24431,7 @@
         "internal_name": "CROCONAW",
         "type": [
             "Water",
-            "Dragon"
+            "Dark"
         ],
         "base_stats": {
             "hp": 85,
@@ -24585,7 +24498,7 @@
             },
             {
                 "level": 30,
-                "move": "Dragonclaw"
+                "move": "Crunch"
             },
             {
                 "level": 33,
@@ -24605,7 +24518,7 @@
             },
             {
                 "level": 48,
-                "move": "Vastoimpacto"
+                "move": "Thrash"
             },
             {
                 "level": 51,
@@ -24684,7 +24597,7 @@
         "internal_name": "FERALIGATR",
         "type": [
             "Water",
-            "Dragon"
+            "Dark"
         ],
         "base_stats": {
             "hp": 95,
@@ -24759,7 +24672,7 @@
             },
             {
                 "level": 32,
-                "move": "Dragonclaw"
+                "move": "Crunch"
             },
             {
                 "level": 35,
@@ -24771,7 +24684,7 @@
             },
             {
                 "level": 45,
-                "move": "Crunch"
+                "move": "Slash"
             },
             {
                 "level": 50,
@@ -24783,15 +24696,11 @@
             },
             {
                 "level": 58,
-                "move": "Vastoimpacto"
+                "move": "Thrash"
             },
             {
                 "level": 63,
-                "move": "Crunch"
-            },
-            {
-                "level": 68,
-                "move": "Dragondance"
+                "move": "Wickedblow"
             },
             {
                 "level": 71,
@@ -25933,7 +25842,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -25953,7 +25861,8 @@
             "POISONJAB",
             "SUBSTITUTE",
             "TOXICSPIKES",
-            "BRINCO"
+            "BRINCO",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -25966,12 +25875,12 @@
             "Poison"
         ],
         "base_stats": {
-            "hp": 80,
+            "hp": 85,
             "attack": 110,
             "defense": 70,
-            "speed": 70,
+            "speed": 75,
             "sp_attack": 60,
-            "sp_defense": 70,
+            "sp_defense": 60,
             "total": 460
         },
         "gender_rate": "Female50Percent",
@@ -26043,7 +25952,7 @@
             },
             {
                 "level": 25,
-                "move": "Poisonfang"
+                "move": "Venoshock"
             },
             {
                 "level": 28,
@@ -26099,7 +26008,6 @@
         "pre_evolution": "Spinarak",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -26119,7 +26027,8 @@
             "POISONJAB",
             "SUBSTITUTE",
             "TOXICSPIKES",
-            "BRINCO"
+            "BRINCO",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -26248,7 +26157,6 @@
         "pre_evolution": "Golbat",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -26623,7 +26531,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 71,
+        "base_exp": 41,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -27555,10 +27463,6 @@
                 "move": "Confuseray"
             },
             {
-                "level": 25,
-                "move": "Psybeam"
-            },
-            {
                 "level": 27,
                 "move": "Tailwind"
             },
@@ -27567,12 +27471,8 @@
                 "move": "Wish"
             },
             {
-                "level": 33,
-                "move": "Aircutter"
-            },
-            {
                 "level": 37,
-                "move": "Psychic"
+                "move": "Psybeam"
             },
             {
                 "level": 42,
@@ -27990,7 +27890,7 @@
         "abilities": [
             "STATIC"
         ],
-        "hidden_ability": "MOLDBREAKER",
+        "hidden_ability": "PLUS",
         "moves": [
             {
                 "level": 1,
@@ -28063,10 +27963,6 @@
             {
                 "level": 51,
                 "move": "Signalbeam"
-            },
-            {
-                "level": 55,
-                "move": "Dazzlinggleam"
             },
             {
                 "level": 57,
@@ -28220,7 +28116,6 @@
         "pre_evolution": "Gloom",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -28582,13 +28477,13 @@
             "Rock"
         ],
         "base_stats": {
-            "hp": 80,
-            "attack": 100,
-            "defense": 115,
+            "hp": 85,
+            "attack": 110,
+            "defense": 120,
             "speed": 30,
             "sp_attack": 30,
-            "sp_defense": 65,
-            "total": 420
+            "sp_defense": 75,
+            "total": 450
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -28723,13 +28618,6 @@
         "habitat": "Forest",
         "kind": "Imitation",
         "pokedex_description": "It mimics a tree to avoid being attacked by enemies. But since its forelegs remain green throughout the year, it is easily identified as a fake in the winter.",
-        "evolutions": [
-            {
-                "name": "Sudrasil",
-                "method": "Level",
-                "item_or_condition": "70"
-            }
-        ],
         "pre_evolution": "Bonsly",
         "evolution_stage": 2,
         "TM_moves": [
@@ -29437,10 +29325,6 @@
         "moves": [
             {
                 "level": 1,
-                "move": "Fakeout"
-            },
-            {
-                "level": 1,
                 "move": "Scratch"
             },
             {
@@ -29716,7 +29600,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -29809,7 +29692,7 @@
             },
             {
                 "level": 19,
-                "move": "Ember"
+                "move": "Worryseed"
             },
             {
                 "level": 22,
@@ -29873,7 +29756,6 @@
         "pre_evolution": "Sunkern",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -30186,7 +30068,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "BLIZZARD",
             "HAIL",
@@ -30297,7 +30178,7 @@
             },
             {
                 "level": 39,
-                "move": "Recover"
+                "move": "Punojet"
             },
             {
                 "level": 41,
@@ -30330,7 +30211,6 @@
         "pre_evolution": "Wooper",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "BLIZZARD",
             "HAIL",
@@ -30981,7 +30861,8 @@
             "DRAINPUNCH",
             "ECHOEDVOICE",
             "TRICKROOM",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -32123,7 +32004,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "STEALTHROCK",
             "SUNNYDAY",
             "TAUNT",
@@ -32178,12 +32058,12 @@
         ],
         "base_stats": {
             "hp": 75,
-            "attack": 85,
+            "attack": 100,
             "defense": 200,
             "speed": 30,
             "sp_attack": 55,
             "sp_defense": 65,
-            "total": 510
+            "total": 525
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -32864,7 +32744,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "BLIZZARD",
             "HAIL",
@@ -33194,7 +33073,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "STEALTHROCK",
             "SUNNYDAY",
             "PROTECT",
@@ -33317,10 +33195,6 @@
                 "move": "Megahorn"
             },
             {
-                "level": 50,
-                "move": "Rockblast"
-            },
-            {
                 "level": 55,
                 "move": "Stoneedge"
             }
@@ -33418,10 +33292,6 @@
         ],
         "hidden_ability": "PICKPOCKET",
         "moves": [
-            {
-                "level": 1,
-                "move": "Fakeout"
-            },
             {
                 "level": 1,
                 "move": "Scratch"
@@ -33567,6 +33437,7 @@
             "TRIPLEAXEL",
             "ABRECAMINOS",
             "STRENGTH",
+            "ESCALOFRIO",
             "SNARL",
             "CUT"
         ]
@@ -33609,6 +33480,10 @@
         "moves": [
             {
                 "level": 1,
+                "move": "Covet"
+            },
+            {
+                "level": 1,
                 "move": "Scratch"
             },
             {
@@ -33626,14 +33501,6 @@
             {
                 "level": 8,
                 "move": "Furyswipes"
-            },
-            {
-                "level": 10,
-                "move": "Headbutt"
-            },
-            {
-                "level": 12,
-                "move": "Covet"
             },
             {
                 "level": 15,
@@ -34051,13 +33918,13 @@
             "Rock"
         ],
         "base_stats": {
-            "hp": 80,
+            "hp": 70,
             "attack": 50,
             "defense": 140,
             "speed": 30,
             "sp_attack": 100,
             "sp_defense": 80,
-            "total": 480
+            "total": 470
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -34136,23 +34003,15 @@
             },
             {
                 "level": 52,
-                "move": "Flamethrower"
+                "move": "Bodyslam"
             },
             {
                 "level": 59,
                 "move": "Flamethrower"
             },
             {
-                "level": 62,
-                "move": "Diamondstorm"
-            },
-            {
                 "level": 67,
                 "move": "Earthpower"
-            },
-            {
-                "level": 70,
-                "move": "Searingshot"
             }
         ],
         "compatibility": [
@@ -34637,10 +34496,6 @@
             {
                 "level": 52,
                 "move": "Flail"
-            },
-            {
-                "level": 55,
-                "move": "Haze"
             }
         ],
         "egg_moves": [
@@ -35021,7 +34876,6 @@
         "pre_evolution": "Remoraid",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "BLIZZARD",
             "HIDROARIETE",
@@ -35129,6 +34983,10 @@
                 "move": "Drillpeck"
             },
             {
+                "level": 37,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 40,
                 "move": "Icebeam"
             },
@@ -35215,7 +35073,8 @@
             "ICYWIND",
             "DARKPULSE",
             "SUBSTITUTE",
-            "ABRECAMINOS"
+            "ABRECAMINOS",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -35338,10 +35197,6 @@
             {
                 "level": 49,
                 "move": "Hydropump"
-            },
-            {
-                "level": 55,
-                "move": "Haze"
             }
         ],
         "egg_moves": [
@@ -36009,10 +35864,6 @@
             {
                 "level": 57,
                 "move": "Dragonpulse"
-            },
-            {
-                "level": 62,
-                "move": "Waterfall"
             }
         ],
         "compatibility": [
@@ -37128,6 +36979,10 @@
                 "move": "Luckychant"
             },
             {
+                "level": 33,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 35,
                 "move": "Drainingkiss"
             },
@@ -37210,7 +37065,8 @@
             "GRASSKNOT",
             "SUBSTITUTE",
             "ECHOEDVOICE",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -38259,6 +38115,7 @@
             "SUBSTITUTE",
             "ROCKSMASH",
             "VIRAJE",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -38786,10 +38643,6 @@
         "moves": [
             {
                 "level": 1,
-                "move": "Nightslash"
-            },
-            {
-                "level": 1,
                 "move": "Whirlwind"
             },
             {
@@ -38822,7 +38675,7 @@
             },
             {
                 "level": 50,
-                "move": "Darkpulse"
+                "move": "Punishment"
             },
             {
                 "level": 57,
@@ -38842,7 +38695,7 @@
             },
             {
                 "level": 85,
-                "move": "Nightdaze"
+                "move": "Bulletseed"
             },
             {
                 "level": 93,
@@ -40657,7 +40510,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 74,
+        "base_exp": 44,
         "effort_points": {
             "hp": 0,
             "attack": 1,
@@ -40810,7 +40663,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 167,
+        "base_exp": 147,
         "effort_points": {
             "hp": 0,
             "attack": 2,
@@ -40958,13 +40811,13 @@
             "Dark"
         ],
         "base_stats": {
-            "hp": 48,
-            "attack": 50,
+            "hp": 38,
+            "attack": 30,
             "defense": 41,
             "speed": 60,
             "sp_attack": 30,
             "sp_defense": 41,
-            "total": 270
+            "total": 240
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -41000,10 +40853,6 @@
             {
                 "level": 9,
                 "move": "Headbutt"
-            },
-            {
-                "level": 11,
-                "move": "Covet"
             },
             {
                 "level": 13,
@@ -41075,7 +40924,7 @@
             {
                 "name": "Linoone",
                 "method": "Level",
-                "item_or_condition": "15"
+                "item_or_condition": "20"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -41633,7 +41482,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 173,
+        "base_exp": 135,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -41716,7 +41565,6 @@
         "pre_evolution": "Cascoon",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -41944,16 +41792,16 @@
                 "move": "Naturepower"
             },
             {
-                "level": 14,
+                "level": 11,
                 "move": "Fakeout"
             },
             {
                 "level": 15,
-                "move": "Megadrain"
+                "move": "Furyswipes"
             },
             {
                 "level": 19,
-                "move": "Furyswipes"
+                "move": "Watersport"
             },
             {
                 "level": 25,
@@ -42212,10 +42060,6 @@
                 "move": "Vinewhip"
             },
             {
-                "level": 10,
-                "move": "Razorleaf"
-            },
-            {
                 "level": 13,
                 "move": "Synthesis"
             },
@@ -42340,14 +42184,6 @@
             {
                 "level": 7,
                 "move": "Growth"
-            },
-            {
-                "level": 14,
-                "move": "Fakeout"
-            },
-            {
-                "level": 15,
-                "move": "Pursuit"
             },
             {
                 "level": 18,
@@ -43166,15 +43002,15 @@
         "base_stats": {
             "hp": 48,
             "attack": 25,
-            "defense": 40,
+            "defense": 35,
             "speed": 40,
-            "sp_attack": 65,
-            "sp_defense": 55,
-            "total": 273
+            "sp_attack": 60,
+            "sp_defense": 45,
+            "total": 253
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Slow",
-        "base_exp": 60,
+        "base_exp": 40,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -43278,7 +43114,7 @@
             {
                 "name": "Kirlia",
                 "method": "Level",
-                "item_or_condition": "18"
+                "item_or_condition": "20"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -43333,15 +43169,15 @@
         "base_stats": {
             "hp": 55,
             "attack": 35,
-            "defense": 55,
-            "speed": 55,
-            "sp_attack": 85,
-            "sp_defense": 85,
-            "total": 370
+            "defense": 45,
+            "speed": 50,
+            "sp_attack": 80,
+            "sp_defense": 75,
+            "total": 340
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Slow",
-        "base_exp": 127,
+        "base_exp": 97,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -43582,10 +43418,6 @@
             {
                 "level": 25,
                 "move": "Healpulse"
-            },
-            {
-                "level": 28,
-                "move": "Drainingkiss"
             },
             {
                 "level": 31,
@@ -44105,7 +43937,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -44252,7 +44083,6 @@
         "pre_evolution": "Shroomish",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "BULKUP",
             "SUNNYDAY",
             "PROTECT",
@@ -44333,10 +44163,6 @@
             {
                 "level": 7,
                 "move": "Encore"
-            },
-            {
-                "level": 10,
-                "move": "Covet"
             },
             {
                 "level": 13,
@@ -45561,15 +45387,15 @@
             },
             {
                 "level": 63,
-                "move": "Endeavor"
+                "move": "Boomburst"
             },
             {
                 "level": 71,
-                "move": "Hyperbeam"
+                "move": "Hypervoice"
             },
             {
                 "level": 79,
-                "move": "Boomburst"
+                "move": "Hyperbeam"
             }
         ],
         "compatibility": [
@@ -46234,8 +46060,8 @@
         "evolutions": [
             {
                 "name": "Probopass",
-                "method": "Item",
-                "item_or_condition": "THUNDERSTONE"
+                "method": "Level",
+                "item_or_condition": "40"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -46482,8 +46308,7 @@
         "rareness": 60,
         "happiness": 70,
         "abilities": [
-            "PIXILATE",
-            "NORMALIZE"
+            "PIXILATE"
         ],
         "hidden_ability": "WONDERSKIN",
         "moves": [
@@ -46561,13 +46386,13 @@
             "Ghost"
         ],
         "base_stats": {
-            "hp": 50,
-            "attack": 95,
+            "hp": 65,
+            "attack": 90,
             "defense": 90,
             "speed": 50,
-            "sp_attack": 85,
+            "sp_attack": 80,
             "sp_defense": 80,
-            "total": 450
+            "total": 455
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
@@ -46639,10 +46464,6 @@
             {
                 "level": 39,
                 "move": "Shadowclaw"
-            },
-            {
-                "level": 41,
-                "move": "Recover"
             },
             {
                 "level": 43,
@@ -46747,6 +46568,7 @@
             "DARKPULSE",
             "SUBSTITUTE",
             "ROCKSMASH",
+            "ESCALOFRIO",
             "SNARL",
             "CUT"
         ]
@@ -46892,7 +46714,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "IRONHEAD",
             "STEALTHROCK",
             "SUNNYDAY",
@@ -47723,15 +47544,15 @@
             },
             {
                 "level": 36,
-                "move": "Acupressure"
+                "move": "Psychup"
             },
             {
                 "level": 42,
-                "move": "Psychocut"
+                "move": "Acupressure"
             },
             {
                 "level": 49,
-                "move": "Zenheadbutt"
+                "move": "Powertrick"
             },
             {
                 "level": 55,
@@ -48445,7 +48266,7 @@
         },
         "gender_rate": "AlwaysMale",
         "growth_rate": "Erratic",
-        "base_exp": 200,
+        "base_exp": 180,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -48601,7 +48422,7 @@
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Fluctuating",
-        "base_exp": 200,
+        "base_exp": 180,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -48871,7 +48692,6 @@
         "pre_evolution": "Budew",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -49024,7 +48844,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "ICEBEAM",
             "PROTECT",
@@ -49182,7 +49001,6 @@
         "pre_evolution": "Gulpin",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "ICEBEAM",
             "PROTECT",
@@ -49373,9 +49191,9 @@
             "attack": 120,
             "defense": 50,
             "speed": 100,
-            "sp_attack": 95,
+            "sp_attack": 90,
             "sp_defense": 50,
-            "total": 485
+            "total": 480
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Slow",
@@ -49720,12 +49538,12 @@
         ],
         "base_stats": {
             "hp": 170,
-            "attack": 95,
+            "attack": 90,
             "defense": 55,
             "speed": 60,
-            "sp_attack": 95,
+            "sp_attack": 90,
             "sp_defense": 55,
-            "total": 530
+            "total": 520
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Fluctuating",
@@ -50058,9 +49876,9 @@
             "attack": 100,
             "defense": 80,
             "speed": 40,
-            "sp_attack": 110,
+            "sp_attack": 105,
             "sp_defense": 85,
-            "total": 485
+            "total": 480
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -50643,7 +50461,7 @@
             },
             {
                 "level": 42,
-                "move": "Luminacrash"
+                "move": "Psyshock"
             },
             {
                 "level": 46,
@@ -50655,7 +50473,7 @@
             },
             {
                 "level": 60,
-                "move": "Psychoboost"
+                "move": "Bounce"
             }
         ],
         "compatibility": [
@@ -50746,7 +50564,7 @@
         "happiness": 70,
         "abilities": [
             "OWNTEMPO",
-            "NORMALIZE"
+            "TANGLEDFEET"
         ],
         "hidden_ability": "CONTRARY",
         "moves": [
@@ -50875,13 +50693,13 @@
             "Ground"
         ],
         "base_stats": {
-            "hp": 50,
+            "hp": 45,
             "attack": 100,
-            "defense": 55,
+            "defense": 45,
             "speed": 10,
             "sp_attack": 45,
             "sp_defense": 45,
-            "total": 305
+            "total": 290
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
@@ -50993,7 +50811,7 @@
             {
                 "name": "Vibrava",
                 "method": "Level",
-                "item_or_condition": "25"
+                "item_or_condition": "30"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -51030,7 +50848,7 @@
         "name": "Vibrava",
         "internal_name": "VIBRAVA",
         "type": [
-            "Bug",
+            "Ground",
             "Dragon"
         ],
         "base_stats": {
@@ -51073,7 +50891,7 @@
             },
             {
                 "level": 1,
-                "move": "Bugbite"
+                "move": "Sandtomb"
             },
             {
                 "level": 4,
@@ -51085,7 +50903,7 @@
             },
             {
                 "level": 10,
-                "move": "Bugbite"
+                "move": "Sandtomb"
             },
             {
                 "level": 13,
@@ -51097,7 +50915,7 @@
             },
             {
                 "level": 21,
-                "move": "Silverwind"
+                "move": "Bulldoze"
             },
             {
                 "level": 25,
@@ -51117,11 +50935,11 @@
             },
             {
                 "level": 39,
-                "move": "Signalbeam"
+                "move": "Earthpower"
             },
             {
                 "level": 44,
-                "move": "Bugbuzz"
+                "move": "Sandstorm"
             },
             {
                 "level": 49,
@@ -51188,17 +51006,17 @@
         "name": "Flygon",
         "internal_name": "FLYGON",
         "type": [
-            "Bug",
+            "Ground",
             "Dragon"
         ],
         "base_stats": {
             "hp": 80,
-            "attack": 115,
+            "attack": 100,
             "defense": 80,
             "speed": 110,
-            "sp_attack": 115,
+            "sp_attack": 100,
             "sp_defense": 80,
-            "total": 580
+            "total": 550
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
@@ -51214,7 +51032,7 @@
         "rareness": 45,
         "happiness": 70,
         "abilities": [
-            "COLEOPTERO"
+            "LEVITATE"
         ],
         "moves": [
             {
@@ -51243,7 +51061,7 @@
             },
             {
                 "level": 10,
-                "move": "Bugbite"
+                "move": "Sandtomb"
             },
             {
                 "level": 13,
@@ -51255,7 +51073,7 @@
             },
             {
                 "level": 21,
-                "move": "Silverwind"
+                "move": "Bulldoze"
             },
             {
                 "level": 25,
@@ -51279,7 +51097,7 @@
             },
             {
                 "level": 44,
-                "move": "Signalbeam"
+                "move": "Sandstorm"
             },
             {
                 "level": 45,
@@ -51292,18 +51110,6 @@
             {
                 "level": 55,
                 "move": "Dragonrush"
-            },
-            {
-                "level": 60,
-                "move": "Hypervoice"
-            },
-            {
-                "level": 65,
-                "move": "Leechlife"
-            },
-            {
-                "level": 70,
-                "move": "Hyperbeam"
             }
         ],
         "compatibility": [
@@ -52369,7 +52175,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -53067,7 +52872,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Fluctuating",
-        "base_exp": 122,
+        "base_exp": 92,
         "effort_points": {
             "hp": 0,
             "attack": 1,
@@ -53371,6 +53176,7 @@
             "VIRAJE",
             "SUPERPOWER",
             "STRENGTH",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -53833,7 +53639,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "STEALTHROCK",
             "SUNNYDAY",
             "PROTECT",
@@ -53974,7 +53779,6 @@
         "pre_evolution": "Lileep",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "STEALTHROCK",
             "SUNNYDAY",
             "PROTECT",
@@ -56015,6 +55819,7 @@
             "ECHOEDVOICE",
             "SUPERPOWER",
             "STRENGTH",
+            "ESCALOFRIO",
             "SNARL",
             "CUT"
         ]
@@ -56177,6 +55982,10 @@
                 "move": "Crunch"
             },
             {
+                "level": 34,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 37,
                 "move": "Iceshard"
             },
@@ -56247,7 +56056,8 @@
             "WORKUP",
             "ICYWIND",
             "SUBSTITUTE",
-            "PIRUETAHELADA"
+            "PIRUETAHELADA",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -56332,6 +56142,10 @@
                 "move": "Crunch"
             },
             {
+                "level": 34,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 37,
                 "move": "Icebeam"
             },
@@ -56399,7 +56213,8 @@
             "ICYWIND",
             "DARKPULSE",
             "SUBSTITUTE",
-            "PIRUETAHELADA"
+            "PIRUETAHELADA",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -56552,7 +56367,8 @@
             "SUBSTITUTE",
             "ROCKSMASH",
             "ECHOEDVOICE",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -56695,7 +56511,8 @@
             "SUBSTITUTE",
             "ROCKSMASH",
             "ECHOEDVOICE",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -56847,7 +56664,8 @@
             "ROCKSMASH",
             "VIRAJE",
             "ECHOEDVOICE",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -57385,10 +57203,10 @@
             "hp": 63,
             "attack": 30,
             "defense": 55,
-            "speed": 97,
-            "sp_attack": 80,
+            "speed": 100,
+            "sp_attack": 110,
             "sp_defense": 65,
-            "total": 390
+            "total": 423
         },
         "gender_rate": "Female75Percent",
         "growth_rate": "Fast",
@@ -57498,13 +57316,6 @@
         "habitat": "Sea",
         "kind": "Rendezvous",
         "pokedex_description": "Luvdisc make the branches of Corsola their nests. There is a custom from long ago of giving a Luvdisc as a gift to express one's feelings of love.",
-        "evolutions": [
-            {
-                "name": "Luvourne",
-                "method": "Level",
-                "item_or_condition": "60"
-            }
-        ],
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
@@ -57932,10 +57743,6 @@
                 "move": "Dragonclaw"
             },
             {
-                "level": 67,
-                "move": "Dragondance"
-            },
-            {
                 "level": 70,
                 "move": "Doubleedge"
             },
@@ -58200,7 +58007,6 @@
         "pre_evolution": "Beldum",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "PSYSHOCK",
             "IRONHEAD",
             "STEALTHROCK",
@@ -58431,6 +58237,10 @@
         "moves": [
             {
                 "level": 1,
+                "move": "Explosion"
+            },
+            {
+                "level": 1,
                 "move": "Stomp"
             },
             {
@@ -58561,6 +58371,10 @@
         "moves": [
             {
                 "level": 1,
+                "move": "Explosion"
+            },
+            {
+                "level": 1,
                 "move": "Stomp"
             },
             {
@@ -58650,7 +58464,8 @@
             "FLASHCANNON",
             "ROCKSMASH",
             "SUPERPOWER",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -58688,6 +58503,10 @@
         ],
         "hidden_ability": "LIGHTMETAL",
         "moves": [
+            {
+                "level": 1,
+                "move": "Explosion"
+            },
             {
                 "level": 1,
                 "move": "Stomp"
@@ -59059,6 +58878,10 @@
             {
                 "level": 80,
                 "move": "Dragonpulse"
+            },
+            {
+                "level": 85,
+                "move": "Memento"
             }
         ],
         "compatibility": [
@@ -60175,7 +59998,7 @@
         "abilities": [
             "OVERGROW"
         ],
-        "hidden_ability": "SHELLARMOR",
+        "hidden_ability": "ROCKHEAD",
         "moves": [
             {
                 "level": 1,
@@ -62154,15 +61977,11 @@
             },
             {
                 "level": 46,
-                "move": "Perishsong"
+                "move": "Crosschop"
             },
             {
                 "level": 50,
                 "move": "Leafblade"
-            },
-            {
-                "level": 55,
-                "move": "Espadasedosa"
             }
         ],
         "compatibility": [
@@ -62655,7 +62474,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
-        "base_exp": 76,
+        "base_exp": 56,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -62731,7 +62550,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -62854,7 +62672,6 @@
         "pre_evolution": "Roselia",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -63355,7 +63172,7 @@
         },
         "gender_rate": "FemaleOneEighth",
         "growth_rate": "Erratic",
-        "base_exp": 220,
+        "base_exp": 173,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -63569,16 +63386,16 @@
         ],
         "base_stats": {
             "hp": 80,
-            "attack": 64,
+            "attack": 59,
             "defense": 95,
             "speed": 36,
-            "sp_attack": 95,
+            "sp_attack": 90,
             "sp_defense": 105,
-            "total": 475
+            "total": 465
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Medium",
-        "base_exp": 188,
+        "base_exp": 148,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -63590,7 +63407,7 @@
         "rareness": 45,
         "happiness": 70,
         "abilities": [
-            "CANASTO"
+            "ANTICIPATION"
         ],
         "hidden_ability": "OVERCOAT",
         "moves": [
@@ -63632,11 +63449,11 @@
             },
             {
                 "level": 35,
-                "move": "Gigadrain"
+                "move": "Captivate"
             },
             {
                 "level": 38,
-                "move": "Bugbuzz"
+                "move": "Flail"
             },
             {
                 "level": 41,
@@ -63711,7 +63528,7 @@
         },
         "gender_rate": "AlwaysMale",
         "growth_rate": "Medium",
-        "base_exp": 188,
+        "base_exp": 148,
         "effort_points": {
             "hp": 0,
             "attack": 1,
@@ -64017,7 +63834,6 @@
         "pre_evolution": "Combee",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -64283,10 +64099,6 @@
             {
                 "level": 45,
                 "move": "Hydropump"
-            },
-            {
-                "level": 50,
-                "move": "Waterfall"
             }
         ],
         "egg_moves": [
@@ -64475,10 +64287,6 @@
             },
             {
                 "level": 60,
-                "move": "Waterfall"
-            },
-            {
-                "level": 65,
                 "move": "Surgingstrikes"
             }
         ],
@@ -65033,7 +64841,6 @@
         "pre_evolution": "Shellos",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "BLIZZARD",
             "HAIL",
@@ -65101,10 +64908,6 @@
         ],
         "hidden_ability": "SKILLLINK",
         "moves": [
-            {
-                "level": 1,
-                "move": "Fakeout"
-            },
             {
                 "level": 1,
                 "move": "Scratch"
@@ -65747,7 +65550,7 @@
             "sp_defense": 0
         },
         "rareness": 60,
-        "happiness": 190,
+        "happiness": 140,
         "abilities": [
             "KLUTZ",
             "CAMORRISTA"
@@ -65952,10 +65755,6 @@
             {
                 "level": 55,
                 "move": "Rencorreprimido"
-            },
-            {
-                "level": 60,
-                "move": "Nastyplot"
             }
         ],
         "compatibility": [
@@ -66308,7 +66107,7 @@
         },
         "gender_rate": "Female75Percent",
         "growth_rate": "Fast",
-        "base_exp": 178,
+        "base_exp": 158,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -66678,7 +66477,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -66742,7 +66540,7 @@
             "STENCH",
             "NEUTRALIZINGGAS"
         ],
-        "hidden_ability": "AFTERMATH",
+        "hidden_ability": "KEENEYE",
         "moves": [
             {
                 "level": 1,
@@ -66794,7 +66592,7 @@
             },
             {
                 "level": 38,
-                "move": "Poisonjab"
+                "move": "Falsesurrender"
             },
             {
                 "level": 41,
@@ -66833,7 +66631,6 @@
         "pre_evolution": "Stunky",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -67135,7 +66932,7 @@
             },
             {
                 "level": 46,
-                "move": "Payback"
+                "move": "Recover"
             },
             {
                 "level": 52,
@@ -67941,6 +67738,7 @@
             "ICYWIND",
             "DARKPULSE",
             "SUBSTITUTE",
+            "ESCALOFRIO",
             "SNARL"
         ]
     },
@@ -68333,10 +68131,6 @@
             {
                 "level": 60,
                 "move": "Scaleshot"
-            },
-            {
-                "level": 67,
-                "move": "Nastyplot"
             }
         ],
         "compatibility": [
@@ -68689,7 +68483,7 @@
         "evolutions": [
             {
                 "name": "Lucario",
-                "method": "Happiness"
+                "method": "HappinessDay"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -68765,10 +68559,6 @@
         ],
         "hidden_ability": "JUSTIFIED",
         "moves": [
-            {
-                "level": 1,
-                "move": "Bulletpunch"
-            },
             {
                 "level": 1,
                 "move": "Darkpulse"
@@ -69127,10 +68917,6 @@
                 "move": "Crunch"
             },
             {
-                "level": 36,
-                "move": "Slackoff"
-            },
-            {
                 "level": 40,
                 "move": "Earthquake"
             },
@@ -69321,7 +69107,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -69375,7 +69160,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Slow",
-        "base_exp": 220,
+        "base_exp": 175,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -69494,7 +69279,6 @@
         "pre_evolution": "Skorupi",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -69569,10 +69353,6 @@
         ],
         "hidden_ability": "ADAPTABILITY",
         "moves": [
-            {
-                "level": 1,
-                "move": "Fakeout"
-            },
             {
                 "level": 1,
                 "move": "Astonish"
@@ -69677,7 +69457,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "BULKUP",
             "SUNNYDAY",
             "TAUNT",
@@ -69752,10 +69531,6 @@
         "moves": [
             {
                 "level": 1,
-                "move": "Fakeout"
-            },
-            {
-                "level": 1,
                 "move": "Astonish"
             },
             {
@@ -69811,10 +69586,6 @@
                 "move": "Nastyplot"
             },
             {
-                "level": 44,
-                "move": "Bulletpunch"
-            },
-            {
                 "level": 49,
                 "move": "Poisonjab"
             },
@@ -69847,7 +69618,6 @@
         "pre_evolution": "Croagunk",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "BULKUP",
             "SUNNYDAY",
             "TAUNT",
@@ -70032,7 +69802,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -70585,6 +70354,10 @@
                 "move": "Blizzard"
             },
             {
+                "level": 44,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 46,
                 "move": "Sheercold"
             }
@@ -70648,7 +70421,8 @@
             "GRASSKNOT",
             "SUBSTITUTE",
             "ABRECAMINOS",
-            "PIRUETAHELADA"
+            "PIRUETAHELADA",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -70746,7 +70520,7 @@
             },
             {
                 "level": 42,
-                "move": "Icebeam"
+                "move": "Escalofrio"
             },
             {
                 "level": 47,
@@ -70812,7 +70586,8 @@
             "ROCKSMASH",
             "ABRECAMINOS",
             "PIRUETAHELADA",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -70851,10 +70626,6 @@
         ],
         "hidden_ability": "PICKPOCKET",
         "moves": [
-            {
-                "level": 1,
-                "move": "Fakeout"
-            },
             {
                 "level": 1,
                 "move": "Embargo"
@@ -70988,6 +70759,7 @@
             "ABRECAMINOS",
             "PIRUETAHELADA",
             "STRENGTH",
+            "ESCALOFRIO",
             "SNARL",
             "CUT"
         ]
@@ -71644,7 +71416,6 @@
         "pre_evolution": "Tangela",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -72548,7 +72319,8 @@
             "TRIPLEAXEL",
             "ABRECAMINOS",
             "ECHOEDVOICE",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -72571,7 +72343,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
-        "base_exp": 220,
+        "base_exp": 179,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -72685,7 +72457,6 @@
         "pre_evolution": "Gligar",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "STEALTHROCK",
             "SUNNYDAY",
             "TAUNT",
@@ -72976,10 +72747,6 @@
             {
                 "level": 40,
                 "move": "Discharge"
-            },
-            {
-                "level": 42,
-                "move": "Lavaplume"
             },
             {
                 "level": 45,
@@ -73676,7 +73443,7 @@
             },
             {
                 "level": 34,
-                "move": "Shadowball"
+                "move": "Escalofrio"
             },
             {
                 "level": 37,
@@ -73744,7 +73511,8 @@
             "SUBSTITUTE",
             "ARENASARDIENTES",
             "TRIPLEAXEL",
-            "PIRUETAHELADA"
+            "PIRUETAHELADA",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -73782,10 +73550,6 @@
             "LEVITATE"
         ],
         "moves": [
-            {
-                "level": 1,
-                "move": "Nightslash"
-            },
             {
                 "level": 1,
                 "move": "Trick"
@@ -73835,10 +73599,6 @@
                 "move": "Electroball"
             },
             {
-                "level": 45,
-                "move": "Boltbeak"
-            },
-            {
                 "level": 50,
                 "move": "Hex"
             },
@@ -73852,11 +73612,15 @@
             },
             {
                 "level": 64,
-                "move": "Planchavoltaica"
+                "move": "Wildcharge"
             },
             {
                 "level": 70,
                 "move": "Discharge"
+            },
+            {
+                "level": 75,
+                "move": "Volttackle"
             }
         ],
         "compatibility": [
@@ -73973,7 +73737,11 @@
             },
             {
                 "level": 66,
-                "move": "Psychoboost"
+                "move": "Bulletseed"
+            },
+            {
+                "level": 76,
+                "move": "Memento"
             }
         ],
         "compatibility": [
@@ -74241,7 +74009,11 @@
             },
             {
                 "level": 66,
-                "move": "Psychoboost"
+                "move": "Bulletseed"
+            },
+            {
+                "level": 76,
+                "move": "Explosion"
             }
         ],
         "compatibility": [
@@ -75432,7 +75204,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "CALMMIND",
             "SUNNYDAY",
@@ -75695,7 +75466,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "DRAGONCLAW",
             "PSYSHOCK",
@@ -76573,7 +76343,7 @@
         "internal_name": "PIGNITE",
         "type": [
             "Fire",
-            "Fighting"
+            "Dark"
         ],
         "base_stats": {
             "hp": 110,
@@ -76656,7 +76426,7 @@
             },
             {
                 "level": 28,
-                "move": "Brickbreak"
+                "move": "Crunch"
             },
             {
                 "level": 31,
@@ -76747,7 +76517,7 @@
         "internal_name": "EMBOAR",
         "type": [
             "Fire",
-            "Fighting"
+            "Dark"
         ],
         "base_stats": {
             "hp": 120,
@@ -76838,15 +76608,11 @@
             },
             {
                 "level": 38,
-                "move": "Brickbreak"
+                "move": "Crunch"
             },
             {
                 "level": 43,
                 "move": "Firepunch"
-            },
-            {
-                "level": 45,
-                "move": "Hammerarm"
             },
             {
                 "level": 47,
@@ -77777,10 +77543,6 @@
             {
                 "level": 8,
                 "move": "Bite"
-            },
-            {
-                "level": 10,
-                "move": "Covet"
             },
             {
                 "level": 12,
@@ -80059,6 +79821,7 @@
         "rareness": 190,
         "happiness": 70,
         "abilities": [
+            "RECKLESS",
             "MOTORDRIVE"
         ],
         "hidden_ability": "SAPSIPPER",
@@ -80198,7 +79961,8 @@
         "rareness": 75,
         "happiness": 70,
         "abilities": [
-            "RECKLESS"
+            "RECKLESS",
+            "MOTORDRIVE"
         ],
         "hidden_ability": "SAPSIPPER",
         "moves": [
@@ -80248,7 +80012,7 @@
             },
             {
                 "level": 31,
-                "move": "Cuernocertero"
+                "move": "Stomp"
             },
             {
                 "level": 34,
@@ -81391,7 +81155,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Fast",
-        "base_exp": 250,
+        "base_exp": 350,
         "effort_points": {
             "hp": 2,
             "attack": 0,
@@ -81406,7 +81170,7 @@
             "TRIAGE",
             "REGENERATOR"
         ],
-        "hidden_ability": "NORMALIZE",
+        "hidden_ability": "KLUTZ",
         "moves": [
             {
                 "level": 1,
@@ -81556,11 +81320,11 @@
         "base_stats": {
             "hp": 75,
             "attack": 80,
-            "defense": 65,
+            "defense": 55,
             "speed": 35,
             "sp_attack": 35,
-            "sp_defense": 40,
-            "total": 330
+            "sp_defense": 35,
+            "total": 315
         },
         "gender_rate": "AlwaysMale",
         "growth_rate": "Parabolic",
@@ -82143,7 +81907,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HAIL",
             "SURF",
@@ -82287,7 +82050,6 @@
         "pre_evolution": "Tympole",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HAIL",
             "STEALTHROCK",
@@ -82436,7 +82198,6 @@
         "pre_evolution": "Palpitoad",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HAIL",
             "HIDROARIETE",
@@ -83274,7 +83035,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -83421,7 +83181,6 @@
         "pre_evolution": "Venipede",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -83581,7 +83340,6 @@
         "pre_evolution": "Whirlipede",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -83834,23 +83592,15 @@
                 "move": "Gust"
             },
             {
-                "level": 20,
-                "move": "Drainingkiss"
-            },
-            {
                 "level": 28,
                 "move": "Tailwind"
             },
             {
                 "level": 32,
-                "move": "Gigadrain"
-            },
-            {
-                "level": 36,
                 "move": "Grassyterrain"
             },
             {
-                "level": 40,
+                "level": 46,
                 "move": "Moonblast"
             }
         ],
@@ -84070,7 +83820,7 @@
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Medium",
-        "base_exp": 200,
+        "base_exp": 168,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -84419,12 +84169,8 @@
                 "move": "Torment"
             },
             {
-                "level": 12,
+                "level": 13,
                 "move": "Sandtomb"
-            },
-            {
-                "level": 14,
-                "move": "Covet"
             },
             {
                 "level": 16,
@@ -84496,7 +84242,7 @@
             {
                 "name": "Krokorok",
                 "method": "Level",
-                "item_or_condition": "22"
+                "item_or_condition": "25"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -85568,7 +85314,7 @@
             "STURDY",
             "SHELLARMOR"
         ],
-        "hidden_ability": "WEAKARMOR",
+        "hidden_ability": "CORAZAIRA",
         "moves": [
             {
                 "level": 1,
@@ -87308,7 +87054,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -87472,7 +87217,6 @@
         "pre_evolution": "Trubbish",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -87648,6 +87392,7 @@
             "DARKPULSE",
             "UTURN",
             "SUBSTITUTE",
+            "ESCALOFRIO",
             "SNARL",
             "CUT"
         ]
@@ -87671,7 +87416,7 @@
         },
         "gender_rate": "FemaleOneEighth",
         "growth_rate": "Parabolic",
-        "base_exp": 210,
+        "base_exp": 179,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -87815,6 +87560,7 @@
             "UTURN",
             "SUBSTITUTE",
             "ROCKSMASH",
+            "ESCALOFRIO",
             "SNARL",
             "CUT"
         ]
@@ -88612,7 +88358,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
-        "base_exp": 88,
+        "base_exp": 58,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -88624,8 +88370,7 @@
         "rareness": 200,
         "happiness": 70,
         "abilities": [
-            "ALQUIMIAVIL",
-            "CORROSION"
+            "ALQUIMIAVIL"
         ],
         "hidden_ability": "REGENERATOR",
         "moves": [
@@ -88655,7 +88400,7 @@
             },
             {
                 "level": 19,
-                "move": "Poisongas"
+                "move": "Charm"
             },
             {
                 "level": 24,
@@ -88787,8 +88532,7 @@
         "rareness": 100,
         "happiness": 70,
         "abilities": [
-            "ALQUIMIAVIL",
-            "CORROSION"
+            "ALQUIMIAVIL"
         ],
         "hidden_ability": "REGENERATOR",
         "moves": [
@@ -88830,7 +88574,7 @@
             },
             {
                 "level": 19,
-                "move": "Poisongas"
+                "move": "Charm"
             },
             {
                 "level": 24,
@@ -88932,10 +88676,10 @@
         ],
         "base_stats": {
             "hp": 110,
-            "attack": 135,
+            "attack": 125,
             "defense": 75,
             "speed": 30,
-            "sp_attack": 85,
+            "sp_attack": 95,
             "sp_defense": 85,
             "total": 520
         },
@@ -88953,8 +88697,7 @@
         "rareness": 50,
         "happiness": 70,
         "abilities": [
-            "ALQUIMIAVIL",
-            "CORROSION"
+            "ALQUIMIAVIL"
         ],
         "hidden_ability": "REGENERATOR",
         "moves": [
@@ -88996,7 +88739,7 @@
             },
             {
                 "level": 19,
-                "move": "Poisongas"
+                "move": "Charm"
             },
             {
                 "level": 24,
@@ -89024,11 +88767,11 @@
             },
             {
                 "level": 39,
-                "move": "Psychocut"
+                "move": "Psychic"
             },
             {
                 "level": 41,
-                "move": "Psychic"
+                "move": "Psyshock"
             },
             {
                 "level": 43,
@@ -89047,16 +88790,8 @@
                 "move": "Healblock"
             },
             {
-                "level": 57,
+                "level": 59,
                 "move": "Wonderroom"
-            },
-            {
-                "level": 60,
-                "move": "Noxioustorque"
-            },
-            {
-                "level": 65,
-                "move": "Toxic"
             }
         ],
         "compatibility": [
@@ -89562,7 +89297,8 @@
             "WORKUP",
             "ICYWIND",
             "SUBSTITUTE",
-            "FLASHCANNON"
+            "FLASHCANNON",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -89715,7 +89451,8 @@
             "WORKUP",
             "ICYWIND",
             "SUBSTITUTE",
-            "FLASHCANNON"
+            "FLASHCANNON",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -89869,7 +89606,8 @@
             "WORKUP",
             "ICYWIND",
             "SUBSTITUTE",
-            "FLASHCANNON"
+            "FLASHCANNON",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -90779,7 +90517,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -90921,7 +90658,6 @@
         "pre_evolution": "Foongus",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -91020,6 +90756,10 @@
                 "move": "Raindance"
             },
             {
+                "level": 40,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 43,
                 "move": "Hex"
             },
@@ -91093,7 +90833,8 @@
             "ICYWIND",
             "DARKPULSE",
             "SUBSTITUTE",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -91183,7 +90924,7 @@
             },
             {
                 "level": 40,
-                "move": "Shadowball"
+                "move": "Escalofrio"
             },
             {
                 "level": 45,
@@ -91192,10 +90933,6 @@
             {
                 "level": 53,
                 "move": "Hydropump"
-            },
-            {
-                "level": 58,
-                "move": "Strengthsap"
             },
             {
                 "level": 61,
@@ -91248,7 +90985,8 @@
             "ICYWIND",
             "DARKPULSE",
             "SUBSTITUTE",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -91461,7 +91199,7 @@
             },
             {
                 "level": 12,
-                "move": "Bugbite"
+                "move": "Furycutter"
             },
             {
                 "level": 15,
@@ -91469,7 +91207,7 @@
             },
             {
                 "level": 18,
-                "move": "Furycutter"
+                "move": "Bugbite"
             },
             {
                 "level": 23,
@@ -91556,6 +91294,7 @@
             "SUBSTITUTE",
             "WILDCHARGE",
             "BRINCO",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -91714,6 +91453,7 @@
             "SUBSTITUTE",
             "WILDCHARGE",
             "BRINCO",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -91976,10 +91716,6 @@
                 "move": "Ironhead"
             },
             {
-                "level": 50,
-                "move": "Leechseed"
-            },
-            {
                 "level": 53,
                 "move": "Payback"
             },
@@ -92058,7 +91794,7 @@
         },
         "gender_rate": "Genderless",
         "growth_rate": "Parabolic",
-        "base_exp": 150,
+        "base_exp": 120,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -92193,7 +91929,7 @@
         },
         "gender_rate": "Genderless",
         "growth_rate": "Parabolic",
-        "base_exp": 184,
+        "base_exp": 154,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -94258,6 +93994,7 @@
             "ECHOEDVOICE",
             "SUPERPOWER",
             "STRENGTH",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -94439,6 +94176,7 @@
             "ECHOEDVOICE",
             "SUPERPOWER",
             "STRENGTH",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -94518,6 +94256,10 @@
                 "move": "Icebeam"
             },
             {
+                "level": 35,
+                "move": "Escalofrio"
+            },
+            {
                 "level": 37,
                 "move": "Lightscreen"
             },
@@ -94592,7 +94334,8 @@
             "SUBSTITUTE",
             "FLASHCANNON",
             "TRIPLEAXEL",
-            "PIRUETAHELADA"
+            "PIRUETAHELADA",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -94723,7 +94466,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "PROTECT",
             "HIDDENPOWER",
             "RAINDANCE",
@@ -94862,7 +94604,6 @@
         "pre_evolution": "Shelmet",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "PROTECT",
             "HIDDENPOWER",
             "RAINDANCE",
@@ -95017,7 +94758,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "STEALTHROCK",
             "SURF",
@@ -95409,7 +95149,7 @@
             "ROUGHSKIN",
             "SHEERFORCE"
         ],
-        "hidden_ability": "DRAGONSMAW",
+        "hidden_ability": "MOLDBREAKER",
         "moves": [
             {
                 "level": 1,
@@ -95454,10 +95194,6 @@
             {
                 "level": 35,
                 "move": "Revenge"
-            },
-            {
-                "level": 38,
-                "move": "Suckerpunch"
             },
             {
                 "level": 40,
@@ -95510,7 +95246,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "DRAGONCLAW",
             "IRONHEAD",
             "STEALTHROCK",
@@ -98593,7 +98328,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "BULKUP",
             "TAUNT",
             "PROTECT",
@@ -98742,7 +98476,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "BULKUP",
             "TAUNT",
             "PROTECT",
@@ -99206,7 +98939,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "CALMMIND",
             "BULKUP",
             "STEALTHROCK",
@@ -99782,6 +99514,10 @@
             {
                 "level": 73,
                 "move": "Hyperbeam"
+            },
+            {
+                "level": 77,
+                "move": "Selfdestruct"
             }
         ],
         "compatibility": [
@@ -100322,10 +100058,6 @@
             {
                 "level": 80,
                 "move": "Georrafaga"
-            },
-            {
-                "level": 85,
-                "move": "Agility"
             }
         ],
         "compatibility": [
@@ -100869,10 +100601,6 @@
             {
                 "level": 80,
                 "move": "Lanzarelampago"
-            },
-            {
-                "level": 85,
-                "move": "Wildcharge"
             }
         ],
         "compatibility": [
@@ -101406,10 +101134,6 @@
             {
                 "level": 80,
                 "move": "Condenademago"
-            },
-            {
-                "level": 85,
-                "move": "Expandingforce"
             }
         ],
         "compatibility": [
@@ -102843,7 +102567,7 @@
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Medium",
-        "base_exp": 81,
+        "base_exp": 61,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -102971,13 +102695,13 @@
             "Fairy"
         ],
         "base_stats": {
-            "hp": 74,
+            "hp": 54,
             "attack": 45,
             "defense": 47,
             "speed": 52,
             "sp_attack": 75,
             "sp_defense": 98,
-            "total": 391
+            "total": 371
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Medium",
@@ -103425,9 +103149,9 @@
         "base_stats": {
             "hp": 123,
             "attack": 100,
-            "defense": 72,
-            "speed": 78,
-            "sp_attack": 77,
+            "defense": 62,
+            "speed": 68,
+            "sp_attack": 97,
             "sp_defense": 81,
             "total": 531
         },
@@ -104077,7 +103801,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 81,
+        "base_exp": 71,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -104322,11 +104046,7 @@
             },
             {
                 "level": 53,
-                "move": "Psystrike"
-            },
-            {
-                "level": 60,
-                "move": "Psychoboost"
+                "move": "Quickguard"
             }
         ],
         "compatibility": [
@@ -104442,6 +104162,10 @@
             {
                 "level": 22,
                 "move": "Aerialace"
+            },
+            {
+                "level": 24,
+                "move": "Swordsdance"
             },
             {
                 "level": 26,
@@ -104562,6 +104286,10 @@
                 "move": "Tackle"
             },
             {
+                "level": 1,
+                "move": "Swordsdance"
+            },
+            {
                 "level": 5,
                 "move": "Furycutter"
             },
@@ -104612,10 +104340,6 @@
             {
                 "level": 51,
                 "move": "Sacredsword"
-            },
-            {
-                "level": 55,
-                "move": "Swordsdance"
             }
         ],
         "compatibility": [
@@ -104719,48 +104443,48 @@
                 "move": "Autotomize"
             },
             {
-                "level": 8,
+                "level": 1,
                 "move": "Shadowsneak"
             },
             {
-                "level": 15,
-                "move": "Nightslash"
-            },
-            {
-                "level": 20,
-                "move": "Powertrick"
-            },
-            {
-                "level": 25,
-                "move": "Aerialace"
-            },
-            {
-                "level": 28,
+                "level": 1,
                 "move": "Slash"
             },
             {
-                "level": 30,
-                "move": "Destinybond"
-            },
-            {
-                "level": 35,
+                "level": 1,
                 "move": "Irondefense"
             },
             {
-                "level": 40,
-                "move": "Sacredsword"
+                "level": 1,
+                "move": "Nightslash"
             },
             {
-                "level": 45,
+                "level": 1,
+                "move": "Powertrick"
+            },
+            {
+                "level": 1,
                 "move": "Ironhead"
             },
             {
-                "level": 50,
+                "level": 1,
+                "move": "Headsmash"
+            },
+            {
+                "level": 1,
                 "move": "Swordsdance"
             },
             {
-                "level": 55,
-                "move": "Headsmash"
+                "level": 1,
+                "move": "Aerialace"
+            },
+            {
+                "level": 1,
+                "move": "Destinybond"
+            },
+            {
+                "level": 1,
+                "move": "Sacredsword"
             }
         ],
         "compatibility": [
@@ -104821,7 +104545,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 108,
+        "base_exp": 78,
         "effort_points": {
             "hp": 1,
             "attack": 0,
@@ -104965,11 +104689,11 @@
         "base_stats": {
             "hp": 101,
             "attack": 72,
-            "defense": 82,
+            "defense": 72,
             "speed": 29,
             "sp_attack": 99,
-            "sp_defense": 99,
-            "total": 482
+            "sp_defense": 89,
+            "total": 462
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -104990,10 +104714,6 @@
         ],
         "hidden_ability": "REGENERATOR",
         "moves": [
-            {
-                "level": 1,
-                "move": "Wish"
-            },
             {
                 "level": 1,
                 "move": "Protect"
@@ -105140,7 +104860,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 108,
+        "base_exp": 78,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -105283,12 +105003,12 @@
         ],
         "base_stats": {
             "hp": 87,
-            "attack": 90,
+            "attack": 80,
             "defense": 86,
             "speed": 72,
-            "sp_attack": 95,
+            "sp_attack": 85,
             "sp_defense": 75,
-            "total": 505
+            "total": 485
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -105308,10 +105028,6 @@
         ],
         "hidden_ability": "UNBURDEN",
         "moves": [
-            {
-                "level": 1,
-                "move": "Bellydrum"
-            },
             {
                 "level": 1,
                 "move": "Sweetscent"
@@ -105586,6 +105302,7 @@
             "SUBSTITUTE",
             "SUPERPOWER",
             "TRICKROOM",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -105623,7 +105340,7 @@
         "abilities": [
             "CONTRARY"
         ],
-        "hidden_ability": "ESPANTO",
+        "hidden_ability": "INFILTRATOR",
         "moves": [
             {
                 "level": 1,
@@ -105753,6 +105470,7 @@
             "SUBSTITUTE",
             "SUPERPOWER",
             "TRICKROOM",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -106246,7 +105964,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HAIL",
             "SURF",
@@ -106403,7 +106120,6 @@
         "pre_evolution": "Skrelp",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HAIL",
             "SURF",
@@ -106550,7 +106266,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "ICEBEAM",
             "SURF",
@@ -106675,7 +106390,7 @@
             },
             {
                 "level": 42,
-                "move": "Focusblast"
+                "move": "Armorcannon"
             },
             {
                 "level": 47,
@@ -106711,7 +106426,6 @@
         "pre_evolution": "Clauncher",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HIDROARIETE",
             "ICEBEAM",
@@ -107727,7 +107441,7 @@
         },
         "gender_rate": "FemaleOneEighth",
         "growth_rate": "Medium",
-        "base_exp": 220,
+        "base_exp": 184,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -108193,17 +107907,17 @@
             "Fairy"
         ],
         "base_stats": {
-            "hp": 60,
+            "hp": 50,
             "attack": 50,
             "defense": 150,
             "speed": 50,
             "sp_attack": 50,
             "sp_defense": 150,
-            "total": 510
+            "total": 500
         },
         "gender_rate": "Genderless",
         "growth_rate": "Slow",
-        "base_exp": 180,
+        "base_exp": 100,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -108349,7 +108063,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Slow",
-        "base_exp": 90,
+        "base_exp": 60,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -108437,7 +108151,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -108557,7 +108270,6 @@
         "pre_evolution": "Goomy",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "SUNNYDAY",
             "ICEBEAM",
@@ -108700,7 +108412,6 @@
         "pre_evolution": "Sliggoo",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "HAIL",
             "SUNNYDAY",
@@ -109055,11 +108766,11 @@
         "base_stats": {
             "hp": 85,
             "attack": 110,
-            "defense": 91,
+            "defense": 86,
             "speed": 56,
             "sp_attack": 65,
-            "sp_defense": 87,
-            "total": 494
+            "sp_defense": 82,
+            "total": 484
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -109702,7 +109413,8 @@
             "FLASHCANNON",
             "ROCKSMASH",
             "PIRUETAHELADA",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -109872,7 +109584,8 @@
             "ROCKSMASH",
             "PIRUETAHELADA",
             "SUPERPOWER",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -110529,12 +110242,12 @@
         ],
         "base_stats": {
             "hp": 108,
-            "attack": 120,
+            "attack": 100,
             "defense": 121,
             "speed": 95,
             "sp_attack": 81,
             "sp_defense": 95,
-            "total": 620
+            "total": 600
         },
         "gender_rate": "Genderless",
         "growth_rate": "Slow",
@@ -110553,10 +110266,6 @@
             "AURABREAK"
         ],
         "moves": [
-            {
-                "level": 1,
-                "move": "Milflechas"
-            },
             {
                 "level": 1,
                 "move": "Glare"
@@ -110628,10 +110337,6 @@
             {
                 "level": 93,
                 "move": "Outrage"
-            },
-            {
-                "level": 100,
-                "move": "Nihillight"
             }
         ],
         "compatibility": [
@@ -111074,6 +110779,10 @@
             },
             {
                 "level": 76,
+                "move": "Explosion"
+            },
+            {
+                "level": 85,
                 "move": "Fireblast"
             }
         ],
@@ -111089,7 +110798,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HIDROARIETE",
             "SUNNYDAY",
@@ -111943,10 +111651,6 @@
         ],
         "hidden_ability": "INTIMIDATE",
         "moves": [
-            {
-                "level": 1,
-                "move": "Fakeout"
-            },
             {
                 "level": 1,
                 "move": "Nightslash"
@@ -113436,8 +113140,8 @@
         "evolutions": [
             {
                 "name": "Vikavolt",
-                "method": "Item",
-                "item_or_condition": "THUNDERSTONE"
+                "method": "Level",
+                "item_or_condition": "36"
             }
         ],
         "pre_evolution": "Grubbin",
@@ -113767,13 +113471,13 @@
             "Ice"
         ],
         "base_stats": {
-            "hp": 107,
+            "hp": 97,
             "attack": 132,
             "defense": 77,
             "speed": 43,
             "sp_attack": 62,
             "sp_defense": 67,
-            "total": 488
+            "total": 478
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -114000,10 +113704,6 @@
             {
                 "level": 50,
                 "move": "Hurricane"
-            },
-            {
-                "level": 55,
-                "move": "Quiverdance"
             }
         ],
         "egg_moves": [
@@ -114252,14 +113952,6 @@
             {
                 "level": 49,
                 "move": "Quiverdance"
-            },
-            {
-                "level": 56,
-                "move": "Moonblast"
-            },
-            {
-                "level": 62,
-                "move": "Stickyweb"
             }
         ],
         "compatibility": [
@@ -114470,14 +114162,11 @@
         "rareness": 90,
         "happiness": 70,
         "abilities": [
-            "TOUGHCLAWS"
+            "KEENEYE",
+            "SANDRUSH"
         ],
-        "hidden_ability": "NOGUARD",
+        "hidden_ability": "STEADFAST",
         "moves": [
-            {
-                "level": 1,
-                "move": "Nastyplot"
-            },
             {
                 "level": 1,
                 "move": "Rocksmash"
@@ -114547,20 +114236,12 @@
                 "move": "Crunch"
             },
             {
-                "level": 40,
-                "move": "Darkpulse"
-            },
-            {
                 "level": 45,
-                "move": "Powergem"
+                "move": "Rockclimb"
             },
             {
                 "level": 48,
                 "move": "Stoneedge"
-            },
-            {
-                "level": 55,
-                "move": "Earthpower"
             }
         ],
         "compatibility": [
@@ -114712,7 +114393,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HIDROARIETE",
             "ICEBEAM",
@@ -114846,7 +114526,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "ICEBEAM",
             "SURF",
@@ -114962,10 +114641,6 @@
                 "move": "Pinmissile"
             },
             {
-                "level": 55,
-                "move": "Haze"
-            },
-            {
                 "level": 58,
                 "move": "Aquatail"
             }
@@ -114983,7 +114658,6 @@
         "pre_evolution": "Mareanie",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "HIDROARIETE",
             "ICEBEAM",
@@ -115415,7 +115089,8 @@
             "XSCISSOR",
             "WORKUP",
             "POISONJAB",
-            "UTURN"
+            "UTURN",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -115438,7 +115113,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 200,
+        "base_exp": 159,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -115564,7 +115239,8 @@
             "WORKUP",
             "POISONJAB",
             "UTURN",
-            "VIRAJE"
+            "VIRAJE",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -115848,7 +115524,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 97,
+        "base_exp": 57,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -115949,7 +115625,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -115985,7 +115660,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 172,
+        "base_exp": 142,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -116068,7 +115743,6 @@
         "pre_evolution": "Morelull",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -116206,7 +115880,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -116362,7 +116035,6 @@
         "pre_evolution": "Salandit",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "PROTECT",
             "HIDDENPOWER",
@@ -118076,7 +117748,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "DRAGONCLAW",
             "ICEBEAM",
             "PROTECT",
@@ -118207,7 +117878,7 @@
             }
         ],
         "compatibility": [
-            "Field"
+            "Undiscovered"
         ],
         "steps_to_hatch": 30720,
         "height": 1.9,
@@ -118225,7 +117896,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "DRAGONCLAW",
             "ICEBEAM",
             "PROTECT",
@@ -118257,12 +117927,12 @@
         ],
         "base_stats": {
             "hp": 95,
-            "attack": 105,
+            "attack": 95,
             "defense": 95,
-            "speed": 105,
-            "sp_attack": 105,
+            "speed": 95,
+            "sp_attack": 95,
             "sp_defense": 95,
-            "total": 600
+            "total": 570
         },
         "gender_rate": "Genderless",
         "growth_rate": "Slow",
@@ -118387,7 +118057,7 @@
             }
         ],
         "compatibility": [
-            "Field"
+            "Undiscovered"
         ],
         "steps_to_hatch": 30720,
         "height": 2.3,
@@ -118399,7 +118069,6 @@
         "pre_evolution": "Código Cero",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "DRAGONCLAW",
             "ICEBEAM",
             "PROTECT",
@@ -118696,7 +118365,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 220,
+        "base_exp": 170,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -119193,7 +118862,7 @@
             },
             {
                 "level": 50,
-                "move": "Aquatail"
+                "move": "Escalofrio"
             },
             {
                 "level": 55,
@@ -119520,7 +119189,8 @@
             "SHADOWCLAW",
             "WORKUP",
             "POISONJAB",
-            "VIRAJE"
+            "VIRAJE",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -119554,8 +119224,7 @@
         "rareness": 45,
         "happiness": 70,
         "abilities": [
-            "BULLETPROOF",
-            "SKILLLINK"
+            "BULLETPROOF"
         ],
         "hidden_ability": "OVERCOAT",
         "moves": [
@@ -119695,15 +119364,10 @@
         "rareness": 45,
         "happiness": 70,
         "abilities": [
-            "BULLETPROOF",
-            "SKILLLINK"
+            "BULLETPROOF"
         ],
         "hidden_ability": "OVERCOAT",
         "moves": [
-            {
-                "level": 1,
-                "move": "Armthrust"
-            },
             {
                 "level": 1,
                 "move": "Skyuppercut"
@@ -119755,10 +119419,6 @@
             {
                 "level": 43,
                 "move": "Dragonclaw"
-            },
-            {
-                "level": 45,
-                "move": "Scaleshot"
             },
             {
                 "level": 48,
@@ -119847,8 +119507,7 @@
         "rareness": 45,
         "happiness": 70,
         "abilities": [
-            "BULLETPROOF",
-            "SKILLLINK"
+            "BULLETPROOF"
         ],
         "hidden_ability": "OVERCOAT",
         "moves": [
@@ -120506,7 +120165,7 @@
             }
         ],
         "compatibility": [
-            "Mineral"
+            "Undiscovered"
         ],
         "steps_to_hatch": 30822,
         "height": 0.2,
@@ -120570,7 +120229,7 @@
             }
         ],
         "compatibility": [
-            "Mineral"
+            "Undiscovered"
         ],
         "steps_to_hatch": 30822,
         "height": 0.1,
@@ -120710,7 +120369,7 @@
             }
         ],
         "compatibility": [
-            "Mineral"
+            "Undiscovered"
         ],
         "steps_to_hatch": 30822,
         "height": 3.4,
@@ -120830,7 +120489,7 @@
             }
         ],
         "compatibility": [
-            "Mineral"
+            "Undiscovered"
         ],
         "steps_to_hatch": 30822,
         "height": 4.0,
@@ -124297,7 +123956,7 @@
         "abilities": [
             "CHEEKPOUCH"
         ],
-        "hidden_ability": "FLUFFY",
+        "hidden_ability": "GLUTTONY",
         "moves": [
             {
                 "level": 1,
@@ -125090,10 +124749,6 @@
             {
                 "level": 53,
                 "move": "Psyshock"
-            },
-            {
-                "level": 60,
-                "move": "Psystrike"
             }
         ],
         "compatibility": [
@@ -126594,7 +126249,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
-        "base_exp": 184,
+        "base_exp": 144,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -126953,7 +126608,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -126991,17 +126645,17 @@
             "Dragon"
         ],
         "base_stats": {
-            "hp": 100,
+            "hp": 70,
             "attack": 110,
-            "defense": 70,
+            "defense": 80,
             "speed": 70,
-            "sp_attack": 85,
-            "sp_defense": 50,
+            "sp_attack": 95,
+            "sp_defense": 60,
             "total": 485
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Erratic",
-        "base_exp": 190,
+        "base_exp": 170,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -127108,7 +126762,6 @@
         "pre_evolution": "Applin",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -127148,17 +126801,17 @@
             "Dragon"
         ],
         "base_stats": {
-            "hp": 100,
+            "hp": 110,
             "attack": 85,
             "defense": 80,
             "speed": 30,
             "sp_attack": 100,
-            "sp_defense": 90,
+            "sp_defense": 80,
             "total": 485
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Erratic",
-        "base_exp": 190,
+        "base_exp": 170,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -127257,7 +126910,6 @@
         "pre_evolution": "Applin",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "LIGHTSCREEN",
             "PROTECT",
@@ -128021,7 +127673,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "DRAGONCLAW",
             "BULKUP",
             "TAUNT",
@@ -128240,7 +127891,6 @@
         "pre_evolution": "Toxel",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "DRAGONCLAW",
             "BULKUP",
             "TAUNT",
@@ -129131,7 +128781,7 @@
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Slow",
-        "base_exp": 63,
+        "base_exp": 53,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -129266,7 +128916,7 @@
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Slow",
-        "base_exp": 150,
+        "base_exp": 130,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -129395,7 +129045,7 @@
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Slow",
-        "base_exp": 200,
+        "base_exp": 130,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -129527,13 +129177,13 @@
             "Fairy"
         ],
         "base_stats": {
-            "hp": 55,
-            "attack": 55,
-            "defense": 40,
-            "speed": 55,
+            "hp": 45,
+            "attack": 45,
+            "defense": 30,
+            "speed": 50,
             "sp_attack": 40,
-            "sp_defense": 55,
-            "total": 300
+            "sp_defense": 50,
+            "total": 260
         },
         "gender_rate": "AlwaysMale",
         "growth_rate": "Medium",
@@ -129573,10 +129223,6 @@
             {
                 "level": 8,
                 "move": "Flatter"
-            },
-            {
-                "level": 10,
-                "move": "Covet"
             },
             {
                 "level": 12,
@@ -129630,7 +129276,7 @@
             {
                 "name": "Morgrem",
                 "method": "Level",
-                "item_or_condition": "20"
+                "item_or_condition": "32"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -129677,13 +129323,13 @@
             "Fairy"
         ],
         "base_stats": {
-            "hp": 75,
-            "attack": 70,
-            "defense": 50,
+            "hp": 65,
+            "attack": 60,
+            "defense": 45,
             "speed": 70,
             "sp_attack": 55,
             "sp_defense": 70,
-            "total": 390
+            "total": 365
         },
         "gender_rate": "AlwaysMale",
         "growth_rate": "Medium",
@@ -129729,10 +129375,6 @@
                 "move": "Flatter"
             },
             {
-                "level": 10,
-                "move": "Drainingkiss"
-            },
-            {
                 "level": 12,
                 "move": "Faketears"
             },
@@ -129751,10 +129393,6 @@
             {
                 "level": 28,
                 "move": "Torment"
-            },
-            {
-                "level": 32,
-                "move": "Spiritbreak"
             },
             {
                 "level": 35,
@@ -130155,7 +129793,6 @@
         "pre_evolution": "Linoone",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "IRONHEAD",
             "BULKUP",
             "TAUNT",
@@ -130433,10 +130070,6 @@
                 "move": "Nightshade"
             },
             {
-                "level": 48,
-                "move": "Haze"
-            },
-            {
                 "level": 50,
                 "move": "Grudge"
             },
@@ -130463,7 +130096,6 @@
         "pre_evolution": "Corsola",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "BLIZZARD",
             "PSYSHOCK",
@@ -130503,7 +130135,8 @@
             "SUBSTITUTE",
             "ROCKSMASH",
             "VIRAJE",
-            "STRENGTH"
+            "STRENGTH",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -130712,6 +130345,10 @@
         "moves": [
             {
                 "level": 1,
+                "move": "Escalofrio"
+            },
+            {
+                "level": 1,
                 "move": "Psychicterrain"
             },
             {
@@ -130886,7 +130523,8 @@
             "DARKPULSE",
             "SUBSTITUTE",
             "TRIPLEAXEL",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -131058,7 +130696,7 @@
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Medium",
-        "base_exp": 84,
+        "base_exp": 54,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -131186,7 +130824,7 @@
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Medium",
-        "base_exp": 183,
+        "base_exp": 173,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -131429,13 +131067,13 @@
             "Electric"
         ],
         "base_stats": {
-            "hp": 68,
+            "hp": 48,
             "attack": 101,
             "defense": 95,
             "speed": 15,
             "sp_attack": 91,
             "sp_defense": 85,
-            "total": 455
+            "total": 435
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -131649,7 +131287,8 @@
             "WORKUP",
             "ICYWIND",
             "SUBSTITUTE",
-            "BRINCO"
+            "BRINCO",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -131751,7 +131390,7 @@
             },
             {
                 "level": 42,
-                "move": "Airslash"
+                "move": "Escalofrio"
             },
             {
                 "level": 44,
@@ -131800,7 +131439,8 @@
             "ICYWIND",
             "SUBSTITUTE",
             "TRIPLEAXEL",
-            "BRINCO"
+            "BRINCO",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -131959,10 +131599,6 @@
             "SNOWWARNING"
         ],
         "moves": [
-            {
-                "level": 1,
-                "move": "Bellydrum"
-            },
             {
                 "level": 1,
                 "move": "Powdersnow"
@@ -132508,7 +132144,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
-        "base_exp": 215,
+        "base_exp": 175,
         "effort_points": {
             "hp": 0,
             "attack": 2,
@@ -134049,63 +133685,7 @@
         "moves": [
             {
                 "level": 1,
-                "move": "Poisontail"
-            },
-            {
-                "level": 1,
-                "move": "Confuseray"
-            },
-            {
-                "level": 1,
-                "move": "Dragontail"
-            },
-            {
-                "level": 1,
-                "move": "Agility"
-            },
-            {
-                "level": 8,
-                "move": "Toxic"
-            },
-            {
-                "level": 16,
-                "move": "Venoshock"
-            },
-            {
-                "level": 24,
-                "move": "Dragondance"
-            },
-            {
-                "level": 32,
-                "move": "Crosspoison"
-            },
-            {
-                "level": 40,
-                "move": "Dragonpulse"
-            },
-            {
-                "level": 48,
-                "move": "Flamethrower"
-            },
-            {
-                "level": 56,
-                "move": "Sludgewave"
-            },
-            {
-                "level": 64,
-                "move": "Cosmicpower"
-            },
-            {
-                "level": 72,
-                "move": "Recover"
-            },
-            {
-                "level": 80,
-                "move": "Hyperbeam"
-            },
-            {
-                "level": 88,
-                "move": "Dracometeor"
+                "move": "Flail"
             }
         ],
         "compatibility": [
@@ -134283,14 +133863,6 @@
             "IRONFIST"
         ],
         "moves": [
-            {
-                "level": 1,
-                "move": "Wickedblow"
-            },
-            {
-                "level": 1,
-                "move": "Surgingstrikes"
-            },
             {
                 "level": 1,
                 "move": "Nightslash"
@@ -134529,7 +134101,7 @@
         "rareness": 3,
         "happiness": 70,
         "abilities": [
-            "AURADORADA"
+            "LIGHTNINGROD"
         ],
         "moves": [
             {
@@ -134587,6 +134159,10 @@
             {
                 "level": 72,
                 "move": "Hyperbeam"
+            },
+            {
+                "level": 78,
+                "move": "Explosion"
             }
         ],
         "compatibility": [
@@ -134637,7 +134213,7 @@
         "rareness": 3,
         "happiness": 70,
         "abilities": [
-            "DRAGONSMAW"
+            "TOUGHCLAWS"
         ],
         "moves": [
             {
@@ -134695,6 +134271,10 @@
             {
                 "level": 72,
                 "move": "Hyperbeam"
+            },
+            {
+                "level": 78,
+                "move": "Explosion"
             }
         ],
         "compatibility": [
@@ -134853,7 +134433,7 @@
         "rareness": 3,
         "happiness": 70,
         "abilities": [
-            "GRIMNEIGH"
+            "UNNERVE"
         ],
         "moves": [
             {
@@ -135313,7 +134893,6 @@
         "pre_evolution": "Mawile",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "CALMMIND",
             "IRONHEAD",
             "BULKUP",
@@ -135534,7 +135113,7 @@
             "TRIAGE",
             "REGENERATOR"
         ],
-        "hidden_ability": "NORMALIZE",
+        "hidden_ability": "KLUTZ",
         "moves": [
             {
                 "level": 1,
@@ -135879,7 +135458,7 @@
             },
             {
                 "level": 40,
-                "move": "Psyshieldbash"
+                "move": "Furiataurina"
             },
             {
                 "level": 43,
@@ -135887,7 +135466,7 @@
             },
             {
                 "level": 49,
-                "move": "Furiataurina"
+                "move": "Imprison"
             },
             {
                 "level": 53,
@@ -136240,7 +135819,6 @@
         "pre_evolution": "Qwilfish",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "SURF",
             "PROTECT",
@@ -136298,10 +135876,6 @@
         ],
         "hidden_ability": "PICKPOCKET",
         "moves": [
-            {
-                "level": 1,
-                "move": "Fakeout"
-            },
             {
                 "level": 1,
                 "move": "Embargo"
@@ -136399,7 +135973,6 @@
         "pre_evolution": "Sneasel",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "BULKUP",
             "TAUNT",
             "PROTECT",
@@ -136439,17 +136012,17 @@
             "Normal"
         ],
         "base_stats": {
-            "hp": 140,
+            "hp": 80,
             "attack": 80,
             "defense": 80,
             "speed": 80,
             "sp_attack": 80,
             "sp_defense": 80,
-            "total": 540
+            "total": 480
         },
         "gender_rate": "Genderless",
         "growth_rate": "Medium",
-        "base_exp": 250,
+        "base_exp": 180,
         "effort_points": {
             "hp": 0,
             "attack": 1,
@@ -136471,22 +136044,6 @@
             {
                 "level": 1,
                 "move": "Transform"
-            },
-            {
-                "level": 100,
-                "move": "Gigadrain"
-            },
-            {
-                "level": 100,
-                "move": "Earthquake"
-            },
-            {
-                "level": 100,
-                "move": "Aeroblast"
-            },
-            {
-                "level": 100,
-                "move": "Flashcannon"
             }
         ],
         "compatibility": [
@@ -136917,10 +136474,6 @@
                 "move": "Grassyterrain"
             },
             {
-                "level": 61,
-                "move": "Suckerpunch"
-            },
-            {
                 "level": 64,
                 "move": "Leafstorm"
             }
@@ -137283,10 +136836,6 @@
         ],
         "hidden_ability": "UNAWARE",
         "moves": [
-            {
-                "level": 1,
-                "move": "Slackoff"
-            },
             {
                 "level": 1,
                 "move": "Ember"
@@ -138393,6 +137942,7 @@
             "SUBSTITUTE",
             "BRINCO",
             "ABRECAMINOS",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -138524,6 +138074,7 @@
             "SUBSTITUTE",
             "BRINCO",
             "ABRECAMINOS",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -138819,6 +138370,7 @@
             "ROCKSMASH",
             "BRINCO",
             "ABRECAMINOS",
+            "ESCALOFRIO",
             "CUT"
         ]
     },
@@ -139046,10 +138598,6 @@
             {
                 "level": 55,
                 "move": "Choquemental"
-            },
-            {
-                "level": 65,
-                "move": "Psychoboost"
             }
         ],
         "compatibility": [
@@ -139250,7 +138798,7 @@
         "internal_name": "HOUNDSTONE",
         "type": [
             "Ghost",
-            "Rock"
+            "Ground"
         ],
         "base_stats": {
             "hp": 72,
@@ -139263,7 +138811,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
-        "base_exp": 208,
+        "base_exp": 168,
         "effort_points": {
             "hp": 0,
             "attack": 2,
@@ -139320,10 +138868,6 @@
                 "move": "Crunch"
             },
             {
-                "level": 30,
-                "move": "Rocktomb"
-            },
-            {
                 "level": 33,
                 "move": "Shadowclaw"
             },
@@ -139337,7 +138881,7 @@
             },
             {
                 "level": 46,
-                "move": "Rockslide"
+                "move": "Earthquake"
             },
             {
                 "level": 51,
@@ -139345,10 +138889,6 @@
             },
             {
                 "level": 58,
-                "move": "Stoneedge"
-            },
-            {
-                "level": 65,
                 "move": "Doubleedge"
             }
         ],
@@ -139795,13 +139335,13 @@
             "Water"
         ],
         "base_stats": {
-            "hp": 150,
+            "hp": 100,
             "attack": 100,
             "defense": 115,
             "speed": 35,
             "sp_attack": 65,
             "sp_defense": 65,
-            "total": 530
+            "total": 480
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Slow",
@@ -140983,10 +140523,6 @@
             {
                 "level": 60,
                 "move": "Ficklebeam"
-            },
-            {
-                "level": 65,
-                "move": "Leafstorm"
             }
         ],
         "compatibility": [
@@ -141425,7 +140961,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "IRONHEAD",
             "PROTECT",
             "HIDDENPOWER",
@@ -141574,7 +141109,6 @@
         "pre_evolution": "Varoom",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "IRONHEAD",
             "PROTECT",
             "HIDDENPOWER",
@@ -141617,7 +141151,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Slow",
-        "base_exp": 219,
+        "base_exp": 169,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -141747,7 +141281,7 @@
         },
         "gender_rate": "Genderless",
         "growth_rate": "Fast",
-        "base_exp": 90,
+        "base_exp": 60,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -141872,7 +141406,7 @@
         },
         "gender_rate": "Genderless",
         "growth_rate": "Fast",
-        "base_exp": 130,
+        "base_exp": 120,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -142153,7 +141687,8 @@
             "ROCKSMASH",
             "TRIPLEAXEL",
             "ABRECAMINOS",
-            "PIRUETAHELADA"
+            "PIRUETAHELADA",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -142302,7 +141837,8 @@
             "ROCKSMASH",
             "TRIPLEAXEL",
             "ABRECAMINOS",
-            "PIRUETAHELADA"
+            "PIRUETAHELADA",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -142669,10 +142205,6 @@
                 "move": "Dragonclaw"
             },
             {
-                "level": 38,
-                "move": "Iciclespear"
-            },
-            {
                 "level": 42,
                 "move": "Iciclecrash"
             },
@@ -142751,13 +142283,13 @@
             "Water"
         ],
         "base_stats": {
-            "hp": 78,
+            "hp": 68,
             "attack": 50,
             "defense": 60,
             "speed": 92,
             "sp_attack": 120,
             "sp_defense": 95,
-            "total": 495
+            "total": 485
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
@@ -143005,12 +142537,12 @@
         ],
         "base_stats": {
             "hp": 45,
-            "attack": 60,
-            "defense": 30,
-            "speed": 70,
+            "attack": 50,
+            "defense": 20,
+            "speed": 60,
             "sp_attack": 40,
-            "sp_defense": 35,
-            "total": 280
+            "sp_defense": 25,
+            "total": 240
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Medium",
@@ -143050,10 +142582,6 @@
             {
                 "level": 8,
                 "move": "Charge"
-            },
-            {
-                "level": 10,
-                "move": "Karatechop"
             },
             {
                 "level": 12,
@@ -143236,7 +142764,7 @@
             },
             {
                 "level": 32,
-                "move": "Brickbreak"
+                "move": "Slam"
             },
             {
                 "level": 38,
@@ -143392,7 +142920,7 @@
             },
             {
                 "level": 33,
-                "move": "Brickbreak"
+                "move": "Slam"
             },
             {
                 "level": 39,
@@ -143826,10 +143354,6 @@
             {
                 "level": 47,
                 "move": "Rockslide"
-            },
-            {
-                "level": 50,
-                "move": "Suckerpunch"
             },
             {
                 "level": 53,
@@ -144837,7 +144361,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "STEALTHROCK",
             "PROTECT",
             "HIDDENPOWER",
@@ -144878,7 +144401,7 @@
         },
         "gender_rate": "Female50Percent",
         "growth_rate": "Parabolic",
-        "base_exp": 224,
+        "base_exp": 184,
         "effort_points": {
             "hp": 0,
             "attack": 0,
@@ -144975,7 +144498,6 @@
         "pre_evolution": "Glimmet",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "STEALTHROCK",
             "PROTECT",
             "HIDDENPOWER",
@@ -145113,7 +144635,6 @@
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": [
-            "VENOSHOCK",
             "TAUNT",
             "PROTECT",
             "HIDDENPOWER",
@@ -145255,7 +144776,6 @@
         "pre_evolution": "Shroodle",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "TAUNT",
             "PROTECT",
             "HIDDENPOWER",
@@ -145318,10 +144838,6 @@
         ],
         "hidden_ability": "KLUTZ",
         "moves": [
-            {
-                "level": 1,
-                "move": "Yawn"
-            },
             {
                 "level": 1,
                 "move": "Tackle"
@@ -145457,10 +144973,6 @@
         ],
         "hidden_ability": "FLUFFY",
         "moves": [
-            {
-                "level": 1,
-                "move": "Yawn"
-            },
             {
                 "level": 1,
                 "move": "Tackle"
@@ -146083,10 +145595,6 @@
             {
                 "level": 55,
                 "move": "Powerwhip"
-            },
-            {
-                "level": 60,
-                "move": "Strengthsap"
             }
         ],
         "compatibility": [
@@ -146351,12 +145859,12 @@
         ],
         "base_stats": {
             "hp": 50,
-            "attack": 50,
+            "attack": 45,
             "defense": 45,
             "speed": 58,
             "sp_attack": 35,
             "sp_defense": 64,
-            "total": 302
+            "total": 297
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Parabolic",
@@ -146448,7 +145956,7 @@
             {
                 "name": "Tinkatuff",
                 "method": "Level",
-                "item_or_condition": "20"
+                "item_or_condition": "24"
             }
         ],
         "pre_evolution": "Ninguna",
@@ -146485,12 +145993,12 @@
         ],
         "base_stats": {
             "hp": 65,
-            "attack": 60,
+            "attack": 55,
             "defense": 55,
             "speed": 78,
             "sp_attack": 45,
             "sp_defense": 82,
-            "total": 385
+            "total": 380
         },
         "gender_rate": "AlwaysFemale",
         "growth_rate": "Parabolic",
@@ -147038,7 +146546,6 @@
             "THIEF",
             "FURYCUTTER",
             "FOCUSBLAST",
-            "ENERGYBALL",
             "FALSESWIPE",
             "FLAMETHROWER",
             "INCINERATE",
@@ -147048,7 +146555,6 @@
             "WORKUP",
             "DARKPULSE",
             "SUBSTITUTE",
-            "FLASHCANNON",
             "HEATWAVE"
         ]
     },
@@ -147300,10 +146806,6 @@
                 "move": "Ironhead"
             },
             {
-                "level": 60,
-                "move": "Suckerpunch"
-            },
-            {
                 "level": 64,
                 "move": "Swordsdance"
             },
@@ -147431,10 +146933,6 @@
                 "move": "Megahorn"
             },
             {
-                "level": 38,
-                "move": "Recover"
-            },
-            {
                 "level": 40,
                 "move": "Toxic"
             },
@@ -147456,7 +146954,6 @@
         "pre_evolution": "Wooper",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "BLIZZARD",
             "CALMMIND",
             "SURF",
@@ -147673,7 +147170,7 @@
         "rareness": 6,
         "happiness": 0,
         "abilities": [
-            "RIVALRY"
+            "PRESSURE"
         ],
         "moves": [
             {
@@ -147803,7 +147300,7 @@
         "rareness": 6,
         "happiness": 0,
         "abilities": [
-            "RIVALRY"
+            "PRESSURE"
         ],
         "moves": [
             {
@@ -147925,7 +147422,7 @@
         "rareness": 6,
         "happiness": 0,
         "abilities": [
-            "RIVALRY"
+            "PRESSURE"
         ],
         "moves": [
             {
@@ -147986,7 +147483,7 @@
             },
             {
                 "level": 65,
-                "move": "Stoneedge"
+                "move": "Memento"
             },
             {
                 "level": 70,
@@ -148051,7 +147548,7 @@
         "rareness": 6,
         "happiness": 0,
         "abilities": [
-            "RIVALRY"
+            "PRESSURE"
         ],
         "moves": [
             {
@@ -148116,7 +147613,7 @@
             },
             {
                 "level": 70,
-                "move": "Fireblast"
+                "move": "Memento"
             },
             {
                 "level": 75,
@@ -148671,7 +148168,6 @@
         "abilities": [
             "PEDANTE"
         ],
-        "hidden_ability": "BERSERK",
         "moves": [
             {
                 "level": 1,
@@ -148767,7 +148263,6 @@
         "pre_evolution": "Cherrim",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "PSYSHOCK",
             "CALMMIND",
             "SUNNYDAY",
@@ -148827,11 +148322,11 @@
         "abilities": [
             "REALEZA"
         ],
-        "hidden_ability": "FURCOAT",
+        "hidden_ability": "ADAPTABILITY",
         "moves": [
             {
                 "level": 1,
-                "move": "Fakeout"
+                "move": "Helpinghand"
             },
             {
                 "level": 1,
@@ -148899,11 +148394,11 @@
             },
             {
                 "level": 70,
-                "move": "Perishsong"
+                "move": "Psychup"
             },
             {
                 "level": 80,
-                "move": "Judgment"
+                "move": "Boomburst"
             }
         ],
         "compatibility": [
@@ -149231,7 +148726,6 @@
         "pre_evolution": "Applin",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "DRAGONCLAW",
             "SUNNYDAY",
             "PROTECT",
@@ -149831,7 +149325,6 @@
         "pre_evolution": "Sinistea",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SCALD",
             "PSYSHOCK",
             "CALMMIND",
@@ -150013,10 +149506,10 @@
             "Dragon"
         ],
         "base_stats": {
-            "hp": 100,
+            "hp": 106,
             "attack": 80,
             "defense": 110,
-            "speed": 50,
+            "speed": 44,
             "sp_attack": 130,
             "sp_defense": 80,
             "total": 550
@@ -150138,7 +149631,6 @@
         "pre_evolution": "Dipplin",
         "evolution_stage": 3,
         "TM_moves": [
-            "VENOSHOCK",
             "DRAGONCLAW",
             "SUNNYDAY",
             "PROTECT",
@@ -150487,7 +149979,6 @@
         "pre_evolution": "Seviper",
         "evolution_stage": 2,
         "TM_moves": [
-            "VENOSHOCK",
             "SUNNYDAY",
             "TAUNT",
             "PROTECT",
@@ -150792,7 +150283,7 @@
             },
             {
                 "level": 35,
-                "move": "Icebeam"
+                "move": "Escalofrio"
             },
             {
                 "level": 39,
@@ -150843,7 +150334,6 @@
             "HIDDENPOWER",
             "RAINDANCE",
             "DREAMEATER",
-            "DREAMEATER",
             "SIGNALBEAM",
             "RETURN",
             "PSYCHIC",
@@ -150869,7 +150359,8 @@
             "DRAINPUNCH",
             "TRIPLEAXEL",
             "ECHOEDVOICE",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -150908,10 +150399,6 @@
         ],
         "hidden_ability": "ESPANTO",
         "moves": [
-            {
-                "level": 1,
-                "move": "Dreameater"
-            },
             {
                 "level": 1,
                 "move": "Darkpulse"
@@ -150982,7 +150469,7 @@
             },
             {
                 "level": 43,
-                "move": "Psychic"
+                "move": "Escalofrio"
             },
             {
                 "level": 45,
@@ -151035,7 +150522,6 @@
             "HIDDENPOWER",
             "RAINDANCE",
             "DREAMEATER",
-            "DREAMEATER",
             "SIGNALBEAM",
             "RETURN",
             "PSYCHIC",
@@ -151060,7 +150546,8 @@
             "SUBSTITUTE",
             "DRAINPUNCH",
             "ABRECAMINOS",
-            "TRICKROOM"
+            "TRICKROOM",
+            "ESCALOFRIO"
         ]
     },
     {
@@ -151100,39 +150587,19 @@
         "moves": [
             {
                 "level": 1,
-                "move": "Powergem"
+                "move": "Tackle"
             },
             {
                 "level": 1,
-                "move": "Psyshock"
+                "move": "Harden"
             },
             {
                 "level": 1,
-                "move": "Zenheadbutt"
-            },
-            {
-                "level": 1,
-                "move": "Shadowball"
-            },
-            {
-                "level": 1,
-                "move": "Protect"
-            },
-            {
-                "level": 1,
-                "move": "Calmmind"
-            },
-            {
-                "level": 1,
-                "move": "Flamethrower"
-            },
-            {
-                "level": 1,
-                "move": "Icebeam"
+                "move": "Confusion"
             },
             {
                 "level": 5,
-                "move": "Flareblitz"
+                "move": "Rockthrow"
             },
             {
                 "level": 9,
@@ -151209,7 +150676,6 @@
         "evolution_stage": 2,
         "TM_moves": [
             "PSYSHOCK",
-            "PSYSHOCK",
             "CALMMIND",
             "IRONHEAD",
             "STEALTHROCK",
@@ -151219,7 +150685,6 @@
             "PROTECT",
             "HIDDENPOWER",
             "RAINDANCE",
-            "DREAMEATER",
             "DREAMEATER",
             "SIGNALBEAM",
             "SOLARBEAM",
@@ -151257,711 +150722,6 @@
     {
         "number": 1013,
         "number000": "1013",
-        "name": "Luvourne",
-        "internal_name": "LUVOURNE",
-        "type": [
-            "Water",
-            "Dark"
-        ],
-        "base_stats": {
-            "hp": 93,
-            "attack": 60,
-            "defense": 85,
-            "speed": 97,
-            "sp_attack": 120,
-            "sp_defense": 95,
-            "total": 550
-        },
-        "gender_rate": "Female75Percent",
-        "growth_rate": "Fast",
-        "base_exp": 216,
-        "effort_points": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 0,
-            "speed": 1,
-            "sp_attack": 0,
-            "sp_defense": 0
-        },
-        "rareness": 225,
-        "happiness": 70,
-        "abilities": [
-            "MULTISCALE"
-        ],
-        "hidden_ability": "MARVELSCALE",
-        "moves": [
-            {
-                "level": 1,
-                "move": "Nastyplot"
-            },
-            {
-                "level": 1,
-                "move": "Snarl"
-            },
-            {
-                "level": 1,
-                "move": "Tackle"
-            },
-            {
-                "level": 4,
-                "move": "Charm"
-            },
-            {
-                "level": 7,
-                "move": "Watergun"
-            },
-            {
-                "level": 9,
-                "move": "Agility"
-            },
-            {
-                "level": 14,
-                "move": "Takedown"
-            },
-            {
-                "level": 17,
-                "move": "Luckychant"
-            },
-            {
-                "level": 20,
-                "move": "Tearfullook"
-            },
-            {
-                "level": 22,
-                "move": "Waterpulse"
-            },
-            {
-                "level": 27,
-                "move": "Attract"
-            },
-            {
-                "level": 31,
-                "move": "Flail"
-            },
-            {
-                "level": 34,
-                "move": "Drainingkiss"
-            },
-            {
-                "level": 37,
-                "move": "Sweetkiss"
-            },
-            {
-                "level": 40,
-                "move": "Hydropump"
-            },
-            {
-                "level": 44,
-                "move": "Moonblast"
-            },
-            {
-                "level": 46,
-                "move": "Aquaring"
-            },
-            {
-                "level": 51,
-                "move": "Captivate"
-            },
-            {
-                "level": 55,
-                "move": "Safeguard"
-            },
-            {
-                "level": 60,
-                "move": "Darkpulse"
-            },
-            {
-                "level": 65,
-                "move": "Corazonroto"
-            }
-        ],
-        "egg_moves": [
-            "AQUAJET",
-            "AQUARING",
-            "BRINE",
-            "CAPTIVATE",
-            "HEALPULSE",
-            "MUDSPORT",
-            "SPLASH",
-            "SUPERSONIC",
-            "WATERSPORT"
-        ],
-        "compatibility": [
-            "Water2"
-        ],
-        "steps_to_hatch": 5355,
-        "height": 0.6,
-        "weight": 8.7,
-        "color": "Pink",
-        "habitat": "Sea",
-        "kind": "Rendezvous",
-        "pokedex_description": "Luvdisc make the branches of Corsola their nests. There is a custom from long ago of giving a Luvdisc as a gift to express one's feelings of love.",
-        "pre_evolution": "Luvdisc",
-        "evolution_stage": 2,
-        "TM_moves": [
-            "SCALD",
-            "BLIZZARD",
-            "CALMMIND",
-            "HIDROARIETE",
-            "ICEBEAM",
-            "SURF",
-            "PROTECT",
-            "HIDDENPOWER",
-            "RAINDANCE",
-            "DREAMEATER",
-            "BRINE",
-            "RETURN",
-            "PSYCHIC",
-            "SHADOWBALL",
-            "SLUDGEBOMB",
-            "REST",
-            "ATTRACT",
-            "WATERPULSE",
-            "FOCUSBLAST",
-            "AGUAFRIA",
-            "PAYBACK",
-            "DAZZLINGGLEAM",
-            "WORKUP",
-            "DARKPULSE",
-            "SUBSTITUTE",
-            "VIRAJE",
-            "BRINCO",
-            "PIRUETAHELADA",
-            "SNARL"
-        ]
-    },
-    {
-        "number": 1014,
-        "number000": "1014",
-        "name": "Marolier",
-        "internal_name": "MAROLIER",
-        "type": [
-            "Ground",
-            "Steel"
-        ],
-        "base_stats": {
-            "hp": 90,
-            "attack": 90,
-            "defense": 125,
-            "speed": 80,
-            "sp_attack": 50,
-            "sp_defense": 90,
-            "total": 525
-        },
-        "gender_rate": "Female50Percent",
-        "growth_rate": "Medium",
-        "base_exp": 149,
-        "effort_points": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "speed": 0,
-            "sp_attack": 0,
-            "sp_defense": 0
-        },
-        "rareness": 75,
-        "happiness": 70,
-        "abilities": [
-            "ROCKHEAD",
-            "BATTLEARMOR"
-        ],
-        "hidden_ability": "SHEERFORCE",
-        "moves": [
-            {
-                "level": 1,
-                "move": "Growl"
-            },
-            {
-                "level": 1,
-                "move": "Tailwhip"
-            },
-            {
-                "level": 1,
-                "move": "Boneclub"
-            },
-            {
-                "level": 1,
-                "move": "Headbutt"
-            },
-            {
-                "level": 3,
-                "move": "Tailwhip"
-            },
-            {
-                "level": 7,
-                "move": "Boneclub"
-            },
-            {
-                "level": 11,
-                "move": "Headbutt"
-            },
-            {
-                "level": 13,
-                "move": "Leer"
-            },
-            {
-                "level": 17,
-                "move": "Focusenergy"
-            },
-            {
-                "level": 21,
-                "move": "Bulldoze"
-            },
-            {
-                "level": 23,
-                "move": "Ironhead"
-            },
-            {
-                "level": 27,
-                "move": "Falseswipe"
-            },
-            {
-                "level": 28,
-                "move": "Cortepetreo"
-            },
-            {
-                "level": 33,
-                "move": "Rockslide"
-            },
-            {
-                "level": 37,
-                "move": "Knockoff"
-            },
-            {
-                "level": 43,
-                "move": "Ferromaza"
-            },
-            {
-                "level": 46,
-                "move": "Earthquake"
-            },
-            {
-                "level": 49,
-                "move": "Headsmash"
-            },
-            {
-                "level": 53,
-                "move": "Shadowbone"
-            },
-            {
-                "level": 59,
-                "move": "Flareblitz"
-            },
-            {
-                "level": 65,
-                "move": "Ferroespada"
-            }
-        ],
-        "compatibility": [
-            "Monster"
-        ],
-        "steps_to_hatch": 5355,
-        "height": 1.0,
-        "weight": 45.0,
-        "color": "Brown",
-        "habitat": "Mountain",
-        "kind": "Bone Keeper",
-        "pokedex_description": "Usan su hueso para producir sonidos golpeando rocas para avisar a otros de que están invadiendo su territorio o para impresionar a las hembras.",
-        "pre_evolution": "Marowak",
-        "evolution_stage": 3,
-        "TM_moves": [
-            "IRONHEAD",
-            "TAUNT",
-            "PROTECT",
-            "HIDDENPOWER",
-            "EARTHQUAKE",
-            "RETURN",
-            "BRICKBREAK",
-            "SANDSTORM",
-            "ROCKTOMB",
-            "AERIALACE",
-            "FIREPUNCH",
-            "FACADE",
-            "FLAMECHARGE",
-            "REST",
-            "ATTRACT",
-            "THIEF",
-            "THUNDERPUNCH",
-            "FALSESWIPE",
-            "IRONTAIL",
-            "PAYBACK",
-            "STONEEDGE",
-            "BULLDOZE",
-            "ROCKSLIDE",
-            "WORKUP",
-            "POISONJAB",
-            "SUBSTITUTE",
-            "ROCKSMASH",
-            "ARENASARDIENTES",
-            "SUPERPOWER",
-            "STRENGTH"
-        ]
-    },
-    {
-        "number": 1015,
-        "number000": "1015",
-        "name": "Sudrasil",
-        "internal_name": "SUDRASIL",
-        "type": [
-            "Rock",
-            "Grass"
-        ],
-        "base_stats": {
-            "hp": 90,
-            "attack": 130,
-            "defense": 145,
-            "speed": 60,
-            "sp_attack": 40,
-            "sp_defense": 85,
-            "total": 550
-        },
-        "gender_rate": "Female50Percent",
-        "growth_rate": "Medium",
-        "base_exp": 244,
-        "effort_points": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 2,
-            "speed": 0,
-            "sp_attack": 0,
-            "sp_defense": 0
-        },
-        "rareness": 65,
-        "happiness": 70,
-        "abilities": [
-            "STURDY",
-            "RECKLESS"
-        ],
-        "hidden_ability": "GRASSYSURGE",
-        "moves": [
-            {
-                "level": 1,
-                "move": "Woodhammer"
-            },
-            {
-                "level": 1,
-                "move": "Disable"
-            },
-            {
-                "level": 1,
-                "move": "Flail"
-            },
-            {
-                "level": 1,
-                "move": "Lowkick"
-            },
-            {
-                "level": 1,
-                "move": "Rockthrow"
-            },
-            {
-                "level": 5,
-                "move": "Flail"
-            },
-            {
-                "level": 8,
-                "move": "Lowkick"
-            },
-            {
-                "level": 12,
-                "move": "Rockthrow"
-            },
-            {
-                "level": 15,
-                "move": "Mimic"
-            },
-            {
-                "level": 15,
-                "move": "Slam"
-            },
-            {
-                "level": 19,
-                "move": "Faintattack"
-            },
-            {
-                "level": 20,
-                "move": "Tearfullook"
-            },
-            {
-                "level": 22,
-                "move": "Rocktomb"
-            },
-            {
-                "level": 26,
-                "move": "Block"
-            },
-            {
-                "level": 29,
-                "move": "Rockslide"
-            },
-            {
-                "level": 33,
-                "move": "Counter"
-            },
-            {
-                "level": 36,
-                "move": "Suckerpunch"
-            },
-            {
-                "level": 40,
-                "move": "Woodhammer"
-            },
-            {
-                "level": 44,
-                "move": "Stoneaxe"
-            },
-            {
-                "level": 47,
-                "move": "Stoneedge"
-            },
-            {
-                "level": 50,
-                "move": "Hammerarm"
-            },
-            {
-                "level": 55,
-                "move": "Bodypress"
-            },
-            {
-                "level": 60,
-                "move": "Petromazazo"
-            }
-        ],
-        "egg_moves": [
-            "CURSE",
-            "DEFENSECURL",
-            "ENDURE",
-            "HARDEN",
-            "HEADBUTT",
-            "ROLLOUT",
-            "SANDTOMB",
-            "SELFDESTRUCT",
-            "STEALTHROCK"
-        ],
-        "compatibility": [
-            "Mineral"
-        ],
-        "steps_to_hatch": 5355,
-        "height": 1.2,
-        "weight": 38.0,
-        "color": "Brown",
-        "habitat": "Forest",
-        "kind": "Imitation",
-        "pokedex_description": "It mimics a tree to avoid being attacked by enemies. But since its forelegs remain green throughout the year, it is easily identified as a fake in the winter.",
-        "pre_evolution": "Sudowoodo",
-        "evolution_stage": 3,
-        "TM_moves": []
-    },
-    {
-        "number": 1016,
-        "number000": "1016",
-        "name": "Terapagos",
-        "internal_name": "TERAPAGOS",
-        "type": [
-            "Normal"
-        ],
-        "base_stats": {
-            "hp": 95,
-            "attack": 55,
-            "defense": 110,
-            "speed": 85,
-            "sp_attack": 105,
-            "sp_defense": 110,
-            "total": 560
-        },
-        "gender_rate": "Genderless",
-        "growth_rate": "Slow",
-        "base_exp": 90,
-        "effort_points": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 1,
-            "speed": 0,
-            "sp_attack": 0,
-            "sp_defense": 0
-        },
-        "rareness": 255,
-        "happiness": 50,
-        "abilities": [
-            "SHELLARMOR"
-        ],
-        "moves": [
-            {
-                "level": 1,
-                "move": "Withdraw"
-            },
-            {
-                "level": 1,
-                "move": "Triattack"
-            },
-            {
-                "level": 1,
-                "move": "Rapidspin"
-            },
-            {
-                "level": 10,
-                "move": "Ancientpower"
-            },
-            {
-                "level": 20,
-                "move": "Headbutt"
-            },
-            {
-                "level": 30,
-                "move": "Protect"
-            },
-            {
-                "level": 40,
-                "move": "Earthpower"
-            },
-            {
-                "level": 50,
-                "move": "Heavyslam"
-            },
-            {
-                "level": 60,
-                "move": "Hyperbeam"
-            },
-            {
-                "level": 70,
-                "move": "Doubleedge"
-            },
-            {
-                "level": 80,
-                "move": "Rockpolish"
-            },
-            {
-                "level": 90,
-                "move": "Gyroball"
-            }
-        ],
-        "compatibility": [
-            "Undiscovered"
-        ],
-        "steps_to_hatch": 6400,
-        "height": 0.2,
-        "weight": 6.5,
-        "color": "Blue",
-        "habitat": "Rare",
-        "kind": "Teracristal",
-        "pokedex_description": "Se vale de su capacidad para transformar energía en duros cristales para protegerse. Se creía que este Pokémon de la Padea antigua se había extinguido, víctima de alteraciones en la corteza terrestre debidas a la actividad tectónica.",
-        "pre_evolution": "Ninguna",
-        "evolution_stage": 1,
-        "TM_moves": []
-    },
-    {
-        "number": 1017,
-        "number000": "1017",
-        "name": "Pecharunt",
-        "internal_name": "PECHARUNT",
-        "type": [
-            "Poison",
-            "Ghost"
-        ],
-        "base_stats": {
-            "hp": 88,
-            "attack": 88,
-            "defense": 160,
-            "speed": 88,
-            "sp_attack": 88,
-            "sp_defense": 88,
-            "total": 600
-        },
-        "gender_rate": "Genderless",
-        "growth_rate": "Slow",
-        "base_exp": 295,
-        "effort_points": {
-            "hp": 0,
-            "attack": 0,
-            "defense": 3,
-            "speed": 0,
-            "sp_attack": 0,
-            "sp_defense": 0
-        },
-        "rareness": 3,
-        "happiness": 0,
-        "abilities": [
-            "POISONTOUCH"
-        ],
-        "moves": [
-            {
-                "level": 1,
-                "move": "Poisongas"
-            },
-            {
-                "level": 1,
-                "move": "Meanlook"
-            },
-            {
-                "level": 1,
-                "move": "Defensecurl"
-            },
-            {
-                "level": 1,
-                "move": "Rollout"
-            },
-            {
-                "level": 1,
-                "move": "Astonish"
-            },
-            {
-                "level": 1,
-                "move": "Smog"
-            },
-            {
-                "level": 8,
-                "move": "Withdraw"
-            },
-            {
-                "level": 16,
-                "move": "Destinybond"
-            },
-            {
-                "level": 24,
-                "move": "Faketears"
-            },
-            {
-                "level": 32,
-                "move": "Partingshot"
-            },
-            {
-                "level": 40,
-                "move": "Shadowball"
-            },
-            {
-                "level": 48,
-                "move": "Poisonjab"
-            },
-            {
-                "level": 56,
-                "move": "Toxic"
-            },
-            {
-                "level": 64,
-                "move": "Nastyplot"
-            },
-            {
-                "level": 72,
-                "move": "Recover"
-            }
-        ],
-        "compatibility": [
-            "Undiscovered"
-        ],
-        "steps_to_hatch": 6400,
-        "height": 0.3,
-        "weight": 0.3,
-        "color": "Purple",
-        "habitat": "Rare",
-        "kind": "Controlador",
-        "pokedex_description": "Hace comer a su objetivo un mochi tóxico que saca a relucir todo su potencial y su ambición, para después controlarlo con sus cadenas.",
-        "pre_evolution": "Ninguna",
-        "evolution_stage": 1,
-        "TM_moves": []
-    },
-    {
-        "number": 1018,
-        "number000": "1018",
         "name": "Auretosk",
         "internal_name": "AURETOSK",
         "type": [
@@ -152088,7 +150848,7 @@
         "color": "Yellow",
         "habitat": "Cave",
         "kind": "Infinito",
-        "pokedex_description": "Una manifestación del Caos primigenio del universo, siempre tramando alguna artimaña. Su cola desprende energía lumínica infinita.",
+        "pokedex_description": "Es capaz de absorber el poder de sus enemigos e incorporarlo a su luz dorada. Su gran ambición es absorber a los Pokémon legendarios de Kalos para convertirse en la forma de vida definitiva.",
         "pre_evolution": "Ninguna",
         "evolution_stage": 1,
         "TM_moves": []

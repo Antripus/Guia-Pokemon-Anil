@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Personaje D&D</title>
+  <link rel="manifest" href="manifest.json">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #fdf8f4;
+      --text-color: #2c1a12;
+      --accent: #5e3023;
+      --card-bg: #fff;
+      --stat-bg: #f8f1e8;
+    }
+
+    [data-theme="dark"] {
+      --bg-color: #1e1e1e;
+      --text-color: #eaeaea;
+      --accent: #e58e4a;
+      --card-bg: #2c2c2c;
+      --stat-bg: #3a3a3a;
+    }
+
+    body {
+      font-family: 'Merriweather', serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1, h2, h3 {
+      color: var(--accent);
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.2em;
+    }
+
+    .section {
+      background: var(--card-bg);
+      border: 1px solid #dcd2c6;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .stat-block {
+      background-color: var(--stat-bg);
+      border: 1px solid #c9b8aa;
+      border-radius: 6px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .editable {
+      border-bottom: 1px dashed #888;
+      cursor: text;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 0.5rem;
+      border: 1px solid #aaa;
+      background-color: var(--card-bg);
+    }
+
+    button {
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0.5rem 0;
+    }
+
+    button:hover {
+      background-color: #452318;
+    }
+
+    .toggle-theme {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-theme" onclick="toggleTheme()">🌙 Cambiar Tema</button>
+  <button onclick="saveData()">💾 Guardar</button>
+  <button onclick="loadData()">📂 Cargar</button>
+  <h1 contenteditable="true" class="editable" id="nombre">Hoja de Personaje: Warlock/Bardo/Fighter</h1>
+
+  <div class="section">
+    <h2>Información General</h2>
+    <div class="grid">
+      <div><strong>Nombre:</strong> <span class="editable" contenteditable="true" id="nombrePJ">Nombre del Personaje</span></div>
+      <div><strong>Clase/Niveles:</strong> Warlock 12 / Bard 5 / Fighter 3</div>
+      <div><strong>Raza:</strong> Humano personalizado</div>
+      <div><strong>Trasfondo:</strong> Artista Marcial</div>
+      <div><strong>AC:</strong> <span class="editable" contenteditable="true" id="ac">18</span></div>
+      <div><strong>HP:</strong> <span class="editable" contenteditable="true" id="hp">145</span></div>
+      <div><strong>Velocidad:</strong> 30 ft</div>
+      <div><strong>Iniciativa:</strong> +2</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Atributos</h2>
+    <div class="grid">
+      <div class="stat-block"><h4>Fuerza</h4><div contenteditable="true" id="str">8 (-1)</div></div>
+      <div class="stat-block"><h4>Destreza</h4><div contenteditable="true" id="dex">14 (+2)</div></div>
+      <div class="stat-block"><h4>Constitución</h4><div contenteditable="true" id="con">14 (+2)</div></div>
+      <div class="stat-block"><h4>Inteligencia</h4><div contenteditable="true" id="int">8 (-1)</div></div>
+      <div class="stat-block"><h4>Sabiduría</h4><div contenteditable="true" id="wis">10 (+0)</div></div>
+      <div class="stat-block"><h4>Carisma</h4><div contenteditable="true" id="cha">20 (+5)</div></div>
+    </div>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+
+    function toggleTheme() {
+      document.documentElement.toggleAttribute('data-theme');
+    }
+
+    function saveData() {
+      const fields = document.querySelectorAll('[contenteditable]');
+      const data = {};
+      fields.forEach(f => data[f.id] = f.innerText);
+      localStorage.setItem('characterSheet', JSON.stringify(data));
+      alert("Datos guardados correctamente.");
+    }
+
+    function loadData() {
+      const data = JSON.parse(localStorage.getItem('characterSheet'));
+      if (!data) return;
+      Object.entries(data).forEach(([id, value]) => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = value;
+      });
+      alert("Datos cargados.");
+    }
+  </script>
+</body>
+</html>

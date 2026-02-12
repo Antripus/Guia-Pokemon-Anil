@@ -320,7 +320,7 @@
     {
         "id": 54,
         "name_en": "TRUANT",
-        "name_es": "Pereza",
+        "name_es": "Ausente",
         "description": "No puede atacar un turno seguido del otro."
     },
     {
@@ -573,7 +573,7 @@
         "id": 96,
         "name_en": "NORMALIZE",
         "name_es": "Normalidad",
-        "description": "Convierte los ataques en tipo Normal y los potencia un 50%."
+        "description": "Convierte los ataques del PKMN en tipo normal."
     },
     {
         "id": 97,
@@ -675,7 +675,7 @@
         "id": 113,
         "name_en": "SCRAPPY",
         "name_es": "Intrépido",
-        "description": "Permite atacar PKMN fantasma con ataques normales y de lucha."
+        "description": "Permite atacar PKMN fantasma con ataques normales."
     },
     {
         "id": 114,
@@ -819,13 +819,13 @@
         "id": 137,
         "name_en": "TOXICBOOST",
         "name_es": "Ímpetu Tóxico",
-        "description": "Sube el Ataque un 50% si esta envenenado."
+        "description": "Sube la velocidad si esta envenenado."
     },
     {
         "id": 138,
         "name_en": "FLAREBOOST",
         "name_es": "Ímpetu Ardiente",
-        "description": "Sube el Ataque Especial un 50% si esta quemado."
+        "description": "Sube el Ataque Especial si esta quemado."
     },
     {
         "id": 139,
@@ -999,7 +999,7 @@
         "id": 167,
         "name_en": "COLEOPTERO",
         "name_es": "Coleóptero",
-        "description": "Convierte los movimientos de tipo Normal en Bicho y los potencia un 20%."
+        "description": "Convierte los movimientos de tipo Normal en Bicho."
     },
     {
         "id": 168,
@@ -1263,19 +1263,19 @@
         "id": 211,
         "name_en": "ALQUIMIAVIL",
         "name_es": "Alquimia Vil",
-        "description": "El envenenamiento daña el doble al final de cada turno."
+        "description": "El envenenamiento daña el doble de rápido al final de cada turno."
     },
     {
         "id": 212,
         "name_en": "REALEZA",
         "name_es": "Realeza",
-        "description": "Recibe bonus de daño del 50% atacando con todos los tipos y no solo con su tipo original."
+        "description": "Recibe bonus de daño del 50% atacando con todos los tipos."
     },
     {
         "id": 213,
         "name_en": "SILVANO",
         "name_es": "Silvano",
-        "description": "Aumenta todo daño y la Velocidad un 30% en Campo de Hierba."
+        "description": "Aumenta el daño de cualquier tipo un 30% en Campo de Hierba."
     },
     {
         "id": 214,
@@ -1395,7 +1395,7 @@
         "id": 233,
         "name_en": "RELAMPAGUEO",
         "name_es": "Relampagueo",
-        "description": "Tiene un 30% de paralizar al enemigo con ataques de contacto."
+        "description": "Tiene un 20% de paralizar al enemigo con ataques de contacto."
     },
     {
         "id": 234,
@@ -1504,29 +1504,5 @@
         "name_en": "AURABREAK",
         "name_es": "Rompeaura",
         "description": "Invierte los efectos de habilidades de aura."
-    },
-    {
-        "id": 252,
-        "name_en": "DRAGONSMAW",
-        "name_es": "Fauce Dragón",
-        "description": "Aumenta el daño del tipo Dragón un 50%."
-    },
-    {
-        "id": 253,
-        "name_en": "TOQUEMAGICO",
-        "name_es": "Toque Mágico",
-        "description": "Los ataques del usuario tienen un 20% de confundir al enemigo."
-    },
-    {
-        "id": 254,
-        "name_en": "GRIMNEIGH",
-        "name_es": "Relincho Negro",
-        "description": "Aumenta el Ataque Especial al debilitar a un enemigo."
-    },
-    {
-        "id": 255,
-        "name_en": "CANASTO",
-        "name_es": "Canasto",
-        "description": "Reduce el daño recibido de Volador y Roca un 2/3."
     }
 ]
