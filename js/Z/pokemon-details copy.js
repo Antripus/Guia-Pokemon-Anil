@@ -6,8 +6,6 @@ const jsonPathAbilities = "./data/Z/abilities.json";
 const jsonPathEncounters = "./data/Z/encounters.json";
 const jsonPathTypes = "./data/Z/types.json";
 
-const jsonPathMegas = "./data/Z/megas.json";
-
 // Elementos del DOM
 const pkmGrid = document.getElementById("pkmGrid");
 
@@ -16,9 +14,7 @@ const params = new URLSearchParams(window.location.search);
 const pokemonNumber = params.get('number') ? parseInt(params.get('number'), 10) : null;
 const pokemonName = params.get('name') ? params.get('name').toLowerCase().replace('.html', '') : null;
 
-function padNumber(num, size = 3) {
-  return String(num).padStart(size, '0');
-}
+
 
 
 const typeColors = {
@@ -61,20 +57,10 @@ const ShortStats = {
   SP_ATTACK: "SpA",
   SP_DEFENSE: "SpD",
 };
-
-
-
 async function loadPokemonDetails() {
   try {
     const response = await fetch(jsonPathPokemon);
     const pokemonData = await response.json();
-
-    // NORMALIZAR number000 para cada entrada (ej. 006, 142, etc.)
-    pokemonData.forEach(p => {
-      if (!p.number000) {
-        p.number000 = padNumber(p.number);
-      }
-    });
 
     // Buscar Pokémon según número o nombre
     const pokemon = pokemonNumber
@@ -100,12 +86,6 @@ async function loadPokemonDetails() {
     const prePokemon = pokemonData.find(p => p.number === preNumber);
     const postPokemon = pokemonData.find(p => p.number === postNumber);
 
-    // Guardamos la referencia base (no modif) para poder volver
-    // Asegurar que el objeto base actual tenga number000 y guardarlo para poder volver
-    if (!pokemon.number000) pokemon.number000 = padNumber(pokemon.number);
-    sessionStorage.setItem("currentBasePokemon", JSON.stringify(pokemon));
-
-
     displayPokemonDetails(pokemon, prePokemon, postPokemon);
   } catch (error) {
     console.error("Error al cargar detalles del Pokémon:", error);
@@ -113,16 +93,6 @@ async function loadPokemonDetails() {
 }
 
 
-// Función para cargar  megas.JSON
-  async function loadMegas() {
-    try {
-      const response = await fetch(jsonPathMegas);
-      const megasData = await response.json();
-      sessionStorage.setItem("megasData", JSON.stringify(megasData));
-    } catch (error) {
-      console.error("Error loading Megas data:", error);
-    }
-  }
 
     // Función para cargar el moves.JSON
   async function loadMoves() {
@@ -235,34 +205,6 @@ async function loadPokemonDetails() {
   }
 
 
-// Esta función transforma un objeto "mega" de tu JSON a un objeto compatible con displayPokemonDetails()
-// Usamos base_number como número, y rellenamos number000.
-// Hacemos que el objeto resultante tenga number, number000 (incluyendo sufijo _1/_2 si corresponde)
-function makeMegaAsPokemon(mega, variantIndex = 1) {
-  const baseNum = mega.base_number || 0;
-  const numPadded = padNumber(baseNum, 3);
-  const number000 = `${numPadded}_${variantIndex}`; // ej "006_1"
-  const wrapper = {
-    number: baseNum,
-    number000,
-    name: mega.name || `Mega-${baseNum}`,
-    type: mega.type || [],
-    base_stats: mega.base_stats || { hp:0, attack:0, defense:0, speed:0, sp_attack:0, sp_defense:0, total:0 },
-    base_exp: mega.base_exp || 0,
-    abilities: mega.abilities || [],
-    hidden_ability: mega.hidden_ability || null,
-    moves: mega.moves || [],
-    form: mega.form || "Mega",
-    // copia otros campos útiles
-    tipo: mega.tipo || null,
-    megapiedra: mega.megapiera || mega.megapiedra || null,
-    ubicacionMegaPiedra: mega.ubicacionMegaPiedra || null,
-    _rawMegaObject: mega // por si quieres acceder al original
-  };
-  return wrapper;
-}
-
-
 function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
   const typeHTML = pokemon.type
     .map(
@@ -303,93 +245,39 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
         <p class="label">${pokemon.base_stats.total}</p>
         </div>`
     : "";
-
-  //agarro los json de memoria
+    //agarro los json de memoria
   const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData"));
   const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
   const encountersData = JSON.parse(sessionStorage.getItem("encountersData"));
   const movesData = JSON.parse(sessionStorage.getItem("movesData"));
   const typesData = JSON.parse(sessionStorage.getItem("typesData"));
-  const megasData = JSON.parse(sessionStorage.getItem("megasData") || "[]");
-
-
+  
   if (!typesData) {
     console.error("typesData no está disponible. Verifica la carga del archivo.");
     return { debilidadesHTML: "<p>Error cargando datos</p>", inmunidadesHTML: "<p>Error cargando datos</p>", resistenciasHTML: "<p>Error cargando datos</p>" };
 }
 
-//Obtener Movimientos
-  const movesHTML = typeof generateMovesHTML === "function" ? generateMovesHTML(pokemon, movesData) : "";
-  const eggsMovesHTML = typeof generateEggsMovesHTML === "function" ? generateEggsMovesHTML(pokemon, movesData) : "";
-  const TMsMovesHTML = typeof generateTMsMovesHTML === "function" ? generateTMsMovesHTML(pokemon, movesData) : "";
-  
-//Obtener ubicaciones
-  const ubicacionesHTML = typeof generateUbicacionHTML === "function" ? generateUbicacionHTML(pokemon.name, encountersData) : "";
-  
-// Obtener habilidades
-  const abilitiesHTML = getAbilitiesHTML(pokemon, abilitiesData);
-  
-//Obtener cadena de Evoluciones
-  const evolutionChain = typeof getEvolutionChain === "function" ? getEvolutionChain(pokemon.name, pokemonData) : [];
-  const EvolucionesHTML = typeof generateEvolutionHTML === "function" ? generateEvolutionHTML(evolutionChain, pokemonData) : "";
-  
-  
-//Obterneer las relaciones de tipos
-  const { debilidadesHTML, inmunidadesHTML, resistenciasHTML } = generateTypeInteractionsHTML(pokemon, typesData);
+    //Obtener Movimientos
+    const movesHTML = generateMovesHTML(pokemon, movesData);
+
+    const eggsMovesHTML = generateEggsMovesHTML(pokemon, movesData);
+
+    const TMsMovesHTML = generateTMsMovesHTML(pokemon, movesData);
+
+    //Obtener ubicaciones
+    const ubicacionesHTML = generateUbicacionHTML(pokemon.name, encountersData);
+
+    // Obtener habilidades
+    const abilitiesHTML = getAbilitiesHTML(pokemon,abilitiesData);
 
 
-  /*Obtener Movimientos
-  const movesHTML = generateMovesHTML(pokemon, movesData);
-
-  const eggsMovesHTML = generateEggsMovesHTML(pokemon, movesData);
-
-  const TMsMovesHTML = generateTMsMovesHTML(pokemon, movesData);
-
-  //Obtener ubicaciones
-  const ubicacionesHTML = generateUbicacionHTML(pokemon.name, encountersData);
-
-  // Obtener habilidades
-  const abilitiesHTML = getAbilitiesHTML(pokemon,abilitiesData);
-
-
-  //Obtener cadena de Evoluciones
-  const evolutionChain = getEvolutionChain(pokemon.name, pokemonData);
-  const EvolucionesHTML = generateEvolutionHTML(evolutionChain, pokemonData);
+    //Obtener cadena de Evoluciones
+    const evolutionChain = getEvolutionChain(pokemon.name, pokemonData);
+    const EvolucionesHTML = generateEvolutionHTML(evolutionChain, pokemonData);
 
   //Obterneer las relaciones de tipos  
   const { debilidadesHTML, inmunidadesHTML, resistenciasHTML } = generateTypeInteractionsHTML(pokemon, typesData);
-  */
 
-
-   // ==== Generar botones de Mega (si existen) ====
-  // megasData es un arreglo con tus objetos mega que tiene campo base_number
-  // botones de megas: buscamos megas con base_number == pokemon.number
-  const baseNumber = pokemon.number;
-  const megasForThis = (megasData || []).filter(m => parseInt(m.base_number,10) === parseInt(baseNumber,10));
-  let megasButtonsHTML = "";
-  if (megasForThis.length > 0) {
-    // botón Base con clase .base y sin tooltip (no title)
-    megasButtonsHTML += `<button class="mega-button base" data-mega-index="-1">Base</button>`;
-    megasForThis.forEach((m, idx) => {
-      // agregamos data-* con info para el tooltip: megapiedra, ubicacion
-      const megapiedraText = m.megapiera || m.megapiedra || "";
-      const ubicacionText = m.ubicacionMegaPiedra || "";
-      // idx+1 será el sufijo de imagen: 1,2,...
-      megasButtonsHTML += `<button class="mega-button" 
-                                data-mega-index="${idx}" 
-                                data-mega-img-index="${idx+1}"
-                                data-mega-megapiedra="${encodeURIComponent(megapiedraText)}"
-                                data-mega-ubicacion="${encodeURIComponent(ubicacionText)}"
-                                data-mega-name="${encodeURIComponent(m.name)}"
-                                aria-label="${m.name}">
-                                ${m.name}
-                             </button>`;
-    });
-  }
-
-
-  // Si el objeto pokemon trae number000 con sufijo, la imagen será p.ej. "006_1.png". Si no, usamos "006.png".
-  const imgSrc = `./images/Z/pokemon/${pokemon.number000 || padNumber(pokemon.number)}.png`;
 
   pkmGrid.innerHTML = `
     
@@ -397,7 +285,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
         <a id="goLeft" href=Z-pokemon-details.html?number=${prePokemon.number}> 
           <div class="flex">
             <p>#${prePokemon.number}:</p>
-            <img src="/images/Z/pokemon/${prePokemon.number000 || padNumber(prePokemon.number)}.png" class="iconImg">
+            <img src="/images/Z/pokemon/${prePokemon.number000}.png" class="iconImg">
             <p>${prePokemon.name}</p>
           </div>
         </a>
@@ -407,18 +295,13 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
         <a id="goRight" href=Z-pokemon-details.html?number=${postPokemon.number}> 
           <div class="flex">
             <p>#${postPokemon.number}:</p>
-            <img src="/images/Z/pokemon/${postPokemon.number000 || padNumber(postPokemon.number)}.png" class="iconImg">
+            <img src="/images/Z/pokemon/${postPokemon.number000}.png" class="iconImg">
             <p>${postPokemon.name}</p>
           </div> </a>
         </div>
 
           <div class="pkmImagen">
-                          <div id="tabs">
-                ${megasButtonsHTML}
-            </div>
-            <img id="pkmImg" src="./images/Z/pokemon/${pokemon.number000 || padNumber(pokemon.number)}.png" alt="${pokemon.name}">
-   
-              
+              <img id="pkmImg" src="./images/Z/pokemon/${pokemon.number000}.png" alt="${pokemon.name}">
               <div class="type-interactions">
                   <div class="interaction-category">
                       <h3>Debilidades</h3>
@@ -434,15 +317,23 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
                   </div>
               </div>
           </div>
-
-
+          <!-- tab para las megas
+          <div class="statBlock">  
+          ${statsHTML}${totalHTML}
+          </div>
+           -->
+        <div id="tabs">
+            <!-- tab para las megas
+            <div class="tab ax active">
+                <h3>AX</h3>
+            </div>
+              -->
+        </div>
 
         <div class="tabContent ax active">
         <div class="firstBlock">
             <div class="flex">
-               
-
-<p class="label">Species: #${pokemon.number}</p>
+                <p class="label">Species: #${pokemon.number}</p>
             
             </div>
             <div class="flex last">
@@ -459,16 +350,13 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
 
         <div class="secondBlock">
             <div class="flex">
-                
-            
-              <p class="label">Abilities</p>
-  
-
+                <p class="label">Base XP: ${pokemon.base_exp}</p>
+ 
             </div>
 
             <div class="flex last">
                 <div class="flex last">
-                
+                <p class="label">Abilities</p>
                 <ol>
                 <div class="abilities">${abilitiesHTML}</div>
                 <ol>
@@ -507,177 +395,7 @@ function displayPokemonDetails(pokemon, prePokemon, postPokemon) {
 
     `;
 
-      // asegurar que al re-renderizar la vista base el botón "Base" quede marcado como activo
-  setTimeout(() => {
-    // remover .mega-active de cualquier botón y marcar el Base (si existe)
-    document.querySelectorAll(".mega-button").forEach(b => b.classList.remove("mega-active"));
-    const baseBtn = document.querySelector(".mega-button.base");
-    if (baseBtn) baseBtn.classList.add("mega-active");
-  }, 0);
-
 }
-
-/* ---------------------
-   Reemplaza el listener de click anterior y añade renderMegaPartial()
-   --------------------- */
-
-// Función que actualiza sólo las partes relevantes para mostrar una Mega sin tocar evo/moves/ubicación
-function renderMegaPartial(megaObj, btnElement = null) {
-  // megaObj tiene la misma forma que un "pokemon" (por makeMegaAsPokemon)
-  // Actualizar imagen
-  const imgEl = document.getElementById("pkmImg");
-  if (imgEl) {
-    // number000 con sufijo por ejemplo "006_1"
-    const src = `./images/Z/pokemon/${megaObj.number000 || padNumber(megaObj.number) + "_1"}.png`;
-    imgEl.src = src;
-    imgEl.alt = megaObj.name;
-  }
-
-  // Actualizar nombre en título principal
-  const nameEl = document.getElementById("pkmName");
-  if (nameEl) nameEl.textContent = megaObj.name;
-
-  // Actualizar tipos (reemplazar contenido)
-  const typeLabelContainer = document.querySelector(".typeLabel");
-  if (typeLabelContainer) {
-    const typeHTML = (megaObj.type || []).map((t) => `<p class="type" style="background-color: ${typeColors[t] || "#000"};">${t}</p>`).join(" ");
-    typeLabelContainer.innerHTML = typeHTML;
-  }
-
-  // Actualizar Abilities block
-  const abilitiesContainer = document.querySelector(".abilities");
-  const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData") || "[]");
-  if (abilitiesContainer) {
-    abilitiesContainer.innerHTML = getAbilitiesHTML(megaObj, abilitiesData);
-  }
-
-  // Actualizar estadisticas (solo el bloque statBlock)
-  const statBlock = document.querySelector(".statBlock");
-  if (statBlock) {
-    const statsWithoutTotal = Object.entries(megaObj.base_stats || {}).filter(([stat]) => stat !== "total");
-    const maxStatValue = 170;
-    const statsHTML = statsWithoutTotal.map(([stat, value]) => `
-      <div class="grid">
-        <p class="label">${ShortStats[stat.toUpperCase()]}</p>
-        <p class="statVal">${value}</p>
-        <div class="bar" style="width: ${(value / maxStatValue) * 100}%; background-color: ${BarColors[stat.toUpperCase()] || "#cc2c"};"></div>
-      </div>`).join("");
-    const totalHTML = megaObj.base_stats && megaObj.base_stats.total ? `<div class="grid"><p class="label">TOTAL</p><p class="label">${megaObj.base_stats.total}</p></div>` : "";
-    statBlock.innerHTML = `${statsHTML}${totalHTML}`;
-  }
-
-  // Actualizar Base XP (segundo bloque)
-  const secondBlock = document.querySelector(".secondBlock .flex p.label");
-  // en tu HTML Base XP está en <div class="secondBlock"><div class="flex"><p class="label">Base XP: ...</p></div>...
-  const xpP = Array.from(document.querySelectorAll(".secondBlock .flex p.label")).find(p => p.textContent && p.textContent.startsWith("Base XP"));
-  if (xpP) xpP.textContent = `Base XP: ${megaObj.base_exp || 0}`;
-
-  // Resaltar el botón activo (agrega clase .mega-active)
-  document.querySelectorAll(".mega-button").forEach(b => b.classList.remove("mega-active"));
-  if (btnElement) btnElement.classList.add("mega-active");
-
-  // Actualizar tooltip data (en caso quieras mostrar ability principal u otros datos)
-  // (esto ya lo hace dataset del botón en el tooltip global, así que no es necesario)
-}
-
-
-
-// Delegación de clicks para botones mega: Base vuelve a displayPokemonDetails (re-render completo). Megas usan renderMegaPartial.
-document.addEventListener("click", (ev) => {
-  const t = ev.target;
-  if (t.classList && t.classList.contains("mega-button")) {
-    const idx = parseInt(t.dataset.megaIndex, 10);
-    const basePokemon = JSON.parse(sessionStorage.getItem("currentBasePokemon") || "{}");
-    const megasData = JSON.parse(sessionStorage.getItem("megasData") || "[]");
-    const megasForThis = (megasData || []).filter(m => parseInt(m.base_number,10) === parseInt(basePokemon.number,10));
-
-    if (idx === -1) {
-      // volver a base: re-render completo para restaurar todas las secciones originales
-      const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData") || "[]");
-      const prePokemon = pokemonData.find(p => p.number === checkNumberBounds(basePokemon.number - 1, pokemonData.length));
-      const postPokemon = pokemonData.find(p => p.number === checkNumberBounds(basePokemon.number + 1, pokemonData.length));
-      // restauramos el objeto base desde session (currentBasePokemon)
-      const baseObj = JSON.parse(sessionStorage.getItem("currentBasePokemon") || "{}");
-      // Llamamos a displayPokemonDetails con el objeto base (reconstruye todo)
-      displayPokemonDetails(baseObj, prePokemon, postPokemon);
-      return;
-    }
-
-    const selectedMega = megasForThis[idx];
-    if (!selectedMega) return;
-    const variantIndex = parseInt(t.dataset.megaImgIndex || (idx+1), 10); // 1,2,...
-    const megaObj = makeMegaAsPokemon(selectedMega, variantIndex);
-
-    // En lugar de re-renderizar todo, actualizamos solo secciones clave para la Mega
-    renderMegaPartial(megaObj, t);
-  }
-});
-
-
-/* ---------------------
-   Tooltip para botones mega
-   --------------------- */
-(function setupMegaTooltip() {
-  // crear el div del tooltip si no existe
-  let tooltip = document.getElementById("mega-tooltip");
-  if (!tooltip) {
-    tooltip = document.createElement("div");
-    tooltip.id = "mega-tooltip";
-    tooltip.style.position = "fixed";
-    tooltip.style.pointerEvents = "none";
-    tooltip.style.background = "rgba(0,0,0,0.85)";
-    tooltip.style.color = "white";
-    tooltip.style.padding = "8px";
-    tooltip.style.borderRadius = "6px";
-    tooltip.style.fontSize = "13px";
-    tooltip.style.zIndex = 9999;
-    tooltip.style.display = "none";
-    tooltip.style.maxWidth = "300px";
-    tooltip.style.boxShadow = "0 2px 8px rgba(0,0,0,0.5)";
-    document.body.appendChild(tooltip);
-  }
-
-  // show on mouseenter, hide on mouseleave, move on mousemove
-  document.addEventListener("mouseover", (ev) => {
-    const t = ev.target;
-    if (t.classList && t.classList.contains("mega-button")) {
-      // no mostrar tooltip para el botón Base o si tiene clase .base
-      if (t.dataset.megaIndex === "-1" || t.classList.contains("base")) {
-        tooltip.style.display = "none";
-        return;
-      }
-      const name = decodeURIComponent(t.dataset.megaName || "") || t.textContent || "—";
-      const megapiedra = decodeURIComponent(t.dataset.megaMegapiedra || "") || "—";
-      const ubicacion = decodeURIComponent(t.dataset.megaUbicacion || "") || "—";
-      // build content (SIN el campo "Tipo")
-      tooltip.innerHTML = `<strong>${name}</strong><br>
-                           <small><strong>Mega piedra:</strong> ${megapiedra}</small><br>
-                           <small><strong>Ubicación:</strong> ${ubicacion}</small>`;
-      tooltip.style.display = "block";
-    }
-  });
-  document.addEventListener("mouseout", (ev) => {
-    const t = ev.target;
-    if (t.classList && t.classList.contains("mega-button")) {
-      tooltip.style.display = "none";
-    }
-  });
-  document.addEventListener("mousemove", (ev) => {
-    if (tooltip && tooltip.style.display === "block") {
-      const pad = 16;
-      let x = ev.clientX + pad;
-      let y = ev.clientY + pad;
-      // evitar que salga de la pantalla
-      const rect = tooltip.getBoundingClientRect();
-      if (x + rect.width > window.innerWidth) x = ev.clientX - rect.width - pad;
-      if (y + rect.height > window.innerHeight) y = ev.clientY - rect.height - pad;
-      tooltip.style.left = `${x}px`;
-      tooltip.style.top = `${y}px`;
-    }
-  });
-})();
-
-
 
 document.addEventListener("mousemove", (event) => {
   if (event.target.classList.contains("ability-tooltip")) {
@@ -710,12 +428,23 @@ document.addEventListener("mousemove", (event) => {
 
 // Obtener HTML de habilidades
 function getAbilitiesHTML(pokemonDetails, abilitiesData) {
-  const allAbilities = [...(pokemonDetails.abilities || [])];
-  if (pokemonDetails.hidden_ability) allAbilities.push(pokemonDetails.hidden_ability);
-  return allAbilities.map((abilityName) => {
-    const ability = abilitiesData.find(a => a.name_en && a.name_en.toLowerCase() === abilityName.toLowerCase());
-    return ability ? `<p class="ability-tooltip" data-description="${ability.description}">${ability.name_es}</p>` : `<p>${abilityName}</p>`;
-  }).join("");
+  const allAbilities = [...pokemonDetails.abilities];
+  if (pokemonDetails.hidden_ability) {
+    allAbilities.push(pokemonDetails.hidden_ability);
+  }
+  
+  return allAbilities
+    .map((abilityName) => {
+      const ability = abilitiesData.find(
+        (a) => a.name_en.toLowerCase() === abilityName.toLowerCase()
+      );
+      return ability
+        ? `<p class="ability-tooltip" data-description="${ability.description}">
+            ${ability.name_es}
+          </p>`
+        : `<p>${abilityName}</p>`;
+    })
+    .join("");
 }
 
 //Obtener Cadena de Evoluciones
@@ -1277,6 +1006,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadEncounters();
   await loadMoves();
   await loadTypes();
-   await loadMegas(); // NUEVO: cargamos megas antes de renderizar el pokemon
   loadPokemonDetails(); // Función que llama a displayPokemonDetails
 });
