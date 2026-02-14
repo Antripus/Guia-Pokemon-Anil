@@ -4,90 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Z Pokédex</title>
-  
-  
-  <link rel="stylesheet" href="css/Z-pokedex.css">
+  <link rel="stylesheet" href="css/pokedex-Z.css">
   <link rel="stylesheet" href="css/navbar.css">
-
-
 </head>
 <body>
 
 <header>
-
   <nav>
     <ul id="navbar">
       <li><a href="index.html">Principal</a></li>
-      
-      <li>
-        <a href="Anil-index.html">
-          <img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo">
-        </a>
-      </li>
-      <li>
-        <a href="Opalo-index.html">
-          <img src="./images/Logo-Pokemon-Opalo.png" alt="Pokémon Opalo" id="navbar-logo">
-        </a>
-      </li>
-      <li>
-        <a href="Z-index.html" class="active">
-          <img src="./images/Logo-Pokemon-Z.png" alt="Pokémon Z" id="navbar-logo">
-        </a>
-      </li>
-  
+      <li><a href="Anil-index.html"><img src="./images/Logo-Pokemon-Anil.png" alt="Pokémon Anil" id="navbar-logo"></a></li>
+      <li><a href="Opalo-index.html"><img src="./images/Logo-Pokemon-Opalo.png" alt="Pokémon Opalo" id="navbar-logo"></a></li>
+      <li><a href="Z-index.html" class="active"><img src="./images/Logo-Pokemon-Z.png" alt="Pokémon Z" id="navbar-logo"></a></li>
       <li><a href="Z-pokedex.html">Pokedex</a></li>
-      
       <li><a href="Z-pokedex.html">Encuentros</a></li>
       <li><a href="Z-pokeRadar.html">Poke Radar</a></li>
-
-  <!-- Links correctos pero en construccion
-      <li><a href="Z-encuentros.html">Encuentros</a></li>
-
-      <li><a href="Z-pokeRadar.html">Poke Radar</a></li>
-
-      -->
       <li id="GralSearchBar">
+        <!-- barra de búsqueda del nav (si la quieres mantener) -->
         <input type="text" id="navbar-search" placeholder="Buscar..." autocomplete="off">
       </li>
     </ul>
   </nav>
-
 </header>
 
-  <!-- Pendiente:
- 1- Mantener la barra navegadora
- 2- Definir Estilos, Letras y Colores (Imagenes limpias y sensillas)
- 3- ordenar la lista por nro de pokemon
- 4- que la busqueda funcione
-
--->
+<!-- Controles del Pokedex -->
+<div class="pokedex-layout">
 
 
-  <!-- Barra de búsqueda -->
-  <input type="text" id="search-bar" placeholder="Buscar Pokémon..." onkeyup="searchPokemon()" autocomplete="off">
+  <aside class="pokedex-sidebar">
+    <h3>Filtrar por tipo</h3>
+
+    <!-- opción para forzar que coincidan todos los tipos seleccionados -->
+   <div class="type-match-container">
+      <label class="toggle-switch">
+        <input type="checkbox" id="type-match-all">
+        <span class="slider"></span>
+      </label>
+      <span class="toggle-label">Tipos Mandatorios</span>
+    </div>
+
+    <!-- grilla de botones -->
+    <div id="type-filter-grid" class="type-filter-grid"></div> 
+
+  </aside>
+
+  <main class="pokedex-content">
+    <div id="pokedex-controls" class="controls">
+      <div class="controls-left">
+        <input id="search-bar" type="search" placeholder="Buscar por nombre o número..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+        <select id="sort-select">
+          <option value="number_asc"># Número ↑</option>
+          <option value="number_desc"># Número ↓</option>
+          <option value="name_asc">Nombre A→Z</option>
+          <option value="name_desc">Nombre Z→A</option>
+          <option value="total_desc">Total Stats ↓</option>
+          <option value="total_asc">Total Stats ↑</option>
+        </select>
+    
+        <div id="result-count">0</div>
+      </div>
+
+      <div class="controls-right">
+        <button id="clear-filters" class="pokedex-btn">Limpiar filtros</button>
+        <button id="toggle-favs" class="pokedex-btn">Ver favoritos</button>
+      </div>
+
+    </div>
+
+    <div id="pokemon-list" class="pokemon-grid"></div>
+  </main>
+
+
   
-  <!-- Listado de Pokémon -->
-  <div id="pokemon-list">
-    <!-- Aquí se mostrarán los Pokémon dinámicamente -->
-  </div>
+</div>
 
-  <script src="js/Z/pokedex.js"></script>
-  <script src="js/Anil/navbar.js"></script>
-
+<!-- Scripts -->
+<script src="js/Z/pokedex.js"></script>
+<script src="js/Anil/navbar.js"></script>
 
 <!-- Footer -->
 <footer>
   <p>&copy; 2025 Guia Pokemon | Creado por Antripus </p>
-  <p>
-    <a href="https://github.com/Antripus" target="_blank" style="color: #ecf0f1;">GitHub</a>
-  </p>
-  <p> 
-    <a href="https://www.paypal.com/donate/?hosted_button_id=PJYALXY69T8WA" target="_blank" style="color: #1abc9c; text-decoration: none;">¡Apóyanos con una donación!</a>
-  </p>
-  <p>
-    <a href="https://www.buymeacoffee.com/antripus" target="_blank" style="display: inline-block; margin-left: 5px;"> <img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: 40px; vertical-align: middle;"> </a>
-  </p>
- 
+  <p><a href="https://github.com/Antripus" target="_blank" style="color: #ecf0f1;">GitHub</a></p>
+  <p><a href="https://www.paypal.com/donate/?hosted_button_id=PJYALXY69T8WA" target="_blank" style="color: #1abc9c; text-decoration: none;">¡Apóyanos con una donación!</a></p>
+  <p><a href="https://www.buymeacoffee.com/antripus" target="_blank" style="display: inline-block; margin-left: 5px;">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: 40px; vertical-align: middle;">
+  </a></p>
 </footer>
 
 </body>

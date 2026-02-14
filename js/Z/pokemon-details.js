@@ -527,8 +527,7 @@ function renderMegaPartial(megaObj, btnElement = null) {
   // Actualizar imagen
   const imgEl = document.getElementById("pkmImg");
   if (imgEl) {
-    // number000 con sufijo por ejemplo "006_1"
-    const src = `./images/Z/pokemon/${megaObj.number000 || padNumber(megaObj.number) + "_1"}.png`;
+    const src = `./images/Z/pokemon/${megaObj.number000 || (padNumber(megaObj.number) + "_1")}.png`;
     imgEl.src = src;
     imgEl.alt = megaObj.name;
   }
@@ -567,8 +566,6 @@ function renderMegaPartial(megaObj, btnElement = null) {
   }
 
   // Actualizar Base XP (segundo bloque)
-  const secondBlock = document.querySelector(".secondBlock .flex p.label");
-  // en tu HTML Base XP está en <div class="secondBlock"><div class="flex"><p class="label">Base XP: ...</p></div>...
   const xpP = Array.from(document.querySelectorAll(".secondBlock .flex p.label")).find(p => p.textContent && p.textContent.startsWith("Base XP"));
   if (xpP) xpP.textContent = `Base XP: ${megaObj.base_exp || 0}`;
 
@@ -576,9 +573,45 @@ function renderMegaPartial(megaObj, btnElement = null) {
   document.querySelectorAll(".mega-button").forEach(b => b.classList.remove("mega-active"));
   if (btnElement) btnElement.classList.add("mega-active");
 
-  // Actualizar tooltip data (en caso quieras mostrar ability principal u otros datos)
-  // (esto ya lo hace dataset del botón en el tooltip global, así que no es necesario)
+  // ----- NUEVO: recalcular y actualizar debilidades/inmunidades/resistencias -----
+  try {
+    const typesData = JSON.parse(sessionStorage.getItem("typesData") || "[]");
+    if (typesData && typeof generateTypeInteractionsHTML === "function") {
+      // generateTypeInteractionsHTML espera (pokemon, typesData) y devuelve { debilidadesHTML, inmunidadesHTML, resistenciasHTML }
+      const { debilidadesHTML, inmunidadesHTML, resistenciasHTML } = generateTypeInteractionsHTML(megaObj, typesData);
+
+      // Localizamos los contenedores .types dentro de .type-interactions .interaction-category
+      // asumimos orden: Debilidades, Inmunidad, Resistencias (como en tu HTML)
+      const interactionTypesNodes = document.querySelectorAll(".type-interactions .interaction-category .types");
+      if (interactionTypesNodes && interactionTypesNodes.length >= 3) {
+        interactionTypesNodes[0].innerHTML = debilidadesHTML;
+        interactionTypesNodes[1].innerHTML = inmunidadesHTML;
+        interactionTypesNodes[2].innerHTML = resistenciasHTML;
+      } else {
+        // Fallback: buscar por headings
+        const categories = Array.from(document.querySelectorAll(".type-interactions .interaction-category"));
+        categories.forEach(cat => {
+          const h3 = cat.querySelector("h3");
+          const box = cat.querySelector(".types");
+          if (!h3 || !box) return;
+          const key = h3.textContent.trim().toLowerCase();
+          if (key.includes("debil")) box.innerHTML = debilidadesHTML;
+          else if (key.includes("inmun")) box.innerHTML = inmunidadesHTML;
+          else if (key.includes("resist")) box.innerHTML = resistenciasHTML;
+        });
+      }
+    }
+  } catch (e) {
+    console.warn("No se pudieron actualizar interacciones de tipo para la Mega:", e);
+  }
+
+  // (opcional) Si quieres que el título "Species" muestre algo cuando es Mega, puedes actualizarlo aquí
+  const speciesP = Array.from(document.querySelectorAll(".firstBlock .flex p.label")).find(p => p.textContent && p.textContent.startsWith("Species:"));
+  if (speciesP) speciesP.textContent = `Species: #${megaObj.number}`;
+
+  // fin de renderMegaPartial
 }
+
 
 
 
