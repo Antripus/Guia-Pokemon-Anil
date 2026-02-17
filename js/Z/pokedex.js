@@ -23,6 +23,8 @@ let allPokemon = [];
 let filteredPokemon = [];
 let selectedTypes = new Set();           // tipos seleccionados por la grilla
 let showOnlyFavs = false;
+let tipoFilter = "all"; // "all" | "oficial" | "fangame"
+
 
 const FAV_KEY = "pokedex_favorites_v1";
 const debounceDelay = 220;
@@ -71,11 +73,15 @@ async function loadPokemon() {
     allPokemon.forEach(p => (p.type || []).forEach(t => allTypes.add(t)));
     createTypeFilterGrid(Array.from(allTypes).sort());
 
+    // crear controles de tipo (Todos/Oficial/Fangame)
+    createTipoFilterControls();
+
     applyFiltersAndRender();
   } catch (e) {
     console.error("Error loading Pokémon data:", e);
   }
 }
+
 
 /* ---------------------------
    TYPE FILTER GRID (buttons)
@@ -100,6 +106,45 @@ function createTypeFilterGrid(types) {
     typeFilterGrid.appendChild(btn);
   });
 }
+
+// ---------- CONTROLES "tipo" (Todos / Oficial / Fangame) --------------
+function createTipoFilterControls() {
+  const controls = document.getElementById("pokedex-controls");
+  if (!controls) return;
+
+  // evita duplicados si se llama varias veces
+  if (document.querySelector(".tipo-filter-wrapper")) return;
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "tipo-filter-wrapper";
+  wrapper.style.display = "flex";
+  wrapper.style.gap = "8px";
+  wrapper.style.alignItems = "center";
+  wrapper.style.marginLeft = "8px";
+
+  wrapper.innerHTML = `
+    <div style="font-weight:700; font-size:0.95rem; color:#222; margin-right:6px;">Mostrar:</div>
+    <div class="tipo-filter-buttons" style="display:flex; gap:6px; align-items:center;">
+      <button type="button" class="tipo-filter-btn active" data-tipo="all">Todos</button>
+      <button type="button" class="tipo-filter-btn" data-tipo="fangame">Pokemons Z</button>
+    </div>
+  `;
+
+  // insertarlo al inicio de los controles para que quede visible
+  controls.insertBefore(wrapper, controls.firstChild);
+
+  wrapper.querySelectorAll(".tipo-filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      // actualizar estado visual
+      wrapper.querySelectorAll(".tipo-filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      // setear filtro y re-render
+      tipoFilter = btn.dataset.tipo || "all";
+      applyFiltersAndRender();
+    });
+  });
+}
+
 
 // togglear tipo (visualmente y en el Set)
 function toggleTypeSelection(typeName, btnEl = null) {
@@ -151,6 +196,12 @@ function applyFiltersAndRender() {
       }
     }
 
+    // FILTRO por tipo oficial/fangame (usa el campo p.tipo en tu JSON)
+    if (typeof tipoFilter === "string" && tipoFilter !== "all") {
+      const pTipo = (p.tipo || "oficial").toString().toLowerCase();
+      if (pTipo !== tipoFilter) return false;
+    }
+
     return true;
   });
 
@@ -170,6 +221,7 @@ function applyFiltersAndRender() {
   renderPokemonList(filteredPokemon);
   updateResultCount(filteredPokemon.length);
 }
+
 
 /* ---------------------------
    RENDER LIST
@@ -240,6 +292,11 @@ if (clearFiltersBtn) clearFiltersBtn.addEventListener("click", () => {
   // limpiar selección de tipos visualmente y en el Set
   selectedTypes.clear();
   document.querySelectorAll("#type-filter-grid .type-filter-btn.active").forEach(b => b.classList.remove("active"));
+  // resetear tipoFilter (Todos) y estado visual de botones tipo
+  tipoFilter = "all";
+  document.querySelectorAll(".tipo-filter-btn").forEach(b => b.classList.remove("active"));
+  const allBtn = document.querySelector(".tipo-filter-btn[data-tipo='all']");
+  if (allBtn) allBtn.classList.add("active");
   // desactivar checkbox de match-all si existe
   if (typeMatchAllCheckbox) typeMatchAllCheckbox.checked = false;
   if (sortSelect) sortSelect.value = "number_asc";
@@ -247,6 +304,7 @@ if (clearFiltersBtn) clearFiltersBtn.addEventListener("click", () => {
   if (toggleFavsBtn) toggleFavsBtn.textContent = "Ver favoritos";
   applyFiltersAndRender();
 });
+
 
 if (toggleFavsBtn) toggleFavsBtn.addEventListener("click", () => {
   showOnlyFavs = !showOnlyFavs;
@@ -268,6 +326,8 @@ document.addEventListener("keydown", (e) => {
     searchInput && searchInput.focus();
   }
 });
+
+
 
 // init
 loadPokemon();

@@ -256,27 +256,6 @@ body {
   margin-top: 15px;
 }
 
-.pokedex-btn {
-  background-color: #666;
-  color: white;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid white;
-  cursor: pointer;
-  font-weight: 600;
-  transition: background-color 150ms ease, transform 100ms ease;
-}
-
-.pokedex-btn:hover {
-  background-color: #555;
-  transform: translateY(-2px);
-}
-
-.pokedex-btn.active {
-  background-color: #1e1e2f;
-  border: 1px solid white;
-}
-
 /* GRID de tipos (compacto) */
 .type-filter-grid {
   display: grid;
@@ -355,28 +334,36 @@ body {
   width: 320px;
   background: white;
   box-shadow: inset 0 -2px 6px rgba(0,0,0,0.04);
+
+  border: 2px solid #ccc;
 }
+
+/* Efecto de foco */
+#search-bar:focus {
+  border-color: #4caf50;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+  outline: none;
+}
+
 
 #sort-select {
-  padding: 8px 10px;
-  border-radius: 8px;
+  padding: 10px 14px;
+  border-radius: 10px;
   border: 1px solid rgba(0,0,0,0.08);
+  border: 2px solid #ccc;
 }
 
-/* botones con look&feel mega */
-.pokedex-btn {
-  background-color: #666;
-  color: white;
-  padding: 10px 12px;
-  cursor: pointer;
-  border-radius: 8px;
-  border: 1px solid white;
-  font-weight: 600;
-  transition: background-color 150ms ease, transform 100ms ease;
+/* Efecto de foco */
+#sort-select:focus {
+  border-color: #4caf50;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+  outline: none;
 }
 
-.pokedex-btn:hover { background-color: #555; transform: translateY(-2px); }
-.pokedex-btn.active { background-color: #1e1e2f; border:1px solid white; }
+#result-count {
+  padding: 10px;
+}
+
 
 /* responsive */
 @media (max-width: 900px) {
@@ -455,3 +442,55 @@ body {
 .toggle-label {
   user-select: none;
 }
+
+/* ===============================
+   BOTONES FILTRO TIPO (Todos / Pokémon Z)
+================================= */
+
+.tipo-filter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tipo-filter-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+
+
+/* ===============================
+   BOTONES UNIFICADOS
+================================= */
+
+.pokedex-btn,
+.tipo-filter-btn {
+  background-color: #666;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-weight: 600;
+  width: max-content;
+  transition:
+    background-color 150ms ease,
+    transform 120ms ease,
+    box-shadow 150ms ease;
+}
+
+.pokedex-btn:hover,
+.tipo-filter-btn:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.pokedex-btn.active,
+.tipo-filter-btn.active {
+  background-color: #1e1e2f;
+  border: 1px solid white;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
