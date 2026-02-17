@@ -61,51 +61,62 @@ async function loadTrainers() {
 // Función para rellenar la lista de Trainers
 function populateTrainersList(trainerData) {
   listElement.innerHTML = ""; // Limpiar la lista para evitar duplicados
-  let trainerElements = []; // Array para guardar referencias a los elementos <li>
+  let trainerElements = [];
 
-  // Ordenar los entrenadores por el campo "Orden"
-  trainerData.sort((a, b) => a.Orden - b.Orden);
-
-  // Recorre todos los datos de los Trainers
-  trainerData.forEach((trainer) => {
-      // Crea un elemento <li> para cada Trainer
-      const listItem = document.createElement("li");
-
-      // Inserta la imagen y el texto (número y nombre del Pokémon) dentro del <li>
-      listItem.innerHTML = `
-          <h3 class="numeroDeOrden"> ${trainer.Orden} </h3>
-          <img src="./images/Z/trainers/${trainer.name}.png" alt="${trainer.name}">
-          <h3 class="nombreEntrenador"> ${trainer.name} </h3> 
-          <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG"> 
-          <h3 class="numeroDePokemon"> #${trainer.num_pokemon} </h3>
-      `;
-
-      // Agrega un evento "click" al elemento <li> que muestra los detalles del Pokémon seleccionado
-      listItem.addEventListener("click", () => {
-          showTrainerCard(trainer, listItem, trainerElements); // Pasar referencia al elemento y lista
-          sessionStorage.setItem("selectedTrainer", JSON.stringify(trainer)); // Guarda el Pokémon seleccionado
-      });
-
-      // Añade el elemento <li> al contenedor de la lista
-      listElement.appendChild(listItem);
-      trainerElements.push(listItem); // Guardar la referencia del <li>
+  // Si trainerData tiene variantes del mismo nombre, ordenamos por name + variant (variant null va después)
+  trainerData.sort((a, b) => {
+    if (a.name === b.name) {
+      const av = a.variant === null ? Infinity : a.variant;
+      const bv = b.variant === null ? Infinity : b.variant;
+      return av - bv;
+    }
+    return a.name.localeCompare(b.name);
   });
 
-  // Verificar si hay un Trainer seleccionado en sessionStorage
+  trainerData.forEach((trainer, idx) => {
+    const listItem = document.createElement("li");
+    listItem.className = "trainer-list-item";
+    // Nombre con variante si existe
+    const variantLabel = trainer.variant ? ` (v${trainer.variant})` : "";
+    const spritePath = trainer.sprite ? `./images/Z/trainers/${trainer.sprite}.png` : "./images/Z/trainers/no_sprite.png";
+
+    listItem.innerHTML = `
+      <h3 class="numeroDeOrden">${idx + 1}</h3>
+      <img src="${spritePath}" alt="${trainer.name}" class="trainer-thumb">
+      <div class="trainer-meta">
+        <h3 class="nombreEntrenador">${trainer.name}${variantLabel}</h3>
+        <div class="trainer-pokeball">
+          <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG">
+          <h3 class="numeroDePokemon">#${trainer.num_pokemon}</h3>
+        </div>
+      </div>
+    `;
+
+    listItem.addEventListener("click", () => {
+      showTrainerCard(trainer, listItem, trainerElements);
+      sessionStorage.setItem("selectedTrainer", JSON.stringify(trainer));
+    });
+
+    listElement.appendChild(listItem);
+    trainerElements.push(listItem);
+  });
+
+  // Si en sessionStorage hay uno guardado, intentar resaltarlo
   const storedTrainer = sessionStorage.getItem("selectedTrainer");
   if (storedTrainer) {
-      const trainer = JSON.parse(storedTrainer);
-
-      const index = trainerData.findIndex(t => t.name === trainer.name); // Buscar índice del entrenador guardado
-      showTrainerCard(trainer, trainerElements[index], trainerElements); // Resaltar entrenador guardado
-      sessionStorage.removeItem("selectedTrainer"); // Limpia el almacenamiento luego de cargar el detalle
+    const trainer = JSON.parse(storedTrainer);
+    const index = trainerData.findIndex(t => t.name === trainer.name && (t.variant === trainer.variant || (t.variant == null && trainer.variant == null)));
+    if (index >= 0 && trainerElements[index]) {
+      showTrainerCard(trainerData[index], trainerElements[index], trainerElements);
+    }
+    sessionStorage.removeItem("selectedTrainer");
   } else {
-      // Si no hay Pokémon seleccionado, muestra el primer Pokémon
-      if (trainerData.length > 0) {
-          showTrainerCard(trainerData[0], trainerElements[0], trainerElements); // Mostrar el primero si no hay guardado
-      }
+    if (trainerData.length > 0) {
+      showTrainerCard(trainerData[0], trainerElements[0], trainerElements);
+    }
   }
 }
+
 
 
 // Colores para cada tipo de Pokémon
@@ -160,165 +171,139 @@ const natureTypes = {
   };
 
     // Función para buscar un Pokémon por nombre en pokemonData
+    // Mejorada: busca por internal_name o por name (case-insensitive)
     function findPokemonByName(name, pokemonData) {
-        return pokemonData.find(pokemon => pokemon.internal_name.toLowerCase() === name.toLowerCase());
+      if (!name || !pokemonData) return null;
+      const lname = name.toLowerCase();
+      return pokemonData.find(p => {
+        const internal = (p.internal_name || "").toLowerCase();
+        const pname = (p.name || "").toLowerCase();
+        return internal === lname || pname === lname || p.number000 === name || String(p.number) === name;
+      }) || null;
     }
+
 
   // Función para mostrar la tarjeta de entrenadores
-    function showTrainerCard(trainer, selectedElement, trainerElements) {
-        
-      const movesData = JSON.parse(sessionStorage.getItem("movesData"));
-      const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData"));
-      const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData"));
+  function showTrainerCard(trainer, selectedElement, trainerElements = []) {
+    const movesData = JSON.parse(sessionStorage.getItem("movesData") || "[]");
+    const abilitiesData = JSON.parse(sessionStorage.getItem("abilitiesData") || "[]");
+    const pokemonData = JSON.parse(sessionStorage.getItem("pokemonData") || "[]");
 
-      // Resaltar el elemento seleccionado
-      trainerElements.forEach(item => item.classList.remove("selected-trainer")); // Quitar la clase de todos
-      selectedElement.classList.add("selected-trainer"); // Agregar la clase al seleccionado
-      
-      // Mostrar la información del entrenador en el DOM
-        trainerSection.innerHTML = `
-          <div class="trainer-card"> 
-            <div class="trainer1"> 
-              
-              <img src="./images/Z/trainers/${trainer.name}.png" alt="${trainer.name}" class="trainer-img">  
-              <h2>${trainer.name} </h2>
-              <div class="tipo">${trainer.tipo}</div> <!-- Obligatorio u opcional --> 
-              <div class="Tipo-Combate">${trainer.tipo_de_combate}</div>
-            </div>
+    // Resaltar seleccionado
+    if (trainerElements && trainerElements.length) {
+      trainerElements.forEach(item => item.classList.remove("selected-trainer"));
+      if (selectedElement) selectedElement.classList.add("selected-trainer");
+    }
 
-      <div class="trainer2">
+    // Sprite / nombre / meta
+    const spritePath = trainer.sprite ? `./images/Z/trainers/${trainer.sprite}.png` : "./images/Z/trainers/no_sprite.png";
+    const variantLabel = trainer.variant ? ` (v${trainer.variant})` : "";
+
+    trainerSection.innerHTML = `
+      <div class="trainer-card">
+        <div class="trainer1">
+          <img src="${spritePath}" alt="${trainer.name}" class="trainer-img">
+          <h2>${trainer.name}${variantLabel}</h2>
+          <div class="tipo">${trainer.tipo || ""}</div>
+          <div class="Tipo-Combate">${trainer.tipo_de_combate || ""}</div>
+        </div>
+
+        <div class="trainer2">
           <div class="header">
-              <h2 class="orden">${trainer.Orden}</h2>
-              <h3 class="nombre-entrenador">${trainer.descripcion_de_entrenador}</h3>
-              <div class="cantPokemon">
-                  <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG">
-                  <h3>#${trainer.num_pokemon}</h3>
-              </div>
+            <h2 class="orden">${trainer.variant || ""}</h2>
+            <h3 class="nombre-entrenador">${trainer.descripcion_de_entrenador || ""}</h3>
+            <div class="cantPokemon">
+              <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG">
+              <h3>#${trainer.num_pokemon || trainer.pokemons.length}</h3>
+            </div>
           </div>
           <div class="objCurativo">
-              <img src="./images/pocion.png" alt="#Pokemons" class="pokeballIMG">
-              <h3>${trainer.healing_item || "Ninguna"}</h3>
+            <img src="./images/pocion.png" alt="Healing" class="pokeballIMG">
+            <h3>${trainer.healing_item || "Ninguna"}</h3>
           </div>
-          <h2 class="ubicacion">${trainer.ubicacion}</h2>
-      </div>
+          <h2 class="ubicacion">${trainer.ubicacion || ""}</h2>
+        </div>
 
-
-            <div class="trainer3">
-              <div class="resumenPokemon">
-                ${trainer.pokemons
-                  .concat(Array(6 - trainer.pokemons.length).fill({ name: "noPokemon" }))
-                  .slice(0, 6)
-                  .map(pokemon => {
-                    const pokemonDetails = findPokemonByName(pokemon.name, pokemonData);
-                    if (pokemonDetails) {
-                      return `
-                        <a href="/Z-pokemon-details.html?name=${pokemon.name}.html" target="_blank">
-                        <img src="./images/Z/pokemon/${pokemonDetails.number000}.png" alt="${pokemon.name}" >
-                        </a>
-                      `;
-                    } else {
-                      console.log("Pokémon no encontrado: " + pokemon.name);
-                      return `
-                        <a href="/Z-pokemon-details.html?name=${pokemon.name}.html">
-                        <img src="./images/pokemon/noPokemon.png" alt="No Pokémon">
-                        </a>
-                      `;
-                    }
-                  }).join("")                  
-                }
-              </div>
-            </div>
-
-
-            </div>
-        `;
-        
-        // Mostrar los detalles de los Pokémon del entrenador
-        pokemonSection.innerHTML = ""; // Limpiar el área de los detalles del Pokémon
-        
-
-
-        trainer.pokemons.forEach((pokemon, index) => {
-          // Buscar el Pokémon en los datos de pokemonData
-          const pokemonDetails = findPokemonByName(pokemon.name, pokemonData);
-      
-          if (pokemonDetails) {
-              // Manejo de tipos con colores
-              const typeHTML = pokemonDetails.type.map((type) =>
-                  `<span class="type" style="background-color: ${typeColors[type] || "#000"}">${type}</span>`).join(" ");
-      
-              // Manejo de movimientos del Pokémon
-              const movesHTML = pokemon.moves.map((move) => {
-                const moveDetails = movesData.find(m => m.name_en.toLowerCase() === move.toLowerCase());
-                if (moveDetails) {
-                    return `
-                        <div class="moveTypeWrapper">
-                            <img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type} Type">
-                           
-                            
-                            <p class="move-tooltip" data-description="${moveDetails.description}">
-                            ${moveDetails.name_es}
-                            </p>
-
-                            <img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category} Move">
-                            <div class="PowerBox"><p>Power</p><p>${moveDetails.power}</p></div>
-                            <div class="AccBox"><p>Acc</p><p>${moveDetails.accuracy}</p></div>
-                        </div>
-                    `;
+        <div class="trainer3">
+          <div class="resumenPokemon">
+            ${trainer.pokemons
+              .concat(Array(6 - trainer.pokemons.length).fill({ name: "noPokemon" }))
+              .slice(0, 6)
+              .map(pkm => {
+                const p = findPokemonByName(pkm.name, pokemonData);
+                if (p) {
+                  return `<a href="/Z-pokemon-details.html?name=${pkm.name}.html" target="_blank">
+                            <img src="./images/Z/pokemon/${p.number000}.png" alt="${pkm.name}">
+                          </a>`;
                 } else {
-                    return `
-                        <div class="moveTypeWrapper">
-                            <p>${move}555</p>
-                        </div>
-                    `;
+                  return `<a href="/Z-pokemon-details.html?name=${pkm.name}.html">
+                            <img src="./images/pokemon/noPokemon.png" alt="No Pokémon">
+                          </a>`;
                 }
-            }).join("");
+              }).join("")}
+          </div>
+        </div>
+      </div>
+    `;
 
-            // Obtener habilidades
-            const abilitiesHTML = getAbilitiesHTML(
-              pokemonDetails,
-              pokemon.ability,
-              abilitiesData
-          );
-          console.log(pokemon.ability);
-              //creo la Card
-              const card = document.createElement("div");
-              
-              // Asignar múltiples clases dinámicas desde pkm1 hasta pkmX
-              card.className = `pokemon-card pkm${index + 1}`;
-              
-              // Card HTML
-              card.innerHTML = `
-               <h3>${pokemon.name}</h3>  
-              <img src="./images/Z/pokemon/${pokemonDetails.number000}.png" alt="${pokemon.name}" class="pokemonIMG">
-                  <div>
-                      
-                      <div class="flex">
-                          <p>${typeHTML}</p>
-                      </div>
-                      <h3>Level ${pokemon.level}</h3>
-                      <hr>
+    // Detalle de cada Pokémon del trainer
+    pokemonSection.innerHTML = "";
+    (trainer.pokemons || []).forEach((pkm, index) => {
+      const pokemonDetails = findPokemonByName(pkm.name, pokemonData);
+      if (!pokemonDetails) {
+        // fallback: card simple
+        const fallbackCard = document.createElement("div");
+        fallbackCard.className = `pokemon-card pkm${index+1}`;
+        fallbackCard.innerHTML = `<h3>${pkm.name}</h3><p>Detalles no encontrados</p>`;
+        pokemonSection.appendChild(fallbackCard);
+        return;
+      }
 
-                      <div class="abilities">${abilitiesHTML}</div>
+      const typeHTML = (pokemonDetails.type || []).map(type => `<span class="type" style="background-color: ${typeColors[type] || '#000'}">${type}</span>`).join(" ");
+      const abilitiesHTML = getAbilitiesHTML(pokemonDetails, pkm.ability, abilitiesData);
 
-                      <hr>
-                      <div class="itemImgWrapper">
-                          <p class="noItem">${pokemon.item ? capitalizeFirstWord(pokemon.item) : "Sin Objeto"}</p>
-                      </div>
-                      <div class="nature">
-                          <p>${natureTypes[pokemon.nature.toLowerCase()] || "Naturaleza Desconocida"}</p>
-                      </div>
-                      ${movesHTML} <!-- Inserta aquí todas las divs de movimientos -->
-                  </div>
-              `;
+      // Movimientos del trainer: pkm.moves puede ser array con cadenas (códigos). Buscamos info en movesData.
+      const movesHTML = (pkm.moves || []).map(moveCode => {
+        if (!moveCode) return '';
+        const moveDetails = movesData.find(m => m.name_en && (m.name_en.toLowerCase() === moveCode.toLowerCase() || m.name_en === moveCode));
+        if (moveDetails) {
+          return `
+            <div class="moveTypeWrapper">
+              <img src="/images/pokemon/moves/${moveDetails.type.toLowerCase()}.png" alt="${moveDetails.type}">
+              <p class="move-tooltip" data-description="${moveDetails.description}">${moveDetails.name_es}</p>
+              <img src="/images/pokemon/moves/${moveDetails.category.toLowerCase()}.png" alt="${moveDetails.category}">
+              <div class="PowerBox"><p>Power</p><p>${moveDetails.power || '—'}</p></div>
+              <div class="AccBox"><p>Acc</p><p>${moveDetails.accuracy || '—'}</p></div>
+            </div>`;
+        } else {
+          // Si no encontramos detalles
+          return `<div class="moveTypeWrapper"><p>${moveCode}</p></div>`;
+        }
+      }).join("");
 
-              pokemonSection.appendChild(card);
-          } else {
-              console.log("Pokémon no encontrado: " + pokemon.name);
-          }
-      });
-      
-    }
+      const card = document.createElement("div");
+      card.className = `pokemon-card pkm${index + 1}`;
+      card.innerHTML = `
+        <h3>${pkm.name}</h3>
+        <img src="./images/Z/pokemon/${pokemonDetails.number000}.png" alt="${pkm.name}" class="pokemonIMG">
+        <div>
+          <div class="flex"><p>${typeHTML}</p></div>
+          <h3>Level ${pkm.level || '—'}</h3>
+          <hr>
+          <div class="abilities">${abilitiesHTML}</div>
+          <hr>
+          <div class="itemImgWrapper">
+            <p class="noItem">${pkm.item ? capitalizeFirstWord(pkm.item) : "Sin Objeto"}</p>
+          </div>
+          <div class="nature"><p>${natureTypes[(pkm.nature || '').toLowerCase()] || capitalizeFirstWord(pkm.nature || 'Unknown')}</p></div>
+          ${movesHTML}
+        </div>
+      `;
+      pokemonSection.appendChild(card);
+    });
+  }
+
+    
 
     // Obtener HTML de habilidades
     function getAbilitiesHTML(pokemonDetails, abilityIndex, abilitiesData) {
@@ -398,31 +383,33 @@ const natureTypes = {
       return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
     }
 
-    const searchBar = document.getElementById("search-bar");
+const searchBar = document.getElementById("search-bar");
 
-    searchBar.addEventListener("input", () => {
-        const query = searchBar.value.toLowerCase();
-        const trainerData = JSON.parse(sessionStorage.getItem("trainerData")); // Asegúrate de recuperar los datos
-        const listItems = listElement.querySelectorAll("li");
-        let firstVisibleTrainer = null;
-      
-        listItems.forEach((item, index) => {
-          const trainerName = item.textContent.toLowerCase();
-          if (trainerName.includes(query)) {
-            item.style.display = "flex"; // Muestra los entrenadores coincidentes
-            if (!firstVisibleTrainer) {
-                firstVisibleTrainer = trainerData[index]; // Asocia al Pokémon correcto
-            }
-          } else {
-            item.style.display = "none"; // Oculta los Pokémon que no coinciden
-          }
-        });
-      
-        // Mostrar detalles del primer entrenador visible
-        if (firstVisibleTrainer) {
-            showTrainerCard(firstVisibleTrainer);
-        }
-      });
+if (searchBar) {
+  searchBar.addEventListener("input", () => {
+    const query = searchBar.value.trim().toLowerCase();
+    const trainerData = JSON.parse(sessionStorage.getItem("trainerData") || "[]");
+    const listItems = listElement.querySelectorAll("li");
+    let firstVisibleTrainer = null;
+
+    listItems.forEach((item, index) => {
+      const trainerNameEl = item.querySelector(".nombreEntrenador");
+      const trainerName = trainerNameEl ? trainerNameEl.textContent.toLowerCase() : item.textContent.toLowerCase();
+      if (trainerName.includes(query)) {
+        item.style.display = "flex";
+        // index corresponde al orden actual de trainerData usado en populateTrainersList,
+        // por eso reutilizamos trainerData[index] (la función populate ya reordenó trainerData).
+        if (!firstVisibleTrainer) firstVisibleTrainer = trainerData[index];
+      } else {
+        item.style.display = "none";
+      }
+    });
+
+    if (firstVisibleTrainer) {
+      showTrainerCard(firstVisibleTrainer);
+    }
+  });
+}
 
 
 // Referencia a los botones de radio
