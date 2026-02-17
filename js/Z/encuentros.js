@@ -63,59 +63,82 @@ function populateTrainersList(trainerData) {
   listElement.innerHTML = ""; // Limpiar la lista para evitar duplicados
   let trainerElements = [];
 
-  // Si trainerData tiene variantes del mismo nombre, ordenamos por name + variant (variant null va después)
+  // Ordenamos por: Orden (numérico) asc, luego name, luego variant (null al final)
   trainerData.sort((a, b) => {
-    if (a.name === b.name) {
-      const av = a.variant === null ? Infinity : a.variant;
-      const bv = b.variant === null ? Infinity : b.variant;
-      return av - bv;
-    }
-    return a.name.localeCompare(b.name);
+    const ao = (a.Orden === undefined || a.Orden === null) ? Infinity : Number(a.Orden);
+    const bo = (b.Orden === undefined || b.Orden === null) ? Infinity : Number(b.Orden);
+    if (ao !== bo) return ao - bo;
+
+    // si Orden igual, ordenamos por nombre
+    const nameCmp = String(a.name || "").localeCompare(String(b.name || ""));
+    if (nameCmp !== 0) return nameCmp;
+
+    // finalmente por variant (null/undefined al final)
+    const av = (a.variant === undefined || a.variant === null) ? Infinity : Number(a.variant);
+    const bv = (b.variant === undefined || b.variant === null) ? Infinity : Number(b.variant);
+    return av - bv;
   });
 
   trainerData.forEach((trainer, idx) => {
     const listItem = document.createElement("li");
     listItem.className = "trainer-list-item";
+
+    // Mostrar Orden real (si es 0 o Infinity -> lo ocultamos como vacío)
+    const displayOrden = (trainer.Orden && Number(trainer.Orden) > 0) ? Number(trainer.Orden) : "";
+
     // Nombre con variante si existe
-    const variantLabel = trainer.variant ? ` (v${trainer.variant})` : "";
+    const variantLabel = (trainer.variant !== undefined && trainer.variant !== null) ? ` (v${trainer.variant})` : "";
+
+    // sprite path robusto
     const spritePath = trainer.sprite ? `./images/Z/trainers/${trainer.sprite}.png` : "./images/Z/trainers/no_sprite.png";
 
     listItem.innerHTML = `
-      <h3 class="numeroDeOrden">${idx + 1}</h3>
+      <h3 class="numeroDeOrden">${displayOrden}</h3>
       <img src="${spritePath}" alt="${trainer.name}" class="trainer-thumb">
-      <div class="trainer-meta">
-        <h3 class="nombreEntrenador">${trainer.name}${variantLabel}</h3>
-        <div class="trainer-pokeball">
-          <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG">
-          <h3 class="numeroDePokemon">#${trainer.num_pokemon}</h3>
-        </div>
-      </div>
+      <h3 class="nombreEntrenador">${trainer.name}${variantLabel}</h3>
+      <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG">
+      <h3 class="numeroDePokemon">#${trainer.num_pokemon || (trainer.pokemons ? trainer.pokemons.length : 0)}</h3>
     `;
 
+
+    // click -> mostrar detalles
     listItem.addEventListener("click", () => {
       showTrainerCard(trainer, listItem, trainerElements);
-      sessionStorage.setItem("selectedTrainer", JSON.stringify(trainer));
+      // guardamos el par name+variant para poder reabrir después correctamente
+      sessionStorage.setItem("selectedTrainer", JSON.stringify({ name: trainer.name, variant: trainer.variant }));
     });
 
     listElement.appendChild(listItem);
     trainerElements.push(listItem);
   });
 
-  // Si en sessionStorage hay uno guardado, intentar resaltarlo
-  const storedTrainer = sessionStorage.getItem("selectedTrainer");
-  if (storedTrainer) {
-    const trainer = JSON.parse(storedTrainer);
-    const index = trainerData.findIndex(t => t.name === trainer.name && (t.variant === trainer.variant || (t.variant == null && trainer.variant == null)));
-    if (index >= 0 && trainerElements[index]) {
-      showTrainerCard(trainerData[index], trainerElements[index], trainerElements);
+  // Restaurar seleccionado guardado (buscamos la coincidencia por name+variant)
+  const storedTrainerRaw = sessionStorage.getItem("selectedTrainer");
+  if (storedTrainerRaw) {
+    try {
+      const stored = JSON.parse(storedTrainerRaw);
+      const index = trainerData.findIndex(t =>
+        t.name === stored.name &&
+        // treat null/undefined variants as equal
+        ((t.variant === stored.variant) || (t.variant == null && stored.variant == null))
+      );
+      if (index >= 0 && trainerElements[index]) {
+        showTrainerCard(trainerData[index], trainerElements[index], trainerElements);
+      }
+    } catch (e) {
+      console.warn("selectedTrainer malformed in sessionStorage", e);
     }
     sessionStorage.removeItem("selectedTrainer");
   } else {
-    if (trainerData.length > 0) {
-      showTrainerCard(trainerData[0], trainerElements[0], trainerElements);
+    // si no hay guardado, seleccionar el primer trainer con Orden>0; si no existe, seleccionar el primero de la lista
+    const firstImportantIndex = trainerData.findIndex(t => t.Orden && Number(t.Orden) > 0);
+    const pickIndex = firstImportantIndex >= 0 ? firstImportantIndex : (trainerData.length ? 0 : -1);
+    if (pickIndex >= 0) {
+      showTrainerCard(trainerData[pickIndex], trainerElements[pickIndex], trainerElements);
     }
   }
 }
+
 
 
 
@@ -210,7 +233,7 @@ const natureTypes = {
 
         <div class="trainer2">
           <div class="header">
-            <h2 class="orden">${trainer.variant || ""}</h2>
+           
             <h3 class="nombre-entrenador">${trainer.descripcion_de_entrenador || ""}</h3>
             <div class="cantPokemon">
               <img src="./images/pokeball4.png" alt="#Pokemons" class="pokeballIMG">
@@ -424,30 +447,30 @@ function filterTrainersByStarter(trainerData, starter) {
       return false; //Excluyo todos los encuentros normales y dejo los importantes
     }
     
-    if(trainer.pokemon_inicial === "Cambia"){ //Snampery 1 - Flasinge 2 - Swolphin 3 --Gala siempre tiene ventaja en el starter
-      if (trainer.name === "Gala" || trainer.name === "???") { //Snampery - Flasinge - Swolphin
-        if (starter === "Snampery" && (trainer.variant === 1 || trainer.variant === 3)) {
-          return false; // Gala tiene Flasinge - Excluir variantes 2 y 3 y 5 6
+    if(trainer.pokemon_inicial === "Cambia"){ //Chespin 1 - Fennekin 2 - Froakie 3 --Gala siempre tiene ventaja en el starter
+      if (trainer.name === "Crisanto" || trainer.name === "???") { //Chespin - Fennekin - Froakie
+        if (starter === "Chespin" && (trainer.variant === 1 || trainer.variant === 3)) {
+          return false; // Gala tiene Fennekin - Excluir variantes 2 y 3 y 5 6
         }
-        if (starter === "Flasinge" && (trainer.variant === 1 || trainer.variant === 2)) {
-          return false; // Gala tiene Swolphin - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Fennekin" && (trainer.variant === 1 || trainer.variant === 2)) {
+          return false; // Gala tiene Froakie - Excluir variantes 2 y 3 y 5 6
         }
-        if (starter === "Swolphin" && (trainer.variant === 2 || trainer.variant === 3)) {
-          return false; // Gala tiene Snampery - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Froakie" && (trainer.variant === 2 || trainer.variant === 3)) {
+          return false; // Gala tiene Chespin - Excluir variantes 2 y 3 y 5 6
         }
       }
     }
 
-    if(trainer.pokemon_inicial === "Cambia"){ //Snampery 1 - Flasinge 2 - Swolphin 3 --Yo siempre tengo ventaja en el starter
-      if (trainer.name === "Mundánez") { //Snampery - Flasinge - Swolphin
-        if (starter === "Snampery" && (trainer.variant === 1 || trainer.variant === 2)) {
-          return false; // Gala tiene Flasinge - Excluir variantes 2 y 3 y 5 6
+    if(trainer.pokemon_inicial === "Cambia"){ //Chespin 1 - Fennekin 2 - Froakie 3 --Yo siempre tengo ventaja en el starter
+      if (trainer.name === "Melia") { //Chespin - Fennekin - Froakie
+        if (starter === "Chespin" && (trainer.variant === 1 || trainer.variant === 2)) {
+          return false; // Gala tiene Fennekin - Excluir variantes 2 y 3 y 5 6
         }
-        if (starter === "Flasinge" && (trainer.variant === 2 || trainer.variant === 3)) {
-          return false; // Gala tiene Swolphin - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Fennekin" && (trainer.variant === 2 || trainer.variant === 3)) {
+          return false; // Gala tiene Froakie - Excluir variantes 2 y 3 y 5 6
         }
-        if (starter === "Swolphin" && (trainer.variant === 1 || trainer.variant === 3)) {
-          return false; // Gala tiene Snampery - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Froakie" && (trainer.variant === 1 || trainer.variant === 3)) {
+          return false; // Gala tiene Chespin - Excluir variantes 2 y 3 y 5 6
         }
       }
     }
@@ -489,7 +512,7 @@ async function init() {
   await loadAbilities();
 
   // Seleccionar valores iniciales
-  document.getElementById("snampery").checked = true;
+  document.getElementById("chespin").checked = true;
 
   // Ejecutar el filtro inicial
   handleStarterChange();
