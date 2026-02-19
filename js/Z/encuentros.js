@@ -447,30 +447,30 @@ function filterTrainersByStarter(trainerData, starter) {
       return false; //Excluyo todos los encuentros normales y dejo los importantes
     }
     
-    if(trainer.pokemon_inicial === "Cambia"){ //Chespin 1 - Fennekin 2 - Froakie 3 --Gala siempre tiene ventaja en el starter
+    if(trainer.pokemon_inicial === "Cambia"){ //Chespin 1 - Fennekin 2 - Froakie 3 --Yo siempre tengo ventaja en el starter
       if (trainer.name === "Crisanto" || trainer.name === "???") { //Chespin - Fennekin - Froakie
-        if (starter === "Chespin" && (trainer.variant === 1 || trainer.variant === 3)) {
-          return false; // Gala tiene Fennekin - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Chespin" && (trainer.variant === 2 || trainer.variant === 3)) {
+          return false; // Crisanto tiene Fennekin - Excluir variantes 2 y 3 y 5 6
         }
-        if (starter === "Fennekin" && (trainer.variant === 1 || trainer.variant === 2)) {
-          return false; // Gala tiene Froakie - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Fennekin" && (trainer.variant === 1 || trainer.variant === 3)) {
+          return false; // Crisanto tiene Froakie - Excluir variantes 2 y 3 y 5 6
         }
-        if (starter === "Froakie" && (trainer.variant === 2 || trainer.variant === 3)) {
-          return false; // Gala tiene Chespin - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Froakie" && (trainer.variant === 2 || trainer.variant === 1)) {
+          return false; // Crisanto tiene Chespin - Excluir variantes 2 y 3 y 5 6
         }
       }
     }
 
-    if(trainer.pokemon_inicial === "Cambia"){ //Chespin 1 - Fennekin 2 - Froakie 3 --Yo siempre tengo ventaja en el starter
+    if(trainer.pokemon_inicial === "Cambia"){ //Chespin 1 - Fennekin 2 - Froakie 3 --Melia siempre tiene ventaja en el starter
       if (trainer.name === "Melia") { //Chespin - Fennekin - Froakie
-        if (starter === "Chespin" && (trainer.variant === 1 || trainer.variant === 2)) {
-          return false; // Gala tiene Fennekin - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Chespin" && (trainer.variant === 2 || trainer.variant === 3)) {
+          return false; // Melia tiene Fennekin - Excluir variantes 2 y 3 y 5 6
         }
-        if (starter === "Fennekin" && (trainer.variant === 2 || trainer.variant === 3)) {
-          return false; // Gala tiene Froakie - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Fennekin" && (trainer.variant === 1 || trainer.variant === 3)) {
+          return false; // Melia tiene Froakie - Excluir variantes 2 y 3 y 5 6
         }
-        if (starter === "Froakie" && (trainer.variant === 1 || trainer.variant === 3)) {
-          return false; // Gala tiene Chespin - Excluir variantes 2 y 3 y 5 6
+        if (starter === "Froakie" && (trainer.variant === 1 || trainer.variant === 2)) {
+          return false; // Melia tiene Chespin - Excluir variantes 2 y 3 y 5 6
         }
       }
     }
