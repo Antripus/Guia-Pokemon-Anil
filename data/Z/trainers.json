@@ -21,7 +21,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO1",
@@ -45,7 +45,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO1",
@@ -69,7 +69,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA1",
@@ -106,7 +106,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA1",
@@ -143,7 +143,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA1",
@@ -180,7 +180,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LIDER1",
@@ -235,7 +235,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "NUBILA1",
@@ -290,7 +290,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO2",
@@ -345,7 +345,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO2",
@@ -400,7 +400,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO2",
@@ -455,7 +455,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA2",
@@ -510,7 +510,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA2",
@@ -565,7 +565,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA2",
@@ -620,7 +620,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LIDER2",
@@ -675,7 +675,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "ACTORMALVO",
@@ -717,7 +717,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MIRRA1",
@@ -772,7 +772,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "BRUJITA",
@@ -804,7 +804,7 @@
     "tipo": "Opcional",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CAZADOR",
@@ -828,7 +828,7 @@
     "tipo": "Opcional",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MERLOT",
@@ -883,7 +883,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "WOLFRAM1",
@@ -938,7 +938,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LIDER3",
@@ -993,7 +993,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Palancas",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LIDER3",
@@ -1048,7 +1048,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Palancas",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LIDER3",
@@ -1116,7 +1116,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Palancas",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO3",
@@ -1184,7 +1184,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO3",
@@ -1252,7 +1252,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO3",
@@ -1320,7 +1320,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "NUBILA2",
@@ -1388,7 +1388,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Doble",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LANTO1",
@@ -1456,7 +1456,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MIRRA2",
@@ -1511,7 +1511,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LIDER4",
@@ -1579,7 +1579,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA3",
@@ -1647,7 +1647,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA3",
@@ -1715,7 +1715,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA3",
@@ -1783,7 +1783,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "REYACERTIJOS",
@@ -1838,7 +1838,7 @@
     "tipo": "Opcional",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRITICO",
@@ -1893,7 +1893,7 @@
     "tipo": "Opcional",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "VAMPIRO",
@@ -1935,7 +1935,7 @@
     "tipo": "Opcional",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LIDER5",
@@ -2003,7 +2003,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO4",
@@ -2071,7 +2071,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO4",
@@ -2139,7 +2139,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "CRISANTO4",
@@ -2207,7 +2207,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "AZOTHO",
@@ -2262,7 +2262,7 @@
     "tipo": "Opcional",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "GENOS1",
@@ -2330,7 +2330,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "WOLFRAM2",
@@ -2398,7 +2398,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LIDER6",
@@ -2479,7 +2479,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA4",
@@ -2547,7 +2547,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA4",
@@ -2615,7 +2615,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "MELIA4",
@@ -2683,7 +2683,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "Cambia",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "ESPINO",
@@ -2738,7 +2738,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "PLUMANEGRA",
@@ -2793,7 +2793,7 @@
     "tipo": "Opcional",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "LANTO2",
@@ -2874,7 +2874,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "ALTOMANDO1",
@@ -2942,7 +2942,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "ALTOMANDO2",
@@ -3010,7 +3010,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "ALTOMANDO3",
@@ -3078,7 +3078,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "ALTOMANDO4",
@@ -3146,7 +3146,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "AZ1",
@@ -3200,7 +3200,7 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Simple",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
   },
   {
     "sprite": "AZ2",
@@ -3293,6 +3293,5060 @@
     "tipo": "Obligatorio",
     "tipo_de_combate": "Combate Doble",
     "pokemon_inicial": "No",
-    "acto": "1 - Poketour"
+    "acto": "1-Poketour"
+  },
+  {
+    "sprite": "CINTIA",
+    "name": "Cintia",
+    "variant": null,
+    "num_pokemon": 5,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "SPIRITOMB",
+        "level": 58,
+        "item": null,
+        "moves": [
+          "SHADOWBALL",
+          "SHADOWSNEAK",
+          "DARKPULSE",
+          "WILLOWISP"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "ROSERADE",
+        "level": 58,
+        "item": null,
+        "moves": [
+          "GIGADRAIN",
+          "SLEEPPOWDER",
+          "SLUDGEBOMB",
+          "EXTRASENSORY"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "LUCARIO",
+        "level": 59,
+        "item": null,
+        "moves": [
+          "VACUUMWAVE",
+          "FLASHCANNON",
+          "AURASPHERE",
+          "CALMMIND"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "TOGEKISS",
+        "level": 59,
+        "item": null,
+        "moves": [
+          "AIRSLASH",
+          "DAZZLINGGLEAM",
+          "FLAMETHROWER",
+          "THUNDERWAVE"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GARCHOMP",
+        "level": 60,
+        "item": null,
+        "moves": [
+          "DRAGONCLAW",
+          "EARTHQUAKE",
+          "IRONHEAD",
+          "STONEEDGE"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      }
+    ],
+    "Orden": 40,
+    "ubicacion": "PRISIÓN DEL OLVIDO (CÁRCEL EXTERIOR)",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "FERROFAZ",
+    "name": "Ferrofaz",
+    "variant": null,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "METANG",
+        "level": 51,
+        "item": null,
+        "moves": [
+          "BULLETPUNCH",
+          "AGILITY",
+          "PSYCHIC",
+          "TAKEDOWN"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "ESCAVALIER",
+        "level": 52,
+        "item": null,
+        "moves": [
+          "BUGBITE",
+          "CUERNOCERTERO",
+          "KNOCKOFF",
+          "REST"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "BASTIODON",
+        "level": 52,
+        "item": null,
+        "moves": [
+          "IRONHEAD",
+          "TAKEDOWN",
+          "ROCKBLAST",
+          "SCARYFACE"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "EMPOLEON",
+        "level": 53,
+        "item": null,
+        "moves": [
+          "MIRRORSHOT",
+          "ICYWIND",
+          "DRILLPECK",
+          "IRONDEFENSE"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      }
+    ],
+    "Orden": 41,
+    "descripcion_de_entrenador": "Loco Ferrofaz",
+    "ubicacion": "PRISIÓN DEL OLVIDO",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "PINOT",
+    "name": "Pinot",
+    "variant": null,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "WATCHOG",
+        "level": 56,
+        "item": null,
+        "moves": [
+          "HYPERFANG",
+          "HYPNOSIS",
+          "CONFUSERAY",
+          "CRUNCH"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "MALAMAR",
+        "level": 57,
+        "item": null,
+        "moves": [
+          "CLOSECOMBAT",
+          "PSYCHOCUT",
+          "KNOCKOFF",
+          "HYPNOSIS"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "KLEFKI",
+        "level": 57,
+        "item": null,
+        "moves": [
+          "DAZZLINGGLEAM",
+          "CONFUSERAY",
+          "FLASHCANNON",
+          "THUNDERWAVE"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "OCTILLERY",
+        "level": 58,
+        "item": null,
+        "moves": [
+          "HYDROPUMP",
+          "BULLETSEED",
+          "ICEBEAM",
+          "FLAMETHROWER"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      }
+    ],
+    "Orden": 42,
+    "descripcion_de_entrenador": "Alcaide Pinot",
+    "ubicacion": "PRISIÓN DEL OLVIDO (ISLA)",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "HOMBREDELSACO",
+    "name": "Saco",
+    "variant": 1,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "HYPNO",
+        "level": 65,
+        "item": null,
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "MALAMAR",
+        "level": 65,
+        "item": null,
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "MUSHARNA",
+        "level": 65,
+        "item": null,
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "DARKRAI",
+        "level": 65,
+        "item": null,
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      }
+    ],
+    "Orden": 43,
+    "descripcion_de_entrenador": "Hombre del Saco",
+    "ubicacion": "CIUDAD BATIK",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "HOMBREDELSACO",
+    "name": "Saco",
+    "variant": 2,
+    "num_pokemon": 4,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "HYPNO",
+        "level": 65,
+        "item": "ZOOMLENS",
+        "moves": [
+          "HYPNOSIS",
+          "PSYCHIC",
+          "DREAMEATER",
+          "SHADOWBALL"
+        ],
+        "ability": "0",
+        "nature": "CALM"
+      },
+      {
+        "name": "MALAMAR",
+        "level": 65,
+        "item": "ZOOMLENS",
+        "moves": [
+          "HYPNOSIS",
+          "NIGHTSLASH",
+          "PSYCHOCUT",
+          "SUPERPOWER"
+        ],
+        "ability": "0",
+        "nature": "Unknown"
+      },
+      {
+        "name": "MUSHARNA",
+        "level": 65,
+        "item": "ZOOMLENS",
+        "moves": [
+          "HYPNOSIS",
+          "MOONBLAST",
+          "PSYSHOCK",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "BOLD"
+      },
+      {
+        "name": "DARKRAI",
+        "level": 66,
+        "item": "EXPERTBELT",
+        "moves": [
+          "HYPNOSIS",
+          "DARKPULSE",
+          "PSYSHOCK",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "Unknown"
+      }
+    ],
+    "Orden": 43,
+    "descripcion_de_entrenador": "Hombre del Saco",
+    "ubicacion": "CIUDAD BATIK",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "LIDER7",
+    "name": "Hibis",
+    "variant": null,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "SIGILYPH",
+        "level": 66,
+        "item": "LIFEORB",
+        "moves": [
+          "PSYCHIC",
+          "AIRSLASH",
+          "HEATWAVE",
+          "HYPNOSIS"
+        ],
+        "ability": "1",
+        "nature": "TIMID"
+      },
+      {
+        "name": "CLAYDOL",
+        "level": 66,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "EARTHPOWER",
+          "ICEBEAM",
+          "LASERDOBLE",
+          "GRASSKNOT"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "STARMIE",
+        "level": 66,
+        "item": "WISEGLASSES",
+        "moves": [
+          "HYDROPUMP",
+          "PSYSHOCK",
+          "ICEBEAM",
+          "CALMMIND"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MALAMAR",
+        "level": 66,
+        "item": "MALAMARITE",
+        "moves": [
+          "PSYCHOCUT",
+          "KNOCKOFF",
+          "CLOSECOMBAT",
+          "HYPNOSIS"
+        ],
+        "ability": "1",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "FOBETO",
+        "level": 67,
+        "item": "LEFTOVERS",
+        "moves": [
+          "HYPNOSIS",
+          "NIGHTDAZE",
+          "DAZZLINGGLEAM",
+          "PSYCHIC"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 44,
+    "descripcion_de_entrenador": "Regente Hibis - Esclavista de Mentes",
+    "ubicacion": "TORRE OSCURA - 7ma Medalla",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "CRISANTO5",
+    "name": "Crisanto",
+    "variant": 1,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "GALLADE",
+        "level": 70,
+        "item": "GALLADITA",
+        "moves": [
+          "PSYCHOCUT",
+          "LEAFBLADE",
+          "SACREDSWORD",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "WIGGLYTUFF",
+        "level": 70,
+        "item": "LIFEORB",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "PSYSHOCK",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GOGOAT",
+        "level": 70,
+        "item": "EXPERTBELT",
+        "moves": [
+          "DOUBLEEDGE",
+          "EARTHQUAKE",
+          "ROCKSLIDE",
+          "ZENHEADBUTT"
+        ],
+        "ability": "2",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GOODRA",
+        "level": 70,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "DRAGONPULSE",
+          "MUDDYWATER",
+          "FLASHCANNON",
+          "ICEBEAM"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GRENINJA",
+        "level": 71,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "HYDROPUMP",
+          "TRUCOHUEVO",
+          "ICEBEAM",
+          "CALMMIND"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 48,
+    "descripcion_de_entrenador": "Rival Crisanto",
+    "ubicacion": "FÁBRICA DE POKÉBALL (INTERIOR)",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "CRISANTO5",
+    "name": "Crisanto",
+    "variant": 2,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "GALLADE",
+        "level": 70,
+        "item": "GALLADITA",
+        "moves": [
+          "PSYCHOCUT",
+          "LEAFBLADE",
+          "SACREDSWORD",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "WIGGLYTUFF",
+        "level": 70,
+        "item": "LIFEORB",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "PSYSHOCK",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GOGOAT",
+        "level": 70,
+        "item": "EXPERTBELT",
+        "moves": [
+          "DOUBLEEDGE",
+          "EARTHQUAKE",
+          "ROCKSLIDE",
+          "ZENHEADBUTT"
+        ],
+        "ability": "2",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GOODRA",
+        "level": 70,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "DRAGONPULSE",
+          "MUDDYWATER",
+          "FLASHCANNON",
+          "ICEBEAM"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CHESNAUGHT",
+        "level": 71,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "DISPAROESPINA",
+          "CRUNCH",
+          "DRILLRUN",
+          "BULKUP"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 48,
+    "descripcion_de_entrenador": "Rival Crisanto",
+    "ubicacion": "FÁBRICA DE POKÉBALL (INTERIOR)",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "CRISANTO5",
+    "name": "Crisanto",
+    "variant": 3,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "GALLADE",
+        "level": 70,
+        "item": "GALLADITA",
+        "moves": [
+          "PSYCHOCUT",
+          "LEAFBLADE",
+          "SACREDSWORD",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "WIGGLYTUFF",
+        "level": 70,
+        "item": "LIFEORB",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "PSYSHOCK",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GOGOAT",
+        "level": 70,
+        "item": "EXPERTBELT",
+        "moves": [
+          "DOUBLEEDGE",
+          "EARTHQUAKE",
+          "ROCKSLIDE",
+          "ZENHEADBUTT"
+        ],
+        "ability": "2",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GOODRA",
+        "level": 70,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "DRAGONPULSE",
+          "MUDDYWATER",
+          "FLASHCANNON",
+          "ICEBEAM"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "DELPHOX",
+        "level": 71,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "SABLEARDIENTE",
+          "ELECTROPUNZADA",
+          "SWORDSDANCE",
+          "SACREDSWORD"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 48,
+    "descripcion_de_entrenador": "Rival Crisanto",
+    "ubicacion": "FÁBRICA DE POKÉBALL (INTERIOR)",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "LIDER8",
+    "name": "Anturia",
+    "variant": null,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "NINETALES",
+        "level": 70,
+        "item": "HEATROCK",
+        "moves": [
+          "FLAMETHROWER",
+          "PSYSHOCK",
+          "SOLARBEAM",
+          "WILLOWISP"
+        ],
+        "ability": "1",
+        "nature": "TIMID"
+      },
+      {
+        "name": "HOUNDOOM",
+        "level": 71,
+        "item": "LIFEORB",
+        "moves": [
+          "FIREBLAST",
+          "DARKPULSE",
+          "SUNNYDAY",
+          "NASTYPLOT"
+        ],
+        "ability": "2",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "RAPIDASH",
+        "level": 71,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "FLAREBLITZ",
+          "DRILLRUN",
+          "MEGAHORN",
+          "WILDCHARGE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "SCOVILLAIN",
+        "level": 71,
+        "item": "SCOVILLAINITE",
+        "moves": [
+          "OVERHEAT",
+          "LEAFSTORM",
+          "THUNDERFANG",
+          "CRUNCH"
+        ],
+        "ability": "0",
+        "nature": "Unknown"
+      },
+      {
+        "name": "GOTHITELLE",
+        "level": 72,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "FLAMETHROWER",
+          "MALDIGNICION",
+          "CALMMIND",
+          "PSYSHOCK"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 49,
+    "descripcion_de_entrenador": "Regente Anturia - Bruja de la Llama",
+    "ubicacion": "BASTIÓN ROMANTIS  - 8va Medalla",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "OBREROS",
+    "name": "Mariano y Luciano",
+    "variant": null,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "TURTONATOR",
+        "level": 70,
+        "item": "WISEGLASSES",
+        "moves": [
+          "FLAMETHROWER",
+          "DRAGONPULSE",
+          "SUNNYDAY",
+          "IRONDEFENSE"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "SHIINOTIC",
+        "level": 70,
+        "item": "FOCUSSASH",
+        "moves": [
+          "SOLARBEAM",
+          "MOONBLAST",
+          "GIGADRAIN",
+          "SPORE"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "HATTERENE",
+        "level": 70,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "DAZZLINGGLEAM",
+          "PSYSHOCK",
+          "MYSTICALFIRE",
+          "PROTECT"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "RILLABOOM",
+        "level": 70,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "HAMMERARM",
+          "WOODHAMMER",
+          "FIREPUNCH",
+          "KNOCKOFF"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      }
+    ],
+    "Orden": 47,
+    "descripcion_de_entrenador": "Obreros Mariano y Luciano",
+    "ubicacion": "FÁBRICA DE POKÉBALL (INTERIOR)",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Doble",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "AZ3",
+    "name": "AZ",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "MAMOSWINE",
+        "level": 73,
+        "item": "PASSHOBERRY",
+        "moves": [
+          "EARTHQUAKE",
+          "STONEEDGE",
+          "ICICLECRASH",
+          "STEALTHROCK"
+        ],
+        "ability": "2",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "RELICANTH",
+        "level": 72,
+        "item": "RINDOBERRY",
+        "moves": [
+          "AQUATAIL",
+          "HEADSMASH",
+          "EARTHQUAKE",
+          "ZENHEADBUTT"
+        ],
+        "ability": "1",
+        "nature": "Unknown"
+      },
+      {
+        "name": "TORKOAL",
+        "level": 73,
+        "item": "WHITEHERB",
+        "moves": [
+          "OVERHEAT",
+          "SLUDGEBOMB",
+          "EARTHPOWER",
+          "WILLOWISP"
+        ],
+        "ability": "2",
+        "nature": "MODEST"
+      },
+      {
+        "name": "SIGILYPH",
+        "level": 72,
+        "item": "LEFTOVERS",
+        "moves": [
+          "PSYSHOCK",
+          "AIRSLASH",
+          "COSMICPOWER",
+          "REFLECT"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "GOLURK",
+        "level": 74,
+        "item": "GOLURKITE",
+        "moves": [
+          "SHADOWPUNCH",
+          "EARTHQUAKE",
+          "HAMMERARM",
+          "ICEPUNCH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "MELMETAL",
+        "level": 75,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "METEORMASH",
+          "ICEPUNCH",
+          "EARTHQUAKE",
+          "THUNDERPUNCH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 50,
+    "descripcion_de_entrenador": "Antiguo Rey Errante AZ",
+    "ubicacion": "Ruta 18",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "MELIA5",
+    "name": "Melia",
+    "variant": 1,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "FLOETTE",
+        "level": 73,
+        "item": "FLOETTITA",
+        "moves": [
+          "MOONBLAST",
+          "GIGADRAIN",
+          "PSYCHIC",
+          "CHARM"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MUSHARNA",
+        "level": 73,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "PSYSHOCK",
+          "CALMMIND",
+          "SIGNALBEAM",
+          "MOONLIGHT"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "VAPOREON",
+        "level": 73,
+        "item": "MYSTICWATER",
+        "moves": [
+          "HYDROPUMP",
+          "AURORABEAM",
+          "ACIDARMOR",
+          "SHADOWBALL"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "LUCARIO",
+        "level": 73,
+        "item": "FOCUSSASH",
+        "moves": [
+          "AURASPHERE",
+          "FLASHCANNON",
+          "VACUUMWAVE",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "DELPHOX",
+        "level": 75,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "FIREPUNCH",
+          "THUNDERPUNCH",
+          "ZENHEADBUTT",
+          "HONECLAWS"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 51,
+    "descripcion_de_entrenador": "Rival Melia",
+    "ubicacion": "Ruta 18 Parte 2",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "MELIA5",
+    "name": "Melia",
+    "variant": 2,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "FLOETTE",
+        "level": 73,
+        "item": "FLOETTITA",
+        "moves": [
+          "MOONBLAST",
+          "GIGADRAIN",
+          "PSYCHIC",
+          "CHARM"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MUSHARNA",
+        "level": 73,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "PSYSHOCK",
+          "CALMMIND",
+          "SIGNALBEAM",
+          "MOONLIGHT"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "JOLTEON",
+        "level": 73,
+        "item": "MAGNET",
+        "moves": [
+          "THUNDERBOLT",
+          "VOLTSWITCH",
+          "SIGNALBEAM",
+          "SHADOWBALL"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "LUCARIO",
+        "level": 73,
+        "item": "FOCUSSASH",
+        "moves": [
+          "AURASPHERE",
+          "FLASHCANNON",
+          "VACUUMWAVE",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GRENINJA",
+        "level": 75,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "MUDDYWATER",
+          "PSYSHOCK",
+          "DARKPULSE",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 51,
+    "descripcion_de_entrenador": "Rival Melia",
+    "ubicacion": "Ruta 18 Parte 2",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "MELIA5",
+    "name": "Melia",
+    "variant": 3,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "FLOETTE",
+        "level": 73,
+        "item": "FLOETTITA",
+        "moves": [
+          "MOONBLAST",
+          "GIGADRAIN",
+          "PSYCHIC",
+          "CHARM"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MUSHARNA",
+        "level": 73,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "PSYSHOCK",
+          "CALMMIND",
+          "SIGNALBEAM",
+          "MOONLIGHT"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "FLAREON",
+        "level": 73,
+        "item": "CHARCOAL",
+        "moves": [
+          "BLAZEKICK",
+          "IRONTAIL",
+          "STRENGTH",
+          "WILLOWISP"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "LUCARIO",
+        "level": 73,
+        "item": "FOCUSSASH",
+        "moves": [
+          "AURASPHERE",
+          "FLASHCANNON",
+          "VACUUMWAVE",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "CHESNAUGHT",
+        "level": 75,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "NEEDLEARM",
+          "CRUNCH",
+          "DIG",
+          "LEECHSEED"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 51,
+    "descripcion_de_entrenador": "Rival Melia",
+    "ubicacion": "Ruta 18 Parte 2",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "GUARDIANFORJA",
+    "name": "de la Forja",
+    "variant": null,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "XATU",
+        "level": 76,
+        "item": "LIFEORB",
+        "moves": [
+          "PSYSHOCK",
+          "HEATWAVE",
+          "AIRSLASH",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "CLAYDOL",
+        "level": 76,
+        "item": "LIGHTCLAY",
+        "moves": [
+          "EARTHQUAKE",
+          "LASERDOBLE",
+          "REFLECT",
+          "LIGHTSCREEN"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "SOLROCK",
+        "level": 77,
+        "item": "EVIOLITE",
+        "moves": [
+          "ROCKSLIDE",
+          "FLAREBLITZ",
+          "ZENHEADBUTT",
+          "PROTECT"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "LUNATONE",
+        "level": 77,
+        "item": "EVIOLITE",
+        "moves": [
+          "PSYCHIC",
+          "HYPNOSIS",
+          "POWERGEM",
+          "PROTECT"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 52,
+    "descripcion_de_entrenador": "Guardián de la Forja:",
+    "ubicacion": "ANTIGUA FORJA INUNDADA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "OLIVIER",
+    "name": "Olivier",
+    "variant": null,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "GYARADOS",
+        "level": 75,
+        "item": "LEFTOVERS",
+        "moves": [
+          "AQUATAIL",
+          "CRUNCH",
+          "ICEFANG",
+          "DRAGONDANCE"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "NOIVERN",
+        "level": 76,
+        "item": "WISEGLASSES",
+        "moves": [
+          "DRAGONPULSE",
+          "AIRSLASH",
+          "SHADOWBALL",
+          "PROTECT"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GASTRODON",
+        "level": 76,
+        "item": null,
+        "moves": [
+          "BRINE",
+          "EARTHPOWER",
+          "RECOVER",
+          "PROTECT"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "PYROAR",
+        "level": 77,
+        "item": "PYROARITE",
+        "moves": [
+          "FLAMETHROWER",
+          "HYPERVOICE",
+          "DARKPULSE",
+          "PROTECT"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      }
+    ],
+    "Orden": 55,
+    "descripcion_de_entrenador": "Profesora Olivier",
+    "ubicacion": "PUEBLO MOSAICO",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "LIDER9",
+    "name": "Rupico",
+    "variant": null,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "GIGALITH",
+        "level": 77,
+        "item": "LEFTOVERS",
+        "moves": [
+          "BODYPRESS",
+          "STONEEDGE",
+          "STEALTHROCK",
+          "EARTHQUAKE"
+        ],
+        "ability": "1",
+        "nature": "IMPISH"
+      },
+      {
+        "name": "OMASTAR",
+        "level": 77,
+        "item": "WHITEHERB",
+        "moves": [
+          "SURF",
+          "POWERGEM",
+          "ICEBEAM",
+          "SHELLSMASH"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "ARCANINE",
+        "level": 77,
+        "item": "FOCUSSASH",
+        "moves": [
+          "FLAREBLITZ",
+          "HEADSMASH",
+          "WILDCHARGE",
+          "EXTREMESPEED"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "DIANCIE",
+        "level": 77,
+        "item": "DIANCITA",
+        "moves": [
+          "MOONBLAST",
+          "DIAMONDSTORM",
+          "EARTHPOWER",
+          "STEALTHROCK"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "CONSTELLAR",
+        "level": 78,
+        "item": "PASSHOBERRY",
+        "moves": [
+          "ECLIPSE",
+          "PSYSHOCK",
+          "CALMMIND",
+          "SHADOWBALL"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      }
+    ],
+    "Orden": 53,
+    "descripcion_de_entrenador": "Regente Rúpico - Forjador de Medallas",
+    "ubicacion": "BASTIÓN FLUXUS - 9na Medalla",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "GINIA",
+    "name": "Ginia",
+    "variant": null,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "SMEARGLE",
+        "level": 79,
+        "item": "ZOOMLENS",
+        "moves": [
+          "DARKVOID",
+          "SPORE",
+          "RAGEPOWDER",
+          ""
+        ],
+        "ability": "X",
+        "nature": "BOLD"
+      },
+      {
+        "name": "SMEARGLE",
+        "level": 79,
+        "item": "WIDELENS",
+        "moves": [
+          "LOCKON",
+          "SHEERCOLD",
+          "",
+          ""
+        ],
+        "ability": "X",
+        "nature": "CAREFUL"
+      },
+      {
+        "name": "SMEARGLE",
+        "level": 79,
+        "item": "FOCUSSASH",
+        "moves": [
+          "COUNTER",
+          "MIRRORCOAT",
+          "DESTINYBOND",
+          ""
+        ],
+        "ability": "X",
+        "nature": "IMPISH"
+      },
+      {
+        "name": "SMEARGLE",
+        "level": 79,
+        "item": "SILKSCARF",
+        "moves": [
+          "FAKEOUT",
+          "BOOMBURST",
+          "EXTREMESPEED",
+          ""
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      }
+    ],
+    "Orden": 54,
+    "descripcion_de_entrenador": "Pintora Ginia",
+    "ubicacion": "Cueva Desenlace",
+    "tipo": "Opcional",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "OLIVIER",
+    "name": "Olivier",
+    "variant": 1,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "ZEBSTRIKA",
+        "level": 78,
+        "item": "AIRBALLOON",
+        "moves": [
+          "WILDCHARGE",
+          "BLAZEKICK",
+          "CUERNOCERTERO",
+          "ARREMETIDA"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "VENOMOTH",
+        "level": 78,
+        "item": "BLACKSLUDGE",
+        "moves": [
+          "BUGBUZZ",
+          "PSYCHIC",
+          "GIGADRAIN",
+          "QUIVERDANCE"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "NOIVERN",
+        "level": 78,
+        "item": "LIFEORB",
+        "moves": [
+          "DRAGONPULSE",
+          "AIRSLASH",
+          "SHADOWBALL",
+          "HEATWAVE"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "GASTRODON",
+        "level": 79,
+        "item": "LEFTOVERS",
+        "moves": [
+          "HYDROPUMP",
+          "EARTHPOWER",
+          "TOXIC",
+          "ICEBEAM"
+        ],
+        "ability": "1",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GYARADOS",
+        "level": 79,
+        "item": "WACANBERRY",
+        "moves": [
+          "AQUATAIL",
+          "CRUNCH",
+          "ICEFANG",
+          "DRAGONDANCE"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "PYROAR",
+        "level": 80,
+        "item": "PYROARITE",
+        "moves": [
+          "WORKUP",
+          "HYPERVOICE",
+          "DARKPULSE",
+          "FIREBLAST"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 55,
+    "descripcion_de_entrenador": "Profesora Olivier",
+    "ubicacion": "PUEBLO MOSAICO",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "FANTASMA",
+    "name": "de Montesanto",
+    "variant": null,
+    "num_pokemon": 3,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "SPIRITOMB",
+        "level": 70,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "SHADOWBALL",
+          "DARKPULSE",
+          "WILLOWISP",
+          "NASTYPLOT"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "BASCULEGION",
+        "level": 70,
+        "item": "MYSTICWATER",
+        "moves": [
+          "FISHIOUSREND",
+          "ZENHEADBUTT",
+          "PHANTOMFORCE",
+          "AQUAJET"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GHOLDENGO",
+        "level": 71,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "MAKEITRAIN",
+          "SHADOWBALL",
+          "THUNDERBOLT",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      }
+    ],
+    "Orden": 45,
+    "descripcion_de_entrenador": "Fantasma de Montesanto",
+    "ubicacion": "Cueva de Isla Montesanto",
+    "tipo": "Opcional",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "LOTOFINAL",
+    "name": "Loto",
+    "variant": null,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "HONCHKROW",
+        "level": 70,
+        "item": null,
+        "moves": [
+          "BRAVEBIRD",
+          "HEATWAVE",
+          "SUCKERPUNCH",
+          "NIGHTSLASH"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "JELLICENT",
+        "level": 70,
+        "item": "SPELLTAG",
+        "moves": [
+          "HYDROPUMP",
+          "SHADOWBALL",
+          "WILLOWISP",
+          "RECOVER"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "WAILORD",
+        "level": 71,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "ACROBATICS",
+          "AQUATAIL",
+          "HEAVYSLAM",
+          "PROTECT"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "CHANDELURE",
+        "level": 72,
+        "item": null,
+        "moves": [
+          "FIREBLAST",
+          "ENERGYBALL",
+          "SHADOWBALL",
+          "CLEARSMOG"
+        ],
+        "ability": "1",
+        "nature": "Unknown"
+      }
+    ],
+    "Orden": 46,
+    "descripcion_de_entrenador": "Papa Loto",
+    "ubicacion": "Cueva de Isla Montesanto",
+    "tipo": "Opcional",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "LIDER10",
+    "name": "Cendera",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "AURORUS",
+        "level": 80,
+        "item": "FOCUSSASH",
+        "moves": [
+          "FREEZEDRY",
+          "POWERGEM",
+          "BLIZZARD",
+          "AURORAVEIL"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "EMPOLEON",
+        "level": 80,
+        "item": "SHELLBELL",
+        "moves": [
+          "HYDROPUMP",
+          "FLASHCANNON",
+          "ICEBEAM",
+          "ROOST"
+        ],
+        "ability": "1",
+        "nature": "BOLD"
+      },
+      {
+        "name": "WEAVILE",
+        "level": 81,
+        "item": "LIFEORB",
+        "moves": [
+          "ICEPUNCH",
+          "CRUNCH",
+          "LOWKICK",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "BAXCALIBUR",
+        "level": 81,
+        "item": "BAXCALIBRITE",
+        "moves": [
+          "DRAGONCLAW",
+          "ICEHAMMER",
+          "CRUNCH",
+          "EARTHQUAKE"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GLASTRIER",
+        "level": 81,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "AVALANCHE",
+          "FUERZAEQUINA",
+          "CLOSECOMBAT",
+          "ZENHEADBUTT"
+        ],
+        "ability": "1",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "FREYJYNX",
+        "level": 82,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "PSYCHIC",
+          "LOVELYKISS"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 56,
+    "descripcion_de_entrenador": "Regente Cendera - Condesa de Invierno",
+    "ubicacion": "BASTIÓN FRACTAL - 10ma Medalla",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "ALCACADUCA",
+    "name": "Alca",
+    "variant": null,
+    "num_pokemon": 5,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "STARMIE",
+        "level": 81,
+        "item": null,
+        "moves": [
+          "SURF",
+          "PSYCHIC",
+          "ICEBEAM",
+          "THUNDERBOLT"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "DRAGALGE",
+        "level": 82,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "SLUDGEBOMB",
+          "DRAGONPULSE",
+          "HYDROPUMP",
+          "ICEBEAM"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "CHANDELURE",
+        "level": 82,
+        "item": "CHARCOAL",
+        "moves": [
+          "FIREBLAST",
+          "ENERGYBALL",
+          "SHADOWBALL",
+          "CLEARSMOG"
+        ],
+        "ability": "1",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "HYDREIGON",
+        "level": 82,
+        "item": null,
+        "moves": [
+          "DARKPULSE",
+          "NASTYPLOT",
+          "FIREBLAST",
+          "DRACOMETEOR"
+        ],
+        "ability": "X",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "GRIMMSNARL",
+        "level": 83,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "SPIRITBREAK",
+          "FALSESURRENDER",
+          "THUNDERPUNCH",
+          "DRAINPUNCH"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 57,
+    "descripcion_de_entrenador": "Entrenadora Alca Caduca",
+    "ubicacion": "BATALLA DE KALOS ESTE",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "PRIMULATORNASOLA",
+    "name": "Primula y Tornasola",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "NIDOQUEEN",
+        "level": 83,
+        "item": "LIFEORB",
+        "moves": [
+          "SLUDGEBOMB",
+          "THUNDERBOLT",
+          "ICEBEAM",
+          "EARTHPOWER"
+        ],
+        "ability": "2",
+        "nature": "MODEST"
+      },
+      {
+        "name": "BEWEAR",
+        "level": 83,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "HAMMERARM",
+          "RETURN",
+          "SHADOWCLAW",
+          "IRONHEAD"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "EXCADRILL",
+        "level": 83,
+        "item": "AIRBALLOON",
+        "moves": [
+          "DRILLRUN",
+          "IRONHEAD",
+          "ROCKSLIDE",
+          "SWORDSDANCE"
+        ],
+        "ability": "2",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "ROYALEON",
+        "level": 84,
+        "item": "WISEGLASSES",
+        "moves": [
+          "HYPERVOICE",
+          "ENERGYBALL",
+          "SHADOWBALL",
+          "SLUDGEBOMB"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MAROLIER",
+        "level": 84,
+        "item": "NUDILLOPUAS",
+        "moves": [
+          "FERROESPADA",
+          "EARTHQUAKE",
+          "FIREPUNCH",
+          "STONEEDGE"
+        ],
+        "ability": "X",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "ZANGHOUL",
+        "level": 85,
+        "item": "COLBURBERRY",
+        "moves": [
+          "SHADOWCLAW",
+          "SLASH",
+          "CLOSECOMBAT",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 58,
+    "descripcion_de_entrenador": "Antiguas Reinas Prímula y Tornasola",
+    "ubicacion": "BATALLA DE KALOS ESTE",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Doble",
+    "pokemon_inicial": "No",
+    "acto": "2-Traicion"
+  },
+  {
+    "sprite": "LIDER11",
+    "name": "Siempreviva",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "KROOKODILE",
+        "level": 88,
+        "item": "LIFEORB",
+        "moves": [
+          "KNOCKOFF",
+          "EARTHQUAKE",
+          "STONEEDGE",
+          "IRONHEAD"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "MUK",
+        "level": 88,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "GUNKSHOT",
+          "KNOCKOFF",
+          "FIREPUNCH",
+          "ICEPUNCH"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "MANDIBUZZ",
+        "level": 88,
+        "item": "LEFTOVERS",
+        "moves": [
+          "FOULPLAY",
+          "TOXIC",
+          "ROOST",
+          "HEATWAVE"
+        ],
+        "ability": "1",
+        "nature": "BOLD"
+      },
+      {
+        "name": "SPIRITOMB",
+        "level": 89,
+        "item": "REDCARD",
+        "moves": [
+          "DARKPULSE",
+          "SHADOWBALL",
+          "NASTYPLOT",
+          "CONFUSERAY"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "DARKRAI",
+        "level": 89,
+        "item": "DARKRANITE",
+        "moves": [
+          "DARKPULSE",
+          "ICEBEAM",
+          "THUNDERBOLT",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "LUVOURNE",
+        "level": 90,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "HYDROPUMP",
+          "DARKPULSE",
+          "CORAZONROTO",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 62,
+    "descripcion_de_entrenador": "Regente Siempreviva - Maestra de Ceremonias",
+    "ubicacion": "PESADILLA DE CIRCO",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ANGELINE",
+    "name": "Angeline",
+    "variant": null,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "AMPHAROS",
+        "level": 88,
+        "item": "LIGHTCLAY",
+        "moves": [
+          "THUNDER",
+          "POWERGEM",
+          "DRAGONPULSE",
+          "LIGHTSCREEN"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MILOTIC",
+        "level": 88,
+        "item": "LEFTOVERS",
+        "moves": [
+          "HYDROPUMP",
+          "ICEBEAM",
+          "DRAGONTAIL",
+          "RECOVER"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GOURGEIST",
+        "level": 89,
+        "item": "LIFEORB",
+        "moves": [
+          "SHADOWBALL",
+          "FIREBLAST",
+          "PSYCHIC",
+          "GIGADRAIN"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "BRONZONG",
+        "level": 89,
+        "item": "IRONBALL",
+        "moves": [
+          "GYROBALL",
+          "ZENHEADBUTT",
+          "EARTHQUAKE",
+          "TRICKROOM"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "FLORGES",
+        "level": 90,
+        "item": "FLORGESITA",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "GIGADRAIN",
+          "PSYCHIC"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 63,
+    "descripcion_de_entrenador": "Entrenadora Angeline",
+    "ubicacion": "OTRO LUGAR",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER12",
+    "name": "Arrayan",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "GALVANTULA",
+        "level": 88,
+        "item": "FOCUSSASH",
+        "moves": [
+          "THUNDER",
+          "BUGBUZZ",
+          "ENERGYBALL",
+          "STICKYWEB"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "YANMEGA",
+        "level": 88,
+        "item": "LIFEORB",
+        "moves": [
+          "BUGBUZZ",
+          "AIRSLASH",
+          "GIGADRAIN",
+          "SHADOWBALL"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "SCOLIPEDE",
+        "level": 89,
+        "item": "SCOLIPITE",
+        "moves": [
+          "POISONJAB",
+          "MEGAHORN",
+          "EARTHQUAKE",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "VOLCARONA",
+        "level": 89,
+        "item": "LEFTOVERS",
+        "moves": [
+          "HEATWAVE",
+          "BUGBUZZ",
+          "GIGADRAIN",
+          "QUIVERDANCE"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CRUSTLE",
+        "level": 89,
+        "item": "WEAKNESSPOLICY",
+        "moves": [
+          "SHELLSMASH",
+          "XSCISSOR",
+          "STONEEDGE",
+          "EARTHQUAKE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "FLYGON",
+        "level": 90,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "HYPERVOICE",
+          "EARTHPOWER",
+          "DRAGONPULSE",
+          "FIREBLAST"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 59,
+    "descripcion_de_entrenador": "Regente Arrayan - Regente Perdido",
+    "ubicacion": "Maraña Oscura",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LYSSON",
+    "name": "Lysson",
+    "variant": null,
+    "num_pokemon": 5,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "MIENSHAO",
+        "level": 88,
+        "item": "FLYINGGEM",
+        "moves": [
+          "HIJUMPKICK",
+          "ACROBATICS",
+          "STONEEDGE",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "HONCHKROW",
+        "level": 88,
+        "item": "SCOPELENS",
+        "moves": [
+          "BRAVEBIRD",
+          "NIGHTSLASH",
+          "SUCKERPUNCH",
+          "HEATWAVE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "ZEBSTRIKA",
+        "level": 89,
+        "item": "AIRBALLOON",
+        "moves": [
+          "VOLTTACKLE",
+          "BLAZEKICK",
+          "PLAYROUGH",
+          "CUERNOCERTERO"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "PYROAR",
+        "level": 89,
+        "item": "FOCUSSASH",
+        "moves": [
+          "HEATWAVE",
+          "HYPERVOICE",
+          "DARKPULSE",
+          "WORKUP"
+        ],
+        "ability": "2",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GYARADOS",
+        "level": 90,
+        "item": "GYARADOSITA",
+        "moves": [
+          "AQUATAIL",
+          "CRUNCH",
+          "ICEFANG",
+          "DRAGONDANCE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 60,
+    "descripcion_de_entrenador": "Jefe Flare Lysson",
+    "ubicacion": "Guarida Team Flare",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "MIRRA3",
+    "name": "Mirra",
+    "variant": null,
+    "num_pokemon": 3,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "SALAMENCE",
+        "level": 75,
+        "item": "LUMBERRY",
+        "moves": [
+          "OUTRAGE",
+          "FLAMETHROWER",
+          "ALABIS",
+          "DRAGONDANCE"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "ALAKAZAM",
+        "level": 75,
+        "item": "TWISTEDSPOON",
+        "moves": [
+          "PSYCHIC",
+          "SHADOWBALL",
+          "FOCUSBLAST",
+          "CALMMIND"
+        ],
+        "ability": "1",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "ABSOL",
+        "level": 76,
+        "item": "SCOPELENS",
+        "moves": [
+          "NIGHTSLASH",
+          "PLAYROUGH",
+          "SWORDSDANCE",
+          "FOCUSENERGY"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 64,
+    "descripcion_de_entrenador": "Clérigo Mirra",
+    "ubicacion": "TORRE PRISMA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "MIRRA4",
+    "name": "Heraldo del Oro",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "ROTOM",
+        "level": 88,
+        "item": "SCOPELENS",
+        "moves": [
+          "GUILLOTINE",
+          "CRUNCH",
+          "WILDCHARGE",
+          "THUNDERWAVE"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "MILOTIC",
+        "level": 88,
+        "item": "LEFTOVERS",
+        "moves": [
+          "HYDROPUMP",
+          "DRAGONPULSE",
+          "ICYWIND",
+          "ATTRACT"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "RAIKOU",
+        "level": 89,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "THUNDERBOLT",
+          "AURASPHERE",
+          "SHADOWBALL",
+          "SCALD"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "ALAKAZAM",
+        "level": 89,
+        "item": "LIFEORB",
+        "moves": [
+          "PSYCHIC",
+          "SHADOWBALL",
+          "FOCUSBLAST",
+          "CALMMIND"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "SALAMENCE",
+        "level": 89,
+        "item": "LUMBERRY",
+        "moves": [
+          "OUTRAGE",
+          "FLAMETHROWER",
+          "ALABIS",
+          "DRAGONDANCE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "ABSOL",
+        "level": 90,
+        "item": "ABSOLITEZ",
+        "moves": [
+          "NIGHTSLASH",
+          "PLAYROUGH",
+          "SWORDSDANCE",
+          "FOCUSENERGY"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 65,
+    "descripcion_de_entrenador": "Mirra - Heraldo del Oro",
+    "ubicacion": "TORRE PRISMA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "TAROTISTA",
+    "name": "Mimi",
+    "variant": null,
+    "num_pokemon": 3,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "TALONFLAME",
+        "level": 86,
+        "item": null,
+        "moves": [
+          "ACROBATICS",
+          "FLAREBLITZ",
+          "UTURN",
+          "TAILWIND"
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "PAWMOT",
+        "level": 86,
+        "item": null,
+        "moves": [
+          "THUNDERPUNCH",
+          "CLOSECOMBAT",
+          "FIREPUNCH",
+          "ICEPUNCH"
+        ],
+        "ability": "2",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "MAROWAK",
+        "level": 87,
+        "item": "MUSCLEBAND",
+        "moves": [
+          "BONEMERANG",
+          "FIREPUNCH",
+          "ROCKSLIDE",
+          "SHADOWBONE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 61,
+    "descripcion_de_entrenador": "Tarotista Mimi",
+    "ubicacion": "PUEBLO SANGUINO:",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER1R",
+    "name": "Canola",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "TOXICROAK",
+        "level": 98,
+        "item": "WIDELENS",
+        "moves": [
+          "SUCKERPUNCH",
+          "ICEPUNCH",
+          "CROSSCHOP",
+          "GUNKSHOT"
+        ],
+        "ability": "2",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "LUCARIO",
+        "level": 98,
+        "item": "LUCARIONITEZ",
+        "moves": [
+          "FLASHCANNON",
+          "AURASPHERE",
+          "PSYCHIC",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "MEDICHAM",
+        "level": 98,
+        "item": "CHOICESCARF",
+        "moves": [
+          "HIJUMPKICK",
+          "ZENHEADBUTT",
+          "ICEPUNCH",
+          "FIREPUNCH"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "KOMMOO",
+        "level": 99,
+        "item": "CORAZAASALTO",
+        "moves": [
+          "SUPERPOWER",
+          "DRACOMETEOR",
+          "SHADOWCLAW",
+          "EARTHQUAKE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "ANNIHILAPE",
+        "level": 99,
+        "item": "LIFEORB",
+        "moves": [
+          "EARTHQUAKE",
+          "DRAINPUNCH",
+          "BULKUP",
+          "SHADOWPUNCH"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "KRICKETUNE",
+        "level": 100,
+        "item": "ESPADAVALIENTE",
+        "moves": [
+          "ESPADASEDOSA",
+          "SACREDSWORD",
+          "NIGHTSLASH",
+          "LEAFBLADE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 68,
+    "descripcion_de_entrenador": "Regente Canola",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER2R",
+    "name": "Hisopo",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "CHANDELURE",
+        "level": 98,
+        "item": "CHANDELURITE",
+        "moves": [
+          "SHADOWBALL",
+          "PSYCHIC",
+          "ENERGYBALL",
+          "FLAMETHROWER"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CERULEDGE",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "SHADOWCLAW",
+          "BITTERBLADE",
+          "SHADOWSNEAK",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "MISMAGIUS",
+        "level": 98,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "SHADOWBALL",
+          "DAZZLINGGLEAM",
+          "POWERGEM",
+          "THUNDERBOLT"
+        ],
+        "ability": "X",
+        "nature": "TIMID"
+      },
+      {
+        "name": "DRAGAPULT",
+        "level": 99,
+        "item": "WHITEHERB",
+        "moves": [
+          "DRACOMETEOR",
+          "SHADOWBALL",
+          "FLAMETHROWER",
+          "THUNDER"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "MIMIKYU",
+        "level": 99,
+        "item": "NUDILLOPUAS",
+        "moves": [
+          "SHADOWCLAW",
+          "PLAYROUGH",
+          "SHADOWSNEAK",
+          "SWORDSDANCE"
+        ],
+        "ability": "X",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "COFAGRIGUS",
+        "level": 100,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "SHADOWCLAW",
+          "FERROPRISION",
+          "PAINSPLIT",
+          "WILLOWISP"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 69,
+    "descripcion_de_entrenador": "Regente Hisopo",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER3R",
+    "name": "F3",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "BELLIBOLT",
+        "level": 98,
+        "item": "SHUCABERRY",
+        "moves": [
+          "MUDDYWATER",
+          "THUNDERWAVE",
+          "ELECTRICTERRAIN",
+          "PARABOLICCHARGE"
+        ],
+        "ability": "0",
+        "nature": "BOLD"
+      },
+      {
+        "name": "PORYGON",
+        "level": 98,
+        "item": "SUPEREVIOLITE",
+        "moves": [
+          "CARGAGRESION",
+          "PSYSHOCK",
+          "RECOVER",
+          "TRIATTACK"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MAGNEZONE",
+        "level": 98,
+        "item": "AIRBALLOON",
+        "moves": [
+          "THUNDERBOLT",
+          "FLASHCANNON",
+          "SIGNALBEAM",
+          "LIGHTSCREEN"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "PORYGON2",
+        "level": 99,
+        "item": "EVIOLITE",
+        "moves": [
+          "CARGAGRESION",
+          "SHADOWBALL",
+          "SIGNALBEAM",
+          "ICEBEAM"
+        ],
+        "ability": "1",
+        "nature": "TIMID"
+      },
+      {
+        "name": "EELEKTROSS",
+        "level": 99,
+        "item": "EELEKTROSSITE",
+        "moves": [
+          "BOLTBEAK",
+          "DRAINPUNCH",
+          "AQUATAIL",
+          "COIL"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "PORYGONZ",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "CARGAGRESION",
+          "LAVAPLUME",
+          "NASTYPLOT",
+          "TRIATTACK"
+        ],
+        "ability": "1",
+        "nature": "TIMID"
+      }
+    ],
+    "Orden": 70,
+    "descripcion_de_entrenador": "Regente F3",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER4R",
+    "name": "Zafra",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "KLEFKI",
+        "level": 98,
+        "item": "REDCARD",
+        "moves": [
+          "SPIKES",
+          "DAZZLINGGLEAM",
+          "FLASHCANNON",
+          "FOULPLAY"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "DACHSBUN",
+        "level": 98,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "PLAYROUGH",
+          "PSICOCOLMILLO",
+          "CHARM",
+          "BODYPRESS"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "CLEFABLE",
+        "level": 98,
+        "item": "CLEFABLITE",
+        "moves": [
+          "MOONBLAST",
+          "FIREBLAST",
+          "ICEBEAM",
+          "AIRSLASH"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "ALCREMIE",
+        "level": 99,
+        "item": "LEFTOVERS",
+        "moves": [
+          "DAZZLINGGLEAM",
+          "MYSTICALFIRE",
+          "RECOVER",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "BOLD"
+      },
+      {
+        "name": "VANILLUXE",
+        "level": 99,
+        "item": "LIFEORB",
+        "moves": [
+          "ICEBEAM",
+          "FLASHCANNON",
+          "DAZZLINGGLEAM",
+          "LIGHTSCREEN"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GOURMAUS",
+        "level": 100,
+        "item": "CORAZAASALTO",
+        "moves": [
+          "DULCEFESTIN",
+          "BODYSLAM",
+          "EARTHQUAKE",
+          "FIREPUNCH"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 71,
+    "descripcion_de_entrenador": "Regente Zafra",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER5R",
+    "name": "Loto",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "POLITOED",
+        "level": 98,
+        "item": "DAMPROCK",
+        "moves": [
+          "PSYCHIC",
+          "SCALD",
+          "ICEBEAM",
+          "RAINDANCE"
+        ],
+        "ability": "2",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GYARADOS",
+        "level": 98,
+        "item": "GYARADOSITA",
+        "moves": [
+          "AQUATAIL",
+          "EARTHQUAKE",
+          "CRUNCH",
+          "DRAGONDANCE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "HONCHKROW",
+        "level": 98,
+        "item": "SCOPELENS",
+        "moves": [
+          "NIGHTSLASH",
+          "DRILLPECK",
+          "HEATWAVE",
+          "SUCKERPUNCH"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "WHISCASH",
+        "level": 99,
+        "item": "RINDOBERRY",
+        "moves": [
+          "EARTHQUAKE",
+          "AQUATAIL",
+          "ROCKSLIDE",
+          "AMNESIA"
+        ],
+        "ability": "2",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "CLAWITZER",
+        "level": 99,
+        "item": "CANONDEMANO",
+        "moves": [
+          "SNIPESHOT",
+          "AURASPHERE",
+          "DARKPULSE",
+          "ICEBEAM"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "WAILORD",
+        "level": 100,
+        "item": "FLYINGGEM",
+        "moves": [
+          "ACROBATICS",
+          "AQUATAIL",
+          "HEAVYSLAM",
+          "EARTHQUAKE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 72,
+    "descripcion_de_entrenador": "Regente Loto",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER6R",
+    "name": "Belladona",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "GLIMMORA",
+        "level": 98,
+        "item": "GLIMMORANITE",
+        "moves": [
+          "SLUDGEBOMB",
+          "POWERGEM",
+          "EARTHPOWER",
+          "STEALTHROCK"
+        ],
+        "ability": "X",
+        "nature": "BOLD"
+      },
+      {
+        "name": "CROBAT",
+        "level": 98,
+        "item": "FLYINGGEM",
+        "moves": [
+          "ACROBATICS",
+          "CROSSPOISON",
+          "HEATWAVE",
+          "UTURN"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "SCOLIPEDE",
+        "level": 99,
+        "item": "FOCUSSASH",
+        "moves": [
+          "XSCISSOR",
+          "POISONJAB",
+          "BULLDOZE",
+          "SWORDSDANCE"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "TENTACRUEL",
+        "level": 99,
+        "item": "LIFEORB",
+        "moves": [
+          "TOXICSPIKES",
+          "VENOSHOCK",
+          "ICEBEAM",
+          "HYDROPUMP"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "SNEASLER",
+        "level": 99,
+        "item": "NUDILLOPUAS",
+        "moves": [
+          "CLOSECOMBAT",
+          "DIRECLAW",
+          "KNOCKOFF",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "SERDUPLA",
+        "level": 100,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "POISONFANG",
+          "DRAGONCLAW",
+          "CRUNCH",
+          "ICEFANG"
+        ],
+        "ability": "1",
+        "nature": "JOLLY"
+      }
+    ],
+    "Orden": 73,
+    "descripcion_de_entrenador": "Regente Belladona",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER7R",
+    "name": "Hibis",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "SIGILYPH",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "PSYCHIC",
+          "AIRSLASH",
+          "HEATWAVE",
+          "HYPNOSIS"
+        ],
+        "ability": "1",
+        "nature": "TIMID"
+      },
+      {
+        "name": "CLAYDOL",
+        "level": 98,
+        "item": "CORAZAASALTO",
+        "moves": [
+          "EARTHPOWER",
+          "ICEBEAM",
+          "LASERDOBLE",
+          "GRASSKNOT"
+        ],
+        "ability": "X",
+        "nature": "Unknown"
+      },
+      {
+        "name": "METAGROSS",
+        "level": 98,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "IRONHEAD",
+          "ZENHEADBUTT",
+          "THUNDERPUNCH",
+          "EARTHQUAKE"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "STARMIE",
+        "level": 99,
+        "item": "WISEGLASSES",
+        "moves": [
+          "HYDROPUMP",
+          "PSYSHOCK",
+          "ICEBEAM",
+          "CALMMIND"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MALAMAR",
+        "level": 99,
+        "item": "MALAMARITE",
+        "moves": [
+          "PSYCHOCUT",
+          "KNOCKOFF",
+          "CLOSECOMBAT",
+          "HYPNOSIS"
+        ],
+        "ability": "1",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "FOBETO",
+        "level": 100,
+        "item": "LEFTOVERS",
+        "moves": [
+          "HYPNOSIS",
+          "NIGHTDAZE",
+          "DAZZLINGGLEAM",
+          "PSYCHIC"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 74,
+    "descripcion_de_entrenador": "Regente Hibis",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER8R",
+    "name": "Anturia",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "NINETALES",
+        "level": 98,
+        "item": "HEATROCK",
+        "moves": [
+          "FLAMETHROWER",
+          "PSYSHOCK",
+          "SOLARBEAM",
+          "WILLOWISP"
+        ],
+        "ability": "1",
+        "nature": "TIMID"
+      },
+      {
+        "name": "SCOVILLAIN",
+        "level": 99,
+        "item": "SCOVILLAINITE",
+        "moves": [
+          "OVERHEAT",
+          "LEAFSTORM",
+          "THUNDERFANG",
+          "CRUNCH"
+        ],
+        "ability": "0",
+        "nature": "Unknown"
+      },
+      {
+        "name": "TORKOAL",
+        "level": 98,
+        "item": "HEATROCK",
+        "moves": [
+          "LAVAPLUME",
+          "SLUDGEBOMB",
+          "YAWN",
+          "EARTHPOWER"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "HOUNDOOM",
+        "level": 99,
+        "item": "WISEGLASSES",
+        "moves": [
+          "FIREBLAST",
+          "DARKPULSE",
+          "SLUDGEBOMB",
+          "NASTYPLOT"
+        ],
+        "ability": "2",
+        "nature": "TIMID"
+      },
+      {
+        "name": "RAPIDASH",
+        "level": 99,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "FLAREBLITZ",
+          "DRILLRUN",
+          "MEGAHORN",
+          "WILDCHARGE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GOTHITELLE",
+        "level": 100,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "FLAMETHROWER",
+          "MALDIGNICION",
+          "CALMMIND",
+          "PSYSHOCK"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 75,
+    "descripcion_de_entrenador": "Regente Anturia",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER9R",
+    "name": "Rupico",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "GIGALITH",
+        "level": 98,
+        "item": "LEFTOVERS",
+        "moves": [
+          "BODYPRESS",
+          "STONEEDGE",
+          "STEALTHROCK",
+          "EARTHQUAKE"
+        ],
+        "ability": "1",
+        "nature": "IMPISH"
+      },
+      {
+        "name": "OMASTAR",
+        "level": 98,
+        "item": "WHITEHERB",
+        "moves": [
+          "SURF",
+          "POWERGEM",
+          "ICEBEAM",
+          "SHELLSMASH"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "TYRANTRUM",
+        "level": 98,
+        "item": "ROCKGEM",
+        "moves": [
+          "HEADSMASH",
+          "EARTHQUAKE",
+          "DRAGONCLAW",
+          "CRUNCH"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "ARCANINE",
+        "level": 99,
+        "item": "FOCUSSASH",
+        "moves": [
+          "FLAREBLITZ",
+          "HEADSMASH",
+          "WILDCHARGE",
+          "EXTREMESPEED"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "DIANCIE",
+        "level": 99,
+        "item": "DIANCITA",
+        "moves": [
+          "MOONBLAST",
+          "DIAMONDSTORM",
+          "EARTHPOWER",
+          "STEALTHROCK"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CONSTELLAR",
+        "level": 100,
+        "item": "PASSHOBERRY",
+        "moves": [
+          "ECLIPSE",
+          "PSYSHOCK",
+          "CALMMIND",
+          "SHADOWBALL"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 76,
+    "descripcion_de_entrenador": "Regente Rúpico",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER10R",
+    "name": "Cendera",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "AURORUS",
+        "level": 98,
+        "item": "FOCUSSASH",
+        "moves": [
+          "FREEZEDRY",
+          "POWERGEM",
+          "BLIZZARD",
+          "AURORAVEIL"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "EMPOLEON",
+        "level": 98,
+        "item": "SHELLBELL",
+        "moves": [
+          "HYDROPUMP",
+          "FLASHCANNON",
+          "ICEBEAM",
+          "ROOST"
+        ],
+        "ability": "1",
+        "nature": "BOLD"
+      },
+      {
+        "name": "WEAVILE",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "ICEPUNCH",
+          "CRUNCH",
+          "LOWKICK",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "BAXCALIBUR",
+        "level": 99,
+        "item": "BAXCALIBRITE",
+        "moves": [
+          "DRAGONCLAW",
+          "ICEHAMMER",
+          "CRUNCH",
+          "EARTHQUAKE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GLASTRIER",
+        "level": 99,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "AVALANCHE",
+          "FUERZAEQUINA",
+          "CLOSECOMBAT",
+          "ZENHEADBUTT"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "FREYJYNX",
+        "level": 100,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "PSYCHIC",
+          "LOVELYKISS"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 77,
+    "descripcion_de_entrenador": "Regente Cendera",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER11R",
+    "name": "Siempreviva",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "KROOKODILE",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "KNOCKOFF",
+          "EARTHQUAKE",
+          "STONEEDGE",
+          "IRONHEAD"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "MUK",
+        "level": 98,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "GUNKSHOT",
+          "KNOCKOFF",
+          "FIREPUNCH",
+          "ICEPUNCH"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "MANDIBUZZ",
+        "level": 98,
+        "item": "LEFTOVERS",
+        "moves": [
+          "FOULPLAY",
+          "TOXIC",
+          "ROOST",
+          "HEATWAVE"
+        ],
+        "ability": "1",
+        "nature": "BOLD"
+      },
+      {
+        "name": "SPIRITOMB",
+        "level": 99,
+        "item": "REDCARD",
+        "moves": [
+          "DARKPULSE",
+          "SHADOWBALL",
+          "NASTYPLOT",
+          "CONFUSERAY"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "DARKRAI",
+        "level": 99,
+        "item": "DARKRANITE",
+        "moves": [
+          "DARKPULSE",
+          "ICEBEAM",
+          "THUNDERBOLT",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "LUVOURNE",
+        "level": 100,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "HYDROPUMP",
+          "DARKPULSE",
+          "CORAZONROTO",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 78,
+    "descripcion_de_entrenador": "Regente Siempreviva",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "LIDER12R",
+    "name": "Arrayan",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "GALVANTULA",
+        "level": 98,
+        "item": "FOCUSSASH",
+        "moves": [
+          "THUNDER",
+          "BUGBUZZ",
+          "ENERGYBALL",
+          "STICKYWEB"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "YANMEGA",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "BUGBUZZ",
+          "AIRSLASH",
+          "GIGADRAIN",
+          "SHADOWBALL"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "SCOLIPEDE",
+        "level": 98,
+        "item": "SCOLIPITE",
+        "moves": [
+          "POISONJAB",
+          "MEGAHORN",
+          "EARTHQUAKE",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "VOLCARONA",
+        "level": 99,
+        "item": "LEFTOVERS",
+        "moves": [
+          "HEATWAVE",
+          "BUGBUZZ",
+          "GIGADRAIN",
+          "QUIVERDANCE"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CRUSTLE",
+        "level": 99,
+        "item": "WEAKNESSPOLICY",
+        "moves": [
+          "SHELLSMASH",
+          "XSCISSOR",
+          "STONEEDGE",
+          "EARTHQUAKE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "FLYGON",
+        "level": 100,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "HYPERVOICE",
+          "EARTHPOWER",
+          "DRAGONPULSE",
+          "FIREBLAST"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 79,
+    "descripcion_de_entrenador": "Regente Arrayan",
+    "ubicacion": "TORRE BATALLA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "MALVO1",
+    "name": "Malvo",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "AGGRON",
+        "level": 94,
+        "item": "FOCUSSASH",
+        "moves": [
+          "HEADSMASH",
+          "IRONHEAD",
+          "STEALTHROCK",
+          "AQUATAIL"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "KOMMOO",
+        "level": 94,
+        "item": "FIGHTINGGEM",
+        "moves": [
+          "CLOSECOMBAT",
+          "OUTRAGE",
+          "IRONTAIL",
+          "DRAGONDANCE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "SCIZOR",
+        "level": 94,
+        "item": "OCCABERRY",
+        "moves": [
+          "BUGBITE",
+          "BULLETPUNCH",
+          "SUPERPOWER",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "CORVIKNIGHT",
+        "level": 94,
+        "item": "CORVIKNIGHTITA",
+        "moves": [
+          "DRILLPECK",
+          "IRONHEAD",
+          "ROOST",
+          "BULKUP"
+        ],
+        "ability": "0",
+        "nature": "IMPISH"
+      },
+      {
+        "name": "DRAGONITE",
+        "level": 94,
+        "item": "LIFEORB",
+        "moves": [
+          "ALABIS",
+          "EXTREMESPEED",
+          "EARTHQUAKE",
+          "DRAGONDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "ARCHALUDON",
+        "level": 95,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "FLASHCANNON",
+          "THUNDERBOLT",
+          "AURASPHERE",
+          "DRAGONPULSE"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 66,
+    "descripcion_de_entrenador": "Rey Sombrío Malvo",
+    "ubicacion": "Torre Maestra",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ROSMARINO",
+    "name": "Rosmarino",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "DRUDDIGON",
+        "level": 99,
+        "item": "LIFEORB",
+        "moves": [
+          "DRAGONCLAW",
+          "CRUNCH",
+          "FIREPUNCH",
+          "THUNDERPUNCH"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "BRONZONG",
+        "level": 98,
+        "item": "LEFTOVERS",
+        "moves": [
+          "GYROBALL",
+          "ZENHEADBUTT",
+          "EARTHQUAKE",
+          "CURSE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "ARCHEOPS",
+        "level": 98,
+        "item": "FLYINGGEM",
+        "moves": [
+          "ACROBATICS",
+          "EARTHQUAKE",
+          "STONEEDGE",
+          "UTURN"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "LATIOS",
+        "level": 98,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "DRAGONPULSE",
+          "PSYSHOCK",
+          "SHADOWBALL",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "CRABOMINABLE",
+        "level": 99,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "ICEHAMMER",
+          "HAMMERARM",
+          "KNOCKOFF",
+          "GUNKSHOT"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "ENTEI",
+        "level": 100,
+        "item": "ENTEITA",
+        "moves": [
+          "SACREDFIRE",
+          "STONEEDGE",
+          "IRONHEAD",
+          "EXTREMESPEED"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 67,
+    "descripcion_de_entrenador": "Campanero Rosmarino",
+    "ubicacion": "Misión del Campanero",
+    "tipo": "Opcional",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "CRISANTOFINAL",
+    "name": "Crisanto",
+    "variant": 1,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "GALLADE",
+        "level": 98,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "PSYCHOCUT",
+          "LEAFBLADE",
+          "SACREDSWORD",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "WIGGLYTUFF",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "PSYSHOCK",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MAROLIER",
+        "level": 98,
+        "item": "THICKCLUB",
+        "moves": [
+          "FERROESPADA",
+          "SHADOWBONE",
+          "FLAREBLITZ",
+          "EARTHQUAKE"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GOGOAT",
+        "level": 99,
+        "item": "EXPERTBELT",
+        "moves": [
+          "DOUBLEEDGE",
+          "EARTHQUAKE",
+          "ROCKSLIDE",
+          "ZENHEADBUTT"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GOODRA",
+        "level": 99,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "DRAGONPULSE",
+          "MUDDYWATER",
+          "FLASHCANNON",
+          "ICEBEAM"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GRENINJA",
+        "level": 100,
+        "item": "GRENINJITAZ",
+        "moves": [
+          "HYDROPUMP",
+          "TRUCOHUEVO",
+          "ICEBEAM",
+          "CALMMIND"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 87,
+    "descripcion_de_entrenador": "Rival Crisanto",
+    "ubicacion": "POSTGAME - Ciudad LUMINALIA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "CRISANTOFINAL",
+    "name": "Crisanto",
+    "variant": 2,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "GALLADE",
+        "level": 98,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "PSYCHOCUT",
+          "LEAFBLADE",
+          "SACREDSWORD",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "WIGGLYTUFF",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "PSYSHOCK",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MAROLIER",
+        "level": 98,
+        "item": "THICKCLUB",
+        "moves": [
+          "FERROESPADA",
+          "SHADOWBONE",
+          "FLAREBLITZ",
+          "EARTHQUAKE"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GOGOAT",
+        "level": 99,
+        "item": "EXPERTBELT",
+        "moves": [
+          "DOUBLEEDGE",
+          "EARTHQUAKE",
+          "ROCKSLIDE",
+          "ZENHEADBUTT"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GOODRA",
+        "level": 99,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "DRAGONPULSE",
+          "MUDDYWATER",
+          "FLASHCANNON",
+          "ICEBEAM"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CHESNAUGHT",
+        "level": 100,
+        "item": "CHESNAUGHTITAZ",
+        "moves": [
+          "DISPAROESPINA",
+          "CRUNCH",
+          "DRILLRUN",
+          "BULKUP"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 87,
+    "descripcion_de_entrenador": "Rival Crisanto",
+    "ubicacion": "POSTGAME - Ciudad LUMINALIA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "CRISANTOFINAL",
+    "name": "Crisanto",
+    "variant": 3,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "GALLADE",
+        "level": 98,
+        "item": "SITRUSBERRY",
+        "moves": [
+          "PSYCHOCUT",
+          "LEAFBLADE",
+          "SACREDSWORD",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "WIGGLYTUFF",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "HYPERVOICE",
+          "MOONBLAST",
+          "PSYSHOCK",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MAROLIER",
+        "level": 98,
+        "item": "THICKCLUB",
+        "moves": [
+          "FERROESPADA",
+          "SHADOWBONE",
+          "FLAREBLITZ",
+          "EARTHQUAKE"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GOGOAT",
+        "level": 99,
+        "item": "EXPERTBELT",
+        "moves": [
+          "DOUBLEEDGE",
+          "EARTHQUAKE",
+          "ROCKSLIDE",
+          "ZENHEADBUTT"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GOODRA",
+        "level": 99,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "DRAGONPULSE",
+          "MUDDYWATER",
+          "FLASHCANNON",
+          "ICEBEAM"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "DELPHOX",
+        "level": 100,
+        "item": "DELPHOXITAZ",
+        "moves": [
+          "SABLEARDIENTE",
+          "ELECTROPUNZADA",
+          "SWORDSDANCE",
+          "SACREDSWORD"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 87,
+    "descripcion_de_entrenador": "Rival Crisanto",
+    "ubicacion": "POSTGAME - Ciudad LUMINALIA",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "MELIAFINAL",
+    "name": "Melia",
+    "variant": 1,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "FLOETTE",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "MOONBLAST",
+          "GIGADRAIN",
+          "PSYCHIC",
+          "CHARM"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MUSHARNA",
+        "level": 98,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "PSYSHOCK",
+          "CALMMIND",
+          "SIGNALBEAM",
+          "MOONLIGHT"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GOLURK",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "SHADOWPUNCH",
+          "EARTHQUAKE",
+          "HAMMERARM",
+          "ICEPUNCH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "VAPOREON",
+        "level": 99,
+        "item": "MYSTICWATER",
+        "moves": [
+          "HYDROPUMP",
+          "AURORABEAM",
+          "ACIDARMOR",
+          "SHADOWBALL"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "LUCARIO",
+        "level": 99,
+        "item": "FOCUSSASH",
+        "moves": [
+          "AURASPHERE",
+          "FLASHCANNON",
+          "VACUUMWAVE",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "DELPHOX",
+        "level": 100,
+        "item": "DELPHOXITAZ",
+        "moves": [
+          "SABLEARDIENTE",
+          "ELECTROPUNZADA",
+          "SWORDSDANCE",
+          "SACREDSWORD"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 88,
+    "descripcion_de_entrenador": "Rival Melia",
+    "ubicacion": "POSTGAME  - La Frontera con Paldea",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "MELIAFINAL",
+    "name": "Melia",
+    "variant": 2,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "FLOETTE",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "MOONBLAST",
+          "GIGADRAIN",
+          "PSYCHIC",
+          "CHARM"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MUSHARNA",
+        "level": 98,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "PSYSHOCK",
+          "CALMMIND",
+          "SIGNALBEAM",
+          "MOONLIGHT"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GOLURK",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "SHADOWPUNCH",
+          "EARTHQUAKE",
+          "HAMMERARM",
+          "ICEPUNCH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "JOLTEON",
+        "level": 99,
+        "item": "MAGNET",
+        "moves": [
+          "THUNDERBOLT",
+          "VOLTSWITCH",
+          "SIGNALBEAM",
+          "SHADOWBALL"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "LUCARIO",
+        "level": 99,
+        "item": "FOCUSSASH",
+        "moves": [
+          "AURASPHERE",
+          "FLASHCANNON",
+          "VACUUMWAVE",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GRENINJA",
+        "level": 100,
+        "item": "GRENINJITAZ",
+        "moves": [
+          "HYDROPUMP",
+          "TRUCOHUEVO",
+          "ICEBEAM",
+          "CALMMIND"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 88,
+    "descripcion_de_entrenador": "Rival Melia",
+    "ubicacion": "POSTGAME  - La Frontera con Paldea",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "MELIAFINAL",
+    "name": "Melia",
+    "variant": 3,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "FLOETTE",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "MOONBLAST",
+          "GIGADRAIN",
+          "PSYCHIC",
+          "CHARM"
+        ],
+        "ability": "X",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MUSHARNA",
+        "level": 98,
+        "item": "ROCKYHELMET",
+        "moves": [
+          "PSYSHOCK",
+          "CALMMIND",
+          "SIGNALBEAM",
+          "MOONLIGHT"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GOLURK",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "SHADOWPUNCH",
+          "EARTHQUAKE",
+          "HAMMERARM",
+          "ICEPUNCH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "FLAREON",
+        "level": 99,
+        "item": "CHARCOAL",
+        "moves": [
+          "BLAZEKICK",
+          "IRONTAIL",
+          "STRENGTH",
+          "WILLOWISP"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "LUCARIO",
+        "level": 99,
+        "item": "FOCUSSASH",
+        "moves": [
+          "AURASPHERE",
+          "FLASHCANNON",
+          "VACUUMWAVE",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CHESNAUGHT",
+        "level": 100,
+        "item": "CHESNAUGHTITAZ",
+        "moves": [
+          "DISPAROESPINA",
+          "CRUNCH",
+          "DRILLRUN",
+          "BULKUP"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 88,
+    "descripcion_de_entrenador": "Rival Melia",
+    "ubicacion": "POSTGAME  - La Frontera con Paldea",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "Cambia",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ERIC",
+    "name": "EricLostie",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "STEELIX",
+        "level": 100,
+        "item": "REDCARD",
+        "moves": [
+          "STEALTHROCK",
+          "IRONTAIL",
+          "EARTHQUAKE",
+          "ICEFANG"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "DELCATTY",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "FAKEOUT",
+          "RETURN",
+          "STRENGTH",
+          "SUCKERPUNCH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "ALAKAZAM",
+        "level": 100,
+        "item": "FOCUSSASH",
+        "moves": [
+          "CALMMIND",
+          "PSYSHOCK",
+          "SHADOWBALL",
+          "FOCUSBLAST"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CROBAT",
+        "level": 100,
+        "item": "FLYINGGEM",
+        "moves": [
+          "ACROBATICS",
+          "CROSSPOISON",
+          "HEATWAVE",
+          "XSCISSOR"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "MILOTIC",
+        "level": 100,
+        "item": "FLAMEORB",
+        "moves": [
+          "SCALD",
+          "ICEBEAM",
+          "RECOVER",
+          "MOONBLAST"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "VOLCARONA",
+        "level": 100,
+        "item": "VOLCARONITA",
+        "moves": [
+          "FIERYDANCE",
+          "BUGBUZZ",
+          "GIGADRAIN",
+          "QUIVERDANCE"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 89,
+    "descripcion_de_entrenador": "Cuenta Cuentos Eric",
+    "ubicacion": "POSTGAME - RUTA 26",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ALTOMANDOF1",
+    "name": "Tornasola",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "LANDORUS",
+        "level": 97,
+        "item": "YACHEBERRY",
+        "moves": [
+          "STEALTHROCK",
+          "EARTHQUAKE",
+          "ROCKSLIDE",
+          "UTURN"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "NIDOQUEEN",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "SLUDGEWAVE",
+          "THUNDERBOLT",
+          "ICEBEAM",
+          "EARTHPOWER"
+        ],
+        "ability": "2",
+        "nature": "MODEST"
+      },
+      {
+        "name": "URSALUNA",
+        "level": 98,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "EARTHQUAKE",
+          "BODYSLAM",
+          "SHADOWCLAW",
+          "PLAYROUGH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "GARCHOMP",
+        "level": 99,
+        "item": "GARCHOMPITE",
+        "moves": [
+          "EARTHQUAKE",
+          "DRAGONCLAW",
+          "IRONHEAD",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "TORTERRA",
+        "level": 99,
+        "item": "YACHEBERRY",
+        "moves": [
+          "EARTHQUAKE",
+          "WOODHAMMER",
+          "STONEEDGE",
+          "SHELLSMASH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "MAROLIER",
+        "level": 100,
+        "item": "THICKCLUB",
+        "moves": [
+          "FERROESPADA",
+          "EARTHQUAKE",
+          "FIREPUNCH",
+          "STONEEDGE"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 80,
+    "descripcion_de_entrenador": "Alto Mando Tornasola",
+    "ubicacion": "Pueblo Crómlech",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ALTOMANDOF2",
+    "name": "Aure",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "SUNFLORA",
+        "level": 97,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "SEEDFLARE",
+          "FIREBLAST",
+          "EARTHPOWER",
+          "GIGADRAIN"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "MEOWSCARADA",
+        "level": 99,
+        "item": "EXPERTBELT",
+        "moves": [
+          "TRUCOFLORAL",
+          "KNOCKOFF",
+          "UTURN",
+          "PLAYROUGH"
+        ],
+        "ability": "1",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "ELECTRODE",
+        "level": 98,
+        "item": "LIFEORB",
+        "moves": [
+          "CHLOROBLAST",
+          "THUNDERBOLT",
+          "SIGNALBEAM",
+          "CHARGEBEAM"
+        ],
+        "ability": "2",
+        "nature": "MODEST"
+      },
+      {
+        "name": "LUDICOLO",
+        "level": 98,
+        "item": "SHELLBELL",
+        "moves": [
+          "SCALD",
+          "GIGADRAIN",
+          "ICEBEAM",
+          "TEETERDANCE"
+        ],
+        "ability": "2",
+        "nature": "TIMID"
+      },
+      {
+        "name": "SCEPTILE",
+        "level": 99,
+        "item": "SCEPTILITE",
+        "moves": [
+          "LEAFBLADE",
+          "DRAGONCLAW",
+          "EARTHQUAKE",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "SUDRASIL",
+        "level": 100,
+        "item": "CORAZAASALTO",
+        "moves": [
+          "WOODHAMMER",
+          "STONEEDGE",
+          "BODYPRESS",
+          "HAMMERARM"
+        ],
+        "ability": "2",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 81,
+    "descripcion_de_entrenador": "Alto Mando Aure",
+    "ubicacion": "Pueblo Crómlech",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ALTOMANDOF3",
+    "name": "Primula",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "STOUTLAND",
+        "level": 97,
+        "item": "CORAZAASALTO",
+        "moves": [
+          "RETURN",
+          "CRUNCH",
+          "PLAYROUGH",
+          "WILDCHARGE"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      },
+      {
+        "name": "ROYALEON",
+        "level": 99,
+        "item": "LIFEORB",
+        "moves": [
+          "JUDGMENT",
+          "ENERGYBALL",
+          "SHADOWBALL",
+          "SLUDGEBOMB"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "BEWEAR",
+        "level": 98,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "HAMMERARM",
+          "RETURN",
+          "SHADOWCLAW",
+          "IRONHEAD"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "DRAMPA",
+        "level": 98,
+        "item": "DRAMPANITE",
+        "moves": [
+          "DRAGONPULSE",
+          "HYPERVOICE",
+          "FLAMETHROWER",
+          "CALMMIND"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "DITTO",
+        "level": 99,
+        "item": "CHOICESCARF",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ability": "0",
+        "nature": "QUIRKY"
+      },
+      {
+        "name": "ZANGHOUL",
+        "level": 100,
+        "item": "COLBURBERRY",
+        "moves": [
+          "SHADOWCLAW",
+          "SLASH",
+          "CLOSECOMBAT",
+          "SWORDSDANCE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 82,
+    "descripcion_de_entrenador": "Alto Mando Prímula",
+    "ubicacion": "Pueblo Crómlech",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ALTOMANDOF4",
+    "name": "Malvo",
+    "variant": null,
+    "num_pokemon": 3,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "AGGRON",
+        "level": 94,
+        "item": null,
+        "moves": [
+          "HEADSMASH",
+          "IRONHEAD",
+          "STEALTHROCK",
+          "AQUATAIL"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "CORVIKNIGHT",
+        "level": 94,
+        "item": null,
+        "moves": [
+          "DRILLPECK",
+          "IRONHEAD",
+          "ROOST",
+          "BULKUP"
+        ],
+        "ability": "0",
+        "nature": "IMPISH"
+      },
+      {
+        "name": "ARCHALUDON",
+        "level": 95,
+        "item": null,
+        "moves": [
+          "FLASHCANNON",
+          "THUNDERBOLT",
+          "AURASPHERE",
+          "DRAGONPULSE"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      }
+    ],
+    "Orden": 83,
+    "descripcion_de_entrenador": "Alto Mando Malvo",
+    "ubicacion": "Pueblo Crómlech",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "MALVOFINAL",
+    "name": "del linaje Rojo",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "PIKACHU",
+        "level": 100,
+        "item": "LIGHTBALL",
+        "moves": [
+          "VOLTTACKLE",
+          "IRONTAIL",
+          "BRICKBREAK",
+          "AQUATAIL"
+        ],
+        "ability": "X",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "LAPRAS",
+        "level": 97,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "PSYCHIC",
+          "HYDROPUMP",
+          "ICEBEAM",
+          "THUNDERBOLT"
+        ],
+        "ability": "1",
+        "nature": "MODEST"
+      },
+      {
+        "name": "SNORLAX",
+        "level": 98,
+        "item": "LEFTOVERS",
+        "moves": [
+          "BODYSLAM",
+          "CRUNCH",
+          "HEAVYSLAM",
+          "EARTHQUAKE"
+        ],
+        "ability": "1",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "VENUSAUR",
+        "level": 98,
+        "item": "ZOOMLENS",
+        "moves": [
+          "GIGADRAIN",
+          "SLUDGEBOMB",
+          "EARTHPOWER",
+          "SLEEPPOWDER"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "BLASTOISE",
+        "level": 99,
+        "item": "CORAZAASALTO",
+        "moves": [
+          "HYDROPUMP",
+          "FLASHCANNON",
+          "ICEBEAM",
+          "DARKPULSE"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "CHARIZARD",
+        "level": 99,
+        "item": "CHARIZARDITEX",
+        "moves": [
+          "FLAREBLITZ",
+          "DRAGONCLAW",
+          "EARTHQUAKE",
+          "SWORDSDANCE"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      }
+    ],
+    "Orden": 84,
+    "descripcion_de_entrenador": "Malvo del linaje Rojo",
+    "ubicacion": "Pueblo Crómlech",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ALCAFINAL1",
+    "name": "Alca",
+    "variant": null,
+    "num_pokemon": 6,
+    "healing_item": "FULLRESTORE",
+    "pokemons": [
+      {
+        "name": "DARMANITAN",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "EARTHQUAKE",
+          "FLAREBLITZ",
+          "UTURN",
+          "ROCKSLIDE"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "DRAGALGE",
+        "level": 100,
+        "item": "CORAZAASALTO",
+        "moves": [
+          "SLUDGEBOMB",
+          "DRAGONPULSE",
+          "HYDROPUMP",
+          "ICEBEAM"
+        ],
+        "ability": "2",
+        "nature": "MODEST"
+      },
+      {
+        "name": "URSHIFU",
+        "level": 100,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "DRAINPUNCH",
+          "SURGINGSTRIKES",
+          "UTURN",
+          "POISONJAB"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "HYDREIGON",
+        "level": 100,
+        "item": "WHITEHERB",
+        "moves": [
+          "DARKPULSE",
+          "NASTYPLOT",
+          "FIREBLAST",
+          "DRACOMETEOR"
+        ],
+        "ability": "0",
+        "nature": "TIMID"
+      },
+      {
+        "name": "SPECTRIER",
+        "level": 100,
+        "item": "FOCUSSASH",
+        "moves": [
+          "PSYCHIC",
+          "WILLOWISP",
+          "SHADOWBALL",
+          "NASTYPLOT"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "GRIMMSNARL",
+        "level": 100,
+        "item": "GRIMMSNARLITA",
+        "moves": [
+          "SPIRITBREAK",
+          "CRUNCH",
+          "THUNDERPUNCH",
+          "FIREPUNCH"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      }
+    ],
+    "Orden": 85,
+    "descripcion_de_entrenador": "Entrenadora Alca",
+    "ubicacion": "Pueblo Crómlech",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
+  },
+  {
+    "sprite": "ALCAFINAL2",
+    "name": "el Arma Definitiva",
+    "variant": null,
+    "num_pokemon": 4,
+    "healing_item": null,
+    "pokemons": [
+      {
+        "name": "XERNEAS",
+        "level": 100,
+        "item": "LIGHTCLAY",
+        "moves": [
+          "MOONBLAST",
+          "THUNDERBOLT",
+          "REFLECT",
+          "LIGHTSCREEN"
+        ],
+        "ability": "0",
+        "nature": "BOLD"
+      },
+      {
+        "name": "YVELTAL",
+        "level": 100,
+        "item": "ASSAULTVEST",
+        "moves": [
+          "OBLIVIONWING",
+          "DARKPULSE",
+          "PSYCHIC",
+          "HEATWAVE"
+        ],
+        "ability": "0",
+        "nature": "MODEST"
+      },
+      {
+        "name": "ZYGARDE",
+        "level": 100,
+        "item": "LEFTOVERS",
+        "moves": [
+          "DRAGONCLAW",
+          "MILFLECHAS",
+          "CRUNCH",
+          "COIL"
+        ],
+        "ability": "0",
+        "nature": "ADAMANT"
+      },
+      {
+        "name": "AURETOSK",
+        "level": 100,
+        "item": "LIFEORB",
+        "moves": [
+          "TAUNT",
+          "BOLTSTRIKE",
+          "SHADOWCLAW",
+          "DRAINPUNCH"
+        ],
+        "ability": "0",
+        "nature": "JOLLY"
+      }
+    ],
+    "Orden": 86,
+    "descripcion_de_entrenador": "Alca el Arma Definitiva",
+    "ubicacion": "Pueblo Crómlech",
+    "tipo": "Obligatorio",
+    "tipo_de_combate": "Combate Simple",
+    "pokemon_inicial": "No",
+    "acto": "3-Arma Definitiva"
   }
 ]

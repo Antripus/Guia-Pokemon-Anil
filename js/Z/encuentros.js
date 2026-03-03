@@ -483,6 +483,98 @@ function filterTrainersByStarter(trainerData, starter) {
 }
 
 
+// --- INICIO: lógica para filtrar por Acto (pegar en encuentros.js) ---
+
+// Estado actual del filtro de acto (null = sin filtro)
+let currentActFilter = null;
+
+// referencias a los botones de acto (en tu HTML ya existen con clase .act-btn)
+const actButtons = document.querySelectorAll(".act-btn");
+
+// Función que aplica ambos filtros (starter + acto) sobre el trainerData en sessionStorage
+function applyCombinedFilters() {
+  const trainerData = JSON.parse(sessionStorage.getItem("trainerData") || "[]");
+  // Empezamos con la lista completa
+  let filtered = trainerData.slice();
+
+  // 1) Si hay starter seleccionado, aplicamos el filtro existente
+  const selectedStarter = document.querySelector('input[name="starter"]:checked')?.value;
+  if (selectedStarter && typeof filterTrainersByStarter === "function") {
+    filtered = filterTrainersByStarter(filtered, selectedStarter);
+  }
+
+  // 2) Si hay filtro de acto activo, lo aplicamos (el campo en json es "acto", ejemplo: "1-Poketour")
+  if (currentActFilter) {
+    filtered = filtered.filter(t => {
+      if (!t.acto) return false;
+      // tomamos la parte antes del guion (por si tiene texto después): "1-Poketour" -> "1"
+      const actoNum = String(t.acto).split("-")[0].trim();
+      return actoNum === String(currentActFilter);
+    });
+  }
+
+  // 3) Renderizamos con populateTrainersList
+  listElement.innerHTML = "";
+  populateTrainersList(filtered);
+}
+
+// Maneja clicks en botones de acto
+function handleActButtonClick(e) {
+  const btn = e.currentTarget;
+  const act = btn.dataset.act; // "1", "2" o "3"
+
+  // Toggle: si clickeamos el mismo acto, lo quitamos
+  if (currentActFilter === act) {
+    currentActFilter = null;
+  } else {
+    currentActFilter = act;
+  }
+
+  // Actualizar UI de botones (aria-pressed + clase .active)
+  actButtons.forEach(b => {
+    const isActive = (currentActFilter !== null && b.dataset.act === currentActFilter);
+    b.setAttribute("aria-pressed", isActive ? "true" : "false");
+    if (isActive) b.classList.add("active");
+    else b.classList.remove("active");
+  });
+
+  // Re-aplicar filtros combinados
+  applyCombinedFilters();
+}
+
+// Asignar listeners a los botones de acto
+if (actButtons && actButtons.length) {
+  actButtons.forEach(btn => btn.addEventListener("click", handleActButtonClick));
+}
+
+// Integración con el cambio de starter: en lugar de reemplazar tu función,
+// aquí nos aseguramos de que cuando cambie el starter reapliquemos filtros combinados.
+// Si ya tienes un handler para starter (ej: handleStarterChange), puedes reemplazar
+// la asignación original por esta; si no, esto añade un listener adicional.
+const existingStarterRadios = document.querySelectorAll('input[name="starter"]');
+if (existingStarterRadios && existingStarterRadios.length) {
+  existingStarterRadios.forEach(radio => {
+    radio.removeEventListener("change", handleStarterChange); // intenta remover el anterior si fue asignado exactamente así
+    radio.addEventListener("change", () => {
+      // Llamamos a la función que aplica starter + acto
+      applyCombinedFilters();
+    });
+  });
+}
+
+// Finalmente, si ya se cargaron trainers antes de este script, forzamos aplicar filtros iniciales
+// (por ejemplo después del init())
+if (document.readyState === "complete" || document.readyState === "interactive") {
+  // un pequeño timeout garantiza que loadTrainers() haya terminado si se ejecutó justo antes
+  setTimeout(() => {
+    // Mantener marcado el botón de acto si estaba (no persistimos acto en sessionStorage aquí)
+    applyCombinedFilters();
+  }, 150);
+}
+
+// --- FIN: lógica para filtrar por Acto ---
+
+
 // Función para manejar cambios en los botones de radio
 function handleStarterChange() {
   const selectedStarter = document.querySelector('input[name="starter"]:checked')?.value;
